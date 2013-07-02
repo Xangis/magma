@@ -7,8 +7,7 @@ DEBUG   = -g -pg
 NOCRYPT =
 O_FLAGS =
 C_FLAGS = $(O_FLAGS) -Wall $(DEBUG) $(PROF) $(NOCRYPT)
-//L_FLAGS = $(O_FLAGS)       $(DEBUG) $(PROF)
-L_FLAGS = $(O_FLAGS)       $(DEBUG) $(PROF) -lm
+L_FLAGS = -lm
 #
 # If want to use the Electric Fence malloc() debugger change L_FLAGS  - Zen
 
@@ -29,8 +28,11 @@ S_FILES = act_comm.c act_info.c act_move.c act_obj.c act_wiz.c comm.c const.c \
 magma: $(O_FILES)
 	rm -f magma.new
 #	purify -cache_dir=/tmp $(CC) $(L_FLAGS) -o magma.new $(O_FILES)
-	$(CC) $(L_FLAGS) -o magma.new $(O_FILES)
-	mv magma magma.old
+	$(CC) $(C_FLAGS) -o magma.new $(O_FILES) $(L_FLAGS)
+	if [ -f magma ] ; \
+	then \
+     mv magma magma.old ; \
+	fi;
 	cp magma.new magma
 
 .c.o: merc.h

@@ -1009,14 +1009,11 @@ void do_claninfo( CHAR_DATA *ch, char *argument )
 
 void do_setclan( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CLAN_DATA *clan;
     char       arg1 [ MAX_INPUT_LENGTH ];
     char       arg2 [ MAX_INPUT_LENGTH ];
 
     last_fun( "do_setclan");
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
@@ -1213,12 +1210,9 @@ void do_setclan( CHAR_DATA *ch, char *argument )
 
 void do_showclan( CHAR_DATA *ch, char *argument )
 {   
-    CHAR_DATA *rch;
     CLAN_DATA *clan;
 
     last_fun( "do_showclan");
-
-    rch = get_char( ch );
 
     if ( argument[0] == '\0' )
     {

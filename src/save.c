@@ -795,7 +795,6 @@ void load_corpses( )
 {
     FILE      *fp;
     char       strsave [ MAX_INPUT_LENGTH ];
-    bool       found;
 
     last_fun( "load_corpses");
     sprintf( strsave, "%s%s", SYSTEM_DIR, CORPSE_FILE );
@@ -816,7 +815,6 @@ void load_corpses( )
 	for ( iNest = 0; iNest < MAX_NEST; iNest++ )
 	    rgObjNest[iNest] = NULL;
 
-	found = TRUE;
 	for ( ; ; )
 	{
 	    char *word;

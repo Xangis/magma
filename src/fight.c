@@ -3288,7 +3288,6 @@ void raw_kill( CHAR_DATA *ch, CHAR_DATA *victim )
 void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 {
     CHAR_DATA *gch;
-    CHAR_DATA *lch;
     char       buf[ MAX_STRING_LENGTH ];
     int        members;
     int        xp;
@@ -3319,8 +3318,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 	bug( "Group_gain: %d members.", members );
 	members = 1;
     }
-
-    lch = ( ch->group_leader ) ? ch->group_leader : ch;
 
     if( !IS_NPC( victim ) && !IS_NPC( ch ))
       check_frag( ch, victim );
@@ -4641,8 +4638,6 @@ void do_flee( CHAR_DATA *ch, char *argument )
 void do_berserk( CHAR_DATA *ch, char *argument )
 {
     AFFECT_DATA af;
-    int old_hp;
-//    int hp_bonus;
 
     last_fun( "do_berserk");
     /* Don't allow charmed mobs to do this, check player's level */
@@ -4694,7 +4689,6 @@ void do_berserk( CHAR_DATA *ch, char *argument )
     if ( !IS_NPC( ch )
 	|| number_percent( ) < ch->pcdata->skl_lrn[gsn_berserk] )
     {
-        old_hp = get_max_hit( ch );
 	af.skill     = gsn_berserk;
         af.spell     = 0;
         af.song      = 0;
@@ -4723,14 +4717,6 @@ void do_berserk( CHAR_DATA *ch, char *argument )
 	af.modifier  = dice( 5, 9 );
 	affect_to_char( ch, &af );
 
-/*
-        hp_bonus = get_max_hit( ch ) - old_hp;
-        if (hp_bonus) {
-            af.location = APPLY_HIT;
-            af.modifier = hp_bonus;
-            affect_to_char( ch, &af );
-        }
-*/
         send_to_char( "You are overcome by &+RBl&n&+ro&+Ro&n&+rd&+L Rage&n!!\n\r", ch );
         act( "$n has slipped into a &+RBl&n&+ro&+Ro&n&+rd&+L Rage&n!!", ch, NULL, NULL, TO_ROOM );
 
@@ -6945,7 +6931,7 @@ void do_shoot( CHAR_DATA *ch, char *argument )
 	/* If arg1 is the direction, no target specified. */
 	if ( !str_prefix( arg1, dir_name[dir] ) )
 	{
-	    if ( arg2 )			// If there is a distance,
+	    if ( arg2[0] != 0 )			// If there is a distance,
 	    	strcpy(arg3, arg2);  	// Copy distance into arg3.
 	    strcpy(arg2, arg1);	 	// Copy direction into arg2.
 	    arg1[0] = '\0';	 	// Set target to NULL;

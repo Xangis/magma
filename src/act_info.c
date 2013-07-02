@@ -5180,8 +5180,6 @@ void apply_affect_mods( CHAR_DATA *ch, AFFECT_DATA *paf ) {
 	    ch->mod_wis += mod;                         break;
     case APPLY_CON:
     {
-        int hit;
-        hit = get_max_hit( ch );
         ch->mod_con += mod;
         break;
     }
@@ -5249,14 +5247,10 @@ void apply_affect_mods( CHAR_DATA *ch, AFFECT_DATA *paf ) {
          break;
     case APPLY_MAX_CON:
          if( !IS_NPC( ch )) {
-            int hit;
-            hit = get_max_hit( ch );
             ch->pcdata->maxmod_con += mod;
          }
          else
          {
-            int hit;
-            hit = get_max_hit( ch );
             ch->mod_con += mod;
             break;
          }

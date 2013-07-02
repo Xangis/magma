@@ -4594,14 +4594,10 @@ void fix_exits( void )
 	      pRoomIndex;
 	      pRoomIndex  = pRoomIndex->next )
 	{
-	    bool fexit;
-
-	    fexit = FALSE;
 	    for ( door = 0; door < MAX_DIR; door++ )
 	    {
 		if ( ( pexit = pRoomIndex->exit[door] ) )
 		{
-		    fexit = TRUE;
 		    if ( pexit->vnum <= 0 )
 			pexit->to_room = NULL;
 		    else

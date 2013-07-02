@@ -11,3 +11,5 @@ a long branch of the DIKU MUD family tree).
 This codebase was used as the base for Basternae II: Phoenix Rising MUD.
 There is a Basternae 3 MUD currently running, but it does not use this code,
 but rather a new codebase written using C# .NET.
+
+For Basternae 3, please visit http://basternae.org

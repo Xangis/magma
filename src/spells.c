@@ -3560,7 +3560,7 @@ void spell_dispel_invis( int sn, int level, CHAR_DATA *ch, void *vo )
     char *target_name = (char *) vo;
 
     last_fun( "spell_dispel_invis");
-    if( (target_name != "\0") && (obj = get_obj_carry( ch, target_name )))
+    if( (target_name != NULL) && (obj = get_obj_carry( ch, target_name )))
     {
       act( "$n&n casts a spell at $p&n.", ch, obj, NULL, TO_ROOM );
       act( "You cast a spell at $p&n.", ch, obj, NULL, TO_CHAR );
@@ -5306,7 +5306,6 @@ void spell_call_wild( int sn, int level, CHAR_DATA *ch, void *vo )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
     char        buf[ MAX_STRING_LENGTH ];
-    int         newrace;
 
     last_fun( "spell_call_wild");
     if ( is_affected( victim, AFF_POLYMORPH ) )
@@ -5333,7 +5332,6 @@ void spell_call_wild( int sn, int level, CHAR_DATA *ch, void *vo )
     while ( af.modifier == 0 );
 
     set_bitvector( &af, AFF_POLYMORPH);
-    newrace = victim->race + af.modifier;
     affect_to_char( victim, &af );
     sprintf( buf, "&+WYou have been turned into a &n%s&n&+W!\n\r&n", 
         race_table[victim->race].colorname );
@@ -5357,7 +5355,6 @@ void spell_polymorph_other( int sn, int level, CHAR_DATA *ch, void *vo )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     AFFECT_DATA af;
     char        buf[ MAX_STRING_LENGTH ];
-    int         newrace;
 
     last_fun( "spell_polymorph_other");
     if ( is_affected( victim, AFF_POLYMORPH ) )
@@ -5379,7 +5376,6 @@ void spell_polymorph_other( int sn, int level, CHAR_DATA *ch, void *vo )
     while ( af.modifier == 0 );
 
     set_bitvector( &af, AFF_POLYMORPH);
-    newrace = victim->race + af.modifier;
     affect_to_char( victim, &af );
     if ( ch != victim )
         send_to_char( "Ok.\n\r", ch );
@@ -11576,7 +11572,7 @@ void spell_plane_shift( int sn, int level, CHAR_DATA *ch, void *vo )
 //    char *arg;
     ROOM_INDEX_DATA *pRoomIndex;
     int count;
-    bool dest_astral = FALSE, dest_prime = FALSE;
+    bool dest_astral = FALSE;
 
     last_fun( "spell_plane_shift");
 
@@ -11599,7 +11595,6 @@ void spell_plane_shift( int sn, int level, CHAR_DATA *ch, void *vo )
 
     }
     else if ( !strcmp( arg, "prime" ) ) {
-        dest_prime = TRUE;
         if (ch->in_room->sector_type != SECT_PLANE_ASTRAL ) {
             send_to_char("You can only shift there from the astral plane.\n\r", ch);
             return;

@@ -1816,7 +1816,6 @@ bool spec_guard( CHAR_DATA *ch, int cmd )
 {
     CHAR_DATA *victim;
     CHAR_DATA *ech;
-    char      *crime;
 
     last_fun( "spec_guard");
     if ( cmd == PROC_DEATH )
@@ -1826,7 +1825,6 @@ bool spec_guard( CHAR_DATA *ch, int cmd )
 	return FALSE;
 
     ech      = NULL;
-    crime    = "";
 
     for ( victim = ch->in_room->people; victim; victim = victim->next_in_room )
     {
@@ -1842,17 +1840,6 @@ bool spec_guard( CHAR_DATA *ch, int cmd )
 	    continue;
 	  }
     }
-
-    /*    if ( victim )
-    {
-	if(crime[0] == '\0')
-	    crime = "bastard";
-	sprintf( buf, "%s is a %s!  PROTECT THE INNOCENT!!  BANZAI!!",
-		victim->name, crime );
-	do_shout( ch, buf );
-	kill_ch( ch, victim );
-	return TRUE;
-	}*/
 
     if ( ech )
     {

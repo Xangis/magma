@@ -503,7 +503,6 @@ void do_drop( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *obj, *cash;
     char      arg [ MAX_INPUT_LENGTH ];
-    char      *args;
     bool      found;
 
     last_fun( "do_drop");
@@ -514,7 +513,6 @@ void do_drop( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    args = argument;
     argument = one_argument( argument, arg );
 
     if ( arg[0] == '\0' )
@@ -4066,7 +4064,7 @@ char *coin_string( int cost )
                   sprintf( buf, " %d&n&+y copper&n", cop );      
                   strcat( buf1, buf );
                 }
-      if( buf1 )
+      if( buf1[0] != NULL )
         return buf1;
       else
         return " nothing";
@@ -4852,7 +4850,6 @@ void set_cost( OBJ_INDEX_DATA *obj )
 void do_deposit( CHAR_DATA *ch, char *argument )
 {
     char  arg [ MAX_INPUT_LENGTH ];
-    char  *args;
     int   coinage;
     bool  success = FALSE;
     COIN_DATA coin;
@@ -4869,7 +4866,6 @@ void do_deposit( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    args = one_argument( argument, arg );
     if ( arg[0] == '\0' ) {
         send_to_char( "Deposit what?\n\r", ch );
         return;
@@ -4955,7 +4951,6 @@ void do_deposit( CHAR_DATA *ch, char *argument )
 void do_withdraw( CHAR_DATA *ch, char *argument )
 {
     char      arg [ MAX_INPUT_LENGTH ];
-    char  *args;
     int   coinage;
     bool  success = FALSE;
     COIN_DATA coin;
@@ -4969,7 +4964,6 @@ void do_withdraw( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    args = one_argument( argument, arg );
     if ( arg[0] == '\0' ) {
         send_to_char( "Withdraw what?\n\r", ch );
         return;

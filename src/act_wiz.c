@@ -897,11 +897,8 @@ void do_astat( CHAR_DATA *ch, char *argument )
     ROOM_INDEX_DATA *room;  
     OBJ_DATA        *obj;  
     EXIT_DATA       *pexit;  
-    CHAR_DATA       *rch;
     char             buf [ MAX_STRING_LENGTH ];
     int		     lower, upper, count, door;
-
-    rch = get_char( ch );
 
     smash_tilde( argument );
 
@@ -1309,15 +1306,12 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 void do_ostat( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA       *obj;
-    CHAR_DATA      *rch;
     AFFECT_DATA    *paf;
     OBJ_INDEX_DATA *pObjIndex;
     int             value;
     char            buf  [ MAX_STRING_LENGTH ];
     char            buf1 [ MAX_STRING_LENGTH ];
     char            arg  [ MAX_INPUT_LENGTH  ];
-
-    rch = get_char( ch );
 
     one_argument( argument, arg );
 
@@ -1611,7 +1605,6 @@ void do_gstat( CHAR_DATA *ch, char *argument )
 
 void do_mstat( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA   *rch;
     CHAR_DATA   *victim;
     AFFECT_DATA *paf;
     OBJ_DATA    *obj;
@@ -1623,7 +1616,6 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     char         arg  [ MAX_INPUT_LENGTH  ];
 
     last_fun( "do_mstat" );
-    rch = get_char( ch );
 
     one_argument( argument, arg );
 
@@ -2027,7 +2019,6 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 
 void do_mfind( CHAR_DATA *ch, char *argument )
 {
-           CHAR_DATA      *rch;
            MOB_INDEX_DATA *pMobIndex;
            AREA_DATA      *pArea;
            char            buf  [ MAX_STRING_LENGTH   ];
@@ -2040,8 +2031,6 @@ void do_mfind( CHAR_DATA *ch, char *argument )
 	   bool            fAll;
 	   bool            fWorld;
 	   bool            found;
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg );
     argument = one_argument( argument, arg1 );
@@ -2115,7 +2104,6 @@ void do_rfind( CHAR_DATA *ch, char *argument )
 
 void do_ofind( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA      *rch;
     OBJ_INDEX_DATA *pObjIndex;
     AREA_DATA      *pArea;
     char            buf  [ MAX_STRING_LENGTH * 8 ];
@@ -2123,11 +2111,9 @@ void do_ofind( CHAR_DATA *ch, char *argument )
     char            arg1 [ MAX_INPUT_LENGTH    ];
     extern int             top_vnum_obj;
     int             vnum, bottom, top, type;
-    bool            fWorld, fBit, found, fType, fArea;
+    bool            fBit, found, fType, fArea;
     const BITVECT_DATA *bvect;
     int count, total = 0;
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg );
     argument = one_argument( argument, arg1 );
@@ -2154,7 +2140,6 @@ void do_ofind( CHAR_DATA *ch, char *argument )
 
     found   = FALSE;
     pArea   = ch->in_room->area;
-    fWorld  = !str_cmp( arg, "world" );
     fBit    = !str_cmp( arg, "bit" );
     fType   = !str_cmp( arg, "type" );
     fArea   = !str_cmp( arg, "area" );
@@ -2260,15 +2245,12 @@ void do_ofind( CHAR_DATA *ch, char *argument )
 
 void do_mwhere( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CHAR_DATA *victim;
     char       buf  [ MAX_STRING_LENGTH   ];
     char       buf1 [ MAX_STRING_LENGTH*5 ];
     char       arg  [ MAX_INPUT_LENGTH    ];
     int        count;
     int        vnum;
-
-    rch = get_char( ch );
 
     one_argument( argument, arg );
     vnum = atoi( arg );
@@ -3479,14 +3461,11 @@ void do_wizlock( CHAR_DATA *ch, char *argument )
 
 void do_slookup( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     char       buf  [ MAX_STRING_LENGTH ];
     char       buf1 [ MAX_STRING_LENGTH*12];
     char       arg  [ MAX_INPUT_LENGTH ];
     int        sn;
     int        count;
-
-    rch = get_char( ch );
 
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
@@ -3579,14 +3558,12 @@ void do_slookup( CHAR_DATA *ch, char *argument )
 // spell lookup - Veygoth
 void do_splookup( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     char       buf  [ MAX_STRING_LENGTH  ];
     char       buf1 [ MAX_STRING_LENGTH*5];
     char       arg  [ MAX_INPUT_LENGTH ];
     int        sn;
     int        count;
 
-    rch = get_char( ch );
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
@@ -3717,7 +3694,6 @@ void do_splookup( CHAR_DATA *ch, char *argument )
 
 void do_sset( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CHAR_DATA *victim;
     char       arg1  [ MAX_INPUT_LENGTH ];
     char       arg2  [ MAX_INPUT_LENGTH ];
@@ -3725,8 +3701,6 @@ void do_sset( CHAR_DATA *ch, char *argument )
     int        value;
     int        sn;
     bool       fAll;
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
@@ -3816,7 +3790,6 @@ void do_sset( CHAR_DATA *ch, char *argument )
 
 void do_splset( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CHAR_DATA *victim;
     char       arg1  [ MAX_INPUT_LENGTH ];
     char       arg2  [ MAX_INPUT_LENGTH ];
@@ -3824,8 +3797,6 @@ void do_splset( CHAR_DATA *ch, char *argument )
     int        value;
     int        sn;
     bool       fAll;
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
@@ -3915,7 +3886,6 @@ void do_splset( CHAR_DATA *ch, char *argument )
 
 void do_mset( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CHAR_DATA *victim;
     char       buf  [ MAX_STRING_LENGTH ];
     char       arg1 [ MAX_INPUT_LENGTH  ];
@@ -3923,8 +3893,6 @@ void do_mset( CHAR_DATA *ch, char *argument )
     char       arg3 [ MAX_INPUT_LENGTH  ];
     int        count2;
     int        value;
-
-    rch = get_char( ch );
 
     smash_tilde( argument );
     argument = one_argument( argument, arg1 );
@@ -4680,14 +4648,11 @@ void do_mset( CHAR_DATA *ch, char *argument )
 void do_oset( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA  *obj;
-    CHAR_DATA *rch;
     char       arg1 [ MAX_INPUT_LENGTH ];
     char       arg2 [ MAX_INPUT_LENGTH ];
     char       arg3 [ MAX_INPUT_LENGTH ];
     char       arg4 [ MAX_INPUT_LENGTH ];
     int        value;
-
-    rch = get_char( ch );
 
     smash_tilde( argument );
     argument = one_argument( argument, arg1 );
@@ -4891,15 +4856,12 @@ void do_oset( CHAR_DATA *ch, char *argument )
 
 void do_rset( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA       *rch;
     CHAR_DATA       *person;
     ROOM_INDEX_DATA *location;
     char             arg1 [ MAX_INPUT_LENGTH ];
     char             arg2 [ MAX_INPUT_LENGTH ];
     char             arg3 [ MAX_INPUT_LENGTH ];
     int              value;
-
-    rch = get_char( ch );
 
     smash_tilde( argument );
     argument = one_argument( argument, arg1 );
@@ -5234,13 +5196,10 @@ void do_owhere( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA  *obj;
     OBJ_DATA  *in_obj;
-    CHAR_DATA *rch;
     char       buf  [ MAX_STRING_LENGTH*2 ];
     char       arg  [ MAX_INPUT_LENGTH    ];
     int        obj_counter = 1;
     bool       found = FALSE;
-
-    rch = get_char( ch );
 
     one_argument( argument, arg );
 
@@ -6667,7 +6626,6 @@ void do_monkstat( CHAR_DATA *ch, char *argument )
 // Not modified yet - Veygoth
 void do_monk_sset( CHAR_DATA *ch, char *argument )
 {
-    CHAR_DATA *rch;
     CHAR_DATA *victim;
     char       arg1  [ MAX_INPUT_LENGTH ];
     char       arg2  [ MAX_INPUT_LENGTH ];
@@ -6675,8 +6633,6 @@ void do_monk_sset( CHAR_DATA *ch, char *argument )
     int        value;
     int        sn;
     bool       fAll;
-
-    rch = get_char( ch );
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );

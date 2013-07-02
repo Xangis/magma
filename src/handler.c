@@ -3720,16 +3720,13 @@ void print_last_coms( )
 }
 
 void do_crashmud( CHAR_DATA *ch, char *argument ) {
-    CHAR_DATA *empty = NULL;
-    int i;
-
     last_fun( "do_crashmud" );
     if ( !IS_IMMORTAL( ch ) ) {
         send_to_char( "Howzat?\n\r", ch );
         return;
     }
-    if ( !strcmp( argument, "confirm" ) )
-        i = empty->wait;
+    if ( !strcmp( argument, "confirm" ) ) {
+    }
     else {
         send_to_char( "Usage: crashmud confirm\n\r", ch);
         return;

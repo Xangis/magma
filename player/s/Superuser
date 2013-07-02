@@ -1,0 +1,469 @@
+#PLAYER
+Nm          Superuser~
+ShtDsc      ~
+LngDsc      ~
+Dscr        ~
+Prmpt       &+L<%h/%Hhp %v/%Vmv>
+ 
+<&n%T %E&+L>&n ~
+Sx          1
+Cla         1
+Race        Orc~
+Size        4
+Lvl         64
+Trst        0
+Orighome    0
+Currhome    0
+Lastrent    200
+NewHp       1
+LostHP      0
+Playd       469
+Created     1195846358
+Note        934557532
+Saved       1198353519
+Room        200
+HitMnMv      988 999 50 50 150 150
+Copper      0
+Silver      0
+Gold        0
+Platinum    0
+BCopper     0
+BSilver     0
+BGold       0
+BPlatinum   0
+Experience  1
+Train       0
+Act         360975937
+AffdBy      5          0          0          0          0          0
+Firstaid    0
+Pos         11
+SavThr      0 0 0 0 0
+Align       -50
+Hit         0
+Dam         0
+Armr        75
+Wimp        0
+Spkng       6
+Height      77
+Weight      155
+Deaf        0
+Paswd       password~
+Bmfin       ~
+Bmfout      ~
+Immskll     at wiz wizhelp killproc chill title history ptell random brew quit finger fog reset alist allow siteban bitflag crashmud deny disconnect lookup force freeze find imtlset language load log loopmud map noemote note numlock pardon purge reboot rename namesucks restore setbit shutdown silence slay sset sstime stat statdump terminate transfer users where wizify wizlock makeclan killclan echo memory peace recho return sober snoop switch wizinvis bamfin bamfout goto holylight wiznet clone zreset prgstat ~
+Wiznet      0
+Ttle         &n&n~
+AtrPrm      95 59 51 66 71
+ExtAtr      45 32 50 61
+AtrMd       0 0 0 0 0
+ExtMd       -2 0 0 0
+MaxMod      0 0 0 0 0 0 0 0 0
+RaceMod     0 0 0 0 0 0 0 0 0
+Cond        0 47 48
+Security    0
+Frags       0
+ModHit      0
+MKills      0
+MDeaths     0
+Pglen       20
+AggrLvl     -1
+Skll        25 'doorbash'
+Skll        25 'berserk'
+Skll        25 'disarm'
+Skll        25 'dodge'
+Skll        25 'dual wield'
+Skll        25 'offense'
+Skll        25 'kick'
+Skll        25 'bash'
+Skll        25 'parry'
+Skll        25 'riposte'
+Skll        25 'rescue'
+Skll        25 'scrolls'
+Skll        25 'second attack'
+Skll        25 'staves'
+Skll        25 'wands'
+Skll        25 'shield block'
+Skll        25 'whirlwind'
+Skll        25 'mount'
+Skll        25 'swim'
+Skll        25 'barehanded fighting'
+Skll        25 '1h slashing'
+Skll        25 '2h slashing'
+Skll        25 '1h piercing'
+Skll        25 '2h piercing'
+Skll        25 '1h misc'
+Skll        25 '2h misc'
+Skll        25 '1h bludgeoning'
+Skll        25 '2h bludgeoning'
+Skll        25 'carve'
+Skll        25 'aerial combat'
+Skll        25 'bandage'
+Skll        25 'blindfighting'
+Skll        25 'switch opponents'
+Skll        25 'unarmed damage'
+Lang        0 100
+Lang        5 9
+Lang        6 100
+Lang        7 9
+Lang        15 9
+Lang        18 4
+Lang        19 16
+Lang        20 1
+Lang        23 9
+Lang        25 1
+Lang        26 4
+Lang        27 1
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+Trophy      0 0
+End
+
+#OBJECT
+Nest         0
+Name         vest leather~
+ShortDescr   &+ya leather vest~
+Description  A vest made of leather rests here.~
+Vnum         105
+Material     14
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    9
+WearLoc      5
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       6
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         775
+Values       7 3 1 3 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         helm worn iron~
+ShortDescr   a worn iron helm~
+Description  A helm lies here.~
+Vnum         114
+Material     15
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    17
+WearLoc      6
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       2
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         450
+Values       4 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         sleeves hide~
+ShortDescr   &+ya pair of hide sleeves~
+Description  Someone has left a pair of sleeves here.~
+Vnum         122
+Material     12
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    257
+WearLoc      10
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       5
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         600
+Values       4 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         pants cloth~
+ShortDescr   a pair of cloth pants~
+Description  A pair of pants has been left here.~
+Vnum         132
+Material     3
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    33
+WearLoc      7
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       3
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         740
+Values       4 0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         boots leather~
+ShortDescr   &+ya pair of leather boots~
+Description  A pair of boots rests here.~
+Vnum         140
+Material     13
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    65
+WearLoc      8
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       3
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         560
+Values       3 6 1 3 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         cloak leather~
+ShortDescr   &+ya tattered leather cloak~
+Description  A pile of leather rests here.~
+Vnum         151
+Material     13
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1025
+WearLoc      12
+AntiFlags    1
+AntiFlags2   0
+ItemType     9
+Weight       0
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         575
+Values       3 0 0 3 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         sword steel long~
+ShortDescr   a steel long sword~
+Description  A steel long sword rests here.~
+Vnum         200
+Material     16
+ExtraFlags   16392
+ExtraFlags2  0
+WearFlags    8193
+WearLoc      16
+AntiFlags    122910
+AntiFlags2   0
+ItemType     5
+Weight       8
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         1050
+Values       5 1 8 3 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         iron ration food~
+ShortDescr   &+Lan iron ration&n~
+Description  &+LAn iron ration is here.&n~
+Vnum         20
+Material     48
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     19
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         20
+Values       12 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         iron ration food~
+ShortDescr   &+Lan iron ration&n~
+Description  &+LAn iron ration is here.&n~
+Vnum         20
+Material     48
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     19
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         20
+Values       12 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         iron ration food~
+ShortDescr   &+Lan iron ration&n~
+Description  &+LAn iron ration is here.&n~
+Vnum         20
+Material     48
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     19
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         20
+Values       12 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         iron ration food~
+ShortDescr   &+Lan iron ration&n~
+Description  &+LAn iron ration is here.&n~
+Vnum         20
+Material     48
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     19
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         20
+Values       12 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         iron ration food~
+ShortDescr   &+Lan iron ration&n~
+Description  &+LAn iron ration is here.&n~
+Vnum         20
+Material     48
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     19
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         20
+Values       12 0 0 0 0 0 0 0
+End
+
+#OBJECT
+Nest         0
+Name         water skin waterskin~
+ShortDescr   &+ya waterskin&n~
+Description  A waterskin has been tossed here.~
+Vnum         22
+Material     12
+ExtraFlags   8
+ExtraFlags2  0
+WearFlags    1
+WearLoc      -1
+AntiFlags    1
+AntiFlags2   0
+ItemType     17
+Weight       1
+Level        1
+Timer        -1
+Affectby     0 0 0 0 0
+Cost         10
+Values       30 30 0 0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,693 @@
+#AREA   { 1  5 } Mort    Orchard~
+
+
+#MOBILES
+#7500
+gardener old~
+the old gardener~
+An old gardener carefully tends his trees.
+~
+The gardener ignores you in his pursuit of the perfect orchard.
+~
+64 512 100 S
+4 1 0 1d1+1 1d1+1
+50 0
+8 8 1
+#7501
+picker apple Mike~
+Mike the apple picker~
+Tired and dirty the apple picker seems to hate his job.
+~
+The apple picker spends most of his time daydreaming.
+~
+4|64 512 0 S
+3 1 0 1d1+1 1d1+1
+15 0
+8 8 1
+#7502
+buzz buzzing wasp~
+the buzzing wasp~
+A buzzing wasp flies around your head.
+~
+The wasp is much bigger than wasps from your homeland.
+~
+64 512 0 S
+4 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7503
+weeds green~
+the green weeds~
+The orchard is overun with green weeds.
+~
+Thick weeds cover the ground and if you look, they seem to move.
+~
+64 512 0 S
+1 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7504
+beetle black large~
+the black beetle~
+A large black beetle slowly walks across the path.
+~
+If you bother it, the beetle warns you away with a hissss.
+~
+64 512 0 S
+3 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7505
+snake garter~
+the gartersnake~
+A cute little gartersnake slitheres by.
+~
+The greenish gartersnake has a slight attitude.
+~
+64 512 10 S
+1 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7506
+fly black~
+the black fly~
+A black fly buzzes you.
+~
+A large, fat, black fly looks at you hungrily.
+~
+64|128 512 0 S
+1 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7507
+caterpillar large~
+the large caterpillar~
+A huge green caterpillar crawls away.
+~
+The huge green caterpillar is plump from much eating.
+~
+64 512 0 S
+1 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7508
+fireant ant fire~
+the fireant~
+A red fireant wanders by.
+~
+The fireant is thinking about attacking you.
+~
+64 512 0 S
+2 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#7509
+mouse tiny~
+the tiny mouse~
+A tiny mouse peaks at you.
+~
+The tiny mouse tries to hide from you.
+~
+64 512 0 S
+2 1 0 1d1+1 1d1+1
+15 0
+8 8 0
+#0
+
+
+#OBJECTS
+#7500
+apple red~
+the Red Apple~
+A Red Apple looks delicious.
+~
+~
+19 0 1
+5 0 0 0 
+1 1 0
+#7501
+dummy~
+the dummy~
+~
+~
+15 0 0
+100 0 -1 0 
+10000 1 0
+#7502
+well old~
+the old well~
+An old well draws your attention.
+~
+~
+15 0 0
+100 0 -1 0 
+10000 1 0
+#7503
+rusty machette~
+the rusty machette~
+A rusty machette lays on the ground.
+~
+~
+5 0 1|8192
+0 2 4 1 
+2 1 0
+#7504
+swingblade wicked~
+the swingblade~
+A wicked looking swingblade lays on the ground.
+~
+~
+5 0 1|8192
+0 2 6 3 
+5 1 0
+#7505
+bench wooden~
+the wooden bench~
+This wooden bench is under a shade branch.
+~
+~
+12 0 0
+0 0 0 0 
+10000 1 0
+#7506
+bucket water~
+the water bucket~
+A sloping full water bucket sits here.
+~
+~
+17 0 1|16384
+9 9 0 0 
+5 1 0
+#7507
+basket apple~
+the apple basket~
+A wooden apple basket sits here.
+~
+~
+15 0 1
+9 0 0 0 
+10 1 0
+#7508
+pipe bone~
+a bone pipe~
+An intricately carved bone pipe catches your attention.
+~
+~
+9 1 1|16
+0 0 0 0 
+1 1 0
+#7509
+sandals leather~
+a pair of leather sandals~
+A pair of leather sandals are thrown on the ground.
+~
+~
+9 0 1|64
+2 0 0 0 
+1 1 0
+#7510
+hat straw hat~
+a straw hat~
+A large stained straw hat is on the ground.
+~
+~
+9 0 1|16
+3 0 0 0 
+2 1 0
+#7511
+belt rope~
+a rope belt~
+A rope belt is thrown carelessly on the ground.
+~
+~
+9 0 1|2048
+2 0 0 0 
+1 1 0
+#7512
+shirt cotton~
+a cotton shirt~
+A white, hand woven shirt lays here.
+~
+~
+9 0 1|8
+3 0 0 0 
+2 1 0
+#7513
+sting wasps~
+a wasps sting~
+A wasps sting lies here ** Careful ** it's sharp.
+~
+~
+5 0 1|8192
+0 2 6 11 
+2 1 0
+A
+18 2
+A
+2 2
+#0
+
+
+#ROOMS
+#7500
+New Orchard Entrance~
+**** SNIFF **** What is that smell?  To the North you see waving
+branches of large fruit bearing trees.
+
+****  AAAAHHHHHHHH ****   The freshness of country surroundings.
+You are surprised to find this orchard in the big city.
+
+As you step forward, your mind returns to pleasant times from your
+youth.  With a light step you enter the Orchard.
+~
+0 0 2
+D0
+~
+~
+0 -1 7503
+D3
+~
+@@@ Put exit to world here
+~
+0 0 -1
+S
+#7501
+A brown pebble path.~
+The path you are on is no longer white.  Brown stains have turned
+the beautiful gravel path a dirty, unhealthy color.
+~
+0 0 2
+D0
+~
+~
+0 -1 7506
+D1
+~
+~
+0 -1 7503
+S
+#7502
+Another apple tree.~
+You are standing under the branches of a large apple tree.
+The tree has obviously received the very best of care from
+an experienced gardner.
+~
+0 0 2
+D1
+~
+~
+0 -1 7504
+D3
+~
+~
+0 -1 7503
+S
+#7503
+Main Orchard Path~
+The white gravel path you are on continues to the West, North, and East.
+In those directions you see waving trees, signs of wildlife and you 
+think you can detect the red color of a ripe apple.
+
+Beyond the trees you can barely detect the sounds of a bustling city.
+The peace of this place is broken only by the sounds of insects and
+laborers picking the fruit.
+~
+0 0 2
+D0
+~
+~
+0 -1 7508
+D1
+~
+~
+0 -1 7502
+D2
+~
+~
+0 -1 7500
+D3
+~
+~
+0 -1 7501
+S
+#7504
+A freshly pruned tree.~
+The apple tree you are under has the fresh clip marks of a master
+gardener.  It seems to be quite healthy and responding well to it's
+surgery.
+~
+0 0 0
+D0
+~
+~
+0 -1 7505
+D3
+~
+~
+0 -1 7502
+S
+#7505
+A dirt path.~
+You are standing upon a dirt path many yards from the 
+Orchard Entrance.   Slight sounds of the city can be
+heard from this end of the Orchard.
+~
+0 0 0
+D0
+~
+~
+0 -1 7516
+D2
+~
+~
+0 -1 7504
+S
+#7506
+A busy tree.~
+This tree is busy with insects and other garden creatures.
+If the apples are still on the limbs then the insects are
+feasting.
+~
+0 0 2
+D0
+~
+~
+0 -1 7511
+D2
+~
+~
+0 -1 7501
+D3
+~
+~
+0 -1 7507
+S
+#7507
+Gardener's Shack~
+The old wooden door hangs precariously on thin leather straps.
+An ancient bell sits on a stool near the door...to summon the
+apple pickers obviously.
+
+Few are the furnishings.  A bed, several blankets and stools 
+are along the far wall.  A wash basin and a three drawer
+dresser are in the Western corner of the tiny room.
+
+Near the old wood stove is a stack of kindling and a few pots.
+~
+0 0 0
+D1
+~
+~
+0 -1 7506
+S
+#7508
+A huge apple tree.~
+The tree you are standing under is the biggest apple tree you have
+ever seen.  It more closely resembles an oak tree because of the 
+size of it's trunk and limbs.
+
+Although old, this tree still has the vibrance of life that a much
+younger tree would exhibit.
+~
+0 0 0
+D0
+~
+~
+0 -1 7510
+D2
+~
+~
+0 -1 7503
+D4
+~
+~
+0 -1 7509
+S
+#7509
+A small treehouse.~
+The young apple pickers have been very busy.  They have created a
+secret retreat for themselves from the rigors of work and the 
+insects and creatures of the Orchard.
+
+Heck, I bet even the Gardener hasn't found this place.
+~
+0 0 0
+D5
+~
+~
+0 -1 7508
+S
+#7510
+An Orchard Clearing~
+You have found a very quiet, special place here in the center
+of the busy orchard.
+
+An ancient well dominates the clearing and it shows sign of 
+recent use.  A robe is coiled for use near the well's edge.
+~
+0 0 2
+D0
+~
+~
+0 -1 7513
+D2
+~
+~
+0 -1 7508
+S
+#7511
+A large apple tree.~
+Yellow ribbons have been tied around several of the branches of this
+young tree.  If you look closely you will see two branches on
+the ground which also have yellow ribbons on them.
+
+For some reason the gardener has decided to clip off the marked limbs.
+~
+0 0 2
+D0
+~
+~
+0 -1 7512
+D2
+~
+~
+0 -1 7506
+S
+#7512
+The Western Path~
+This is the westernmost path of the orchard.  You can detect
+sounds from the city at this point and the trees are slightly
+smaller than the trees on the Eastern side.
+
+Ahead and behind you are apple trees with fresh fruit rippening.
+~
+0 0 2
+D0
+~
+~
+0 -1 7515
+D2
+~
+~
+0 -1 7511
+S
+#7513
+A central path.~
+You are standing in the center of the Orchard.  This path
+is an ideal place to capture all of the sights and sounds
+of the orchard.
+
+Apple pickers are moving about the trees, choosing only the
+best of the ripe apples.
+
+Sounds of nature are everywhere.  Chirping of birds, squeaking 
+of field mice, the buzzing of flying insects..all combine
+to form the music of nature.
+~
+0 0 2
+D0
+~
+~
+0 -1 7517
+D1
+~
+~
+0 -1 7514
+D2
+~
+~
+0 -1 7510
+S
+#7514
+A quiet path~
+Wild flowers are growing on both sides of this path.  The apple
+trees before and behind you, with their red apples, compliments
+the colors of the flowers.
+~
+0 0 2
+D1
+~
+~
+0 -1 7518
+D3
+~
+~
+0 -1 7513
+S
+#7515
+The Western Corner~
+This is the Western corner of the orchard.  The trees are younger
+than those on the East side of the orchard and produce less fruit.
+However, they still get the same attention as the other trees.
+~
+0 0 2
+D1
+~
+~
+0 -1 7519
+D2
+~
+~
+0 -1 7512
+S
+#7516
+The North Path~
+This path meanders along the rear of the property line.  Dozens
+of apple trees can be seen as well as the apple pickers going
+about their business.
+
+The city noise can only be slightly heard as you wander through
+this piece of country within a city.
+~
+0 0 2
+D0
+~
+~
+0 -1 7518
+D2
+~
+~
+0 -1 7505
+S
+#7517
+The staging area~
+Large apple crates have been stacked here at the back of 
+the orchard.  There must be dozens of them.
+
+Birds are everywhere, catching and eating the insects 
+feeding on apple parts littered around the crates.
+~
+0 0 2
+D2
+~
+~
+0 -1 7513
+D3
+~
+~
+0 -1 7519
+S
+#7518
+A weedy path.~
+This path is seldom travelled as evidenced by it being overgrown
+with weeds.
+
+Small rodents have built nests in the weeds and birds are
+chasing small insects.
+~
+0 0 2
+D2
+~
+~
+0 -1 7516
+D3
+~
+~
+0 -1 7514
+S
+#7519
+The far tree~
+This far corner of the orchard must be a good fifty yards from 
+the entrance.
+
+The city noise does not penetrate this deeply into the Orchard.
+The buzzing of wasps and flies, the slithering of gartersnakes,
+the scurrying of rodents...these are the sounds you hear.
+~
+0 0 2
+D1
+~
+~
+0 -1 7517
+D3
+~
+~
+0 -1 7515
+S
+#0
+
+
+#RESETS
+*
+*  This zone was written by Mort, originally for TFC MUD.  This zone, and
+*  others can be FTP'ed from ftp.indirect.com /pub/software/mud/mort.zip.
+*
+*  This zone is Merc 2.x/TFC 1.x formatted.  Connection point to the rest
+*  of the world is at 7500.  It was originally designed as a replacement
+*  for "Smurfs".
+*
+M 1 7500 1 7507        GARDENER
+E 1 7508 1 17                             PIPE  
+E 1 7509 1 8                               SANDALS
+E 1 7510 1 6                               STRAW HAT
+E 1 7511 1 13                             ROPE BELT
+E 1 7512 1 5                               COTTON SHIRT
+E 1 7504 1 16                             SWING BLADE  
+M 1 7500 10 7506        PICKER
+E 1 7503 1 16                             MACHETTE  
+M 1 7500 10 7517        PICKER
+M 1 7502 10 7505        WASP
+M 1 7502 10 7513        WASP
+E 1 7513 1 16                             STINGER  
+M 1 7503 10 7504        WEEDS
+M 1 7503 10 7501        WEEDS
+M 1 7504 10 7514        BEETLES
+M 1 7504 10 7518        BEETLES
+M 1 7505 10 7506        GARTERSNAKES
+M 1 7506 10 7501        FLY
+M 1 7506 10 7500        FLY
+M 1 7507 10 7511        CATERPILLAR
+M 1 7507 10 7515        CATERPILLAR
+M 1 7508 10 7518        ANT
+M 1 7509 10 7503        MOUSE
+O 1 7500 10 7502                         APPLE
+O 1 7500 10 7504                         APPLE
+O 1 7500 10 7515                         APPLE
+O 1 7500 10 7509                         APPLE
+O 1 7505 1 7514                         BENCH  
+O 1 7505 1 7509                         BENCH
+O 1 7502 1 7510                         WELL
+P 1 7502 1 7506                         BUCKET IN WELL
+O 1 7507 4 7517                         BASKETS
+*
+M 1 7508 10 7516                        the fireant to The North Path
+*
+M 1 7509 10 7516                        the tiny mouse to The North Path
+*
+M 1 7504 10 7510                        the black beetle to An Orchard Clearing
+*
+M 1 7507 10 7517                        the large caterpillar to The staging area
+*
+M 1 7503 10 7519                 the green weeds to The far tree
+*
+M 1 7505 10 7512                        the gartersnake to The Western Path
+*
+M 1 7506 10 7506                        the black fly to A busy tree.
+*
+M 1 7506 10 7506                        the black fly to A busy tree.
+*
+M 1 7509 10 7503                        the tiny mouse to Main Orchard Path
+S
+
+
+#$

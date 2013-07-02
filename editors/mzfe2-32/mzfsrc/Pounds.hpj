@@ -1,0 +1,20 @@
+[OPTIONS]
+CONTENTS=main_index
+TITLE=MAKE.ZONES.FAST Help
+COMPRESS=HIGH
+WARNING=2
+COPYRIGHT=(c) 1994-6.  Some Rights Reserved          ;Modify the About... box
+
+[CONFIG]
+BrowseButtons()                                        ;Add for browsing
+
+[FILES]
+mainhelp.rtf      ; main topics
+toolbar.rtf       ; toolbar topics
+keys.rtf          ; keyboard topics
+
+[BITMAPS]
+helpicon.bmp
+
+[MAP]
+#include <pounds.rh>

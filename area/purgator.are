@@ -1,0 +1,973 @@
+#AREA   { ALL } Envy    Purgatory~
+
+#RECALL
+401
+
+#MOBILES
+
+#401
+dead reaper~
+The Reaper of the Dead~
+The Reaper of the Dead awaits here to decide your fate. 
+~
+Ever smiling, he doesn't seems to mind being stuck here for eternity.
+~
+2 8|128|8192 -1000 S 
+100 0 0 0d0+0 0d0+0
+0 0
+8 god~ 0
+
+#402
+lost soul~
+A lost soul~
+A lost soul wanders around.
+~
+Just another poor soul who cannot find its way out of here. You better quit
+wasting time if you don't want to end up like it.
+~
+64 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 mist~ 0
+
+#0
+
+#OBJECTS
+
+#401
+tear potion drop~
+a drop of elves' tear~
+A small drop of clear liquid is drying up fast on the ground.~
+~
+10 64 1
+1~ detect invis~ ~ ~
+5 0 0
+
+#402
+book judgement~
+A Book of Judgement~
+A blaze of white light hangs in the air.~
+~
+3 64 1|16384
+36~ 50~ 50~ heal~
+10 0 0
+A
+12 50
+A
+17 -5
+
+#403
+scythe~
+A Scythe of Death~
+A long curving blade fixed to a long wooden pole lies here.~
+~
+5 2|64 1|8192
+50~ 100~ 0~ 1~
+20 0 0
+A
+18 9
+A
+19 9
+A
+5 -12
+
+#0
+
+#ROOMS
+
+#401
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. Better find your corpse fast!
+~
+4 2|8|8192 0
+D4
+~
+~
+0 -1 410
+D5
+~
+~
+0 -1 410
+S
+
+#402
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 406
+D1
+~
+~
+0 -1 403
+D2
+~
+~
+0 -1 410
+D3
+~
+~
+0 -1 405
+D4
+~
+~
+0 -1 414
+D5
+~
+~
+0 -1 414
+S
+
+#403
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 407
+D1
+~
+~
+0 -1 404
+D2
+~
+~
+0 -1 411
+D3
+~
+~
+0 -1 402
+D4
+~
+~
+0 -1 415
+D5
+~
+~
+0 -1 415
+S
+
+#404
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 408
+D1
+~
+~
+0 -1 405
+D2
+~
+~
+0 -1 412
+D3
+~
+~
+0 -1 403
+D4
+~
+~
+0 -1 416
+D5
+~
+~
+0 -1 416
+S
+
+#405
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 409
+D1
+~
+~
+0 -1 402
+D2
+~
+~
+0 -1 413
+D3
+~
+~
+0 -1 404
+D4
+~
+~
+0 -1 417
+D5
+~
+~
+0 -1 417
+S
+
+#406
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 410
+D1
+~
+~
+0 -1 407
+D2
+~
+~
+0 -1 402
+D3
+~
+~
+0 -1 409
+D4
+~
+~
+0 -1 418
+D5
+~
+~
+0 -1 418
+S
+
+#407
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 411
+D1
+~
+~
+0 -1 408
+D2
+~
+~
+0 -1 403
+D3
+~
+~
+0 -1 406
+D4
+~
+~
+0 -1 419
+D5
+~
+~
+0 -1 419
+S
+
+#408
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 412
+D1
+~
+~
+0 -1 409
+D2
+~
+~
+0 -1 404
+D3
+~
+~
+0 -1 407
+D4
+~
+~
+0 -1 420
+D5
+~
+~
+0 -1 420
+S
+
+#409
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 413
+D1
+~
+~
+0 -1 406
+D2
+~
+~
+0 -1 405
+D3
+~
+~
+0 -1 408
+D4
+~
+~
+0 -1 421
+D5
+~
+~
+0 -1 421
+S
+
+#410
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 402
+D1
+~
+~
+0 -1 411
+D2
+~
+~
+0 -1 406
+D3
+~
+~
+0 -1 413
+D4
+~
+~
+0 0 401
+D5
+~
+~
+0 0 401
+S
+
+#411
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 403
+D1
+~
+~
+0 -1 412
+D2
+~
+~
+0 -1 407
+D3
+~
+~
+0 -1 410
+D4
+~
+~
+0 -1 423
+D5
+~
+~
+0 -1 423
+S
+
+#412
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 404
+D1
+~
+~
+0 -1 413
+D2
+~
+~
+0 -1 408
+D3
+~
+~
+0 -1 411
+D4
+~
+~
+0 -1 424
+D5
+~
+~
+0 -1 424
+S
+
+#413
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 405
+D1
+~
+~
+0 -1 410
+D2
+~
+~
+0 -1 409
+D3
+~
+~
+0 -1 412
+D4
+~
+~
+0 -1 425
+D5
+~
+~
+0 -1 425
+S
+
+#414
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 418
+D1
+~
+~
+0 -1 415
+D3
+~
+~
+0 -1 417
+D4
+~
+~
+0 -1 402
+D5
+~
+~
+0 -1 402
+E
+note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going 2 north.
+
+
+                                Signed, 
+                                        Boom.
+~
+S
+
+#415
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 419
+D1
+~
+~
+0 -1 416
+D2
+~
+~
+0 -1 423
+D3
+~
+~
+0 -1 414
+D4
+~
+~
+0 -1 403
+D5
+~
+~
+0 -1 403
+S
+
+#416
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 420
+D1
+~
+~
+0 -1 417
+D2
+~
+~
+0 -1 424
+D3
+~
+~
+0 -1 415
+D4
+~
+~
+0 -1 404
+D5
+~
+~
+0 -1 404
+S
+
+#417
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 421
+D1
+~
+~
+0 -1 414
+D2
+~
+~
+0 -1 425
+D3
+~
+~
+0 -1 416
+D4
+~
+~
+0 -1 405
+D5
+~
+~
+0 -1 405
+S
+
+#418
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 422
+D1
+~
+~
+0 -1 419
+D2
+~
+~
+0 -1 414
+D3
+~
+~
+0 -1 421
+D4
+~
+~
+0 -1 406
+D5
+~
+~
+0 -1 406
+S
+
+#419
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 423
+D1
+~
+~
+0 -1 420
+D2
+~
+~
+0 -1 415
+D3
+~
+~
+0 -1 418
+D4
+~
+~
+0 -1 407
+D5
+~
+~
+0 -1 407
+S
+
+#420
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 424
+D1
+~
+~
+0 -1 421
+D2
+~
+~
+0 -1 416
+D3
+~
+~
+0 -1 419
+D4
+~
+~
+0 -1 408
+D5
+~
+~
+0 -1 408
+S
+
+#421
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 425
+D1
+~
+~
+0 -1 418
+D2
+~
+~
+0 -1 417
+D3
+~
+~
+0 -1 420
+D4
+~
+~
+0 -1 409
+D5
+~
+~
+0 -1 409
+E
+note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going one east, then one north.
+
+
+                                Signed, 
+                                        EMAD.
+~
+S
+
+#422
+The Purgatory~
+This place looks different from the rest of the area.  Somehow, you have the
+feeling that you're near the end of your search. Better not waste anymore 
+time coz' you're still cold, hungry and very naked ....but most importantly, 
+your corpse is rotting!
+There is a note posted here.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 426
+D1
+~
+~
+0 -1 423
+D2
+~
+~
+0 -1 418
+E
+note~
+
+Hint: try going north!
+
+EMAD
+~
+S
+
+#423
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 415
+D1
+~
+~
+0 -1 424
+D2
+~
+~
+0 -1 419
+D3
+~
+~
+0 -1 422
+D4
+~
+~
+0 -1 411
+D5
+~
+~
+0 -1 411
+S
+
+#424
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 416
+D1
+~
+~
+0 -1 425
+D2
+~
+~
+0 -1 420
+D3
+~
+~
+0 -1 423
+D4
+~
+~
+0 -1 412
+D5
+~
+~
+0 -1 412
+S
+
+#425
+The Purgatory~
+Clouds of white mist fill the whole place.  There's no telling where you
+are and what's around this area.  From a distance, you hear screams and 
+wails of other suffering souls. You feel cold, hungry and hopelessly lost.
+A small note is posted here.
+~
+4 2|8|8192 0
+D0
+~
+~
+0 -1 417
+D2
+~
+~
+0 -1 421
+D3
+~
+~
+0 -1 424
+D4
+~
+~
+0 -1 413
+D5
+~
+~
+0 -1 413
+E
+note~
+The note reads:
+
+As a reward for taking the trouble to read this, here's a little hint.
+To find corpse, try going 3 west.
+
+
+                                Signed,
+                                        Boom.
+~
+S
+
+#426
+The Purgatory~
+Yes! You finally found your way through this God forsaken place.  Up ahead,
+you see a tall dark figure presiding over a pile of cadavers.
+~
+4 2|4|8|8192 0
+D1
+~
+~
+0 -1 427
+S
+
+#427
+The Judgement Room~
+This is where you'll face your final judgement.  Your fate will depend on 
+your past karma. Silently, you cursed yourself for being such a jerk when
+you were alive.  Overwhelmed by anxiety and tears flowing, you beg for mercy
+and search desperately for your corpse.  Good Luck!
+A sign is posted here.
+~
+4 2|8|8192 11
+D4
+~
+~
+0 -1 3054
+E
+sign~ 
+The sign reads:
+
+Please remember to take your invisible items.  We will not be responsible 
+for any losses due to your own negligence.  Don't say we didn't warn you!
+~
+S
+#0
+
+#RESETS
+* Death Reaper (shopkeeper)
+M 0 401 1 427
+E 0 403 0 16           scythe
+E 0 402 0 17           book of judgement
+G 0 401 0              a drop of elves' tear (detect invis potion) 
+* lost souls
+M 0 402 3 407
+M 0 402 3 425
+R 0 401 6		Randomize the mail room
+R 0 410 6		Randomize one other room
+S
+
+#SHOPS
+401 0 0 0 0 0 	100 0 	0 23 	sells detect invis potion (elves' tear)
+
+0
+
+#SPECIALS
+
+M 401  spec_cast_adept		Death Reaper double as healer
+M 401  spec_cast_mage  		Death Reaper
+S
+
+
+#$
+

@@ -1,0 +1,62 @@
+ILAB OLC Beta 1.1
+7th April 1995
+
+Jason Dinkel	jdinkel@mines.colorado.edu
+
+
+
+=== What is ILAB OLC?
+
+ILAB OLC = "I Love Amy Barr" On-Line Creation.
+
+ILAB OLC is a constantly revised online creation system distributed by
+Jason Dinkel.  It was based on the public domain version of OLC written
+by Surreality and distributed by Locke in The Isles 1.1.  The first
+release was in December of 1994.  Since then many changes have occurred
+that make it a much better system to use for you online creation needs.
+
+
+== Why use ILAB OLC as a player?
+
+This package is meant to make the building process easier for beginners.
+Looking up values for everything in a MUD can sometimes be very time
+consuming and this package minimizes this paper flipping.
+
+ILAB OLC has the benefit of using a system similar to the standard way
+MUD commands are entered and therefore lessens the learning curve for
+people experienced with the normal MUD system.
+
+ILAB OLC has the benefit of building most of its help files straight from
+the code. '? <category>' displays lists of bits used by the game for the
+given category.  These are very easy to add in bit.c.  'commands' displays
+the possible commands available in each editor.  All commands display
+their own syntax if used incorrectly.  This means you won't have to wait
+for the implementor to write new help files before you can use the new
+features.
+
+You will get to see the results of your area immediately and not have to
+wait for somebody to install the area into the game.
+
+You can take care of your players at the same time you are building.
+
+You can design quests on-the-fly.
+
+
+=== Why use ILAB OLC as an implementor?
+
+If you are considering changing your area format in any way ILAB OLC makes
+it easy to save the whole world in a new format.  You just edit olc_save.c
+and execute an "asave world".
+
+Because ILAB OLC uses table lookup for much of its information it is easy
+to keep it up to date.
+
+The new modularized system for ILAB OLC makes it simple to add new commands
+and features to you editor.  It also aids in debugging problem areas.
+
+With OLC you no longer have to check over the syntax of a builders area that
+was mailed to you.  You won't have to edit AREA.LST ever again to get the
+areas loaded in the correct places.
+
+
+- Jason

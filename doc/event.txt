@@ -1,0 +1,19 @@
+Veygoth's Magma MUD (Pre-release) version 0.64
+Wednesday, July 14, 1999
+
+Veygoth		veygoth@stax.net
+
+=== EVENTS
+
+What the heck are events anyway?
+
+Events are basically little timers that tell certain things to happen at
+certain points.  This initial implementation of events is a little basic,
+allowing just the standard tick events to be modified by changing the
+PULSE_WHATEVER definitions in merc.h.  What this does is allow for
+staggered character, object, mobile, or other update times, this making
+the MUD run a little more smoothly.
+
+As the event code develops further, I plan on using the event system to
+control room procedures, time delay functions, multiple round spells, and
+many other things.

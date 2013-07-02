@@ -1,0 +1,196 @@
+Veygoth's Magma MUD (Pre-release) version 0.71
+Sunday, July 17, 1999
+
+Veygoth		veygoth@stax.net
+
+
+
+=== Spells
+
+The central organizing table for spells is spell_table, an array
+of type 'struct spell_type' (merc.h), and is defined in const.c.  
+Indexes into this table are 'spell numbers',  abbreviated 'sn'.  An 'sn'
+is a purely internal value, and can vary over time as skills and spells
+are added.  This way, the spell table can be expanded conveniently.
+
+Player saving/loading is completely table-driven from skill_table.
+Skills and spells may be freely added or deleted without
+changing these functions.
+
+The fields of spell_table are:
+
+    char *	name;
+
+	The name is used for practicing the skill or spell and by the 'cast'
+	command.  Mobiles which cast spells also often invoke the spell by
+	name.  Save files contain this name.
+
+    int		spell_circle [ MAX_CLASS ];
+
+	This array is indexed by character class, GET_CLASS( ch ).  It contains
+	the minimum level which each class needs in order to practice the skill
+	or spell.  If a given class cannot use this skill or spell, the level
+	is set to L_APP, so that all immortals can use all skills and spells.
+	Mobiles ignore this table; generally their skill percentages are a
+	simple function of level.
+
+        This has been changed to use spell circles instead.  Mortal spell
+        circles range from 1 to 11 and circle 12 is immortal only.
+        Players acquire spell circles at level 1 and every 5 levels after
+        that, so they would get circle 11 at level 51.
+
+    SPELL_FUN *	spell_fun;
+
+	This is the function which implements the spell.  Spell functions
+	take four arguments: an 'sn', a level, a caster, and a pointer to a
+	target victim or object.
+
+    int		target;
+
+	This identifies the targets of the spell.  The legal values are:
+
+	    TAR_IGNORE			Spell chooses its own targets.
+	    TAR_CHAR_OFFENSIVE		Spell is offensive (starts combat).
+	    TAR_CHAR_DEFENSIVE		Spell is defensive (any char is legal).
+	    TAR_CHAR_SELF		Spell is personal-effect only.
+	    TAR_OBJ_INV			Spell is used on an object.
+
+	PC's may not cast TAR_CHAR_OFFENSIVE spells on other PC's.  These
+	spells also cause the victim to attack the caster.
+
+    bool	cast_combat;
+
+        This determines whether the spell can be cast during combat.  If
+        not, the player needs more concentration than is needed during
+        battle to be able to cast it (POS_STANDING).
+
+    int *	pgsn;
+
+	This is the address of a gsn (global skill/spell number) associated
+	with this skill or spell.  Almost all skills have gsn's; a few spells
+	do.  gsn's are helpful for spells that need to be referenced outside
+	the spell_fun itself.
+
+    int		min_mana;
+
+	This is the minimum mana required to cast this spell by a sufficiently
+	high level spell caster.  A lower level spell caster will need more
+	mana than the minimum; see 'do_cast' in 'magic.c' for the algorithm.
+
+    int		beats;
+
+	This is the delay time, in pulses, imposed on the user of a spell or
+	caster of a spell.  One pulse is 0.25 second (this is derived from
+	PULSE_PER_SECOND in merc.h).
+
+    char *	noun_damage;
+
+	This is a noun or noun phrase containing the damage message for skills
+	or spells that perform damage.
+
+    char *	msg_off;
+
+	This is the message sent to the character when the skill or spell wears
+	off.
+
+
+
+=== Examples
+
+    {
+	"fireball",		{    6, 12, 12, 12, 12 },
+	spell_fireball,		TAR_CHAR_OFFENSIVE,	TRUE,
+	NULL,			15,	12,
+	"fireball",		"!Fireball!"
+    },
+
+	This is a sixth circle level magic-user spell.  It costs 15 mana, and
+	imposes 12 pulses (3 seconds) of delay time on the caster.  It's an
+	offensive spell, and can be used either fighting or standing.  There
+	is no gsn.  The damage message will say 'fireball', and the wear-off
+	message has a strange form to indicate errors because this spell is
+	instantaneous.
+
+    {
+	"armor",		{ 1, 1, 12, 12, 12 },
+	spell_armor,		TAR_CHAR_DEFENSIVE,	FALSE,
+	NULL,			 5,	12,
+	"",			"You feel less protected."
+    },
+
+	This is a first circle magic-user or first circle cleric spell.
+	It can be cast on any char without starting a fight.  It has no
+        damage message but does have a wear-off message.
+
+    {
+	"gas breath",		{    10, L_APP, L_APP, L_APP, L_APP },
+	spell_gas_breath,	TAR_IGNORE,		TRUE,
+	NULL,			50,	12,
+	"blast of gas",		"!Gas Breath!"
+    },
+
+	This is one of the dragon-breath spells.  It is accessible only to
+	46th level magic users.  The spell selects its own targets (TAR_IGNORE)
+	rather than using the common spell-driver target selection code.
+
+
+=== Indexing spell_table
+
+'spell_table' is indexed by an 'sn' or 'gsn'.  The function 'spell_lookup'
+takes a string and returns the appropriate sn, or -1 if the name is not found.
+
+Some spells, such as 'charm', are referenced very frequently.  For
+these skills, a global variable such as 'gsn_second_attack' is initialized to
+the sn of this skill.  Very few spells (poison, charm, domination) need
+gsn's.
+
+Gsn's are initialized at boot time in boot_db, which follows the 'pgsn' field
+in skill_table.   This takes slightly more time and space than using '#define'
+to define them as constants, but is much more error-proof.
+
+Magic items (potions, scrolls, pills, wands, and staves) have charges of
+magical spells.  These spells are referenced by the spell name in area files.
+This is a change from previous Merc and Diku releases, which used slot numbers 
+for each spell.  The function 'skill_lookup' converts these spell names to
+internal skill numbers.
+
+
+=== The spell driver
+
+The spell driver level is the first half of 'magic.c'.  It consists of
+'do_cast' for the 'cast' command and 'obj_cast_spell' which is called from
+'do_brandish', 'do_eat', 'do_quaff', 'do_recite', and 'do_zap'.
+
+The spell driver takes care of level checking, position checking, target
+selection, target validation (such as preventing PC's from casting offensive
+spells on other PC's), staff area effect (just multi-target selection), mana
+costs, wait states, and starting combat for offensive spells.  All of these
+things are table-driven by 'skill_table'.
+
+The spell function itself takes care of calling functions like 'damage' and
+'affect_to_char'.  Read the existing ones to see what is needed for a new one.
+
+Some spells, such as 'earthquake', 'locate object' or 'summon', perform their
+own target selection.  These spells are target type TAR_IGNORE.  Within the
+spell function, the variable 'target_name' is available (set by the spell
+driver).
+
+
+
+=== Adding a new spell
+
+(1) Choose appropriate values for the other 'skill_table' fields, and write
+    your new paragraph into 'const.c'.  Order is immaterial.
+
+(2) Add the 'spell_*' function declaration to the 'DECLARE_SPELL_FUN' section
+    of 'merc.h'.
+
+(3) Drop the code for the spell function into 'magic.c'.
+
+(4) If your spell needs 'AFF_*' bits, create new 'AFF_* bits' in 'merc.h'.
+
+(5) You may need to increase 'MAX_SKILL' in 'merc.h'.
+
+You may wish to take a look at 'template.txt' for a template on what to
+do when you add a new skill or spell to EnvyMud.
+

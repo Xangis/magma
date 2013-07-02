@@ -1,0 +1,51 @@
+Nm          Mercenary~
+WhoNm       &+yMercenary&n   ~
+Cla         7
+AtrPrm      2
+Wpn         210
+Sklladpt    95
+Thac0       18
+Thac47      3
+Hpmin       8
+Hpmax       16
+Mana        0
+Skll         1 'unarmed damage'
+Skll         1 'barehanded fighting'
+Skll        21 'riposte'
+Skll        51 'throat crush'
+Skll         1 'aerial combat'
+Skll         1 'mount'
+Skll         1 'appraise'
+Skll         1 'offense'
+Skll         1 '1h piercing'
+Skll         1 '2h piercing'
+Skll         1 '1h bludgeoning'
+Skll         1 '2h bludgeoning'
+Skll         1 '1h slashing'
+Skll         1 '2h slashing'
+Skll         1 '1h misc'
+Skll         1 '2h misc'
+Skll         1 'kick'
+Skll         1 'bandage'
+Skll         1 'backstab'
+Skll         1 'dual wield'
+Skll         1 'wands'
+Skll         1 'dodge'
+Skll         1 'headbutt'
+Skll         1 'scrolls'
+Skll         1 'staves'
+Skll         1 'track'
+Skll         1 'swim'
+Skll         1 'carve'
+Skll         1 'hide'
+Skll         1 'pick lock'
+Skll        11 'second attack'
+Skll        21 'rescue'
+Skll        21 'capture'
+Skll        53 'third attack'
+Skll         1 'bash'
+Skll        21 'untangle'
+Skll        26 'shield block'
+Skll        31 'disarm'
+Skll        11 'parry'
+End

@@ -1,0 +1,12 @@
+Veygoth's Magma MUD (Pre-release) version 0.73
+Sunday, July 18, 1999
+
+Veygoth		veygoth@stax.net
+
+=== Notes and addendum to MobProgs for the Magma codebase
+
+mprog_bribe_trigger
+-------------------
+For mprog_bribe_trigger, the amount of money is not in gold coins, but
+rather in copper coins.  In order for bribes to be as you want them,
+you may have to multiply the bribe amount by 100 (100 copper = 1 gold).

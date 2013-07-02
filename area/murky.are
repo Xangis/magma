@@ -1,0 +1,3195 @@
+#AREA	{ 3 50} Hatchet Murky Land~
+
+
+#HELPS
+3 'shadow demon' 'shadowdemon' 'shadowlord' 'shadow lord' 'shade'~
+The Shadowlord is merely a myth.  According to such myths, the Shadowlord
+was the first creation from God.  After falling from grace, the Shadowlord
+was cast to earth and died.  He supposed reincarnates about every 600-700
+years.  When he does reincarnate, he creates minions called shadowdemons.
+They, in turn, create minions, named shades.
+~
+
+0 $~
+
+
+#MOBILES
+#10700
+cashier~
+a bored cashier~
+A bored cashier sits in the booth, collecting dough from you.
+~
+The Cashier looks bored, and you think he really is.  Of course, he cares 
+nothing about what you think, and he wishes you share the same sentiments with 
+him, too.
+~
+2|64 8|32 -100 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10701
+greeter bouncer person~
+the Greeter/Bouncer~
+A big, hulky, smiling person is here, greeting you.
+~
+You can tell that he's not enjoying his job.  Although his job is supposed to
+greet you and smile witlessly, you can tell that his smile is very 
+artificial.  Also, just from the look of him you can bet that he has a night 
+job as a bouncer.  You wonder if he's guarding something here.
+~
+2|64 8|32 -300 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 troll~ 1
+#10702
+hatchling~
+a Hatchling~
+A Hatchling sits here, playing 'doctor' with Iccy.
+~
+This Hatchling is little more than a modified toy soldier with limited
+intelligence.  He smiles at you briefly and then resumes his fun with 
+Iccy.
+~
+2|64 128|8192 750 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10703
+iccy~
+Iccy~
+Iccy sits here with the Hatchling, playing 'doctor'
+~
+Iccy is nothing more than a modified mud monster with limited intelligence.
+She smiles at you briefly and quickly resumes playing with the Hatchling.
+~
+2|64 128|8192 750 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 object~ 2
+#10704
+kahno~
+KahnO, predecesser of KahnI~
+About 500 KahnO's reflect off every mirror.
+~
+Every reflection of KahnO is grinning at you.  You wonder why you see much
+more reflections of him than you do of yourself.  However, you DO notice 
+that KahnO is nothing more than a modified troll with limited intelligence.
+~
+2|64 2|128|32768|65536 500 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10705
+fraggie spider~
+Fraggie~
+Fraggie sits on the web, staring at you.
+~
+You notice that Fraggie is just a modified young spider.  He licks his lips
+and grins at you.
+~
+2|64 128 -400 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10706
+cook~
+the cook~
+The cook stands over bubbling pots.
+~
+The cook looks at you momentarily, yells 'Hey, you ain't supposed to be 
+here!', but quickly loses her train of thought and ignores you after that.
+~
+2|64|128 0 -50 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 human~ 2
+#10707
+person counter counterperson~
+the cafeteria counterperson~
+The cafeteria counterperson unenthusiastically sells junk to kids.
+~
+The counterperson looks at everyone with a tired, uncaring scowl.  Upon
+noticing you, though, he smiles his evil grin.  "Try the candy cane.", he 
+whispers to you with a grin.  He quickly reverts back to his degenerate
+self.
+~
+2|64 0 -200 S
+13 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10708
+demon unspawned~
+an unspawned demon~
+An unspawned demon rises out of the ashes.
+~
+This unspawned demon is trying to materialize.  You wonder if you should 
+perhaps leave it alone.
+~
+2|64 0 -352 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 0
+#10709
+morph blob~
+a morphing blob~
+A small blob is trying to morph into a useable shape.
+~
+This small blob is trying to morph into an evil, powerful creature.  It's
+also crawling toward you, trying to consume you!
+~
+2|64 0 -400 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10710
+blinky blinking shape~
+Blinky~
+A small blinking shape runs around the kitchen, running everything.
+~
+This small blinking shape is too fast for you to see any details.
+~
+2|64 0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10711
+atom~
+the unmixed Atom~
+A small Atom bounds around the infinite walls of this galaxy infinitely fast!
+~
+You have no idea how this Atom looks like, it's never at the same place 
+twice.  You wonder how much chaos will result if this atom was ever
+turned around.
+~
+2|64 128 0 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 object~ 0
+#10712
+little dave monk~
+Little Dave, the evil Monk~
+Little Dave, an evil monk, tries to sell you cult-like drugs.
+~
+Little Dave makes a lot of money off his wares, not to mention a huge
+following.
+~
+2|64 0 -200 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10713
+little boy~
+a little boy~
+A little boy sits here, playing with razors.
+~
+The little boy sits here, bleeding from many small cuts.  He smiles at you 
+and offers a bloody razor.
+~
+2|64 0 0 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10714
+little girl~
+a little girl~
+A little girl is sitting here, playing with matches and Kerosene!
+~
+The little girl smirks at you, and splashes some Kerosene at you!  She 
+then lights a match and stares at it in wonder.
+~
+2|64|128 0 -400 S
+4 0 0 0d0+0 0d0+0
+0 0
+8 object~ 2
+#10715
+big bruiser~
+a big bruiser~
+A big bruiser stands here, guarding against 'unwanted visitors', like you!
+~
+This big bruiser doesn't like you being here,and knows of only one way to
+get rid of you, and that's by killing you!
+~
+2|4|32|64 8|32 -600 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 troll~ 1
+#10716
+mad man madman~
+a madman~
+A madman makes a stand here, thinking you want to kill him!
+~
+He's dressed in rags, and shouts 'Don't come any closer!' 'Hey, I saw you 
+move!'  He immediately attacks you!
+~
+2|4|32|64 0 -100 S
+9 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10717
+rooms keeper roomskeeper~
+the roomskeeper~
+The roomskeeper sits behind the counter, waiting for you to pay him money.
+~
+The roomskeeper looks bored.  He says to you 'Hi.  Rooms D and G are taken.
+If you want a whore, rent room F'.  He then goes back to his introversion.
+~
+2|64 0 -500 S
+17 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10718
+kid \/\/ildrunner wildrunner~
+the little \/\/ildrunner~
+A little kid is here, running around \/\/ildly.
+~
+This little kid zips around you, between your legs, over your heads.  You
+can't believe the energy this little dude has!
+~
+64 0 0 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 object~ 1
+#10719
+whore prostitute~
+the hermophroditic prostitute~
+A herymophroditic prostitute lounges on the bed here.
+~
+This strange creature has four sets of boobs and 2 penises.  You recoil from
+this monstrosity in disgust!  Better get out of here, quick!
+~
+2|64 0 -50 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 animal~ 0
+#10720
+man weasel~
+a weaslly-looking man~
+A weaselly-looking man sits behind the desk, grinning at you.
+~
+This short man grins evilly at you.  He waves you closer to the desk, and 
+whispers to you, "I have some information you may wish to buy.  I found 
+some journals and letters that are probably of interest to you.  Are you
+willing to pay my price?"
+(type list to see what he has to sell)
+~
+2|64 0 -200 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10721
+serving wench~
+a serving wench~
+A serving wench is here, taking orders and serving food, while dodging patrons.
+~
+The serving wench may be pretty, but her hair covers most of her face, such
+that you can see little of her.  She hastily reads out what's available for
+today, then runs by to help another customer.
+~
+2|64 0 23 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 halfdwarf~ 2
+#10722
+warrior~
+a gruff warrior~
+A gruff warrior is sitting at the table, eating messily.
+~
+The warrior looks to be quite barbaric.  He ignores you completely.
+~
+2|64 0 0 S
+16 0 0 0d0+0 0d0+0
+0 0
+8 dwarf~ 1
+#10723
+lady bartender~
+the lady bartender~
+The lady bartender serves up drinks and mops up the counter robotically.
+~
+You can tell she's had days like this many times before.
+~
+2|64 0 0 S
+8 0 0 0d0+0 0d0+0
+0 0
+8 halfelf~ 2
+#10724
+shade shadow~
+a shade~
+A dark shadow looms over you.
+~
+You see a dark silhouette of a human sized creature.
+~
+32|64|128 2|8|32|32768|65536|1048576 -700 S
+19 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10725
+shade shadow sentry~
+a shade sentry~
+A dark shadow looms over you.
+~
+You see a silhouette of a human-sized creature.
+~
+2|32|64 2|8|32|32768|65536|1048576 -700 S
+19 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10726
+little brat~
+a little brat~
+A little brat is here, showing everyone what he found.
+~
+This little brat sees you, and waves a skeleton key at you, boasting, "Look
+what I found!  Ha Ha!"  He won't give up this little treasure to you, but
+he MAY be convinced to sell it to you for neato shiny coins!
+~
+64|128 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10727
+mage old man~
+an old man~
+An old man is here, nursing his glass of wine.
+~
+Upon a closer look, this old man looks ageless.  He doesn't look too feeble,
+either.  Better leave him alone.
+~
+2|64 8|32 -200 S
+17 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10728
+lady mercenary~
+a lady mercenary~
+A lady mercenary sits here, downing many shots of vodka.
+~
+Any luck at trying to get her drunk enough to take advantage of her are
+dashed when you realize she's not affected by the drinks at all.  You
+consider approaching her, but only for a brief moment and quickly 
+reconsider that idea.
+~
+2|64 0 100 S
+21 0 0 0d0+0 0d0+0
+0 0
+8 elf~ 2
+#10729
+employee~
+an employee~
+An employee is searching the ground for something.
+~
+The employee looks up at you and says, "I'm looking for this important
+skeleton key.  If you find it, PLEASE return it to me!!!!"  He goes back
+to his search.
+~
+2|64|128 0 -200 S
+6 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10730
+tied victim bundle~
+a tied victim~
+A bundle is wriggling beneath you.
+~
+The bundle is a tied victim!  He squirms, trying to get out!
+~
+2|64 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10731
+employee~
+an employee~
+An employee is here, discussing with a shade.
+~
+The employee spots you, and attacks!
+~
+2|32|64 0 -400 S
+17 0 0 0d0+0 0d0+0
+0 0
+8 human~ 2
+#10732
+shade shadow~
+a shade~
+A dark shadow looms over you.
+~
+The shade is not happy that you have intruded upon it's discussion and
+decides to attack you.
+~
+2|32|64 2|8|32|32768|65536|1048576 -700 S
+19 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10733
+shadow warrior~
+a shadow warrior~
+A dark shadow looms over you, and attacks!
+~
+The shadow warrior is so insubstantial, even its weapons and armor are
+mere silhouettes!
+~
+2|32|64 2|8|32|32768|65536|1048576 -750 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10734
+shadow dragon beast~
+Shadow Dragon~
+A big hulking beast hovers over you.
+~
+You watch with dread as the shadow dragon claws and breathes at you!
+~
+2|32|64 2|8|32|32768|65536|524288|1048576 -999 S
+35 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10735
+shadow librarian~
+the shadow librarian~
+A shadow leans over the scrolls.
+~
+The shadow librarian ignores you completely, engrossed in its scrolls.
+~
+2|64 2|8|32|32768|65536 -800 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10736
+shadow conjurer~
+the shadow conjurer~
+A shadow looms over the many potions and solutions.
+~
+The shadow conjurer ignores you completely, engrossed in its potions and
+other concoctions.
+~
+2|64 2|8|32|32768|65536 -800 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10737
+shadow scriber~
+the shadow scriber~
+A shadow leans over the scrolls.
+~
+The shadow scriber ignores you compeletely, engrossed in its scrolls.
+~
+2|64 2|8|32|32768|65536 -800 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10738
+shadow enchanter~
+the shadow enchanter~
+A shadow looms over the weapons.
+~
+The shadow enchanter ignores you completely, engrossed with its weapons.
+~
+2|64 2|8|32|32768|65536 -800 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10739
+sacrifice victim sacrificial~
+the sacrificial victim~
+A victim is here, being sacrificed.
+~
+The victim is beyond salvation, horribly scarred physically, mentally, and
+spiritually for life.
+~
+2|64|128 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#10740
+torturer shadow~
+the torturer~
+A shadow is here, turturing its victim with acid.
+~
+You can bet this turturer likes its job!
+~
+2|64|128 0 -750 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10741
+torturer shadow~
+the torturer~
+A shadow is here, torturing its victim by stabbing it repeatedly.
+~
+You can bet this torturer likes its job!
+~
+2|64|128 0 -750 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10742
+torturer shadow~
+the torturer~
+A shadow is here, torturing its victim with fire.
+~
+You can bet this torturer loves its job!
+~
+2|64|128 0 -750 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10743
+khyrhamokhdon~
+the Shadow Demon~
+A deep shadow envelops you.
+~
+The Shadow Demon KhyrhaMokhdon is a large, powerful beast.  Right hand of the
+Shadow Lord himself, KhyrhaMokhdon hates humanity and loves to watch them
+burn from acid, which he calls unholy fire.  KhyrhaMokhdon serves the 
+Shadow Lord without reserve.
+~
+2|64|128 2|8|32|128|512|32768|65536|1048576 -1000 S
+37 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10744
+khyrhashohan~
+the Shadow Demon~
+A deep shadow envelops you.
+~
+The Shadow Demon KhyrhaShohan is a large, powerful beast.  Left hand of the
+Shadow Lord himself, KhyrhaShohan hates humanity and loves scarring them to
+oblivion.  KhyrhaShohan serves the Shadow Lord without reserve, although
+it envies the other Khyrha for being first before itself.
+~
+2|64|128 2|8|32|128|512|32768|65536|1048576 -1000 S
+36 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#10745
+khyrhazenin~
+the Shadow Lord~
+A deep shadow envelops you and enters your heart.
+~
+The Lord of Shadow, Lord of Despair, Lord of Darkness, KhyrhaZenin hates
+anything to do with the Light and God, who has forsaken him and cast him
+to his death.  He lives off his hatred of God, and spends every moment of 
+his unlife destroying humanity.  His singular purpose leaves him very 
+predictable, but also very, very powerful.
+~
+2|64|128 2|8|32|128|512|32768|65536|1048576 -1000 S
+43 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 1
+#0
+
+
+#OBJECTS
+#10700
+ticket~
+a ticket to Murky Land~
+A small scrap of paper litters the ground.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+#10701
+cudgel~
+a heavy cudgel~
+A heavy cudgel rests here.~
+~
+5 32 1|8192
+0~ 0~ 0~ 7~ 
+9 0 0
+#10702
+hatchet~
+a small hatchet~
+A small hatchet is on the floor.~
+~
+5 2|1024 1|8192
+0~ 0~ 0~ 13~ 
+5 0 0
+A
+1 1
+A
+5 1
+A
+2 -1
+#10703
+ice pick icepick~
+a small icepick~
+A small icepick is sticking out of the ground.~
+~
+5 2 1|8192
+0~ 0~ 0~ 11~ 
+5 0 0
+A
+2 1
+#10704
+engagement ring gold~
+a simple engagement ring~
+A simple ring of gold is on the floor.~
+~
+9 64|4096 1|2
+0~ 0~ 0~ 0~ 
+1 0 0
+A
+2 1
+A
+4 -1
+A
+3 1
+#10705
+black tooth blacktooth dirk~
+blacktooth~
+A dark dirk is on the floor.~
+~
+5 2 1|8192
+0~ 0~ 0~ 11~ 
+5 0 0
+#10706
+carapace spider~
+a hard spider carapace~
+A shell of a spider is here.~
+~
+9 16|512 1|8
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+5 2
+A
+12 -10
+A
+14 -20
+#10707
+cooking spatula~
+a cooking spatula~
+A greasy cooking spatula is on the floor.  Yuck!~
+~
+5 0 1|8192
+0~ 0~ 0~ 13~ 
+5 0 0
+#10708
+apron~
+an apron~
+An apron hangs here.~
+~
+9 0 1|2048
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+17 1
+A
+24 -3
+E
+apron~
+You realize that this grease splattered apron offers great protection, not
+just from grease, but from sword strokes, fire, and magic spells, too!
+~
+#10709
+yellow popcorn~
+a bag of yellow popcorn~
+A bag of yellow popcorn sits on the counter.~
+~
+19 0 1
+0~ -1~ -1~ -1~ 
+1 0 0
+E
+yellow popcorn~
+You notice that the yellowness of this popcorn has NOTHING to do with any
+seasoning.  You wonder how long this popcorn has been sitting in this bag,
+and wished you hadn't bought any of it.
+~
+#10710
+candy cane candycane~
+a candy cane~
+A candy cane is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+E
+candy cane candycane~
+You notice that this candycane is harder than brass, and that you'll never
+be able to eat it.~
+#10711
+cup cola~
+a plastic cup of cola~
+You see a plastic cup with liquid inside.~
+~
+17 0 1
+10~ 10~ 15~ 0~ 
+5 0 0
+#10712
+cup lemonade~
+a plastic cup of lemonade~
+You see a cup with a yellowish liquid inside.~
+~
+17 0 1|8192
+10~ 10~ 6~ 0~ 
+5 0 0
+#10713
+jerky rat~
+some type of jerky~
+Strips of meat are on the counter.~
+~
+19 0 1
+10~ 0~ 0~ 0~ 
+5 0 0
+E
+jerky rat~
+You sniff, and to your horrow, realize that this jerky is Rat Jerky!!!!
+Yeck.  At least it's not poisoning your stomache ... yet.
+~
+#10714
+razor~
+a bloody razor~
+A bloody razor is on the floor, ready to cut your feet.~
+~
+5 0 1|8192
+0~ 0~ 0~ 1~ 
+5 0 0
+A
+19 1
+#10715
+match~
+a lit match~
+A lit match is here, ready to start a fire!~
+~
+3 64 1|16384
+5~ 5~ 5~ burning hands~ 
+5 0 0
+#10716
+pill green~
+a green pill~
+A green pill is on the floor.~
+~
+26 0 1
+2~ detect invis~ blindness~ detect hidden~ 
+5 0 0
+#10717
+pink pill~
+a pink pill~
+A pink pill is on the floor.~
+~
+26 0 1
+2~ cure light~ cure light~ cause serious~ 
+5 0 0
+#10718
+orange pill~
+an orange pill~
+An orange pill is on the floor.~
+~
+26 0 1
+2~ cure poison~ poison~ fly~ 
+5 0 0
+#10719
+red pill~
+a red pill~
+A red pill is on the floor.~
+~
+26 0 1
+2~ giant strength~ weaken~ levitation~ 
+5 0 0
+#10720
+silver pill~
+a silver pill~
+A silver pill is on the floor.~
+~
+26 0 1
+2~ sleep~ cure light~ faerie fire~ 
+5 0 0
+#10721
+spiked cudgel~
+a spiked cudgel~
+A spiked cudgel is on the floor here.~
+~
+5 0 1|8192
+0~ 0~ 0~ 7~ 
+10 0 0
+A
+19 3
+#10722
+cape~
+a dark cape~
+A dark cape hangs here.~
+~
+9 64 1|1024
+0~ 0~ 0~ 0~ 
+4 0 0
+A
+2 1
+#10723
+key a~
+key A~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10724
+key b~
+key B~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10725
+key c~
+key C~
+A key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10726
+key d~
+key D~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10727
+key e~
+key E~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10728
+key f~
+key F~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10729
+key g~
+key G~
+A small key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+#10730
+bed~
+a smelly bed~
+A smelly bed sits in this room.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10731
+chair~
+a chair~
+A chair is here.~
+~
+5 0 1|8192
+0~ 0~ 0~ 8~ 
+8 0 0
+A
+18 -2
+A
+19 -2
+#10732
+bed~
+a smelly bed~
+A smelly bed sits in this room.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10733
+desk~
+a desk~
+A desk sits in this room.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10734
+shoes wildrunner \/\/ildrunner~
+\/\/ildrunner(tm) running shoes~
+A pair of spiffy running shoes hover magically here.~
+~
+9 1|2|64|4096 1|64
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+2 2
+A
+14 20
+A
+5 -1
+#10735
+chair~
+a chair~
+A chair is here.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10736
+chair~
+a chair~
+A chair is here.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10737
+note scrap paper~
+a scrap of paper~
+A scrap of paper is stuck on the floor.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+E
+note scrap paper~
+In a very sloppy script, this note reads,
+"This place is much more than you think it is.
+Just as Murky Land is a front for this illegal tavern,
+this illegal tavern is a front for something very very evil."
+
+					     - Ren the Sneak
+~
+#10738
+robe thin black~
+a thin black robe~
+A thin black robe lies on the floor here.~
+~
+9 16|64|512 1|1024
+0~ 0~ 0~ 0~ 
+3 0 0
+A
+3 1
+A
+4 1
+A
+1 -1
+A
+12 10
+#10739
+black scroll~
+a black scroll~
+A black scroll is curled up here.~
+~
+2 64 1
+0~ magic missile~ magic missile~ magic missile~ 
+1 0 0
+#10740
+journal~
+portions of a journal~
+Some loose pages are here.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+E
+journal~
+3rd day of MIssion --
+   It is incredible how much corruption is lurking underneath the seamingly
+friendly place called 'Murky Land'.  Whoever design such a friendly front
+for an illegal tavern frequent by murderers and thieves must be a genius.
+I have yet seen what's behind the door next to the tavern.  I'm sure the
+rooms there house more than just employees, considering the number of people
+going in and out of that door.  In 3 days here, I've seen 8 human-shaped 
+bundles hauled through that door already, and nothing coming out.  I need to
+get my hands on that skeleton key!
+
+4th day of Mission --
+   I wonder if it's my nerves or what, but I keep thinking I am being 
+watched and followed.  The shadows in this room seems to be moving, but
+I'm sure it's merely the trick of the candlelight.  5 more bundles were
+hauled through the employee door today, and I'm sure they are bodies or
+victims.  
+~
+#10741
+scroll prophecy~
+portions of The Scroll of Prophecy~
+An old scroll is on the floor.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+E
+scroll prophecy~
+(places marked with XXXXX are places scratched out with a dark pen)
+
+And the God cast down KhXXXX from the Heavens, and spake, "Do not ever 
+return, my lost Son, and may you be cursed to dXXXXX XXXXXX XXXXX XXXXXX
+XXXXX XXXXX"  And KXXXXX did die, and as He died, He bled onto the Earth.
+But the blood of KhXXXX did not die, for it festered, and every XXXXX XXX,
+it will XXX XXXXXX XXXXX XXXXXX, and XXXXX will be rebXXXXX.  He will then
+XXXXXX upon the Earth, and he shall name XXXXXXX for his work, and they 
+will be so named XXXXXX.  
+
+as prophesized by XXXX XXXXXXXX of Thalos, in the year XXXXX XXXX
+~
+#10742
+scrap paper~
+a scrap of paper~
+A scrap of paper is on the floor.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+E
+scrap paper~
+There are many myths regarding the shadowlord.  To hear more about it, type
+'help shadowlord'.
+~
+#10743
+roast chicken~
+a roast chicken~
+A roast chicken is on the table.~
+~
+19 0 1
+20~ 0~ 0~ 0~ 
+5 0 0
+#10744
+baked bread~
+baked bread~
+Some bread is on the table.~
+~
+19 0 1
+10~ 0~ 0~ 0~ 
+5 0 0
+#10745
+slice lemon pie~
+a slice of lemon pie~
+A slice of lemon pie is on the table.~
+~
+19 0 1
+6~ 0~ 0~ 0~ 
+1 0 0
+#10746
+ale pitcher~
+a pitcher of ale~
+A pitcher of ale is on the table.~
+~
+17 0 1
+30~ 30~ 3~ 0~ 
+5 0 0
+#10747
+bowl soup~
+a bowl of soup~
+A bowl of soup is on the table.~
+~
+17 0 1
+5~ 5~ 23~ 0~ 
+2 0 0
+#10748
+spear~
+a spear~
+A spear is leaning against the wall.~
+~
+5 0 1|8192
+0~ 0~ 0~ 2~ 
+7 0 0
+A
+18 4
+#10749
+splintmail splint mail vest~
+splintmail vest~
+A splintmail vest is bundled here.~
+~
+9 0 1|8
+0~ 0~ 0~ 0~ 
+12 0 0
+A
+5 1
+#10750
+shot vodka~
+a shot of vodka~
+A shot of vodka is on the counter.~
+~
+17 0 1
+2~ 2~ 22~ 0~ 
+1 0 0
+#10751
+shot rum~
+a shot of rum~
+A shot of rum is on the counter~
+~
+17 0 1
+2~ 2~ 18~ 0~ 
+1 0 0
+#10752
+shot whisky~
+a shot of whisky~
+A shot of whisky is on the counter.~
+~
+17 0 1
+3~ 3~ 5~ 0~ 
+1 0 0
+#10753
+glass wine~
+a glass of wine~
+A glass of wine is on the counter.~
+~
+17 0 1
+5~ 5~ 2~ 0~ 
+2 0 0
+#10754
+mug beer~
+a mug of beer~
+A mug of beer is on the counter.~
+~
+17 0 1
+6~ 6~ 1~ 0~ 
+2 0 0
+#10755
+shot firebreather~
+a shot of firebreather~
+A shot of firebreather is here.~
+~
+17 0 1
+1~ 1~ 7~ 0~ 
+1 0 0
+#10756
+shot local specialty~
+a shot of the local specialty~
+A shot of the local specialty is on the counter.~
+~
+17 0 1
+1~ 1~ 8~ 0~ 
+1 0 0
+#10757
+dirk~
+a dirk~
+A thin dirk is on the floor.~
+~
+5 0 1|8192
+0~ 0~ 0~ 11~ 
+5 0 0
+A
+18 1
+#10758
+key skeleton~
+a skeleton key~
+A skeleton key is on the floor.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+#10759
+sabre~
+a sabre~
+You see a sabre.~
+~
+5 64 1|8192
+0~ 0~ 0~ 1~ 
+5 0 0
+A
+1 2
+#10760
+shield square~
+a square shield~
+A square shield is on the floor.~
+~
+9 64 1|512
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+5 2
+#10761
+hidden panel~
+a hidden panel~
+You see a desk here.~
+~
+15 0 0
+50~ 1~ 0~ 0~ 
+5 0 0
+E
+hidden panel~
+Wow, you are so happy you took the extra time to inspect this desk, or you
+never would have found this hidden panel!
+~
+#10762
+bracelet ivory~
+an ivory bracelet~
+You see an ivory bracelet here.~
+~
+9 64|1024 1|4096
+0~ 0~ 0~ 0~ 
+2 0 0
+A
+12 10
+A
+3 1
+#10763
+statuette eagle~
+an eagle statuette~
+An eagle statuette stands proudly here.~
+~
+15 0 0
+50~ 4~ 0~ 0~ 
+5 0 0
+#10764
+statuette eagle~
+an eagle statuette~
+An eagle statuette stands proudly here.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10765
+statuette eagle~
+an eagle statuette~
+An eagle statuette stands proudly here.~
+~
+15 0 0
+50~ 0~ 0~ 0~ 
+5 0 0
+#10766
+black key~
+a black key~
+You see a black key here.~
+~
+18 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+#10767
+shadow sword~
+a shadow sword~
+You see the silhouette of a sword here.~
+~
+5 16|64|512|4096 1|8192
+0~ 0~ 0~ 1~ 
+10 0 0
+A
+1 1
+A
+5 1
+A
+2 1
+#10768
+shadow vest~
+a shadow vest~
+You see a silhouette of a vest.~
+~
+9 16|64|512|4096 1|8
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+2 1
+A
+5 1
+A
+13 20
+#10769
+shadow helm helmet~
+a shadow helm~
+You see the silhouette of a helmet here.~
+~
+9 16|64|512|4096 1|16
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+4 1
+A
+3 1
+A
+12 10
+#10770
+shadow leggings~
+shadow leggings~
+You see the silhouette of leggings here.~
+~
+9 16|64|512|4096 1|32
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+2 1
+A
+5 1
+#10771
+shadow boots~
+shadow boots~
+You see the silhouette of boots.~
+~
+9 16|64|512|4096 1|64
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+2 2
+A
+14 50
+#10772
+shadow gauntlets~
+shadow gauntlets~
+You see the silhouette of some gauntlets here.~
+~
+9 16|64|512|4096 1|128
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+1 1
+A
+2 1
+A
+18 2
+#10773
+shadow sleeves~
+shadow sleeves~
+You see the silhouette of some sleeves here.~
+~
+9 16|64|512|4096 1|256
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+1 1
+A
+5 1
+A
+13 10
+#10774
+a shadow shield~
+a shadow shield~
+You see the silhouette of a shield here.~
+~
+9 16|64|512|4096 1|512
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+5 2
+A
+18 2
+#10775
+black fang blackfang~
+Blackfang~
+You see the silhouette of something sharp.~
+~
+5 16|32|64|512|4096|16384 1|8192
+0~ 0~ 0~ 11~ 
+8 0 0
+A
+1 2
+A
+18 7
+A
+19 7
+A
+5 -10
+A
+2 2
+#10776
+shadow orb~
+the Shadow Orb~
+You see the silhouette of a small globe.~
+~
+4 16|64|512|4096 1|16384
+0~ 20~ 20~ teleport~ 
+5 0 0
+A
+3 2
+A
+4 2
+A
+12 30
+#10777
+gold coins treasure~
+a large pile of coins~
+A large pile of coins is on the floor.~
+~
+20 0 1
+30000~ 0~ 0~ 0~ 
+30 0 0
+#10778
+acid jar~
+a jar of acid~
+A jar of acid is on the floor.~
+~
+3 64 1|16384
+0~ 5~ 5~ acid blast~ 
+5 0 0
+#10779
+torch~
+a magical torch~
+An everburning torch is here.~
+~
+3 64 1|16384
+0~ 5~ 5~ fireball~ 
+5 0 0
+#10780
+staff despair~
+Staff of Despair~
+A dark staff is on the floor.~
+~
+5 16|64|512|4096|16384 1|8192
+0~ 0~ 0~ 8~ 
+15 0 0
+A
+1 2
+A
+5 -8
+A
+18 5
+A
+19 5
+#10781
+cloak shadows~
+Cloak of Shadows~
+The silhouette of a cloak can be barely seen.~
+~
+9 16|64|512|4096 1|1024
+0~ 0~ 0~ 0~ 
+5 0 0
+A
+2 2
+A
+17 -30
+#10782
+scroll~
+a scroll~
+A scroll has been carelessly left here.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+1 0 0
+E
+scroll~
+My subjects:
+   I wish the following places destroyed so that traces of our origin will 
+not be found.
+
+Catacombs below the chapel
+Catacombs below the dwarven kingdom
+Plains north of Midgaard
+
+The destruction of these places is very crucial to our existence, so do not
+tarry in this deed.
+
+--The Shadow Lord
+~
+#10783
+scroll~
+a scroll~
+A scroll has been carelessly left here.~
+~
+13 0 1
+0~ 0~ 0~ 0~ 
+5 0 0
+E
+scroll~
+My Subjects:
+   There exist certain people on this realm who know too much regarding
+the identity of myself and my Shadow Demons.  You are to find them and 
+bring them to me, so that I may personally destroy them.
+
+The following are the people I want brought to me:
+The old man on the beach before Shaolin Temple
+The fanatic priest of old Thalos
+
+Please fulfill this deed swiftest.
+
+--The Shadow Lord
+~
+#10784
+bubbly red potion~
+a bubbly red potion~
+A bubbly red potion is on the table.~
+~
+10 64 1
+0~ stone skin~ shield~ combat mind~ 
+2 0 0
+#10785
+ice blue potion~
+an ice blue potion~
+An ice blue potion is on the table.~
+~
+10 64 1
+0~ intellect fortress~ thought shield~ flesh armor~ 
+2 0 0
+#10786
+dark orange potion~
+a dark orange potion~
+A dark orange potion is on the table.~
+~
+10 64 1
+0~ enhanced strength~ ectoplasmic form~ refresh~ 
+2 0 0
+#10787
+scroll rage~
+a scroll of rage~
+A scroll is on the table here.~
+~
+2 64 1
+0~ blindness~ curse~ poison~ 
+1 0 0
+#10788
+scroll fire~
+a scroll of fire~
+A scroll is on the table.~
+~
+2 64 1
+0~ flamestrike~ fireball~ fire breath~ 
+1 0 0
+#10789
+scroll curing~
+a scroll of curing~
+A scroll of curing is here.~
+~
+2 64 1
+0~ cure blindness~ remove curse~ cure poison~ 
+1 0 0
+#10790
+shadow pike~
+a shadow pike~
+A long, slim shadow is against the wall.~
+~
+5 16|64|512|4096 1|8192
+0~ 0~ 0~ 2~ 
+5 0 0
+A
+1 2
+A
+18 -2
+A
+19 12
+#10791
+shadow whip~
+a shadow whip~
+A shadow of some rope is on the floor.~
+~
+5 16|64|512|4096 1|8192
+0~ 0~ 0~ 4~ 
+5 0 0
+A
+18 5
+A
+19 5
+#0
+
+
+#ROOMS
+#10700
+Entrance to Murky Land~
+You are standing at the entrance to Murky Land!  Brought to you by the 
+wonderful folks at Ofcol Private Development Corp, or ODP, this funland is for
+kids of all ages!  The main entrance is to the north, while a path leads back
+west.  There is a sign here.
+~
+0 4 1
+D0
+~
+~
+0 -1 10701
+D3
+~
+~
+0 -1 5552
+E
+sign~
+The Ofcol Private Development Corp, or ODP, welcomes you to Murky Land!  This 
+theme park features creatures based on the very gods of early Merc and Envy!  
+We at ODP wish you'll enjoy your stay at Murky Land!
+~
+S
+#10701
+At the Cashier's Booth~
+You stand at the cashier's booth.  There is a gate to the north and a path back
+to the city of Ofcol to the south.  You see a small plaque here.
+~
+0 8 0
+D0
+~
+gate~
+1 10700 10702
+D2
+~
+~
+0 -1 10700
+E
+plaque~
+This area has been made for any Merc/Envy Mud, by Hatchet, 8/20/1995, using
+Slash's program, called Make Zones Fast.
+
+This area has been created as a tribute to the original immortals of Merc and 
+Envy.  Please don't just search and replace the names alluding to those 
+immortals.  If you wish, feel free to add your own rooms and mobs to reflect 
+your own immortals.
+
+					    Sincerely,
+					    Hatchet of Merc/Envy Muds
+~
+S
+#10702
+Inside the Entrance to Murky Land~
+You are inside the entrance to Murky Land.  Gaudy wallpaper covers all the 
+walls, and hay covers the floors.  A path leads north to the main grounds, and 
+a path south leads back to the entrance.
+~
+0 8 0
+D0
+~
+~
+0 -1 10703
+D1
+You find a hidden door!  The keyhole is quite circular, which is peculiar.
+~
+door hidden~
+1 10710 10722
+D2
+~
+gate~
+1 10700 10701
+S
+#10703
+A Room in Murky Land~
+You are standing in a room in Murky Land.  The same gaudy wallpaper and hay 
+make up the decorations of this place.  You get the feeling that the rest of 
+this place was designed with such a lack of taste.  The north leads you to the 
+murky creatures, the west leads you to the cafeteria, the east leads you to 
+the restrooms, and the south leads you out of this place.
+~
+0 8 0
+D0
+~
+~
+0 -1 10709
+D1
+~
+~
+0 -1 10704
+D2
+~
+~
+0 -1 10702
+D3
+~
+~
+0 -1 10707
+S
+#10704
+Restroom Hallway~
+You are standing to the restroom hallway.  The little boys room is to the 
+north and the little girls room is to the south.  A doorway west leads you 
+back.
+~
+0 8 0
+D0
+~
+door~
+1 -1 10705
+D2
+~
+door~
+1 -1 10706
+D3
+~
+~
+0 -1 10703
+S
+#10705
+Little Boys Room~
+You are in the little boys room.  And, yes, you guessed it, it's very messy, 
+with yellow streams along the floors and garbage cans filled with paper.
+~
+0 8 0
+D2
+~
+door~
+1 -1 10704
+S
+#10706
+Little Girls Room~
+You are in the little girls room.  Luckily, it's empty.  An exit leads back 
+north.
+~
+0 8 0
+D0
+~
+door~
+1 -1 10704
+S
+#10707
+Cafeteria~
+You are in the cafeteria.  Long tables and benches line this room.  The
+floors are littered with scraps of food and other undesirables.  The floors
+fare little better.  A door is to the north and an obvious exit leads back 
+east.
+~
+0 8 0
+D0
+~
+door~
+0 -1 10708
+D1
+~
+~
+0 -1 10703
+S
+#10708
+Kitchen~
+You are in the kitchen.  Boy, is this place messy!  You are happy you hadn't
+ordered any food while you were in the cafeteria.  Or, did you?  The door 
+leads back south.
+~
+0 0 1
+D2
+~
+door~
+0 -1 10707
+S
+#10709
+Along a Brick Path in Murky Land~
+You are on a brick-layered path in Murky Land.  Poor attempts at decoration
+makes you regret having paid the dough to get into this place.  The path 
+continues north, with branches to the east and west.  The path south leads 
+you out of here.
+~
+0 8 2
+D0
+~
+~
+0 -1 10718
+D1
+~
+~
+0 -1 10714
+D2
+~
+~
+0 -1 10703
+D3
+~
+~
+0 -1 10710
+S
+#10710
+Along a Path in Murky Land~
+You are along a path in Murky Land.  To the north, you can see a small 
+playpen.  To the south, you can see a dark hovel.  To the west, you see a 
+shiny room.  The path leads back east.
+~
+0 8 2
+D0
+~
+~
+0 -1 10711
+D1
+~
+~
+0 -1 10709
+D2
+~
+~
+0 -1 10712
+D3
+~
+~
+0 -1 10713
+S
+#10711
+Hatchling's and Iccy's Playpen~
+You are standing in Hatchling's and Iccy's Playpen.  There are piles and 
+piles toys here.  The sound of a music box can be heard from the walls.  The
+exit is to the south.
+~
+0 8 0
+D2
+~
+~
+0 -1 10710
+S
+#10712
+Fraggie's Dark Hovel~
+You are standing in Fraggie's Dark Hovel.  You realize with revulsion that
+this is nothing more than a spider web.  The exit, you are happy to find, is 
+to the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 10710
+S
+#10713
+KahnO's Hall of Mirrors~
+You are standing in KahnO's Hall of Mirrors.  Mirrors on every wall, floor,
+and ceiling reflect light, not to mention, bodies, all over the place.
+~
+0 8 0
+D1
+~
+~
+0 -1 10710
+S
+#10714
+Along a Path in Murky Land~
+You are along a path in Murky Land.  To the north, you see a dark, red room.
+To the south is a small kitchenette.  A path leads east to a starry room, and
+path leads back east to the main grounds.
+~
+0 8 2
+D0
+~
+~
+0 -1 10715
+D1
+~
+~
+0 -1 10717
+D2
+~
+~
+0 -1 10716
+D3
+~
+~
+0 -1 10709
+S
+#10715
+A Small Hell~
+You are in a Small Hell.  Smoke sizzles from red rocks, and coals char your
+feet as you walk by.  The exit is to the south.
+~
+0 8 0
+D2
+~
+~
+0 -1 10714
+S
+#10716
+Blinky's Kitchenette~
+You are in Blinky's Kitchenette.  Miniature pots and pans boil over a
+miniature oven.  A small table is littered with small pieces of vegetables,
+spices, and mixing bowls.  The exit is to the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 10714
+S
+#10717
+Atom's Little Galaxy~
+You hover magically in Atom's little galaxy.  Miniature stars whiz by you
+and comets tickle you as they burrow into your shorts.  The exit is to the
+west.
+~
+0 8 0
+D3
+~
+~
+0 -1 10714
+S
+#10718
+Along a Path in Murky Land~
+You are along a path in Murky Land.  You see a small temple to the north, a
+dump to the west, and an ash heap to the east.  The path leads back south.
+~
+0 8 0
+D0
+~
+~
+0 -1 10719
+D1
+~
+~
+0 -1 10721
+D2
+~
+~
+0 -1 10709
+D3
+~
+~
+0 -1 10720
+S
+#10719
+A Monk's Temple/Crackhouse~
+You are in a temple of some sorts.  Urns filled with smelly substances line 
+walls, and you smell the unmistakeable smoke of burning hemp.  The only exit
+leads south.
+~
+0 8 0
+D2
+~
+~
+0 -1 10718
+S
+#10720
+A Junkyard~
+You are in a junkyard, with sharp blades littering the floor.  The only exit 
+leads east.
+~
+0 8 0
+D1
+~
+~
+0 -1 10718
+S
+#10721
+An Ash Heap~
+You are in an ash heap.  Fires are burning all over this room.  You quickly
+dodge back to the exit to the west.
+~
+0 8 0
+D3
+~
+~
+0 -1 10718
+S
+#10722
+Behind the Hidden Door~
+Hah!  You knew this place was too good to be true.  A dump like this Murky
+Land must have some skeletons hiding in some closets.  You ponder if you
+should go look for any, though, and consider turning back.
+The door leads back west, and a dark stairway leads down.
+~
+0 1|8 0
+D3
+~
+door hidden~
+1 10710 10702
+D5
+~
+~
+0 -1 10723
+S
+#10723
+Beneath Murky Land~
+You are beneath Murky Land.  The walls here are all made of hardwood, with
+lighted torches spaced every ten feet.  To the north, you can hear the
+hustle and bustle of people!  A ladder leads back up.
+~
+0 8 0
+D0
+~
+~
+0 -1 10724
+D4
+~
+~
+0 -1 10722
+S
+#10724
+Inside a Tavern~
+You are inside a tavern.  By the look of things and of the patrons, you 
+suspect that most of them aren't on the good side of the law.  Signs 
+point south to the exit, west to rented rooms, north to the bar, and east to
+the private employee rooms.  There is a large table with chairs in the center
+of this room.
+~
+0 8 0
+D0
+~
+~
+0 -1 10736
+D1
+~
+door~
+8 10758 10737
+D2
+~
+~
+0 -1 10723
+D3
+~
+~
+0 -1 10725
+S
+#10725
+The Shady Rooms Counter~
+You are at the counter for renting rooms.  A hallway leads west, and the main
+room of the tavern is to the east.
+~
+0 8 0
+D1
+~
+~
+0 -1 10724
+D3
+~
+~
+0 -1 10726
+S
+#10726
+A Hallway~
+You are in a hallway.  Room A is to the north, Room B is to the south, and 
+the hallways continues east and west.
+~
+0 8 0
+D0
+~
+door~
+1 10723 10727
+D1
+~
+~
+0 -1 10725
+D2
+~
+door~
+1 10724 10728
+D3
+~
+~
+0 -1 10729
+S
+#10727
+Room A~
+You are in a room.  You are NOT impressed with the feeble furnishings of a
+smelly bed and chair.  The exit is to the south.
+~
+0 8 0
+D2
+~
+door~
+1 10723 10726
+S
+#10728
+Room B~
+You are in a room, sparsely furnished, like the rest, with a smelly bed and 
+a chair.  The exit is north.
+~
+0 8 0
+D0
+~
+door~
+1 10724 10726
+S
+#10729
+A Hallway~
+You are in a hallway.  To the north is room C, and to the south is room D.
+The hallway continues east and west.
+~
+0 8 0
+D0
+~
+door~
+1 10725 10730
+D1
+~
+~
+0 -1 10726
+D2
+~
+door~
+1 10726 10731
+D3
+~
+~
+0 -1 10732
+S
+#10730
+Room C~
+You are in a room, sparsely furnished with a smelly bed and a chair.  The
+exit is to the south.
+~
+0 8 0
+D2
+~
+door~
+1 10725 10729
+S
+#10731
+Room D~
+You are in a room.  The bed is set on it's side, and a chair lies shattered 
+against a wall.  The exit is to the north.
+~
+0 8 0
+D0
+~
+door~
+1 10726 10729
+S
+#10732
+At the End of the Hallway~
+You are in a hallway.  North of you is room E, south is room F, and west
+is room G.  The hallway leads back west.
+~
+0 8 0
+D0
+~
+door~
+1 10727 10733
+D1
+~
+~
+0 -1 10729
+D2
+~
+door~
+1 10728 10734
+D3
+~
+door~
+1 10729 10735
+S
+#10733
+Room E~
+You are in a room.  There is a smelly bed and a chair in this room, nothing
+more.  The exit is to the south.
+~
+0 8 0
+D2
+~
+door~
+1 10727 10732
+S
+#10734
+Room F~
+You are in a messy room, furnished with a smelly bed and a chair.  The exit
+is to the north.
+~
+0 8 0
+D0
+~
+door~
+1 10728 10732
+S
+#10735
+Room G~
+You are in a small room, furnished with a desk, a small bed, and a chair.
+The exit is to the east.
+~
+0 8 0
+D1
+~
+door~
+1 10729 10732
+S
+#10736
+The Bar~
+You are at the bar.  Spilled beer and other liquids cover the chairs and 
+the floor.  At least the counter looks clean, but that's only because the
+lady bartender has so little to do.  The main room of the tavern is back
+south.
+~
+0 8 0
+D2
+~
+~
+0 -1 10724
+S
+#10737
+Hallway~
+You are on the employees only side of the tavern.  A hallway leads east, with
+rooms along the way.  There is a room north and south of here.  A door leads
+back west to the main room of the tavern.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10738
+D1
+~
+~
+0 -1 10740
+D2
+~
+door~
+1 10758 10739
+D3
+~
+door~
+8 10758 10724
+S
+#10738
+An Office~
+You are in an office.  The exit is to the south.
+~
+0 8 0
+D2
+~
+door~
+1 10758 10737
+E
+desk~
+The desk is quite old.  The wood grain pattern looks a bit peculiar, for
+some reason.
+~
+E
+wood grain pattern~
+Upon further inspection, you realize the peculiarity is that there is a
+hidden panel along the side of the desk!
+~
+S
+#10739
+A Holding Room~
+You are in a holding room.  There isn't much here except some sacks, cords,
+and blindfolds.  You can smell the stink of fear.  The exit is to the north.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10737
+S
+#10740
+A Hallway~
+You are in a hallway, which leads east and west.  Rooms are to the north and
+south.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10741
+D1
+~
+~
+0 -1 10743
+D2
+~
+door~
+1 10758 10742
+D3
+~
+~
+0 -1 10737
+S
+#10741
+An Office~
+You are in an office.  The exit is to the south.
+~
+0 8 0
+D2
+~
+door~
+1 10758 10740
+S
+#10742
+An Office~
+You are standing in an office.  The exit is to the north.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10740
+S
+#10743
+The End of the Hallway~
+You are at the end of the hallway, which leads back west.  Doorways are to
+the north and south.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10745
+D2
+~
+door~
+1 10758 10744
+D3
+~
+~
+0 0 10740
+S
+#10744
+A Holding Room~
+You are in a holding room.  The stench of fear and of body fluids assaults
+your nose.  The exit is to the north.
+~
+0 8 0
+D0
+~
+door~
+1 10758 10743
+S
+#10745
+An Empty Hallway~
+You are standing in an empty hallway, which leads north.  There is a door
+to the south.
+~
+0 8 0
+D0
+~
+~
+0 -1 10746
+D2
+~
+door~
+1 10758 10743
+S
+#10746
+Hallway~
+You are in a hallway, which goes north and south.  Strangely, when you 
+step in this hallway, you hear a soft click and feel a slight twist.
+~
+0 8 0
+D0
+~
+~
+0 -1 10747
+D2
+~
+~
+0 -1 10748
+S
+#10747
+At the End of a Hallway~
+You are at the end of a hallway, which leads back south.
+~
+0 8 0
+D2
+~
+door~
+0 10758 10746
+S
+#10748
+An Empty Hallway~
+You are standing in an empty hallway, which leads north.  There is a door
+to the south.
+~
+0 8 0
+D0
+~
+~
+0 -1 10749
+D2
+~
+door~
+1 10758 10743
+S
+#10749
+Hallway~
+You are in a hallway, which goes north and south.  Strangely, when you 
+step in this hallway, you hear a soft click and feel a slight twist.
+~
+0 8 0
+D0
+~
+~
+0 -1 10750
+D2
+~
+~
+0 -1 10745
+S
+#10750
+At the End of a Hallway~
+You are at the end of a hallway, which leads back south.
+~
+0 8 0
+D0
+~
+door secret~
+8 10766 10751
+D2
+~
+~
+0 -1 10749
+S
+#10751
+A Dark Room~
+You are in a Dark Room.  Very evidently, this is not part of the tavern.
+Stone steps lead down and a door leads back south.
+~
+0 8 0
+D2
+~
+door secret~
+8 10766 10750
+D5
+~
+~
+0 -1 10752
+S
+#10752
+Lower Chambers~
+You are at the lower chambers, below the tavern.  Stonework covers the walls,
+and dim torches light your way.  Exits lead in the cardinal directions and 
+back up.
+~
+0 8 0
+D0
+~
+~
+0 -1 10768
+D1
+~
+~
+0 -1 10756
+D2
+~
+~
+0 -1 10753
+D3
+~
+~
+0 -1 10761
+D4
+~
+~
+0 -1 10751
+S
+#10753
+A Dark Hallway~
+You are standing in a dark hallway that leads north and south.  A dim light
+is to the north, while total darkness is to the south.
+~
+0 8 0
+D0
+~
+~
+0 -1 10752
+D2
+~
+~
+0 -1 10754
+S
+#10754
+A Dark Hallway~
+You are standing in a dark hallway.  A very dim light is to the north, and
+total darkness is to the south.  You can make out the outline of a vast 
+doorway to the south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10753
+D2
+~
+~
+0 -1 10755
+S
+#10755
+Shadow Dragon's Lair~
+You are in a big spacious room.  Darkest obsidian line the walls, and the 
+floors are black soot, pocked with many holes.  The only exit is south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10754
+S
+#10756
+A Dark Hallway~
+You are standing in a dark hallway, which leads east and west.  You can see
+a dim light to the west, and total darkness to the east.  There are doors to
+the north and south.
+~
+0 8 0
+D0
+~
+door~
+1 -1 10759
+D1
+~
+~
+0 -1 10757
+D2
+~
+door~
+1 -1 10760
+D3
+~
+~
+0 -1 10752
+S
+#10757
+A Dark Hallway~
+You are standing in a dark hallway.  You can see a very dim light to the west
+and total darkness to the east.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 10758
+D3
+~
+~
+0 -1 10756
+S
+#10758
+The Altar of the Shadow Demon~
+You are standing at an altar.  A throne is at the end of the room, and a
+large vat of acid rises out of the center of the room.  The only exit is to
+the west.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10766
+D1
+~
+~
+0 -1 10766
+D2
+~
+~
+0 -1 10766
+D3
+~
+~
+0 -1 10757
+D4
+~
+~
+0 -1 10766
+D5
+~
+~
+0 -1 10766
+S
+#10759
+A Library~
+You are in a library of sorts.  Scrolls, mostly damaged, litter shelves and
+tables.  There is an exit south.
+~
+0 1|8 0
+D2
+~
+door~
+1 -1 10756
+S
+#10760
+A Laboratory~
+You are in a dark laboratory.  Bubbling potions sit on lightless burners and 
+steam rises from a pot in the center of the room.  There is an exit north.
+~
+0 1|8 0
+D0
+~
+door~
+1 -1 10756
+S
+#10761
+A Dark Hallway~
+You are standing in a dark hallway.  A dim light is to the east and total
+darkness is to the west.  Doors lead north and south.
+~
+0 8 0
+D0
+~
+door~
+1 -1 10764
+D1
+~
+~
+0 -1 10752
+D2
+~
+door~
+1 -1 10765
+D3
+~
+~
+0 -1 10762
+S
+#10762
+A Dark Hallway~
+You are standing in a dark hallway.  A very dim light can be seen to the
+east and total darkness is to the west.
+~
+0 1|8 0
+D1
+~
+~
+0 -1 10761
+D3
+~
+~
+0 -1 10763
+S
+#10763
+The Altar of the Shadow Demon~
+You are standing in an altar.  There is a throne at the far end of this room
+and a spiked table in the center of this altar.  The exit is to the east.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10767
+D1
+~
+~
+0 -1 10762
+D2
+~
+~
+0 -1 10767
+D3
+~
+~
+0 -1 10767
+D4
+~
+~
+0 -1 10767
+D5
+~
+~
+0 -1 10767
+S
+#10764
+A Scribing Room~
+You are in a room filled with papers.  A large table is against the far
+wall, with a large chair before it.  There is a door south.
+~
+0 1|8 0
+D2
+~
+door~
+1 -1 10761
+S
+#10765
+A Weapon Room~
+You are in a room filled with scattered weapons.  There is an exit north.
+~
+0 1|8 0
+D0
+~
+door~
+1 -1 10761
+S
+#10766
+A Nether Room~
+You are floating in the Nether.  You are completely disoriented.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10767
+D1
+~
+~
+0 -1 10771
+D2
+~
+~
+0 -1 10767
+D3
+~
+~
+0 -1 10758
+D4
+~
+~
+0 -1 10758
+D5
+~
+~
+0 -1 10771
+S
+#10767
+A Nether Room~
+You are floating in the Nether.  You are completely disoriented.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10766
+D1
+~
+~
+0 -1 10763
+D2
+~
+~
+0 -1 10766
+D3
+~
+~
+0 -1 10771
+D4
+~
+~
+0 -1 10771
+D5
+~
+~
+0 -1 10763
+S
+#10768
+A Dark Hallway~
+You are standing in a dark hallway.  A dim light can be seen to the south, 
+and total darkness is to the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 10769
+D2
+~
+~
+0 -1 10752
+S
+#10769
+A Dark Hallway~
+You are standing in a dark hallway.  You can see a very dim light to the 
+south and total darkness to the north.  You can, however, make out a very
+ornate doorway to the north.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10770
+D2
+~
+~
+0 -1 10768
+S
+#10770
+The Altar of the Shadow Lord~
+You are standing in a vast chamber.  An immense, dark throne towers over you
+and dark creatures move around the room.  The only obvious exit is to the
+south.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10771
+D1
+~
+~
+0 -1 10771
+D2
+~
+~
+0 -1 10769
+D3
+~
+~
+0 -1 10771
+D4
+~
+~
+0 -1 10771
+D5
+~
+~
+0 -1 10771
+S
+#10771
+A Nether Room~
+You are floating in the Nether.  You are completely disoriented.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 10770
+D1
+~
+~
+0 -1 10767
+D2
+~
+~
+0 -1 10770
+D3
+~
+~
+0 -1 10766
+D4
+~
+~
+0 -1 10766
+D5
+~
+~
+0 -1 10767
+S
+#0
+
+
+#RESETS
+*
+* This area has been made by Hatchet for any Merc/Envy Mud.
+* This area has been written with MZF, made by Slash.
+* 8/20/95
+*
+R 1 10766 6            Let's mix up these Nether Rooms!
+R 1 10767 6            Let's mix up these Nether Rooms!
+R 1 10771 6            Let's mix up these Nether Rooms!
+*
+M 1 10700 1 10701       a bored cashier to At the Cashier's Booth
+E 1 10701 100 16
+G 1 10700 100
+*
+M 1 10701 1 10702       the Greeter/Bouncer to A room
+E 1 10701 100 16
+D 1 10701 0 2   ; At the Cashier's Booth Lock North
+D 1 10702 2 2   ; Inside the Entrance to Murky Land Lock South
+*
+M 1 10702 1 10711       a Hatchling to Hatchling's and Iccy's Playpen
+E 1 10702 100 16
+E 1 10704 100 1
+*
+M 1 10703 1 10711       Iccy to Hatchling's and Iccy's Playpen
+E 1 10703 100 16
+E 1 10704 100 1
+*
+*
+M 1 10705 1 10712       Fraggie to Fraggie's Dark Hovel
+E 1 10706 100 5
+*
+M 1 10704 1 10713       KahnO, predecesser of KahnI to KahnO's Hall of Mirrors
+E 1 10705 100 16
+*
+M 1 10706 1 10708       the cook to Kitchen
+E 1 10708 100 13
+E 1 10707 100 16
+*
+M 1 10707 1 10707       the cafeteria counterperson to Cafeteria
+E 1 10708 100 13
+E 1 10701 100 16
+G 1 10709 100
+G 1 10710 100
+G 1 10711 100
+G 1 10712 100
+G 1 10713 100
+*
+M 1 10708 1 10715       an unspawned demon to A Small Hell
+*
+M 1 10709 1 10715       a morphing blob to A Small Hell
+*
+M 1 10710 1 10716       Blinky to Blinky's Kitchenette
+E 1 10707 100 16
+*
+M 1 10711 1 10717       the unmixed Atom to Atom's Little Galaxy
+*
+M 1 10718 1 10718       the little \/\/ildrunner to Along a Path in Murky Land
+E 1 10734 100 8
+*
+M 1 10712 1 10719       Little Dave, the evil Monk to A Monk's Temple/Crackhouse
+G 1 10716 100
+G 1 10717 100
+G 1 10718 100
+G 1 10719 100
+G 1 10720 100
+*
+M 1 10713 1 10720       a little boy to A Junkyard
+E 1 10714 100 16
+*
+M 1 10714 1 10721       a little girl to An Ash Heap
+E 1 10715 100 17
+*
+M 1 10715 1 10722       a big bruiser to Behind the Hidden Door
+E 1 10722 100 12
+E 1 10721 100 16
+D 1 10702 1 2   ; Inside the Entrance to Murky Land Lock East
+D 1 10722 3 2          ; Behind the Hidden Door Lock West
+D 1 10727 2 2          ; Room A Lock South
+D 1 10726 0 2          ; A Hallway Lock North
+D 1 10726 2 2          ; A Hallway Lock South
+D 1 10728 0 2          ; Room B Lock North
+D 1 10729 0 2          ; A Hallway Lock North
+D 1 10730 2 2             ; Room C Lock South
+D 1 10729 2 2          ; A Hallway Lock South
+D 1 10731 0 2             ; Room D Lock North
+D 1 10733 2 2             ; Room E Lock South
+D 1 10734 0 2             ; Room F Lock North
+D 1 10732 0 2             ; At the End of the Hallway Lock North
+D 1 10732 2 2             ; At the End of the Hallway Lock South
+D 1 10735 1 2             ; Room G Lock East
+D 1 10732 3 2             ; At the End of the Hallway Lock West
+O 1 10730 100 10727     a smelly bed to Room A
+O 1 10731 100 10727     a chair to Room A
+O 1 10730 100 10728     a smelly bed to Room B
+O 1 10731 100 10728     a chair to Room B
+O 1 10735 100 10730     a chair to Room C
+P 1 10729 100 10735     key G to a chair
+O 1 10730 100 10730     a smelly bed to Room C
+O 1 10730 100 10731     a smelly bed to Room D
+*
+M 1 10716 1 10731       a madman to Room D
+E 1 10731 100 16
+O 1 10730 100 10733     a smelly bed to Room E
+O 1 10736 100 10733     a chair to Room E
+P 1 10737 100 10736     a note to a chair
+O 1 10732 100 10734     a smelly bed to Room F
+P 1 10726 100 10732     key D to smelly bed
+M 1 10719 1 10734       the hermophroditic prostitute to Room F
+O 1 10731 100 10734     a chair to Room F
+O 1 10730 100 10735     a smelly bed to Room G
+O 1 10731 100 10735     a chair to Room G
+*
+M 1 10717 1 10725             the roomskeeper to The Shady Rooms Counter
+E 1 10721 100 16
+G 1 10723 100
+G 1 10724 100
+G 1 10725 100
+G 1 10727 100
+G 1 10728 100
+O 1 10733 100 10735        a desk to Room G
+*
+M 1 10720 1 10735             a weaslly-looking man to Room G
+E 1 10738 100 12
+G 1 10742 100
+G 1 10741 100
+G 1 10740 100
+G 1 10739 100
+*
+M 1 10721 1 10724             a serving wench to Inside a Tavern
+E 1 10757 100 16
+G 1 10747 100
+G 1 10746 100
+G 1 10745 100
+G 1 10744 100
+G 1 10743 100
+*
+M 1 10722 1 10724             a gruff warrior to Inside a Tavern
+E 1 10749 100 5
+E 1 10748 100 16
+*
+M 1 10723 1 10736             the lady bartender to The Bar
+E 1 10757 100 16
+G 1 10756 100
+G 1 10755 100
+G 1 10754 100
+G 1 10753 100
+G 1 10752 100
+G 1 10751 100
+G 1 10750 100
+G 1 10746 100
+*
+M 1 10724 3 10704              a shade to Restroom Hallway
+*
+M 1 10724 3 10723              a shade to Beneath Murky Land
+*
+M 1 10724 3 10732              a shade to At the End of the Hallway
+*
+M 1 10726 1 10710              a little brat to Along a Path in Murky Land
+G 1 10758 100
+*
+M 1 10727 1 10736              an old man to The Bar
+E 1 10738 100 12
+E 1 10757 100 16
+G 1 10753 100
+*
+M 1 10728 1 10736              a lady mercenary to The Bar
+E 1 10749 100 5
+E 1 10760 100 11
+E 1 10759 100 16
+G 1 10750 100
+*
+M 1 10729 1 10724              an employee to Inside a Tavern
+E 1 10757 100 16
+D 1 10737 3 2             ; Hallway Lock West
+D 1 10724 1 2          ; Inside a Tavern Lock East
+*
+M 1 10725 1 10737              a shade sentry to Hallway
+D 1 10738 2 2             ; An Office Lock South
+D 1 10737 0 2             ; Hallway Lock North
+O 1 10761 100 10738            a hidden panel to An office
+P 1 10762 100 10761            an ivory bracelet in a hidden panel
+D 1 10739 0 2             ; A Holding Room Lock North
+D 1 10737 2 2             ; Hallway Lock South
+D 1 10741 2 2             ; An Office Lock South
+D 1 10740 0 2             ; A Hallway Lock North
+D 1 10742 0 2             ; An Office Lock North
+D 1 10740 2 2		  ; A Hallway Lock South
+O 1 10733 100 10741               a desk to An Office
+O 1 10733 100 10742               a desk to An Office
+D 1 10744 0 2             ; A Holding Room Lock North
+D 1 10743 2 2             ; The End of the Hallway Lock South
+*
+M 1 10730 5 10744                 a tied victim to A Holding Room
+*
+M 1 10731 1 10742                 an employee to An Office
+E 1 10721 100 16
+*
+M 1 10732 1 10742                 a shade to An Office
+D 1 10745 2 2              ; An Empty Hallway Lock South
+D 1 10748 2 2              ; An Empty Hallway Lock South
+D 1 10743 0 2             ; The End of the Hallway Lock North
+O 1 10763 100 10745                an eagle statuette to An Empty Hallway
+O 1 10763 100 10747                an eagle statuette to At the End of a Hallway
+O 1 10764 100 10748                an eagle statuette to An Empty Hallway
+O 1 10765 100 10750                an eagle statuette to At the End of a Hallway
+P 1 10766 100 10765                a black key in an eagle statuette
+D 1 10751 2 2                ; A Dark Room Lock South
+D 1 10750 0 2                ; At the End of a Hallway Lock North
+*
+M 1 10733 1 10751            a shadow warrior to A Dark Room
+E 1 10768 100 5
+E 1 10769 100 6
+E 1 10770 100 7
+E 1 10773 100 10
+E 1 10767 100 16
+*
+M 1 10733 2 10754            a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+*
+M 1 10733 1 10754            a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+*
+M 1 10734 1 10755                     Shadow Dragon to Shadow Dragon's Lair
+E 1 10776 100 17
+O 1 10777 100 10755                   a large pile of coins to Shadow Dragon's Lair
+*
+*
+M 1 10733 1 10757                     a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10769 100 6
+E 1 10770 100 7
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+D 1 10759 2 1			; A Library Close South
+D 1 10756 0 1                  ; A Dark Hallway Close North
+D 1 10760 0 1			; A Laboratory Close North
+D 1 10756 2 1                  ; A Dark Hallway Close South
+D 1 10764 2 1			; A Scribing Room Close South
+D 1 10761 0 1			; A Dark Hallway Close North
+D 1 10765 0 1			; A Weapon Room Close North
+D 1 10761 2 1			; A Dark Hallway Close South
+*
+M 1 10733 1 10762			a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+*
+M 1 10733 2 10769			a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+*
+M 1 10733 2 10769			a shadow warrior to A Dark Hallway
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10767 100 16
+*
+M 1 10739 1 10758			the sacrificial victim to The Altar of the Shadow Demon
+*
+M 1 10740 1 10758			the torturer to The Altar of the Shadow Demon
+E 1 10778 100 17
+*
+M 1 10739 1 10763			the sacrificial victim to The Altar of the Shadow Demon
+*
+M 1 10741 1 10763			the torturer to The Altar of the Shadow Demon
+E 1 10757 100 16
+*
+M 1 10739 1 10770			the sacrificial victim to The Altar of the Shadow Lord
+*
+M 1 10742 1 10770			the torturer to The Altar of the Shadow Lord
+E 1 10779 100 17
+*
+M 1 10743 1 10758			the Shadow Demon to The Altar of the Shadow Demon
+E 1 10780 100 16
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10781 100 12
+*
+M 1 10744 1 10763			the Shadow Demon to The Altar of the Shadow Demon
+E 1 10780 100 16
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10781 100 12
+*
+M 1 10745 1 10770			the Shadow Lord to The Altar of the Shadow Lord
+E 1 10768 100 5
+E 1 10770 100 7
+E 1 10771 100 8
+E 1 10772 100 9
+E 1 10773 100 10
+E 1 10774 100 11
+E 1 10775 100 16
+E 1 10781 100 12
+*
+M 1 10735 1 10759			the shadow librarian to A Library
+E 1 10781 100 12
+G 1 10741 100
+G 1 10782 100
+G 1 10783 100
+*
+M 1 10736 1 10760			the shadow conjurer to A laboratory
+E 1 10781 100 12
+G 1 10786 100
+G 1 10785 100
+G 1 10784 100
+*
+M 1 10737 1 10764			the shadow scriber to A Scribing Room
+E 1 10781 100 12
+G 1 10789 100
+G 1 10788 100
+G 1 10787 100
+*
+M 1 10738 1 10765			the shadow enchanter to A Weapon Room
+E 1 10781 100 12
+E 1 10790 100 16
+G 1 10791 100
+G 1 10767 100
+S
+
+
+#SHOPS
+10700 0 0 0 0 0 100 100 0 23
+10707 0 0 0 0 0 100 100 0 23
+10712 0 0 0 0 0 100 100 0 23
+10717 0 0 0 0 0 1000 100 0 23        This guy charges alot for keys to the rooms, but that's the point.
+10720 0 0 0 0 0 1000 100 0 23        He charges a lot for his information
+10721 0 0 0 0 0 110 100 0 23
+10723 0 0 0 0 0 110 100 0 23
+10726 0 0 0 0 0 1000 100 0 23             all he has is the stupid skeleton key.
+0
+
+
+#SPECIALS
+M  10700 spec_cast_judge                        a bored cashier
+M  10701 spec_repairman                 the Greeter/Bouncer
+M  10704 spec_thief                     KahnO, predecesser of KahnI
+M  10705 spec_poison                    Fraggie
+M  10708 spec_cast_undead                       an unspawned demon
+M  10709 spec_cast_undead                       a morphing blob
+M  10710 spec_thief                     Blinky
+M  10712 spec_cast_psionicist                   Little Dave, the evil Monk
+M  10718 spec_thief                     the little \/\/ildrunner
+M  10720 spec_cast_mage                 a weaslly-looking man
+M  10724 spec_cast_undead                       a shade
+M  10725 spec_cast_undead                       a shade sentry
+M  10727 spec_cast_mage                 an old man
+M  10732 spec_cast_undead                       a shade
+M  10733 spec_cast_undead                       a shadow warrior
+M  10734 spec_breath_acid                       Shadow Dragon
+M  10735 spec_cast_judge			the shadow librarian
+M  10736 spec_cast_cleric			the shadow conjurer
+M  10737 spec_cast_psionicist			the shadow scriber
+M  10738 spec_cast_mage			the shadow enchanter
+M  10740 spec_cast_undead			the torturer
+M  10741 spec_cast_undead			the torturer
+M  10742 spec_cast_undead			the torturer
+M  10743 spec_cast_undead			the Shadow Demon
+M  10744 spec_cast_undead			the Shadow Demon
+M  10745 spec_cast_undead			the Shadow Lord
+S
+
+
+#$

@@ -1,0 +1,43 @@
+Nm          Thief~
+WhoNm       &+yThief&n~
+Cla         5
+AtrPrm      2
+Wpn         210
+Guild       3028
+Sklladpt    95
+Thac0       18
+Thac47      3
+Hpmin       7
+Hpmax       14
+Mana        0
+Skll         1 '1h piercing'
+Skll         1 '2h piercing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h slashing'
+Skll         1 '1h misc'
+Skll         1 'backstab'
+Skll         1 'circle'
+Skll        31 'disarm'
+Skll         1 'dual wield'
+Skll         1 'dodge'
+Skll         1 'hide'
+Skll         1 'peek'
+Skll         1 'pick lock'
+Skll        11 'poison weapon'
+Skll         1 'scrolls'
+Skll        11 'second attack'
+Skll        21 'snare'
+Skll         1 'sneak'
+Skll         1 'staves'
+Skll        21 'steal'
+Skll        51 'third attack'
+Skll        21 'untangle'
+Skll         1 'wands'
+Skll        26 'shield block'
+Skll        26 'fast healing'
+Skll         1 'track'
+Skll         1 'dirt kicking'
+Skll         1 'swim'
+Skll         1 'carve'
+Skll        36 'parry'
+End

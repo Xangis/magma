@@ -1,0 +1,3426 @@
+#AREA     {15 35} Andi    The Astral Plane~
+
+
+
+#MOBILES
+#1900
+astral guardian~
+The Astral Guardian~
+A grey figure guards the entrance to the astral plane.
+~
+You see a slate grey vaguely humanoid shape, devoid of any true features.
+It stands before you with arms folded, seemingly uninterested in you.
+~
+1|2|64 8|32|128|8192 0 S
+37 -20 -15 37d37+370 8d12+100
+100000 600000
+8 human~ 0
+#1901
+nightmare~
+A pitch-black nightmare~
+A nightmare is here, kicking at you with its flaming hooves.
+~
+The nightmare is a wholly evil being, sent out by the rulers of the lower 
+planes to torment mortals.  It vaguely resembles a horse, with a hide blacker
+than the darkest night, and hooves that burn with unholy fires.
+~
+1|32|64 8|512|524288 -1000 S
+18 2 -2 18d18+180 5d3+10
+6000 32000
+8 animal~ 0
+#1902
+night hag~
+An evil night hag~
+A night hag reaches out to steal your soul.
+~
+You see a shadowy creature with long talons and an evil grin, whose sole 
+purpose is to hunt down and slay mortals in order to obtain souls for her foul
+master to torment.
+~
+1|4|32|64 8|512 -1000 S
+24 0 -1 24d24+240 5d5+5
+12500 67500
+8 undead~ 2
+#1903
+stalker invisible~
+An invisible stalker~
+You see a wavy distortion in the air.
+~
+You see only a wavy distortion in the air.  You reach out to touch it, and
+feel nothing, not even the slightest of motions.
+~
+1|64 2|524288 200 S
+17 3 0 17d17+170 2d7+6
+1000 19000
+8 undead~ 0
+#1904
+soulless one~
+A poor soulless being~
+The soulless one wanders mindlessly.
+~
+This unfortunate being has had its very soul torn from its body.  It now roams
+mindlessly, unaware of its surroundings.
+~
+1|64|128 0 0 S
+10 8 5 10d10+100 1d6+2
+250 7500
+8 undead~ 0
+#1905
+githyanki hunter~
+A githyanki hunter~
+A githyanki hunter searches for signs of the githzerai.
+~
+You see a leathery-skinned humanoid creature that stands almost as tall as a
+normal man.  Like all githyanki, his teeth are fanged and his eyes hollow
+and sunken.
+~
+1|4|64|128 512 -500 S
+11 6 6 11d11+110 1d5+4
+1000 8000
+8 githyanki~ 1
+#1906
+githyanki warrior~
+A githyanki warrior~
+You see a humanoid figure clad in splinted armor.
+~
+You see a leathery-skinned humanoid creature that stands as tall as a normal
+man.  Like all githyanki, his teeth are fanged and his eyes hollow and sunken.
+He is clad in ornately designed splinted armor, and wields a sword that
+whistles through the air as it slices towards your neck.
+~
+1|4|64 512 -500 S
+15 4 6 15d15+150 1d5+6
+2500 15000
+8 githyanki~ 1
+#1907
+githyanki guardian~
+A githyanki guardian~
+A humanoid figure clad in splinted armor blocks your way.
+~
+You see a leathery-skinned humanoid creature that stands as tall as a normal
+man.  Like all githyanki, his teeth are fanged and his eyes hollow and sunken.
+He is clad in ornately designed splinted armor, and wields a sword that
+whistles through the air as it slices towards your neck.
+~
+1|2|4|32 512 -500 S
+15 4 6 15d15+150 1d5+6
+6000 15000
+8 githyanki~ 1
+#1908
+githyanki knight~
+A githyanki knight~
+A tall figure armored in black observes you quietly.
+~
+You see a leathery-skinned humanoid creature that stands a full foot taller
+than a normal man.  His features are obscured by a suit of ornately designed
+splinted armor -- you only hear the hissing of his breath and the scraping
+of his sword against its scabbard as it is unsheathed.
+~
+1|4|64 512 -750 S
+25 -2 6 25d25+250 1d5+15
+10000 90000
+8 githyanki~ 1
+#1909
+githyanki protector~
+A githyanki protector~
+A black knight of the githyanki protects his queen.
+~
+You see a leathery-skinned humanoid creature that stands a full foot taller
+than a normal man.  His features are obscured by a suit of ornately designed
+splinted armor -- you only hear the hissing of his breath and the scraping
+of his sword against its scabbard as it is unsheathed.
+~
+1|2|4|32 512 -750 S
+25 -2 6 25d25+250 1d5+15
+10000 90000
+8 githyanki~ 1
+#1910
+githyanki gish~
+An evil gish~
+A small githyanki laughs at your through fanged teeth.
+~
+You see a leathery-skinned humanoid creature that stands nearly as tall as a
+normal man.  Like all githyanki, his teeth are fanged and his eyes hollow and
+sunken.  The gish are well-versed in the arcane arts, unlike the normal gith
+people.  You notice this from the blast of lightning headed towards you.
+~
+1|4|64|128 512 -600 S
+11 6 6 11d11+110 1d5+2
+3000 12500
+8 githyanki~ 1
+#1911
+githyanki gish~
+An evil gish~
+A gish laughs as flame leaps from his hands towards your face.
+~
+You see a leathery-skinned humanoid creature that stands nearly as tall as a
+normal man.  Like all githyanki, his teeth are fanged and his eyes hollow and
+sunken.  The gish are well-versed in the arcane arts, unlike the normal gith
+people.  You notice this from the blast of lightning headed towards you.
+~
+1|4|32|64 512 -600 S
+11 6 6 11d11+110 1d5+2
+3000 12500
+8 githyanki~ 1
+#1912
+githyanki warlock~
+A warlock of the Gith~
+A humanoid figure stands here, holding a silvery sword.
+~
+You see a leathery-skinned creature, clad all in black and bearing a silvery-
+colored sword.  Like all githyanki, his teeth are fanged and his eyes hollow
+and sunken.  As you turn to flee, you feel the impact of a fireball against
+your back.
+~
+1|32|64 8|16|512 -900 S
+20 0 2 20d20+200 1d5+8
+10000 55000
+8 githyanki~ 1
+#1913
+githyanki lich queen~
+The lich-queen~
+The evil lich-queen of the Gith reaches out to destroy you.
+~
+The lich-queen of the githyanki was once human, but no longer.  Her skin has
+completely shrunken around her skull, held together solely by the force of
+unholy magic and the powers of this plane of existence.  The cold glare of her
+hollow eyes sends you into paroxysms of fright.
+~
+1|2|32 8|16|32|128|512 -1000 S
+30 -8 -8 30d30+300 4d5+20
+100000 475000
+8 githyanki~ 2
+#1914
+lord gith~
+Lord Gith~
+Lord Gith suddenly forms from a cloud of blackness.
+He stares right through you with deadly, cold eyes.
+~
+Lord Gith is the dead savior of the githyanki people, the warrior who led them
+to freedom from their former enslavers, the mind flayers.  He has been dead
+for centuries and stands before you now due to an unholy alliance with powers
+beyond mortal ken.
+
+He gestures towards you.  You feel your heart tremble and your throat begin
+to tighten.  You are about to die.
+~
+1|2|32 2|8|32|512 -1000 S
+35 -15 -10 35d35+350 10d3+50
+5000 750000
+8 githyanki~ 1
+#1915
+ghost~
+An insubstantial ghost~
+A ghost wanders here, intent on destroying all life.
+~
+The ghost makes no sound.  It is a shadowy shell of its former self, cursed
+now to roam forever without rest.  The mind of this creature has been twisted
+and destroyed in this torment, and it now envys and intends to destroy all the
+true living beings it encounters, including you.
+~
+1|32|64 512|524288|1048576 -1000 S
+16 2 0 16d16+160 2d9+2
+1000 19000
+8 undead~ 0
+#1916
+githzerai prisoner~
+An imprisoned githzerai~
+A githzerai plots his escape plan.
+~
+You see a conniving humanoid, a descendant of a race of humans once enslaved
+by the mindflayers and related to the githyanki.  Unfortunately, the two races
+are bitter enemies, and this one happened to get caught.  He intends to escape.
+~
+1|64 512 -350 S
+10 8 8 10d10+100 1d4+4
+0 6000
+8 githyanki~ 1
+#1917
+mindflayer prisoner~
+A tortured mindflayer prisoner~
+A mindflayer lies here, scarred from the torture inflicted by the Gith.
+~
+You see a formerly tall humanoid creature, with four tentacles hanging from the
+middle of its head.  It is hunched over, bent and scarred from torture inflicted
+by the githyanki.  It cringes as you approach.
+~
+1|2 0 0 S
+8 13 2 8d8+80 2d4+3
+0 3000
+8 mindflayer~ 0
+#1918
+dragon red slave~
+The enslaved red dragon~
+A giant red dragon is chained here, his breath heating the furnace.
+~
+The mighty scaled beast has been magically bound and subdued by the residents
+of the keep.  Nevertheless, he is still an impressive sight, some twenty feet
+in length with an even more massive wingspan.  He watches you, smoke drifting
+from his open mouth.
+~
+1|2 8|512 -500 S
+28 -3 -6 28d28+280 3d5+25
+5000 350000
+8 dragon~ 1
+#1919
+fire furnace flame~
+A massive blast of fire~
+The fires of the furnace burn away at your skin!
+~
+The fire feeds on your skin like a living being, licking out at your hair.
+~
+1|2|32|64 512 0 S
+13 5 5 13d13+130 3d3+3
+5000 10000
+8 object~ 0
+#0
+
+
+
+#OBJECTS
+#1900
+hammer sledge grey~
+a massive slate-grey sledgehammer~
+The ground cracks under the weight of a grey hammer lying here.~
+~
+5 512|1024 8193
+0~ 4~ 8~ 8~
+55 1000000 5000
+A
+2 -2
+A
+18 -3
+A
+19 10
+E
+hammer sledge grey~
+This massive hammer is incredibly hard, heavy, and utterly grey and featureless.
+~
+#1901
+scroll violet~
+a violet scroll~
+A rolled piece of violet parchment lies on the floor.~
+~
+2 256 1
+15~ armor~ bless~ shield~
+1 2500 250
+E
+scroll violet~
+The scroll is written on soft violet parchment that has a pleasing smell to it.
+~
+#1902
+tablet scroll black~
+a black etched tablet~
+Lying on the ground is a jet black stone tablet.~
+~
+2 16 1
+30~ summon~ charm person~ ~
+5 15000 5000
+E
+tablet scroll black~
+The tablet is an unreflective black rectangular piece of stone, with strange
+writings etched deep into its surface.
+~
+#1903
+scroll githyanki~
+a scroll with githyanki writings on it~
+You see a scroll written in an alien tongue.~
+~
+2 0 1
+24~ lightning bolt~ lightning bolt~ ~
+1 7500 2500
+E
+scroll githyanki~
+The scroll has writings on it that you cannot comprehend.
+~
+#1904
+amulet demon~
+a small demon's amulet~
+A small amulet lies here in the dirt.~
+~
+3 16|128 16385
+25~ 5~ 5~ energy drain~
+5 20000 5000
+A
+3 -1
+A
+4 -1
+E
+amulet demon~
+The amulet is a small circular object made from some bizarre metallic alloy.
+It is inscribed with various symbols and raised images of snakes, tortured
+victims, and other things too horrible to describe.
+
+Stenciled in the center is an unpronounceable name which it would behoove you
+not to utter aloud.
+~
+#1905
+talisman devil~
+a devilish talisman~
+On the ground is a small talisman which radiates a tangible evil.~
+~
+4 16|128 16389
+25~ 5~ 5~ flamestrike~
+5 21000 4500
+A
+13 -10
+E
+talisman devil~
+The talisman is a red circular stone object hanging from a metallic chain.  It
+seems to pulse with a life of its own, and you feel uncomfortable being
+anywhere near it.
+
+Engraved in the center is one word.  Merely reading the word induces fright.
+~
+#1906
+knife silvery~
+a silvery knife~
+A flat-bladed silvery knife lies here.~
+~
+5 0 8193
+0~ 2~ 4~ 2~
+3 1000 250
+A
+18 1
+A
+19 1
+E
+knife silvery~
+The knife is forged from a strange silvery metal the likes of which you have
+never seen in your own world.  It is incredibly sharp and hard, yet feels
+almost fluid to the touch.
+~
+#1907
+dagger silvery~
+a silvery dagger~
+A sharp-looking silvery dagger lies here.~
+~
+5 0 8193
+0~ 3~ 4~ 11~
+3 1500 375
+A
+18 2
+A
+19 1
+E
+dagger silvery~
+The dagger is forged from a strange silvery metal the likes of which you have
+never seen in your own world.  It is incredibly sharp and hard, yet feels
+almost fluid to the touch.
+~
+#1908
+sword thin~
+an extremely sharp and thin sword~
+Light glints off the edge of a razor-sharp sword.~
+~
+5 0 8193
+0~ 4~ 4~ 1~
+3 2000 450
+A
+2 1
+A
+18 1
+A
+19 3
+E
+sword thin~
+The sword is forged from a strange silvery metal.  It barely measures an inch
+across at its widest point, yet it is totally inflexible and razor-sharp.  It
+could probably cut through stone.
+~
+#1909
+sword thin two two-handed~
+a thin two-handed sword~
+A heavy yet thinly bladed two-handed sword lies here.~
+~
+5 0 8193
+0~ 6~ 4~ 3~
+16 5000 750
+A
+18 2
+A
+19 4
+E
+sword thin two two-handed~
+The sword is forged from a strange silvery metal.  It barely measures two
+inches across at its widest point, yet it is totally inflexible and razor
+sharp.  It could probably cut through stone.
+~
+#1910
+sword silvery~
+a silvery sword~
+A silvery sword gleams unnaturally with an alien light.~
+~
+5 1 8193
+0~ 5~ 4~ 3~
+13 10000 750
+A
+2 2
+A
+18 4
+A
+19 2
+E
+sword silvery~
+The sword is forged from a strange silvery metal the likes of which you have
+never seen in your own world.  It is incredibly sharp and hard, yet feels
+almost fluid to the touch.
+~
+#1911
+flail barbed iron~
+an iron barbed flail~
+A rusty iron flail with wicked barbs on it tears at the ground.~
+~
+5 2|16|64 8193
+0~ 5~ 5~ 5~
+14 20000 1000
+A
+18 3
+A
+19 7
+E
+flail barbed iron~
+This hideous weapon has claimed many lives.  You can tell from the bloodstains
+dried into the iron and from the residue of flesh that hangs from the many
+barbs on it.
+~
+#1912
+sword gith~
+The unholy sword of the githyanki~
+You feel tendrils of evil emanating from a wicked blade.~
+~
+5 16|128|4096 8193
+0~ 10~ 3~ 3~
+25 100000 5000
+A
+1 2
+A
+3 -2
+A
+4 -1
+A
+18 8
+E
+sword gith~
+The blade of this sword is a featureless gray.  As you touch it you feel an
+evil presence reaching out to consume your soul.
+
+Maybe picking it up wasn't such a good idea.
+~
+#1913
+stone flame~
+a bright flaming stone~
+The room is lit by a hot blue flame coming from a small stone.~
+~
+1 0 16385
+0~ 0~ -1~ 0~
+1 5000 25
+A
+17 -2
+A
+23 -5
+E
+stone flame~
+This stone burns with an flame that emits great heat, yet it can be held with
+ease.  The flame creates a light that allows you to see for miles.
+~
+#1914
+powder astral~
+some astral powder~
+Twinkling powder floats before your eyes.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 5000 10
+E
+powder astral~
+You see the residue of the astral plane.
+~
+#1915
+vest splint~
+a splint mail vest~
+An intricately fashioned splint mail vest lies here.~
+~
+9 0 9
+7~ 0~ 0~ 0~
+45 5000 300
+E
+vest splint~
+This splint mail has been expertly and ornately fashioned from the highest
+quality of steels.
+~
+#1916
+skirt splint~
+a splint mail skirt~
+An intricately fashioned splint mail skirt lies here.~
+~
+9 0 33
+7~ 0~ 0~ 0~
+20 1000 150
+E
+skirt splint~
+This splint mail has been expertly and ornately fashioned from the highest
+quality of steels.
+~
+#1917
+sleeves splint~
+a pair of splint mail sleeves~
+A pair of intricately fashioned splint mail sleeves lie here.~
+~
+9 0 257
+7~ 0~ 0~ 0~
+15 1000 150
+E
+sleeves splint~
+This splint mail has been expertly and ornately fashioned from the highest
+quality of steels.
+~
+#1918
+gauntlets ornate~
+a pair of ornately designed gauntlets~
+A pair of painstakingly designed ornate gauntlets lie here.~
+~
+9 0 129
+7~ 0~ 0~ 0~
+5 19000 500
+A
+1 2
+A
+18 1
+A
+19 1
+E
+gauntlets ornate~
+These gauntlets have been expertly and ornately fashioned from the highest
+quality of steels.
+~
+#1919
+vest cracked leather~
+a decaying vest made from cracked leather~
+A decaying hunk of cracked leather has been discarded here.~
+~
+9 0 9
+9~ 0~ 0~ 0~
+5 50 500
+A
+17 -6
+A
+24 -2
+E
+vest cracked leather~
+The ancient vest is barely intact.  All of the leather has cracked and dried
+to a husk.  It is covered with stains, burns, scorch marks, and blood.
+~
+#1920
+potion violet~
+a violet potion~
+A tall glass flask holds a translucent violet fluid.~
+~
+10 0 1
+18~ invis~ protection~ detect evil~
+2 1000 200
+E
+potion violet~
+The violet fluid inside shifts and swirls.
+~
+#1921
+potion vial murky~
+a vial of murky fluid~
+A small vial contains a murky, sludge-like substance.~
+~
+10 0 1
+15~ blindness~ shield~ ~
+1 750 150
+E
+potion vial murky~
+The murky liquid inside this vial looks a lot like sewer water.
+~
+#1922
+potion silvery~
+a silvery-colored potion~
+An octagonal vial holds a silvery-colored fluid that reflects light.~
+~
+10 0 1
+20~ detect invis~ detect magic~ detect poison~
+2 1500 300
+E
+potion silvery~
+The octagonal vial contains a silvery-colored liquid that shimmers in the light.
+~
+#1923
+mint chocolate~
+a tasty-looking chocolate mint~
+Someone has dropped a delicious-looking chocolate mint here.~
+~
+26 0 1
+35~ refresh~ heal~ ~
+0 1000 1000
+E
+mint chocolate~
+This mint is made from the finest of chocolates, surrounding a cool peppermint
+interior that must be savored, not swallowed.
+~
+#1924
+pentagram~
+a black pentagram~
+A small black metal pentagram has been left here.~
+~
+18 32 16385
+0~ 0~ 0~ 0~
+10 0 5000
+E
+pentagram~
+The pentagram is a small circular hoop that surrounds a five-pointed star.
+Inscribed on its exterior loop are markings in an alien tongue.
+~
+#1925
+pouch rotting~
+a rotting pouch~
+A small pouch rots away on the floor here.~
+~
+20 0 1
+13600~ 0~ 0~ 0~
+100 0 0
+E
+pouch rotting~
+You think you see glints of metal through the holes...
+~
+#1926
+rusted sword~
+a rusted sword~
+A rusted sword is on the floor.~
+~
+5 0 1|8192
+0~ 3~ 3~ 3~
+10 0 0
+A
+18 -2
+A
+19 5
+E
+rusted sword~
+This sword looks quite rusted, but that makes it nice and dangerous!
+~
+#0
+
+
+
+#ROOMS
+#1900
+The Bottom of the Rainbow~
+   You are standing before a shimmering rainbow arching high up into the
+sky.  You feel somehow separated from the natural world, even though the
+temple spire is only a few meters below you.
+~
+19 0 1
+D4
+The rainbow extends above you, fading out of existence only meters away.
+~
+~
+0 -1 1901
+D5
+You can see the Temple of Midgaard below you.
+~
+~
+0 -1 1036
+E
+rainbow~
+The rainbow softly glows with beams of light, in colors that defy 
+description.
+~
+S
+#1901
+On the Rainbow~
+   You are standing on the rainbow, surrounded by many beams of multicolored
+light.  Through the bottom of the rainbow you can barely make out the Temple
+of Midgaard, which is now quite far away.
+~
+19 0 5
+D4
+The rainbow extends far above you, slowly fading into darkness.
+~
+~
+0 -1 1902
+D5
+The rainbow extends below you towards Midgaard.
+~
+~
+0 -1 1900
+E
+rainbow~
+The rainbow softly glows with beams of light, in colors that defy 
+description.
+~
+S
+#1902
+On the Rainbow~
+   You are standing on the rainbow, surrounded by many beams of multicolored
+light.  Through the bottom of the rainbow you see the City of Midgaard and the 
+land surrounding it.  It seems to be miles below you.
+~
+19 0 5
+D4
+The rainbow extends far above you, slowly fading into darkness.
+~
+~
+0 -1 1903
+D5
+The rainbow extends below you towards the land you once knew as home.
+~
+~
+0 -1 1901
+E
+rainbow~
+The rainbow softly glows with beams of light, in colors that
+defy description.
+~
+S
+#1903
+On the Rainbow~
+   You are standing on the rainbow, surrounded by many beams of multicolored
+light.  The rainbow extends above and below you as far as you can see.
+~
+19 0 5
+D4
+The rainbow extends far above you.  You see a glowing white light at the 
+rainbow's end.
+~
+~
+0 -1 1904
+D5
+The rainbow extends far below you, slowly fading into darkness.
+~
+~
+0 -1 1902
+E
+rainbow~
+The rainbow brightly glows with beams of light, in colors that defy any
+description.
+~
+S
+#1904
+On the Rainbow~
+   You are nearing the end of the rainbow.  The beams of multicolored
+light have begun to merge and solidify.  All around you you see glowing
+starlike motes of dust.  Ahead of you is a bridge.
+~
+19 0 5
+D4
+The rainbow extends above you, merging into a brilliant glowing
+bridge.
+~
+~
+0 -1 1905
+D5
+The rainbow extends far below you, slowly fading into darkness.
+~
+~
+0 -1 1903
+E
+rainbow~
+The rainbow brilliantly glows with beams of blinding light, in colors that 
+sweep together and merge before your eyes.
+~
+E
+motes star stars dust~
+The star-like motes dance before your eyes.  They are incredibly beautiful yet
+intangible -- your hand passes right through them.
+~
+E
+bridge~
+The colors of the rainbow seem to converge into a glowing bridge that leads
+to a massive white gate.
+~
+S
+#1905
+The Glowing Bridge at the Rainbow's End~
+   After a long climb you have reached the end of the rainbow.  The brilliant
+colors have twisted and merged into a beautiful glowing bridge that leads
+toward a massive white gate to the north.  All around you is a soft, peaceful 
+glow interrupted only by the passing of starlike dust motes before your eyes.
+~
+19 0 1
+D0
+The bridge leads on to a massive white gate.  You see a large grey figure
+standing there.
+~
+~
+0 -1 1906
+D5
+The bridge disassociates into a beautiful spectrum of colors that
+drop out of sight below you.
+~
+~
+0 -1 1904
+E
+rainbow~
+The rainbow seems to be forming directly from the light of the bridge.  It
+drops out of sight below you.
+~
+E
+motes star stars dust~
+The star-like motes dance before your eyes.  They are incredibly beautiful yet
+intangible -- your hand passes right through them.
+~
+E
+bridge~
+The bridge glows with an unearthly light.
+~
+E
+gate~
+The gate towers tens of feet above your heads.  Beyond it is a field of utter
+blackness, from which the motes of light seem to issue forth.
+~
+S
+#1906
+The Astral Gate~
+   Here the bridge ends before a massive, pearly-colored gate beyond which
+you can see a field of blackness filled with silvery snake-like tendrils,
+stars, and occasional flashes of of light.
+~
+19 0 1
+D0
+Through the gate you see a massive field of blackness that extends as far
+as you can see.
+~
+gate~
+1 -1 1907
+D2
+The bridge extends towards the rainbow, which drops out of sight
+below you.
+~
+~
+0 -1 1905
+E
+gate~
+You see a huge, glowing gate wrought from an incredibly hard translucent 
+material.  Each of the intricately carved bars of this mighty gate are about 
+as thick as a man's wrist, rising from the floor to a height of forty feet.  
+A plaque is inset into the wall next to one side of the gate.
+~
+E
+plaque~
+The plaque reads: 
+
+`Let this gate stand to protect mortal man for all time against the perils of 
+the outer planes of existence and the creatures fair and foul that dwell within.
+
+-Andersen`
+~
+S
+#1907
+Into the Astral Plane~
+   You step through the gate, and into another reality...
+
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, although it is not too late to return
+through the gate to the south.
+~
+19 4 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1908
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D2
+The astral gate leads back to your world.
+~
+gate~
+1 -1 1906
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+E
+gate~
+From here the pearly-colored gate seems very small and insubstantial.  Through
+its bars you can see the Astral Guardian, protecting your world from the perils
+of this plane of existence.
+~
+S
+#1908
+Exploring the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, and it is difficult to maintain your 
+bearings and sense of direction.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1907
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+S
+#1909
+Exploring the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, and it is difficult to maintain your 
+bearings and sense of direction.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1907
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+S
+#1910
+Exploring the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, and it is difficult to maintain your 
+bearings and sense of direction.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1907
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1908
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+S
+#1911
+Exploring the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, and it is difficult to maintain your 
+bearings and sense of direction.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1907
+S
+#1912
+Exploring the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is very disorienting, and it is difficult to maintain your 
+bearings and sense of direction.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1908
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1907
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+S
+#1913
+Roaming the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is somewhat disorienting.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1918
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1908
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1920
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+S
+#1914
+Roaming the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is somewhat disorienting.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1919
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1918
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1908
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+S
+#1915
+Roaming the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is somewhat disorienting, though your instincts say you are 
+close to home.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1920
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1922
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+S
+#1916
+Roaming the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is somewhat disorienting, though your instincts say you are 
+close to home.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1921
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1919
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+S
+#1917
+Roaming the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is somewhat disorienting, though your instincts say you are 
+close to home.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1922
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1921
+S
+#1918
+Wandering the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is highly disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1919
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1933
+D5
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1936
+S
+#1919
+Wandering the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is highly disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1910
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1918
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1914
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1934
+D5
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1938
+S
+#1920
+Wandering the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is highly disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1911
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1913
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1921
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1935
+D5
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1940
+S
+#1921
+Wandering the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is highly disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1920
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1916
+D3
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1942
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1933
+S
+#1922
+Wandering the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is highly disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1912
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1917
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1915
+D4
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1944
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1934
+S
+#1923
+Travelling the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1924
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1928
+D2
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1937
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1926
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1932
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1935
+S
+#1924
+Travelling the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1925
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1929
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1923
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1933
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1930
+D5
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1939
+S
+#1925
+Travelling the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1941
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1927
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1924
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1934
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1928
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1930
+S
+#1926
+Travelling the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1931
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1923
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1927
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1935
+D4
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1943
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1929
+S
+#1927
+Travelling the Astral Plane~
+   You find yourself floating in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting.  Nearby you see a large silvery
+strand of light.
+   Most exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1926
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1932
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1933
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1925
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1931
+D5
+You see a tangible strand of silvery light.
+~
+~
+0 -1 1944
+S
+#1928
+Traversing the Astral Plane~
+   You find yourself deep within in a dark field filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting, and you are having trouble 
+keeping your sense of direction.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1909
+D1
+The astral field leads off into the depths.
+~
+~
+0 -1 1947
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1934
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1923
+D4
+The astral field leads off into the depths.
+~
+~
+0 -1 1945
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1925
+S
+#1929
+Traversing the Astral Plane~
+   You find yourself deep within in a dark field filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting, and you are having trouble 
+keeping your sense of direction.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1930
+D1
+The astral field leads off into the depths.
+~
+~
+0 -1 1949
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1935
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1924
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1926
+D5
+The astral field leads off into the depths.
+~
+~
+0 -1 1946
+S
+#1930
+Traversing the Astral Plane~
+   You find yourself deep within in a dark field filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting, and you are having trouble 
+keeping your sense of direction.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into the depths.
+~
+~
+0 -1 1947
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1933
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1929
+D3
+The astral field leads off into the depths.
+~
+~
+0 -1 1945
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1925
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1924
+S
+#1931
+Traversing the Astral Plane~
+   You find yourself deep within in a dark field filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting, and you are having trouble 
+keeping your sense of direction.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1932
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1934
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1926
+D3
+The astral field leads off into the depths.
+~
+~
+0 -1 1948
+D4
+The astral field leads off into the depths.
+~
+~
+0 -1 1946
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1927
+S
+#1932
+Traversing the Astral Plane~
+   You find yourself deep within in a dark field filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is extremely disorienting, and you are having trouble 
+keeping your sense of direction.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into the depths.
+~
+~
+0 -1 1949
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1935
+D2
+The astral field leads off into infinity.
+~
+~
+0 -1 1931
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1927
+D4
+The astral field leads off into the depths.
+~
+~
+0 -1 1948
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1923
+S
+#1933
+Lost in the Astral Plane~
+   You find yourself in in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is incredibly disorienting, and you are having trouble 
+keeping your senses straight.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1927
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1924
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1930
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1921
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1918
+S
+#1934
+Lost in the Astral Plane~
+   You find yourself in in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is incredibly disorienting, and you are having trouble 
+keeping your senses straight.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1928
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1925
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1931
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1922
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1919
+S
+#1935
+Lost in the Astral Plane~
+   You find yourself in in a field of blackness, filled with tiny tendrils
+of silvery light and insubstantial shining motes of dust.  The weightlessness
+of this environment is incredibly disorienting, and you are having trouble 
+keeping your senses straight.
+   All exits lead off into the astral field.
+~
+19 0 2
+D0
+The astral field leads off into infinity.
+~
+~
+0 -1 1929
+D1
+The astral field leads off into infinity.
+~
+~
+0 -1 1926
+D3
+The astral field leads off into infinity.
+~
+~
+0 -1 1932
+D4
+The astral field leads off into infinity.
+~
+~
+0 -1 1923
+D5
+The astral field leads off into infinity.
+~
+~
+0 -1 1920
+S
+#1936
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D0
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1937
+D4
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1918
+S
+#1937
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D0
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1923
+D2
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1936
+S
+#1938
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D1
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1939
+D4
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1919
+S
+#1939
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D3
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1938
+D4
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1924
+S
+#1940
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.  
+~
+19 0 2
+D1
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1941
+D4
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1920
+S
+#1941
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D2
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1925
+D3
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1940
+S
+#1942
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D0
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1943
+D1
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1921
+S
+#1943
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D2
+The strand of light twists and turns out of sight.
+~
+~
+0 -1 1942
+D5
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1926
+S
+#1944
+Walking the Silvery Strand~
+   You are standing atop a silvery strand of light that twists and turns
+through the astral field.
+~
+19 0 2
+D4
+You see the endless expanse of the astral field.
+~
+~
+0 -1 1927
+D5
+You see the infinite expanse of the astral field.
+~
+~
+0 -1 1922
+S
+#1945
+Deep Within the Astral Plane~
+   You have travelled deep inside the astral field.  Here the fabric of the
+field has become twisted and warped due to the proximity of another plane of
+existence.  Some of the tendrils of light that line the astral field have been
+warped and twisted into portals to other worlds.
+   Take care before you step through one -- you might never return.
+~
+19 0 2
+D0
+The astral field leads on into the depths.
+~
+~
+0 -1 1946
+D1
+The astral field leads on into infinity.
+~
+~
+0 -1 1930
+D2
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D3
+The astral field leads on into the depths.
+~
+~
+0 -1 1949
+D4
+Through the nexial link you can see a stony keep.
+~
+~
+0 -1 1950
+D5
+The astral field leads on into infinity.
+~
+~
+0 -1 1928
+S
+#1946
+Deep Within the Astral Plane~
+   You have travelled deep inside the astral field.  Here the fabric of the
+field has become twisted and warped due to the proximity of another plane of
+existence.  Some of the tendrils of light that line the astral field have been
+warped and twisted into portals to other worlds.
+   Take care before you step through one -- you might never return.
+~
+19 0 2
+D0
+The astral field leads on into infinity.
+~
+~
+0 -1 1933
+D1
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D2
+The astral field leads on into the depths.
+~
+~
+0 -1 1945
+D3
+The astral field leads on into the depths.
+~
+~
+0 -1 1947
+D4
+The astral field leads on into infinity.
+~
+~
+0 -1 1929
+D5
+The astral field leads on into infinity.
+~
+~
+0 -1 1931
+S
+#1947
+Deep Within the Astral Plane~
+   You have travelled deep inside the astral field.  Here the fabric of the
+field has become twisted and warped due to the proximity of another plane of
+existence.  Some of the tendrils of light that line the astral field have been
+warped and twisted into portals to other worlds.
+   Take care before you step through one -- you might never return.
+~
+19 0 2
+D0
+The astral field leads on into infinity.
+~
+~
+0 -1 1934
+D1
+The astral field leads on into the depths.
+~
+~
+0 -1 1946
+D2
+The astral field leads on into infinity.
+~
+~
+0 -1 1930
+D3
+The astral field leads on into infinity.
+~
+~
+0 -1 1928
+D4
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D5
+The astral field leads on into the depths.
+~
+~
+0 -1 1948
+S
+#1948
+Deep Within the Astral Plane~
+   You have travelled deep inside the astral field.  Here the fabric of the
+field has become twisted and warped due to the proximity of another plane of
+existence.  Some of the tendrils of light that line the astral field have been
+warped and twisted into portals to other worlds.
+   Take care before you step through one -- you might never return.
+~
+19 0 2
+D0
+The astral field leads on into infinity.
+~
+~
+0 -1 1935
+D1
+The astral field leads on into infinity.
+~
+~
+0 -1 1931
+D2
+The astral field leads on into the depths.
+~
+~
+0 -1 1949
+D3
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+D4
+The astral field leads on into the depths.
+~
+~
+0 -1 1947
+D5
+The astral field leads on into infinity.
+~
+~
+0 -1 1932
+S
+#1949
+Deep Within the Astral Plane~
+   You have travelled deep inside the astral field.  Here the fabric of the
+field has become twisted and warped due to the proximity of another plane of
+existence.  Some of the tendrils of light that line the astral field have been
+warped and twisted into portals to other worlds.
+   Take care before you step through one -- you might never return.
+~
+19 0 2
+D0
+The astral field leads on into the depths.
+~
+~
+0 -1 1948
+D1
+The astral field leads on into the depths.
+~
+~
+0 -1 1945
+D2
+The astral field leads on into the depths.
+~
+~
+0 -1 1932
+D3
+The astral field leads on into infinity.
+~
+~
+0 -1 1929
+D4
+You see the plane of Nirvana.
+~
+~
+0 -1 8100
+D5
+The nexial link has been blocked by the gods for your protection.
+~
+~
+0 -1 -1
+S
+#1950
+Inside the Githyanki Keep~
+  You are standing just inside a nexial portal that leads out onto the
+Astral Plane.  It seems that you have found the lair of the Githyanki,
+the once-human followers of Lord Gith.  Ahead of you stands a steel door
+leading into the keep hewn from stone.
+~
+19 4 0
+D0
+You see a rusty steel door which leads into the keep.
+~
+steel~
+1 -1 1951
+D5
+Below you is the nexial portal that leads into the astral plane.
+~
+~
+0 -1 1945
+E
+steel~
+The door is made from a set of rusting steel plates set deep into the stone.
+~
+S
+#1951
+A guard station~
+   This is a small building just inside the keep.  Doors lead out to the east
+and west.  Some small weapons hang on hooks on the walls, for use in defense
+of the keep.
+   Doors stand in all directions save north.
+~
+19 8 0
+D1
+You see an iron door which leads out onto a grey stone road.
+~
+door iron~
+1 -1 1961
+D2
+You see a rusty steel door which leads out to the nexial link.
+~
+steel~
+1 -1 1950
+D3
+You see an iron door which leads out onto a grey stone road.
+~
+door iron~
+1 -1 1952
+E
+steel~
+The door is made from a set of rusting steel plates set deep into the stone.
+~
+E
+door iron~
+The door is made from a set of iron plates set deep into the stone.
+~
+S
+#1952
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road turns to the north, ending to the east at an iron door.
+~
+19 0 1
+D0
+The grey cobblestones continue.
+~
+~
+0 -1 1953
+D1
+You see an iron door which leads into a small stone building set into the wall
+of the keep.
+~
+door iron~
+1 -1 1951
+E
+door iron~
+The door is made from a set of iron plates set deep into the stone.
+~
+S
+#1953
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road continues to the north and south.  Doors to the east
+and west lead into stone buildings.
+~
+19 0 1
+D0
+The grey cobblestones continue.
+~
+~
+0 -1 1954
+D1
+You see a small stone building with a wooden door.
+~
+door wooden~
+1 -1 1962
+D2
+The grey cobblestones continue.
+~
+~
+0 -1 1952
+D3
+An iron door blocks your entrance into a large stone building.
+~
+door iron~
+1 -1 1969
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+E
+door iron~
+The door is fashioned from many iron plates and set deep into the stone wall.
+~
+S
+#1954
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+  The cobblestone road turns to the south and continues on to the east.
+~
+19 0 1
+D1
+The grey cobblestones continue.
+~
+~
+0 -1 1955
+D2
+The grey cobblestones continue.
+~
+~
+0 -1 1953
+S
+#1955
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+  The cobblestone road continues to the east and west.  To the north you see a 
+massive building and a pair of large doors.
+~
+19 0 1
+D0
+Looming before you is a forbidding pair of metal doors.
+~
+doors metal~
+1 -1 1974
+D1
+The grey cobblestones continue.
+~
+~
+0 -1 1956
+D3
+The grey cobblestones continue.
+~
+~
+0 -1 1954
+E
+doors metal~
+The doors are formed from a silvery substance that feels very hard yet almost
+slippery to the touch.  They are covered in images in bas-relief, depicting
+scenes of combat between humans and strange tentacle-mouthed humanoids.
+~
+S
+#1956
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+  The cobblestone road continues to the east and west.  A door to the south
+leads into a tall stone building.
+~
+19 0 1
+D1
+The grey cobblestones continue.
+~
+~
+0 -1 1957
+D2
+You see a tall stone building with a wooden door.
+~
+door wooden~
+1 -1 1964
+D3
+The grey cobblestones continue.
+~
+~
+0 -1 1955
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1957
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road turns to the west and continues to the south.  A door
+to the north leads into a tall stone building.
+~
+19 0 1
+D0
+You see a tall stone building with a wooden door.
+~
+door wooden~
+1 -1 1973
+D2
+The grey cobblestones continue.
+~
+~
+0 -1 1958
+D3
+The grey cobblestones continue.
+~
+~
+0 -1 1956
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1958
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road continues to the north and south.  To the east is a
+door in a large stone building.
+~
+19 0 1
+D0
+The grey cobblestones continue.
+~
+~
+0 -1 1957
+D1
+An iron door blocks your entrance into a large stone building.
+~
+door iron~
+1 -1 1967
+D2
+The grey cobblestones continue.
+~
+~
+0 -1 1959
+E
+door iron~
+The door is made from many hammered iron plates, set deep into the stone wall.
+~
+S
+#1959
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road continues to the north and south.
+~
+19 0 1
+D0
+The grey cobblestones continue.
+~
+~
+0 -1 1958
+D2
+The grey cobblestones continue.
+~
+~
+0 -1 1960
+S
+#1960
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road turns to the north and continues on to the west.  To
+the east is a door in a large stone building.
+~
+19 0 1
+D0
+The grey cobblestones continue.
+~
+~
+0 -1 1959
+D1
+An iron door blocks your entrance into a large stone building.
+~
+door iron~
+1 -1 1965
+D3
+The grey cobblestones continue.
+~
+~
+0 -1 1961
+E
+door iron~
+The door is made from many hammered iron plates, set deep into the stone wall.
+~
+S
+#1961
+A grey road~
+   The ground beneath your feet is a uniformly grey cobblestone.  A dull red
+sun hangs in an orange sky above your head; you hear none of the sounds you
+would commonly associate with a normal city.
+   The cobblestone road goes on to the east, ending to the west at an iron door.
+A door to the north leads into a small stone building.
+~
+19 0 1
+D0
+You see a small stone building with a wooden door.
+~
+door wooden~
+1 -1 1963
+D1
+The grey cobblestones continue.
+~
+~
+0 -1 1960
+D3
+You see an iron door which leads into a small stone building set into the wall
+of the keep.
+~
+door iron~
+1 -1 1951
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+E
+door iron~
+The door is made from a set of iron plates set deep into the stone.
+~
+S
+#1962
+A small building~
+   You have stepped inside a dimly lit building, which apparently serves as
+living quarters for several githyanki gish.  The walls are heavy stone blocks, 
+covered with panels of strangely knotted and twisted wood.  A couple of candles
+burn dimly in sconces here and there.
+~
+19 8 0
+D3
+The wooden door leads back out onto the grey cobblestone road.
+~
+door wooden~
+1 -1 1953
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1963
+A small building~
+   You have stepped inside a dimly lit building, which apparently serves as
+living quarters for several githyanki gish.  The walls are heavy stone blocks, 
+covered with panels of strangely knotted and twisted wood.  A couple of candles
+burn dimly in sconces here and there.
+~
+19 8 0
+D2
+The wooden door leads back out onto the grey cobblestone road.
+~
+door wooden~
+1 -1 1961
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1964
+A large dwelling~
+   You have stepped inside a dimly lit building with vaulted ceilings and high
+windows.  The walls are heavy stone blocks that rise tens of feet above your
+head, covered with panels of strangely knotted and twisted wood.  On the floor
+are charcoal stencils of pentagrams and various other ominous sigils.
+~
+19 8 0
+D0
+The wooden door leads back out onto the grey cobblestone road.
+~
+door wooden~
+1 -1 1956
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1965
+The Githyanki Weaponry~
+   A large chamber, full of weapons in various states of completion.  Strange
+glowing blocks of silvery metal are being pounded and rolled out into deadly 
+razor-sharp knives, daggers, and swords.
+   Sounds of hammering and blasts of heat and strange smells come from the open
+doorway to the north.  An iron door stands to the west.
+~
+19 8 0
+D0
+You see a massive forgeroom, lit by a white-hot furnace.
+~
+~
+0 -1 1966
+D3
+The iron door leads back out onto the grey cobblestone road.
+~
+door iron~
+1 -1 1960
+E
+door iron~
+The door is made from many hammered iron plates, set deep into the stone wall.
+~
+S
+#1966
+The Forge~
+   In the center of the room is a massive furnace which emits great gouts of
+heat and a strange smell which comes from the melting of the silvery metal used
+by the githyanki.  A large trough of icy water stands to the west, used for 
+quenching hot metal.
+   Doorways stand to the north and south.  The furnace door lies to the east.
+~
+19 8 0
+D0
+You see the armoury.
+~
+~
+0 -1 1967
+D1
+Through the grille in the furnace door you see only flames.
+~
+door furnace~
+1 -1 1968
+D2
+You see the weaponry.
+~
+~
+0 -1 1965
+E
+door furnace~
+The entire furnace is glowing white-hot to the touch.
+The furnace door looks too hot to even attempt to open.
+~
+S
+#1967
+The Githyanki Armoury~
+   A large chamber, full of suits of armor in various states of completion.  In
+this chamber the hard steels of the githyanki are shaped into ornately fashioned
+suits of mail.
+   Sounds of hammering and blasts of heat and strange smells come from the open
+doorway to the south.  An iron door stands to the west.
+~
+19 8 0
+D2
+You see a massive forgeroom, lit by a white-hot furnace.
+~
+~
+0 -1 1966
+D3
+The iron door leads back out onto the grey cobblestone road.
+~
+door iron~
+1 -1 1958
+E
+door iron~
+The door is made from many hammered iron plates, set deep into the stone wall.
+~
+S
+#1968
+Inside the furnace~
+   You gasp for breath and choke on toxic sulphur and brimstone.  The sweat
+on your forehead is instantly vaporized by the flames that surround you.  You
+begin to feel faint and dizzy from the heat...
+
+... you'd better leave before you pass out and burn to a cinder!
+~
+19 8 0
+D0
+The flames blind you and obscure your vision.
+~
+~
+0 -1 1968
+D1
+The flames blind you and obscure your vision.
+~
+~
+0 -1 -1
+D2
+The flames blind you and obscure your vision.
+~
+~
+0 -1 1968
+D3
+The flames blind you and obscure your vision.
+~
+door furnace~
+1 -1 1966
+S
+#1969
+A guard station~
+   You are standing in a small, fairly empty building that serves as the prison
+for the keep.  The building is small because the githyanki do not make a habit 
+of taking prisoners, and those that they do capture do not last long.
+   The cellblock lies to the west and the grey stone road is to the east.
+~
+19 8 0
+D1
+You see an iron door which leads back out onto the grey cobblestone road.
+~
+door iron~
+1 -1 1953 
+D3
+You see the cellblock.
+~
+~
+0 -1 1970
+E
+door iron~
+The door is fashioned from many iron plates and set deep into the stone wall.
+~
+S
+#1970
+The cellblock~
+   A torch flickers in the western wall, providing some illumination for this
+dim corridor.  Some whips, manacles, and chains hang on the walls -- they seem
+to have been used recently.
+   Cell doors stand to the north and south.  The guard station is to the east.
+~
+19 8 0
+D0
+You see a small cell.
+~
+door cell~
+1 -1 1971
+D1
+You see the guard station.
+~
+~
+0 -1 1969
+D2
+You see a small cell.
+~
+door cell~
+1 -1 1972
+E
+door cell~
+The cell door is wooden and about 4' high, with a slot in the bottom to pass
+food underneath to the prisoner.
+~
+S
+#1971
+A cramped cell~
+  You are in a tiny, cold, dank cell.
+  The only exit is back through the door to the south.
+~
+19 8 0
+D2
+You see the cellblock.
+~
+door cell~
+1 -1 1970
+E
+door cell~
+The cell door is wooden and about 4' high, with a slot in the bottom to pass
+food underneath to the prisoner.
+~
+S
+#1972
+A tiny cell~
+   You are in a cold, dank, cramped cell.
+   The only exit is back through the door to the north.
+~
+19 8 0
+D0
+You see the cellblock.
+~
+door cell~
+1 -1 1970
+E
+door cell~
+The cell door is wooden and about 4' high, with a slot in the bottom to pass
+food underneath to the prisoner.
+~
+S
+#1973
+A large dwelling~
+   You have stepped inside a dimly lit building with vaulted ceilings and high
+windows.  The walls are heavy stone blocks that rise tens of feet above your
+head, covered with panels of strangely knotted and twisted wood.  On the floor
+are charcoal stencils of pentagrams and various other ominous sigils.
+~
+19 8 0
+D2
+The wooden door leads back out onto the grey cobblestone road.
+~
+door wooden~
+1 -1 1957
+E
+door wooden~
+The door is thick, made from a knotted and twisted greyish wood.
+~
+S
+#1974
+South End of the Hall~
+   This is a massive stone hall, lit by flaming blue stones set into the walls.
+Massive suits of armor line the walls, holding weapons fashioned from a strange
+silvery metal.
+   The great hall continues to the north and ends in a pair of huge metal doors
+to the south.
+~
+19 8 0
+D0
+The great hall continues to the north.
+~
+~
+0 -1 1975
+D2
+The metal doors lead out onto the grey cobblestone road.
+~
+doors metal~
+1 -1 1955
+E
+armor suits~
+The suits of armor are very intricately and ornately fashioned splint mail.
+~
+E
+weapons~
+Massive pole arms, spears, mighty swords, all kinds of death-dealing devices.
+~
+E
+doors metal~
+The doors are formed from a silvery substance that feels very hard yet almost
+slippery to the touch.  They are covered in images in bas-relief, depicting
+scenes of combat between humans and strange tentacle-mouthed humanoids.
+~
+S
+#1975
+North End of the Hall~
+   This is a massive stone hall, lit by flaming blue stones set into the walls.
+Massive suits of armor line the walls, holding weapons fashioned from a strange
+silvery metal.
+   The great hall continues to the south.  An archway leads into a dimly lit
+room to the north.
+~
+19 8 0
+D0
+You think you can see some steps leading up to an altar...
+~
+mist door~
+1 -1 1976
+D2
+The great hall continues to the south.
+~
+~
+0 -1 1974
+E
+armor suits~
+The suits of armor are very intricately and ornately fashioned splint mail.
+~
+E
+weapons~
+Massive pole arms, spears, mighty swords, all kinds of death-dealing devices.
+~
+E
+arch archway door~
+The archway is shrouded in a strange black mist that obscures your vision.
+~
+S
+#1976
+The Altar Chamber~
+  Your eyes have trouble adjusting to the dim lighting.  All around you are
+columnar statues of githyanki turned towards the altar standing at the top
+of a series of steps.
+~
+19 9 0
+D0
+The steps lead north and up to a massive sacrificial altar.
+~
+~
+0 -1 1977
+D2
+You think you can see the hall.
+~
+mist door~
+1 -1 1975
+E
+arch archway door~
+The archway is shrouded in a strange black mist that obscures your vision.
+~
+S
+#1977
+Before the Altar~
+   You have climbed the mighty steps of the altar chamber and stand before a
+huge altar use to pay tribute to Lord Gish, long-dead ruler of the githyanki.
+The altar is covered in blood and radiates unspeakable power that is absorbed
+by the horrible presence which stands before you.
+~
+19 9 0
+D2
+The steps lie to the south, leading back down to the altar chamber floor.
+~
+~
+0 -1 1976
+D5
+The floor of the altar is pockmarked with small holes, draining blood.
+~
+hole~
+1 -1 1978
+E
+altar~
+The altar is a huge sacrificial altar covered in bloodstains.
+~
+E
+blood bloodstains stains~
+The stains of blood run down off the altar towards your feet, oozing quietly.
+~
+E
+hole holes~
+The holes have passed countless amounts of blood down below the altar.
+~
+S
+#1978
+A Gateway to the Underworld~
+   You step through the tiny hole in the altar, and stand before a swirling
+field of blackness.  Through the field you can hear the howls of lost souls
+and long-dead beings.
+~
+19 9 1
+D4
+You see the altar chamber.
+~
+hole~
+1 -1 1977
+D5
+You look down into the field of blackness, and feel a tangible wave of evil wash
+over you.  Stepping into the field would be a bad idea.
+~
+gateway~
+2 1924 1979
+E
+blood~
+The blood drips from above your head and falls through the field...
+~
+E
+field gateway~
+The field pulses and feeds on the blood dripping from above.
+
+A tangible wave of hatred washes over you, striking fear into your very soul.
+~
+S
+#1979
+Utter darkness and despair~
+  It is pitch black...
+
+  You are overwhelmed by the sensation of death and horrible pain as a shape
+begins to coalesce before you.
+~
+19 1 9
+S
+#0
+
+
+
+#RESETS
+* Randomize the astral plane maze
+ * 3-d maze for rooms 8 to 44 (astral plane and silvery strands)
+  R 0 1908 6
+  R 0 1909 6
+  R 0 1910 6
+  R 0 1911 6
+  R 0 1912 6
+  R 0 1913 6
+  R 0 1914 6
+  R 0 1915 6
+  R 0 1916 6
+  R 0 1917 6
+  R 0 1918 6
+  R 0 1919 6
+  R 0 1920 6
+  R 0 1921 6
+  R 0 1922 6
+  R 0 1923 6
+  R 0 1924 6
+  R 0 1925 6
+  R 0 1926 6
+  R 0 1927 6
+  R 0 1928 6
+  R 0 1929 6
+  R 0 1930 6
+  R 0 1931 6
+  R 0 1932 6
+  R 0 1933 6
+  R 0 1934 6
+  R 0 1935 6
+  R 0 1936 6
+  R 0 1937 6
+  R 0 1938 6
+  R 0 1939 6
+  R 0 1940 6
+  R 0 1941 6
+  R 0 1942 6
+  R 0 1943 6
+  R 0 1944 6
+* Entrance to the astral plane
+ M 0 1900 1 1906         Load the Astral Guardian
+ E 0 1900 0 16           He wields the slate-grey sledgehammer
+ D 0 1906 0 1            Close the astral gate
+ D 0 1907 2 1
+* The astral plane
+ * nightmares
+  M 0 1901 2 1933        Load 2 nightmares
+  G 0 1904 0             And give them demon amulets
+  M 0 1901 2 1934
+  G 0 1904 0
+ * night hag
+  M 0 1902 1 1946        Load a night hag
+  G 0 1905 0             And give it a devilish talisman
+ * invisible stalkers
+  M 0 1903 4 1920        Load 4 invisible stalkers
+  G 0 1914 0             And give each some astral powder
+  M 0 1903 4 1924
+  G 0 1914 0
+  M 0 1903 4 1926
+  G 0 1914 0
+  M 0 1903 4 1930
+  G 0 1914 0
+ * soulless ones
+  M 0 1904 10 1913       Load 10 soulless ones
+  E 0 1926 0 16               Each wields a long sword
+  M 0 1904 10 1914
+  E 0 1926 0 16
+  M 0 1904 10 1915
+  E 0 1926 0 16
+  M 0 1904 10 1916
+  E 0 1926 0 16
+  M 0 1904 10 1917
+  E 0 1926 0 16
+  M 0 1904 10 1918
+  E 0 1926 0 16
+  M 0 1904 10 1919
+  E 0 1926 0 16
+  M 0 1904 10 1920
+  E 0 1926 0 16
+  M 0 1904 10 1921
+  E 0 1926 0 16
+  M 0 1904 10 1922
+  E 0 1926 0 16
+ * githyanki hunters
+  M 0 1905 8 1918        Load 4 (maximum of 8) githyanki hunters
+  E 0 1907 0 16               Each wields a silvery dagger
+  M 0 1905 8 1920
+  E 0 1907 0 16
+  M 0 1905 8 1922        Notice all the githyanki
+  E 0 1907 0 16               in the astral plane have a variable
+  M 0 1905 8 1924        number of mobiles present after each load,
+  E 0 1907 0 16               from a maximum value to 1/2 that value.
+ * githyanki warriors
+  M 0 1906 6 1923        Load 2 (max. 6) githyanki warriors.
+  E 0 1909 0 16               Each wields a thin razor-sharp sword
+  E 0 1915 0 5           And wears a splint mail vest
+  M 0 1906 6 1927
+  E 0 1909 0 16
+  E 0 1915 0 5
+ * githyanki knights
+  M 0 1908 3 1930        Load 1 (max. 3) githyanki knight.
+  E 0 1909 0 16               He wields a thin two-handed sword
+  E 0 1915 0 5           And wears all the splint mail armor
+  E 0 1916 0 7
+  E 0 1917 0 10               (There's also a knight in the keep)
+ * githyanki gish
+  M 0 1910 6 1929        Load 2 (max. 6) githyanki gish
+  E 0 1906 0 16               Each wields a silvery knife
+  M 0 1910 6 1931
+  E 0 1906 0 16
+ * ghosts
+  M 0 1915 3 1945        Load 3 ghosts
+  G 0 1921 0             Give each one a murky potion
+  M 0 1915 3 1947
+  G 0 1921 0
+  M 0 1915 3 1949        Do you believe in ghosts?
+  G 0 1921 0
+* Close all the doors in the githyanki keep
+ * the steel door to get in
+  D 0 1950 0 1
+  D 0 1951 2 1
+ * the other doors in the guard station
+  D 0 1951 1 1
+  D 0 1951 3 1
+ * the doors on the grey road
+  D 0 1952 1 1
+  D 0 1953 1 1
+  D 0 1953 3 1
+  D 0 1955 0 1
+  D 0 1956 2 1
+  D 0 1957 0 1
+  D 0 1958 1 1
+  D 0 1960 1 1
+  D 0 1961 0 1
+  D 0 1961 3 1
+ * the doors in the small buildings and large dwellings
+  D 0 1962 3 1
+  D 0 1963 2 1
+  D 0 1964 0 1
+  D 0 1973 2 1           Ok, that building is out of place, so what?
+ * the doors to the armoury, weaponry, and the furnace
+  D 0 1965 3 1
+  D 0 1966 1 1
+  D 0 1967 3 1
+  D 0 1968 3 1
+ * the doors in the prison
+  D 0 1969 1 1
+  D 0 1970 0 1
+  D 0 1970 2 1
+  D 0 1971 2 1           I know, the cell doors are unlocked, but
+  D 0 1972 0 1           the guards are mean, and the food's good.
+ * the doors in the great hall
+  D 0 1974 2 1           close the silvery metal door
+  D 0 1975 0 1           close the mist door in the archway (south side)
+  D 0 1976 2 1           close the mist door in the archway (north side)
+  D 0 1977 5 1           close the hole from above
+  D 0 1978 4 1           close the hole from below
+  D 0 1978 5 2           close and LOCK the gateway (1 way only)
+* The githyanki keep
+ * githyanki guardians
+   M 0 1907 8 1951       Load 8 githyanki guardians
+   E 0 1908 0 16         Each wields a thin razor-sharp sword
+   E 0 1915 0 5               And wears a splint mail vest
+   M 0 1907 8 1951       2 at the entrance
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1965       2 at the weaponry
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1965
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1967       2 at the armoury
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1967
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1969       2 in the prison
+   E 0 1908 0 16
+   E 0 1915 0 5
+   M 0 1907 8 1969
+   E 0 1908 0 16
+   E 0 1915 0 5
+ * githyanki knights
+   M 0 1908 3 1955       Load the githyanki knight
+   E 0 1909 0 16         Give him his thin two-handed sword
+   E 0 1915 0 5               and
+   E 0 1916 0 7               his
+   E 0 1917 0 10         splint mail
+ * githyanki gish
+   M 0 1911 6 1953       Load 6 githyanki gish (these guys are aggro)
+   E 0 1906 0 16         Each wields a silvery knife
+   M 0 1911 6 1959
+   E 0 1906 0 16
+   M 0 1911 6 1962
+   E 0 1906 0 16
+   M 0 1911 6 1963
+   E 0 1906 0 16
+   M 0 1911 6 1962       Bonus!  The last 2 have silvery potions!
+   E 0 1906 0 16
+   G 0 1922 0
+   M 0 1911 6 1963
+   E 0 1906 0 16
+   G 0 1922 0
+ * githyanki warlocks
+   M 0 1912 4 1964       Load 4 githyanki warlocks
+   E 0 1910 0 16         Each wields a silvery sword
+   G 0 1903 0            And carries a githyanki scroll
+   M 0 1912 4 1973
+   E 0 1910 0 16
+   G 0 1903 0
+   M 0 1912 4 1974
+   E 0 1910 0 16
+   G 0 1903 0
+   M 0 1912 4 1974
+   E 0 1910 0 16
+   G 0 1903 0
+  * githzerai and mindflayer in prison
+   M 0 1916 1 1972
+   M 0 1917 1 1971
+  * enslaved red dragon and 6 furnace flames
+   M 0 1918 1 1968
+   E 0 1913 0 0               the red dragon holds a flaming stone as light
+   M 0 1919 6 1968
+   M 0 1919 6 1968
+   M 0 1919 6 1968
+   M 0 1919 6 1968
+   M 0 1919 6 1968
+   M 0 1919 6 1968       hot furnace!
+  * githyanki knights
+   M 0 1909 2 1976       two githyanki protectors
+   E 0 1909 0 16         with the usual knight eq
+   E 0 1915 0 5
+   E 0 1916 0 7
+   E 0 1917 0 10
+   E 0 1918 0 9               plus each has ornate gauntlets
+   M 0 1909 2 1977
+   E 0 1909 0 16
+   E 0 1915 0 5
+   E 0 1916 0 7
+   E 0 1917 0 10
+   E 0 1918 0 9
+  * the githyanki lich-queen
+   M 0 1913 1 1977
+   E 0 1911 0 16         She wields the barbed flail
+   E 0 1924 0 17         and holds the pentagram
+   G 0 1902 0            and carries a black etched tablet
+  * lord gith
+   M 0 1914 1 1979
+   E 0 1912 0 16         He wields the unholy sword of the githyanki
+   E 0 1919 0 5               and wears a cracked leather vest
+   G 0 1925 0            and carries a rotting pouch
+S
+
+#SPECIALS
+M  1902 spec_cast_mage     night hag
+M  1905 spec_thief         githyanki hunter
+M  1910 spec_cast_mage     githyanki gish (mobile)
+M  1911 spec_cast_mage     githyanki gish (stationary)
+M  1912 spec_cast_mage     githyanki warlock
+M  1913 spec_cast_mage     githyanki lich-queen
+M  1913 spec_cast_undead   githyanki lich-queen
+M  1914 spec_cast_undead   Lord Gith
+M  1915 spec_cast_undead   ghost
+M  1917 spec_cast_mage     mind flayer
+M  1918 spec_breath_fire   red dragon
+M  1918 spec_cast_mage     red dragon
+M  1919 spec_breath_fire   furnace flames
+
+
+* updated 1/6/95 by Zelda
+* Spelling fixes:
+
+  *            Object #1904   Unpronouncable changed to Unpronounceable
+  *            Object #1913   Brighty changed to bright
+  *            Every reference to Colour was changed to Color
+  *            Room#1901      Defie changed to Defy
+  *            Room#1916      Disorenting changed to Disorienting
+  *            Room#1972      Throught changed to Through
+S
+
+#$
+

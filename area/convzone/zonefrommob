@@ -1,0 +1,2 @@
+cat mob.header $1.mob mob.footer zone.footer > $1.are
+

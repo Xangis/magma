@@ -1,0 +1,21 @@
+Magma MUD 3.03
+Saturday, December 22, 2007
+
+Xangis	xangis@yahoo.com
+
+
+
+=== Magma-Based Sites
+
+The following muds are based on Magma code.  The implementors of these muds
+add their own changes and features, so don't expect all these muds to look
+alike.  Most of them look VERY different!
+
+To the imps who run these muds ... thanks for sharing your computers with
+us all!
+
+
+These are the Magma muds we know of:
+
+We are not aware of any Magma-based MUDs that are currently running.  If you
+are running one, please let us know.

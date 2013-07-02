@@ -1,0 +1,147 @@
+Veygoth's Magma Mud 3.03
+Saturday, December 22, 2007
+
+Xangis (Veygoth)    xangis@yahoo.com
+
+Much work has gone into the creation of Magma.  Over the years, many people
+have contributed to the work, whether they know it or not.  They deserve
+credit for all of their time and hard work, and credit shall be given.
+
+Thanks to everyone for their help and input with the Magma codebase.  If your
+name was left out and you think it should be included, email me and I'll add
+you to the credits for the next release.
+
+Credits regarding Magma up to version 3.03:
+-------------------------------------------
+
+All post-3.00 changes have been made by Xangis (Jason Champion a.k.a. Veygoth).
+
+Credits regarding Magma up to version 3.00:
+-------------------------------------------
+The majority of changes have been done by Xangis (Jason Champion a.k.a Veygoth).
+
+Significant code contributions have been made by Lohrr and Lithos.
+
+Additional code contributions have been made by Govno, Ski, Thendar, Sniktiorg,
+Timken, Saeven, and Jolle.
+
+Much of the in-game help has been written by Ski.
+
+Thendar did a vast amount of zone work for the original Basternae.  Though not
+much of her work is reflected in this distribution, the vast amount of testing
+and bugfinding she has done has helped to improve and fix quite a lot.
+
+Magma was written both as an independent distribution and for the rebuild of
+Basternae 2.  Nearly all of the credits for Basternae 2 apply to Magma.
+
+Credits regarding Basternae 2:
+-----------------------------
+        Gods of Basternae 2: Veygoth, Thendar, Ski, Xueqin, Lohrr, Govno,
+                Timken, Saeven, Jolle, Sniktiorg
+        Head of Magma Code: Veygoth (veygoth@stax.net)
+        Zone Administration: Thendar (thendar@basternae.venom.org)
+        Design and Development: Thendar, Veygoth, and Ski
+        Additional Code Support: Lohrr, Govno, Xueqin, Sniktiorg, Saeven, Jolle, Timken
+        Help files and other documention: Ski (ski@idleminds.org)
+        Ansi Development: Sniktiorg
+        Socials: Trika
+        Proofreading and data entry: Pesto
+
+        Our Pre-Alpha testing player team:
+                Pesto, Alachest, Sniktiorg, Dubar, Sarlac, Kuldrim, Riol,
+                Kalzix, Enthnal, Sorath, Neva, Malthrix, Ysidra, Nauraki,
+                Tholrin, Threnody, Vartek.
+
+Credits regarding the Original Basternae, from which many ideas originated:
+---------------------------------------------------------------------------
+        Gods of Basternae: Xueqin, Timken, Taran, Ski, Ciannech, Thendar
+        Basternae Code: Timken, Taran, Ciannech
+        Zone Administration: Xueqin
+        Help files and other documentation: Ski
+        Additional zone support: Thendar
+
+Credits regarding Duris:
+------------------------
+        Countless hours of development on the wonderful offline zone editor
+           DikuEdit: Tavril
+        DikuEdit modifications for Magma: Veygoth
+
+Credits regarding Envy:
+-----------------------
+This mud is based on EnvyMud 2.2, created by the EnvyMud Staff.  EnvyMud
+is based on Envy 2.0, created by Kahn, Thelonius, Kith, and Hatchet.
+Envy 2.2 is available as Envy_22.tar.gz from ftp.envy.com,
+ftp.solace.mh.se, ftp.tem.nctu.edu.tw, ftp.game.org, and
+ftp.goodnet.com under /pub/mud/servers.  The file is about 963835
+bytes long.  E-mail to 'merc-l-request@webnexus.com' to join the merc
+mailing list.
+
+Thanks to ...
+  ... Zrin for administering the mailing list.
+  ... the many implementors and contributors on the merc mailing list
+
+  ... D'Sai, Elwyn, Averon, Fusion, Canth, Maniac, Vego, Rassilon,
+      Cyanide, Judson Knott, LordROM, Kenneth Dugas, JKallie, Erwin A.,
+      Derek Snider, Picard, Evii, Mystro, Dave Kaupp, JohnPaul, Zeke.
+  ... AND the many players of EnvyMud for which this mud was created.
+
+Share and enjoy.
+The EnvyMud Staff
+
+Credits regarding Merc:
+-----------------------
+This mud is based on Merc 2.2, created by Kahn, Hatchet, and Furey.  Merc 2.2
+is an upgrade from Merc 2.1, created by Furey, Hatchet, and Kahn.  Merc 2.2
+is available as Merc_22.tar.gz from ferkel.ucsb.edu (most files moved to
+ftp.tcp.com), ftp.math.okstate.edu, marble.bu.edu, zen.btc.uwe.ac.uk
+E-mail to 'merc-l-request@webnexus.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, Da Pub, Loki, Talen, Kalgen, Sludge,
+      The Crew of Salems Lot, and others for code and bug fixes.
+  ... N'Atas-Ha for MOBPrograms and the pager skeleton and Blackstar
+      for the improvements and ideas to the pager.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris for worlds.
+  ... Ikee, Chaos, Kraze, Maxx, Thoth, Zolstead, Zavod, VampLestat, Cyric,
+      Kelvin, and Jackal for extensively playtesting MERC 2.2 and providing
+      constructive input.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, Mystic Realms, 4th Realm, Dragon Mud, and Salems Lot
+      for bug reports, ideas, new code, and hours of enjoyment.
+
+Share and enjoy.
+MERC Industries
+
+Credits regarding Diku:
+-----------------------
+
+                     Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+                     Additional contributions from:
+
+Michael Curran  - the player title collection and additional locations.
+Ragnar Loenn    - the bulletin board.
+Bill Wisner     - for being the first to successfully port the game,
+                  uncovering several old bugs, uh, inconsistencies,
+                  in the process.
+
+And: Mads Haar and Stephan Dahl for additional locations.
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen
+

@@ -1,0 +1,53 @@
+Nm          Thief~
+WhoNm       &+LThief&n       ~
+Cla         5
+AtrPrm      2
+Wpn         210
+Sklladpt    95
+Thac0       180
+Thac47      30
+Hpmin       7
+Hpmax       14
+Mana        0
+Skll         1 'unarmed damage'
+Skll         1 'blindfighting'
+Skll         1 'barehanded fighting'
+Skll         1 'mount'
+Skll         1 'aerial combat'
+Skll         1 'awareness'
+Skll         1 'bandage'
+Skll         1 '1h piercing'
+Skll        31 'switch opponents'
+Skll         1 '2h piercing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h slashing'
+Skll         1 '1h misc'
+Skll         1 'backstab'
+Skll        31 'disarm'
+Skll        16 'dual wield'
+Skll         1 'dodge'
+Skll         1 'hide'
+Skll         1 'offense'
+Skll         1 'peek'
+Skll        26 'appraise'
+Skll         1 'safe fall'
+Skll         1 'pick lock'
+Skll        26 'pickpocket'
+Skll        11 'poison weapon'
+Skll         1 'scrolls'
+Skll        11 'second attack'
+Skll         1 'sneak'
+Skll         1 'staves'
+Skll        36 'steal'
+Skll         1 'trip'
+Skll         1 'tumble'
+Skll        21 'untangle'
+Skll         1 'wands'
+Skll         1 'track'
+Skll         1 'dirt kicking'
+Skll         1 'swim'
+Skll         1 'carve'
+Skll         1 'climb'
+Skll        51 'parry'
+Skll        56 'riposte'
+End

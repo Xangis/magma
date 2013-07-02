@@ -1,0 +1,572 @@
+Magma MUD version 3.04
+Saturday, February 23, 2007
+
+Xangis	xangis@yahoo.com
+
+Magma is based on Zen's UltraEnvy 0.87j.
+The majority of changes have been done by Xangis (Jason Champion a.k.a. Veygoth).
+Significant contributions have been made by Lohrr and Lithos.
+Additional contributions have been made by Govno, Ski, Thendar, Sniktiorg,
+  Timken, Saeven, and Jolle.
+
+Xangis can be reached via email at xangis@yahoo.com.
+
+Copyright Information:
+See license.* for information on licenses for Diku, Envy, and Merc.
+The copyright rules for this software are simple:
+	1.	All previous copyrights/licenses must be obeyed
+                (Diku, Envy, and Merc).  This amounts mainly to giving
+                the original authors credit for their work.
+	2.	Help magma must remain unchanged.
+Simple to do.  If you don't like it, refrain from using this software.
+Not much to ask for a free package.
+
+------------------
+Magma 3.04 Changes
+------------------
+
+- Fixed loading of solace.are, naytil.are, and crystal.are and added them to the
+  AREA.LST file.  The only two original Envy 2.2 areas that do not load now are
+  gods.are and descent.are.
+- Bundled MakeZonesFast (MZF) and DikuEdit 3.10 with the distribution.  They
+  can be found in the /editors directory.  Please note that areas built with
+  DikuEdit will need to be assembled using the Makezone utility found in
+  /area/convzone.
+- Added a DOS version of Makezone to /area/convzone so assembling DikuEdit zones is
+  no longer OS-dependent.
+
+------------------
+Magma 3.03 Changes
+------------------
+
+Added support for loading Envy 2.2 areas.  Flags are being converted from Envy
+values to Magma values, but there's always the possibility of some strangeness
+since the stock areas have not been thoroughly tested.  Please report any bugs
+or glitches you find to the above email address.
+
+In addition, the following bugs were fixed:
+- Missing newbie items no longer causes creating a Human race character to crash
+  the game.
+- Missing spawn rooms no longer cause most race-class combinations to crash the
+  game.
+- The player file save directory is no longer incorrect on Windows.
+
+All of these problems were caused by having Basternae-specific references still
+in the game.  Many of these have been removed, including references that were
+in screens.are.
+
+------------------
+Magma 3.02 Changes
+------------------
+
+There have not been any significant code changes.  However, the project files and
+code have been updated to compile successfully in Visual C++ 2005 Express Edition
+on Windows and with GCC on Ubuntu Linux 6.06.
+
+------------------
+Magma 3.00 Changes
+------------------
+This is a new release with many changes.  They are too countless to list, brought
+about by months of playtesting and actually running a MUD on the codebase.  This
+distribution also marks the split where Magma is no longer directly associated
+with Basternae, and is instead an independent codebase.  As such, changes in the
+future are likely to make it more adaptable to different types of MUDs and things
+are likely to be more configurable.  If I had to go back and renumber the versions,
+this would be the "true" magma 1.00.  Since changes from this point on will be
+made by only one person (Veygoth), they will be much better documented.
+
+------------------
+Magma 2.01 Changes
+------------------
+Mud was locked to newbies when first run.  This has been changed.
+
+------------------
+Magma 2.00 Changes
+------------------
+The changes in this version of Magma are too numerous to be listed.  To see
+a better list of the changes, run the MUD and type NEWS
+
+------------------
+Magma 1.00 Changes
+------------------
+A handful of bugs were fixed.
+
+------------------
+Magma 0.98 Changes
+------------------
+ANSI code improved.
+A few various bugs and uglinesses fixed.
+
+------------------
+Magma 0.97 Changes
+------------------
+In order to rent you must now be in a room flagged "inn".
+The do_give command now partially checks some quest stuff.
+Fixed some color bleeding.
+Trip and disarm checks for mobs have been removed from fight.c so that
+  that can be handled by a mob's special functions.
+Newbies now get food and water.
+
+------------------
+Magma 0.96 Changes
+------------------
+Fixed a pfile save/load bug that was caused by object affects and affected
+  by having the same key.
+Hit, mana, and move gain have faster, smoother ticks.  Rather than update
+  hits mana and moves as one batch, they each have separate ticks which
+  are at approximately 5 second intervals.
+
+------------------
+Magma 0.95 Changes
+------------------
+Items without costs now have more accurate costs set with the set_cost
+  function which now takes into account craftsmanship and some stat info
+  from weapons and armor.
+Corpses now retain the player's name as one of they keywords, and carved
+  items also retain the corpse's name.
+A bug in the is_affected function has been fixed.
+Mobs will no longer spam spelling themselves up with the same spells
+  repeatedly.
+Objects now load affect data, though this information is not yet
+  transferred to the player when they wear/wield the object.
+
+------------------
+Magma 0.94 Changes
+------------------
+Shops now load properly, including the buy and sell multipliers.
+The list looks a little cleaner and you can now purchase items.
+Items without a value set have values autoset at load time.
+The makezone program now adds .shp files to the .are files.
+
+------------------
+Magma 0.93 Changes
+------------------
+Basic fraglist was created to keep track of racewar pkills.
+
+------------------
+Magma 0.92 Changes
+------------------
+Will now let you reconnect instead of telling you that you are already
+  playing.
+
+------------------
+Magma 0.91 Changes
+------------------
+Score screen redone.
+
+------------------
+Magma 0.90 Changes
+------------------
+Made a few changes to db.c for more DikuEdit compatibility.
+Added the directions southwest, northwest, southeast, and northeast.
+
+------------------
+Magma 0.84 Changes
+------------------
+Added the ability for players to scribe spells from a mob flagged teacher.
+  The player must have a quill in their hand and be the proper level.  A
+  skill check of scribe determines the skill level they get that spell at.
+
+------------------
+Magma 0.83 Changes
+------------------
+Poses removed completely.  They may eventually be re-added.
+A bug with memorize_update has been fixed.
+Created the newbie_eq_char function in comm.c that gives a character
+  random newbie equipment based on values defined in merc.h.
+Pointer resets in the do_forget command have been fixed.
+
+------------------
+Magma 0.82 Changes
+------------------
+Implemented class_none as a default useless class.
+Added spec_fun2 to mobiles for even more extra functions.
+Spec_fun is automatically assigned to mob based on class.  If there is a
+  spec_fun for that mob specified in the area file, it pushes the class
+  spec_fun to spec_fun2 and puts the one in #SPECIALS in spec_fun, making
+  it the primary (first checked) function.
+Classes from DikuEdit now convert into as close as they have to
+  equivalents in Magma.
+
+------------------
+Magma 0.81 Changes
+------------------
+Changed object extra flags so that they use bitvectors.  These flags can
+  be accessed with the IS_OBJ_STAT, SET_OBJ_STAT, and REMOVE_OBJ_STAT
+Added supporting code for some of the room bits.  Uncoded room bits are
+  noted in merc.h.
+
+------------------
+Magma 0.80 Changes
+------------------
+Added and changed a bunch of bits in merc.h to make the code more DikuEdit
+  compatible.
+Deleted all of the stock areas, since the codebase has moved beyond being
+  Envy-compatible.
+More work has been done with spell memorization, but it is not quite
+  right yet.  do_forget and memorize_update still need work.
+Newbie equipment temporarily disabled until it is created (refers to old
+  zone equipment and crashes MUD)
+Item types are now prefixed by TYPE_ rather than ITEM_ because item
+  affects were prefixed by ITEM_, thus making things quite confusing to
+  poor old Veygoth.
+Little ANSI bug that would force players to have white as their foreground
+  color has been smushed.
+
+------------------
+Magma 0.73 Changes
+------------------
+Animal-type mobs no longer carry gold coins.
+The coin types copper, silver, and platinum have been added.  Most of the
+  code has been converted to use all of these coin types.  The only
+  exceptions are the do_steal and spec_thief functions, which reference
+  gold only.
+Added a bunch of mob specials.
+Added a bunch of object specials.
+
+------------------
+Magma 0.72 Changes
+------------------
+The spell system has more development.  Memorization is now in a FIFO
+  order and the memorize command functions works better.
+Trophy code has been added, which keeps track of the kind and number of
+  mobs that a player has killed and gives them less experience for
+  killing the same things repeatedly.  The size of a player's trophy
+  depends upon their level and trophy will not affect players until level
+  5.
+
+------------------
+Magma 0.71 Changes
+------------------
+Spell memorization is now limited by class and level, you can only memorize
+  a certain maximum number of spells.
+Spells no longer have levels, but circles instead.  Players get spell
+  circles at level 1 and every 5 levels after that.  There are 12 circles
+  of spells, with 12 being immortal only.
+More developements have been done on the spell system, and more to come.
+A few spell system bugfixes.
+
+------------------
+Magma 0.70 Changes
+------------------
+Fixed the load_quests function's pointer assignments.
+Added some memorization support for the upcoming spell system, namely
+  the mem_data struct and the do_memorize, do_forget, do_meditate,
+  and memorize_update functions.  All spellcasters except psionicists
+  will have to memorize their spells before they can cast them.
+  Psionicists will still be using the mana system.
+The do_cast function has been modified to require that a spell be memmed
+  before it can be cast unless the caster is an immortal.
+The do_will function is identical to the old do_cast function and is used
+  only for psionicists.
+The 'stat memdata' command has been added to show the number of free and
+  total memorization data in the game.
+
+------------------
+Magma 0.65 Changes
+------------------
+Implementation of events has begun.  More tick types have been created and
+  each one has an associated event.  So far all this allows is the
+  staggering of mobile, character, object, room, or other pulses.
+The memory command now reports the size of each structure and how much
+  memory is occupied by each structure.
+Stripped some old color codes out of the help files.
+Each race now has its own message when it enters or leaves the room.
+  Ogres will lumber and Centaurs will trot.
+The fee, feed, stake, and donate commands have been removed.
+Whois, title, and where are now immortal only commands.
+The sacrifice command has been removed.
+
+------------------
+Magma 0.64 Changes
+------------------
+Removed the weapon type from the spell_damage function since it needed it
+  about as much as a fish needs a bicycle.
+Added the ask command which is used to get quest messages from mobs
+  primarily.
+Added the petition and ptell commands, which allows mortals to address
+  the group of immortals as a whole and be responded to in a godlike
+  manner.
+Added the consent command which allows you to give a player your
+  permission for various upcoming things.
+The sub-level gods Avatar (59), Immortal (60), and Demigod (61) have been
+  added for those who want more immortal ranks.  They do not yet have any
+  commands assigned to them.
+
+------------------
+Magma 0.63 Changes
+------------------
+Flee has been modified - you can now flee if you aren't fighting.  When
+  you do flee you see which direction you went, as does your opponent,
+  provided you are not sneaking.
+The mud now loads DikuEdit quest (.qst) files.  We now have 100% DikuEdit
+  load compatibility.  However, not all the data is understood by the MUD
+  yet.  The do_ask command has to be added and the do_give command has to
+  be modified before the MUD can process quests.
+Another mudconfig option has been added allowing verbose logs of quest
+  data loading messages, since quest data is very strict in its format
+  and can cause problems.
+A new immortal command, STAT QUEST has been added to show a basic list of
+  the quests that are in the game.
+In /test/area/convzone another file has been added, zonefromqst, which
+  when run will create a zone file from a .qst file.  makezone has also
+  been modified.
+
+------------------
+Magma 0.62 Changes
+------------------
+Removed more useless/disabled OLC code.
+Added the basics of a menu.  Also added the rent command.  When you rent
+  or quit, it will take you to the basics of a menu which is simply where
+  you have the option to enter the game or quit.  Currently the rent and
+  quit commands can be used from anywhere in the game.
+When you die or are killed you go to the menu and have the option to
+  quit or re-enter the game.
+Disentegrate spell no longer totally destroys a character hit by it.
+
+------------------
+Magma 0.61 Changes
+------------------
+When players die, their stuff goes to their corpse.
+Timers on corpses are longer.
+Corpses now save when you die, so if the mud crashes or reboots you still
+  have a chance of being able to retrieve items from your corpse.
+Murder command has been removed.  You can now use kill on players.
+Permenant death due to experience loss has been removed.
+
+
+------------------
+Magma 0.60 Changes
+------------------
+Removed the bulk of the OLC code, since Magma is designed to be used
+  primarily with an offline editor.  Retaining the world save command
+  for easy area format conversion.
+Affect bits, affects, bitvectors were totally rewritten.  The affect bits
+  are now structs that contain which byte they go with.  The constant
+  NUM_AFFECT_VECTORS in merc.h determines how many bytes are to be used
+  for affects -- this was done for ease of expansion, giving a virtually
+  unlimited amount of available bits.
+Several functions have been added to bit.c to handle the affect
+  structures.
+Made the damage for being in the sun a little more reasonable for the
+  upcoming tick system.
+A few bugfixes made from previous version.
+
+------------------
+Magma 0.51 Changes
+------------------
+Magma now has autoadvancing skills.  A player's skills will go up with use
+  to a certain maximum dictated by their level.
+Classes' skils changed a bit.
+
+------------------
+Magma 0.50 Changes
+------------------
+Removed a bunch of level code and level restriction stuff from objects.
+Created the class_avail chart so races can be restricted to certain
+classes.
+Mobiles now also have attributes str, int, wis, dex, con, agi, cha, pow,
+  and luk.  They may be set by mset and affected by spells and objects.
+The train command has been removed.
+Agility, charisma, power, and luck now shows on mstat.
+Set body parts to be lopped off at the end of a fight 1/4 as often, since
+  it just made a big ugly mess :P
+After you die, you come back standing up rather than resting.
+Skills and spells have been split into two.  Skills and spells are
+  different enough that they should not be lumped together.  Since they
+  have been split, special care should be taken to see that you use a
+  spell function for a spell (i.e. spell_lookup) and a skill function for
+  a skill (i.e. skill_lookup).  There are bound to be bugs in such a major
+  conversion, but I hope to squish them before the code ever sees the
+  light of day.  By splitting the spells and skills, neither is limited
+  by the other in any way, and they can be customized and expanded as
+  necessary.
+Because skills and spells have been split, the affect_data has both
+  a variable for the skill and spell.  Only one of these should ever
+  be set at a time.
+Removed 18 immortal commands and combined them into the commands find,
+  load, set, stat, and where.  The commands are otherwise unchanged.
+Added the news command to access help news
+The structure used for skills has been trimmed down and the variables
+  that were only used for spells have been removed.
+Added the Neogi mob race.
+The spells structures no longer hold the actual position needed to cast
+  a spell since it is either standing or fighting that you need to be.
+  The value was changed do cast_combat, which is TRUE if you can cast
+  it in battle and FALSE if you can't.
+
+------------------
+Magma 0.42 Changes
+------------------
+Added Zen's name ban code to make banning of unwanted names easier.
+Added twenty-six races.
+Prompt now defaults to Basternae-style prompt, with additional option
+  of "Prompt Meter" for life meters rather than status.
+Now saves the game time in /sys/SYSDATA.TXT.  Game time is saved every
+  15 minutes.  Was getting Groundhog Day flashbacks from living the same
+  day over and over...
+
+------------------
+Magma 0.41 Changes
+------------------
+Eliminated the light, shield, hold, missile weapon, wield, and wield2
+  equipment locations and set up hand and hand2 wear locations.  These
+  wear locations have not been fully debugged yet.
+Added wear locations eyes, face, left and right ear, quiver, badge,
+  on back, attached to belt.
+Added the exp command
+Sentinel mobs will no longer spam repop.
+Changed the stat system to be based on 100 points rather than 18.
+Changed constitution to be a percentage multiplier rather than a flat
+  bonus.
+Racial stat maximums are now defined in const.c rather than the bonuses
+  and penalties.  When your race changes, your stats change dynamically,
+  since your stat values are stored as percentile values.
+Added the firstaid command, usable on self for a small hitpoint gain,
+  once per game day.
+
+------------------
+Magma 0.40 Changes
+------------------
+Added definitions for object extra2 flags and object anti flags.
+ITEM_VIS_DEATH, ITEM_VAMPIRE_BANE, ITEM_DARK, ITEM_LOCK removed because
+  they either served no purpose or duplicated some of the new bits.
+Material type definitions added.  Material type is fully functional, but
+  no code takes into account material types as of yet.
+Object size now functional.
+Now loads Basternae format mobiles.  Flags for mobiles have not been coded
+  yet.
+Now loads Basternae format reset (.zon) files.
+Now loads Basternae format shop (.shp) files.
+Updated /area/convzone/makezone, created /area/convzone/zonefrommob.
+Fixed some color bleeding.
+Command aliases: skills = slist, attributes = score.
+
+------------------
+Magma 0.33 Changes
+------------------
+Added fall chance, mana, and current to room loads.  Data for mana and
+  current is discarded for now.  Fall chance data is used.  .wld files
+  are now fully Basternae compatible.
+Now loads Basternae format objects.  This has not been thoroughly tested
+  yet and support for the anti_flags, anti_flags2, extra_flags2, size,
+  material, volume, and craftsmanship values has not yet been added.
+New utility on /area/convzone called zonefromobj that creates a zone
+  from an object file.  /area/convzone/makezone takes the .obj and .wld
+  file from a zone and makes an area out of it.
+
+------------------
+Magma 0.32 Changes
+------------------
+Display is now an alias for prompt command
+Mindflayers had been renamed to Illithids and Hobbits to halflings, but
+  the mob races in the zones had not been changed, would give mob wrong
+  race and put an error message in the log.  Changed them in the areas.
+  also Halfdwarf to Half-Dwarf and Halfelf to Half-Elf.
+The convzone program (in /area/convzone) has been written to combine
+  Basternae and Duris-style areas into a single .are file.  The zones
+  will not yet load, since support for the format has not been added.
+  For now this program is primarily used to make coding support for
+  these zones easier.
+.WLD files from the Duris/Basternae format can be converted into entire
+  room-only zones by running the zonefromwld file in /area/convzone.
+  This will convert the .wld file into a usable .are file.  The .are
+  file will have no header, so that will have to be added manually.
+Added 15 sector types in order to support the additional sector types
+  in the Basternae zone format.  Some more code may be needed in the
+  move_char function in order to support all functions of the new sector
+  types
+Added all of the flags needed for Basternae room flag compatibility.
+  The flags are not yet handled by the code and the old zones' flags
+  do not yet convert correctly.  Flags not yet handled are listed in
+  merc.h and show up as not yet imped when a room is statted.
+Added code to support the no_heal, heal, no_scan, twilight, magicdark,
+  magiclight, and no_gate room flags.
+OLC saving will save rooms with the #BASTROOMS in order to keep the new
+  room flags intact.  All of the stock areas have already been converted.
+
+------------------
+Magma 0.31 Changes
+------------------
+More color
+Increased number of saving throw types to five, even though only the
+  spell save is currently used.
+Added a color field to race definitions
+Who now shows a player's race and a player's race is indicated when you
+  see them in a room.
+Now tells you which direction someone enters the room from.
+No exp penalty for fleeing.
+Added the options for display of player status, tank status, and enemy
+  status in the prompt.  These can be displayed as meters or text.
+A few minor updates to the help file.
+
+------------------
+Magma 0.30 Changes
+------------------
+Added ability scores for Agility, Charisma, Power, and Luck to creatures
+  and players
+Ability scores can now vary from the 13 and 16 that are set by default.
+Agility affects AC rather than dexterity now.
+This is the first version that has any file incompatibilities -- the
+  pfiles from UltraEnvy will not have the four new ability scores so
+  they will default to zero.
+
+------------------
+Magma 0.23 Changes
+------------------
+Removed everything involving registering to be a pkiller, including the
+  PLR_REGISTER flag, the do_register function, and check_registered
+  function.
+Moves and mana now change colors on the prompt as they get low.
+In order to make character creation and logging in quicker and easier,
+  the connected states have been modified and the second title scren has
+  been removed.  You now have to hit enter fewer times to create a
+  character.
+
+------------------
+Magma 0.22 Changes
+------------------
+More color
+Doors now show up on the autoexit list and exits command.
+Immortals now show up at the top of the who list.
+Newbie equipment is no longer called 'sub issue' stuff, and players no
+  longer start in newbie school.
+Took away the majority of the penalties and restrictions on pkilling,
+  such as the EXP and EQ loss and shopkeepers not selling to you.  The
+  MUD does still keep track of killer flags, however.  This creates a
+  rudimentary form of justice where you will get your ass kicked for
+  being a killer if there are any mobs around flagged with either the
+  spec_guard or spec_executioner procs.  The killer flag is removed when
+  you die.
+Purgatory has been removed from the game entirely.
+"Me" is now another alias for yourself.
+When you die it now tells you what you have been killed by.
+  i.e. "You have been slain by a cityguard!"
+
+-----------------
+Magma 0.21 Changes
+-----------------
+More color
+Hitpoint prompt now changes color depending upon a player's injuries
+Sacrifice is no longer a mortal command and does not give coins.
+No longer tells you how many experience points you get for a kill.
+Removed all title_table related stuff (class and level based titles)
+Changed immortal names to overlord, implementor, greater god, lesser god
+  (Listed in descending order)
+
+--------------------------------------------------------------
+Code changes to UltraEnvy 0.87j done by Veygoth for Magma 0.20
+--------------------------------------------------------------
+Can save at level one.
+No choice of neuter at menu.
+Added Duris style color codes in merc.c and act_comm.c
+  Added support for bold foreground colors
+Removed the conv_braces and unconv_braces functions from db.c
+  since they were no longer needed (color problems caused the need for
+  them)
+Removed all of the Lope-style color codes from the code files.
+Added Duris color codes to a few strings.
+Removed experience penalty for fleeing combat.
+Removed the AUTOLOOT, AUTOSAC, and AUTOGOLD code.
+Toggle is now an alias for config.
+

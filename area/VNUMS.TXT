@@ -1,0 +1,63 @@
+Vnum Ranges of zones:
+
+* NOTE *
+Do not load any zones that will have overlapping vnums.  Make sure you
+have renumbered them properly beforehand.  You may want to use this file
+to note vnum ranges of zones as they are added.
+
+0-399		limbo.are (Essential internal code-related stuff)
+400-499	purgator.are
+600-699	ofcol2.are
+900-999	olympus.are
+1000-1099   air.are
+1100-1199	shire.are
+1300-1499   hitower.are
+1500-1599   gnome.are
+1600-1799   wyvern.are
+1800-1899   haven.are
+1900-1999   astral.are
+2000-2099   catacomb.are
+2100-2199   hood.are
+2200-2299   draconia.are
+2300-2399   mahntor.are
+2400-2599   ultima.are
+2600-2699	pyramid.are
+2800-2899   trollden.are
+2900-2999   firenewt.are
+3000-3399	midgaard.are
+3400-3499   chapel.are
+3500-3599   midennir.are
+3600-3699	grave.are
+3700-3799	school.are
+3800-3899   rats.are
+3900-4199   moria.are
+4400-4499   circus.are
+4700-4799   juargan.are
+5100-5199	drow.are
+5500-5599	ofcol.are
+6000-6199	haon.are
+6200-6399	arachnos.are
+6500-6599   dwarven.are
+6600-6699	daycare.are
+7000-7499	sewer.are
+7800-7899   valley.are
+7900-7999	redferne.are
+8000-8099   mega1.are
+8100-8199   nirvana.are
+8200-8299   castle.are
+8300-8399   marsh.are
+8600-8699   dream.are
+8900-8999   grove.are
+9100-9199   dylan.are
+9200-9299   canyon.are
+9300-9399	galaxy.are
+9400-9499	mobfact.are
+9800-9899	cult.are
+9900-9999	tree.are
+10700-10799 murky.are
+11500-11799	highland.are
+13100-13129 smurf.are
+13200-13299 ocean.are
+13300-13399 plains.are
+20000-20099 goblins.are
+20100-20199	shaolin.are

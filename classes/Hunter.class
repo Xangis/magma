@@ -1,0 +1,64 @@
+Nm          Hunter~
+WhoNm       &+rHu&+Rnt&n&+rer&n      ~
+Cla         18
+AtrPrm      1
+Wpn         200
+Sklladpt    95
+Thac0       18
+Thac47      0
+Hpmin       9
+Hpmax       15
+Mana        0
+Skll         1 'track'
+Skll         1 'scribe'
+Skll         1 'quick chant'
+Skll         1 'blindfighting'
+Skll         1 'barehanded fighting'
+Skll         1 'unarmed damage'
+Skll         1 'awareness'
+Skll         1 'riposte'
+Skll         1 'mount'
+Skll         1 'dodge'
+Skll         1 'bandage'
+Skll         1 '1h piercing'
+Skll         1 '1h slashing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h misc'
+Skll         1 '2h piercing'
+Skll         1 '2h slashing'
+Skll         1 '2h bludgeoning'
+Skll         1 '2h misc'
+Skll         1 'aerial combat'
+Skll         1 'aerial casting'
+Skll         1 'springleap'
+Skll         1 'dual wield'
+Skll         1 'offense'
+Skll         1 'kick'
+Skll         1 'parry'
+Skll         1 'rescue'
+Skll         1 'scrolls'
+Skll         1 'second attack'
+Skll         1 'staves'
+Skll         1 'wands'
+Skll         1 'shield block'
+Skll         1 'swim'
+Skll         1 'carve'
+Skll        11 'meditate'
+Skll        21 'hide'
+Skll        31 'bladeflash'
+Spll         2 'shadow shield'
+Spll         3 'magic missile'
+Spll         3 'vigorize light'
+Spll         4 'lesser nourishment'
+Spll         4 'detect magic'
+Spll         5 'prismatic orb'
+Spll         5 'vigorize serious'
+Spll         6 'concealment'
+Spll         6 'sense life'
+Spll         7 'shadow magic'
+Spll         8 'farsee'
+Spll         9 'fly'
+Spll         9 'haste'
+Spll        10 'dazzle'
+Spll        11 'blur'
+End

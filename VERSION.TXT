@@ -1,0 +1,31 @@
+Magma MUD version 3.04
+Saturday, February 23, 2008
+
+Xangis	xangis@yahoo.com
+
+Linux users:
+Run "make std" in the src directory to compile the MUD and then run the "magma"
+file that results.
+
+Windows
+Run MagmaMUD.exe in the /src directory.
+
+Visual Studio 2005:
+Use the project file in the /src directory.  For earlier versions of Visual Studio
+you will need to manually add all .c and .h files to a new project.  When we tested
+this with Visual Studio 2008 it was able to convert and build the project without
+any problems.
+
+
+*Note:  This archive does contain a pre-built excutable file for Windows but not
+        for Linux.  You will need to use the source code in /src to build one.
+
+        For more detailed version information, see /doc/magma_changes.txt
+
+        For information on getting the program running, see /doc/README.TXT
+
+        For information on adding or editing zones, see /editor/README.TXT
+
+        Version information in text files is not necessarily accurate, please
+        refer to this file for version and release date.  Versions in other
+        text files just refer to the last time they were updated.

@@ -1,0 +1,310 @@
+#HELPS
+
+0 PLAY GAMBLE GAMBLING~
+Syntax: play
+Syntax: play   <game>
+Syntax: play   <game> <croupier>
+Syntax: gamble
+Syntax: gamble <game>
+Syntax: gamble <game> <croupier>
+
+All true adventurers must take risks each day they wake up.  But why risk
+your life when you can risk your gold?  Several GAMES are available for
+the diversion of adventurers (and of their wealth).
+
+PLAY or GAMBLE (they are synonymous) without an argument will tell you which
+games you can play at your present location.  Including a game name will,
+if possible, include you in that game.  If you also include the name of a
+croupier, you can specify whose game you will join.
+
+To talk with the other players in your game, you can use GTALK or '-'.  You
+can see various statistics and current information with the SHOW command.
+
+Most games have a limit to the amount of gold you are allowed to win over
+your lifetime.  If you reach this limit but still wish to play the game, 
+you may DEDUCT a certain amount from your winnings, so that you may play
+again.  You may also RESET the statistics if you'd like to do so.
+
+In order to stop playing a game, type QUIT or END.  You will also be forced
+to quit the game if you attack someone or are attacked by someone, suffer
+damage due to poison or other injuries, or leave the game location for most
+games.  
+~
+
+-1 GAMES~
+The current games available on EnvyMud are:
+	Blackjack
+	Upper-Lower-Triple
+~
+
+0 BLACKJACK TWENTY-ONE~
+BLACKJACK, or TWENTY-ONE as it is often called, is a card game played by
+two to ten players, one of whom is the DEALER.  Each player is asked to
+place a BET, then is dealt two cards from a DECK face up, except for the
+dealer, whose first card (the 'hole' card) is dealt face down.  The object
+of the game is to make your hand total more than the dealer's hand, but no
+more than 21.  If both you and the dealer end up with the same total, it is
+called a PUSH, and your money is returned to you.
+
+If your hand totals 21 with your first two cards (an ace with either a
+ten or a face card), you have 'blackjack' (or a 'natural') and automatically
+win back 1-1/2 times your original bet.  If you do not have blackjack,  you
+can HIT to ask for another card, SPLIT identical cards to play two hands,
+DOUBLE your bet and receive just one card, or STAND on the hand you have.
+Aces can count for either 1 or 11 points, depending on which will give you
+the better score.
+
+The dealer must follow strict guidelines:  hit on 16, stand on 17.  If
+the dealer's up card (the one not facing down) is an ace, you may take 
+out an INSURANCE bet against blackjack.
+
+If you keep hitting without going over 21 (which is called a BUST), you can
+earn special bonuses.  If you stand with 5 cards in your hand, you
+automatically win back double your bet.  If you stand with 6 cards, you 
+win triple your bet.  And if you manage to get 7 cards in your hand without
+busting, you automatically win 4 times your bet.  But as the payoffs imply,
+these hands are hard to come by.
+~
+
+-1 UPPER-LOWER-TRIPLE 'UPPER LOWER TRIPLE' UPPER LOWER TRIPLE~
+UPPER-LOWER-TRIPLE is a simple dice game.  You place a BET with a choice 
+of upper, lower, or triple.  The dealer then rolls three dice, and their
+values are added up.  If the result is 11 or greater, it is an "Upper",
+and if the resut is 10 or less, it is a "Lower".  If, however, all three
+dice show the same numbers, it is a "Triple" and those who bet on it win
+back 36 times their wager!  Unfortunately, all other bets are off if a 
+Triple is rolled.
+~
+
+-1 DEALER CROUPIER~
+
+Each gambling game must have someone in charge, and this person is 
+traditionally known as a CROUPIER.  For card games, the term DEALER is
+more common.  The CROUPIER is in total control of the game, and can
+turn away unwelcome customers.  Keep your eyes out, though...some of 
+the croupiers have been known to take advantage of unwary players.
+~
+
+-1 DECK~
+
+The standard deck of cards has four suits (spades, hearts, clubs, and
+diamonds), with thirteen cards in each suit: A (or ace), 2 (or deuce),
+3, 4, 5, 6, 7, 8, 9, 10, J (or jack), Q (or queen), and K (or king).
+In games where the values of the cards are added (such as BLACKJACK),
+the 'face cards' (J, Q, K) are worth ten points, and the other cards are
+worth 'face value'.  The value of the ace is usually 1, though in 
+BLACKJACK it can also count as 11.  See the helps for a particular game
+for additional information about any cards it may use.
+~
+
+0 ANTE~
+Syntax: ante
+
+In order to begin some games (most notably POKER), you must put in an
+ANTE.  The amount is set by the croupier.
+~
+
+0 BET WAGER~
+Syntax: bet   <amount>
+Syntax: bet   <amount> <choice>
+Syntax: bet    limit
+Syntax: wager <amount>
+Syntax: wager <amount> <choice>
+Syntax: wager  limit
+
+During a gambling game, you will occasionally need to place a BET.  The
+syntax of the wager will depend on the particular game in which you are
+participating.  Wagering the 'limit' will automatically place the maximum
+bet, if you have enough gold.
+~
+
+0 CARDS~
+Syntax: cards
+Syntax: cards all
+Syntax: show cards
+Syntax: show all
+
+The CARDS command shows you the cards you are currently holding, if any.
+If appropriate, it will also give you the score of your current hand(s).
+Adding "all" will show you the cards that all players are holding.
+~
+
+0 CALL SEE~
+Syntax: call
+Syntax: see
+
+If you want to stay in a hand when you owe money, you may CALL or SEE the
+bets placed by other gamblers.
+
+See also: CHECK, FOLD, and RAISE
+~
+
+0 CHECK~
+Syntax: check
+
+In rounds of POKER where you do not wish to (or cannot) RAISE, you may 
+CHECK to stay in the hand.  Once someone has raised after the current
+deal, however, you will have to CALL, RAISE, or FOLD.
+
+See also: CALL, FOLD, and RAISE
+~
+
+0 DEDUCT~
+Syntax: deduct <amount> <game>
+
+Sometimes players win so much money at a particular game that the
+CROUPIERS refuse to let them gamble.  If you would like to play the game
+again, you may DEDUCT some money from your winnings and give it to "the
+house".  If you deduct enough, you will be allowed to join in once again.
+~
+
+0 FOLD~
+Syntax: fold
+
+If you think that you do not have a chance to win the current game,
+you may FOLD and cut your losses.  Don't FOLD if no one has made a 
+bet yet, though; simply CHECK and wait to see if you are forced to
+put in more money.
+
+See also: CALL, CHECK, and RAISE
+~
+
+0 RAISE +~
+Syntax: raise <amount>
+Syntax: +     <amount>
+
+If you feel that your hand warrants putting more money into the pot,
+you may RAISE the stakes.  Heck, your hand doesn't even have to warrant
+it.  That's what bluffing is all about!  '+' is a synonym for RAISE.
+
+See also: CALL, CHECK, and FOLD
+~
+
+0 DOUBLE 'DOUBLE DOWN'~
+Syntax: double
+
+In BLACKJACK, if you feel confident that one more card will give you
+an unbeatable total, you may DOUBLE your bets.  This card will be the 
+only one you receive, and you may only do this as the first hit.
+~
+
+0 END~
+Syntax: end
+Syntax: quit
+
+In order to stop playing a gambling game, simply type END or QUIT. 
+Because of the syntax, you will be unable to leave EnvyMud until you
+stop gambling.
+~
+
+0 GTALK -~
+Syntax: gtalk <message>
+
+This command is similar to GTELL, except that whatever you communicate
+is shared only with the other players currently playing a gambling game
+with you.  '-' is a synonym for GTALK.
+~
+
+0 HANDS~
+Syntax: hands
+Syntax: show hands
+
+If you are trying to decide how good your current poker hand is, you may
+type HANDS to see the ranking of all poker hands.
+~
+
+0 HIT~
+Syntax: hit
+
+If you want another card dealt to you while playing BLACKJACK, you can 
+ask for a HIT.  If it is your first chance for a hit, and you think that
+the next card is all you will want, you may DOUBLE your bet and automatically
+STAND on the result.
+
+See also: DOUBLE, SPLIT, and STAND
+~
+
+0 INSURANCE~
+
+While playing BLACKJACK, occasionally the DEALER'S up card will be an
+ace.  Since there is a significant chance that the dealer has blackjack,
+you are offered the chance to take out an 'insurance' bet against this
+occurring.  If you decide to INSURE, you automatically wager 1/4 of your
+original bet, saying that you think the dealer has a natural.  If you
+are correct, you win your insurance bet (but lose your original bet).
+Otherwise, you lose your insurance bet.
+~
+
+0 INSURE YES NO~
+Syntax: insure yes
+Syntax: insure no
+Syntax: yes
+Syntax: no
+
+If you are offered the chance to buy INSURANCE, you may do so by typing
+YES or NO, or INSURE YES or INSURE NO if you feel like you need the exercise.
+~
+
+0 PLAYERS~
+Syntax: players
+Syntax: show players
+
+If you would like to know who else is playing your current gambling
+game along with you, PLAYERS will show you.
+~
+
+0 RECORD~
+Syntax: record
+Syntax: show record
+
+If you would like to bask in the glory of your gambling record, or perhaps
+find out how much more you need to break even, you may type RECORD.  This
+will tell you your status in all games you have played.
+~
+
+0 RESET~
+Syntax: reset <game>
+
+This command will reset the statistics for the chosen game.  It will not,
+however, even your winning or losing balance...you must DEDUCT to do that.
+~
+
+0 SHOW~
+Syntax: show all
+Syntax: show cards
+Syntax: show hands
+Syntax: show players
+Syntax: show record
+
+These commands will tell you information on the current game you are playing,
+or on your overall gambling record.  'Show all' shows you the cards every
+player is holding.
+
+See also: CARDS, HANDS, PLAYERS, and RECORD
+~
+
+0 SPLIT~
+Syntax: split
+
+In BLACKJACK, if you are dealt a pair of cards of the same type (for example,
+the queen of diamonds and the queen of spades), you may SPLIT them into two
+separate hands, wagering the amount of your original bet on both hands.
+
+See also: DOUBLE, HIT, and STAND
+~
+
+0 STAND STAY HOLD =~
+Syntax: stand
+Syntax: stay
+Syntax: hold
+Syntax: =
+
+If you are satisfied with your current hand, you can STAND and refuse further
+cards.  '=' is a synonym for STAND.
+
+See also: DOUBLE, HIT, and SPLIT
+~
+
+0 $~
+
+#$

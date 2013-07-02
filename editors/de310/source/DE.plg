@@ -1,0 +1,631 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\zonetype.cpp'
+
+Creating temporary file "C:\DOCUME~1\Xangis\LOCALS~1\Temp\RSP1A2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/DE.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\alias.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\check.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\clone.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\command.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\config.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\copydef.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\copydesc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\create.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\crtedit.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtexit.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmobhu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmobtu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobj.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobjhu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobjtu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtrexit.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtroom.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtroomu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\de.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\default.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\delete.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\delexitu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobhu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobt.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobtu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjh.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjhu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjt.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjtu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\delqstu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\delroomu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\delshpu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\dispflag.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\display.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\dispmisc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\dispmob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\dispobj.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\disproom.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\dispzone.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\edesc\edesc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editable.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editchck.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editdisp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\editent.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editexit.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\editflag.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editichk.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editmchk.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmflg.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmms2.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmms3.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmmsc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmobu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editobj.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editobju.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editochk.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoexd.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editofl2.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoflg.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoms2.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editomsc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editotrp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqst.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqsti.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstq.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editrchk.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrexd.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrext.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrflg.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrmsc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editroom.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrsec.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpb.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpr.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshps.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpt.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzflg.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzmsc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzone.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\equip.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\exit.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\flagdef.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\flags.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\getstrn.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\history.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\init.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\initcomm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\initscr.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\interp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\inv.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\keywords.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\list.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\load.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\loaded.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\look.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\maincomm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\master.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\menu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\misc.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\misccomm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobhere.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobtypes.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\mountfol.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\mudcomm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\object.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objectu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objhere.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objtypes.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\purge.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\put.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\qsttypes.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\quest.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\readmob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\readobj.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\readqst.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\readshp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\readwld.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\readzon.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\room.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\roomtype.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\roomu.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\setcomm.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\setrand.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\shop.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\stat.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\strings.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\strnnode.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\system.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\template.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\unequip.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\var.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\vardef.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\writemob.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\writeobj.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\writeqst.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\writeshp.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\writewld.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\writezon.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\zone.cpp"
+"C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\zonetype.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Xangis\LOCALS~1\Temp\RSP1A2.tmp" 
+Creating temporary file "C:\DOCUME~1\Xangis\LOCALS~1\Temp\RSP1A3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DE.pdb" /debug /machine:I386 /out:"Debug/DE.exe" /pdbtype:sept 
+".\Debug\alias.obj"
+".\Debug\check.obj"
+".\Debug\clone.obj"
+".\Debug\command.obj"
+".\Debug\config.obj"
+".\Debug\copydef.obj"
+".\Debug\copydesc.obj"
+".\Debug\create.obj"
+".\Debug\crtedit.obj"
+".\Debug\crtexit.obj"
+".\Debug\crtmob.obj"
+".\Debug\crtmobhu.obj"
+".\Debug\crtmobtu.obj"
+".\Debug\crtobj.obj"
+".\Debug\crtobjhu.obj"
+".\Debug\crtobjtu.obj"
+".\Debug\crtrexit.obj"
+".\Debug\crtroom.obj"
+".\Debug\crtroomu.obj"
+".\Debug\de.obj"
+".\Debug\default.obj"
+".\Debug\delete.obj"
+".\Debug\delexitu.obj"
+".\Debug\delmobhu.obj"
+".\Debug\delmobt.obj"
+".\Debug\delmobtu.obj"
+".\Debug\delobjh.obj"
+".\Debug\delobjhu.obj"
+".\Debug\delobjt.obj"
+".\Debug\delobjtu.obj"
+".\Debug\delqstu.obj"
+".\Debug\delroomu.obj"
+".\Debug\delshpu.obj"
+".\Debug\dispflag.obj"
+".\Debug\display.obj"
+".\Debug\dispmisc.obj"
+".\Debug\dispmob.obj"
+".\Debug\dispobj.obj"
+".\Debug\disproom.obj"
+".\Debug\dispzone.obj"
+".\Debug\edesc.obj"
+".\Debug\editable.obj"
+".\Debug\editchck.obj"
+".\Debug\editdisp.obj"
+".\Debug\editent.obj"
+".\Debug\editexit.obj"
+".\Debug\editflag.obj"
+".\Debug\editichk.obj"
+".\Debug\editmchk.obj"
+".\Debug\editmflg.obj"
+".\Debug\editmms2.obj"
+".\Debug\editmms3.obj"
+".\Debug\editmmsc.obj"
+".\Debug\editmob.obj"
+".\Debug\editmobu.obj"
+".\Debug\editobj.obj"
+".\Debug\editobju.obj"
+".\Debug\editochk.obj"
+".\Debug\editoexd.obj"
+".\Debug\editofl2.obj"
+".\Debug\editoflg.obj"
+".\Debug\editoms2.obj"
+".\Debug\editomsc.obj"
+".\Debug\editotrp.obj"
+".\Debug\editqst.obj"
+".\Debug\editqsti.obj"
+".\Debug\editqstm.obj"
+".\Debug\editqstq.obj"
+".\Debug\editqstu.obj"
+".\Debug\editrchk.obj"
+".\Debug\editrexd.obj"
+".\Debug\editrext.obj"
+".\Debug\editrflg.obj"
+".\Debug\editrmsc.obj"
+".\Debug\editroom.obj"
+".\Debug\editrsec.obj"
+".\Debug\editshp.obj"
+".\Debug\editshpb.obj"
+".\Debug\editshpc.obj"
+".\Debug\editshpm.obj"
+".\Debug\editshpr.obj"
+".\Debug\editshps.obj"
+".\Debug\editshpt.obj"
+".\Debug\editshpu.obj"
+".\Debug\editzflg.obj"
+".\Debug\editzmsc.obj"
+".\Debug\editzone.obj"
+".\Debug\equip.obj"
+".\Debug\exit.obj"
+".\Debug\flagdef.obj"
+".\Debug\flags.obj"
+".\Debug\getstrn.obj"
+".\Debug\history.obj"
+".\Debug\init.obj"
+".\Debug\initcomm.obj"
+".\Debug\initscr.obj"
+".\Debug\interp.obj"
+".\Debug\inv.obj"
+".\Debug\keywords.obj"
+".\Debug\list.obj"
+".\Debug\load.obj"
+".\Debug\loaded.obj"
+".\Debug\look.obj"
+".\Debug\maincomm.obj"
+".\Debug\master.obj"
+".\Debug\menu.obj"
+".\Debug\misc.obj"
+".\Debug\misccomm.obj"
+".\Debug\mob.obj"
+".\Debug\mobhere.obj"
+".\Debug\mobtypes.obj"
+".\Debug\mobu.obj"
+".\Debug\mountfol.obj"
+".\Debug\mudcomm.obj"
+".\Debug\object.obj"
+".\Debug\objectu.obj"
+".\Debug\objhere.obj"
+".\Debug\objtypes.obj"
+".\Debug\purge.obj"
+".\Debug\put.obj"
+".\Debug\qsttypes.obj"
+".\Debug\quest.obj"
+".\Debug\readmob.obj"
+".\Debug\readobj.obj"
+".\Debug\readqst.obj"
+".\Debug\readshp.obj"
+".\Debug\readwld.obj"
+".\Debug\readzon.obj"
+".\Debug\room.obj"
+".\Debug\roomtype.obj"
+".\Debug\roomu.obj"
+".\Debug\setcomm.obj"
+".\Debug\setrand.obj"
+".\Debug\shop.obj"
+".\Debug\stat.obj"
+".\Debug\strings.obj"
+".\Debug\strnnode.obj"
+".\Debug\system.obj"
+".\Debug\template.obj"
+".\Debug\unequip.obj"
+".\Debug\var.obj"
+".\Debug\vardef.obj"
+".\Debug\writemob.obj"
+".\Debug\writeobj.obj"
+".\Debug\writeqst.obj"
+".\Debug\writeshp.obj"
+".\Debug\writewld.obj"
+".\Debug\writezon.obj"
+".\Debug\zone.obj"
+".\Debug\zonetype.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Xangis\LOCALS~1\Temp\RSP1A3.tmp"
+<h3>Output Window</h3>
+Compiling...
+alias.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\alias.cpp': No such file or directory
+check.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\check.cpp': No such file or directory
+clone.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\clone.cpp': No such file or directory
+command.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\command.cpp': No such file or directory
+config.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\config.cpp': No such file or directory
+copydef.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\copydef.cpp': No such file or directory
+copydesc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\copydesc.cpp': No such file or directory
+create.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\create.cpp': No such file or directory
+crtedit.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\crtedit.cpp': No such file or directory
+crtexit.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtexit.cpp': No such file or directory
+crtmob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmob.cpp': No such file or directory
+crtmobhu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmobhu.cpp': No such file or directory
+crtmobtu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\crtmobtu.cpp': No such file or directory
+crtobj.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobj.cpp': No such file or directory
+crtobjhu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobjhu.cpp': No such file or directory
+crtobjtu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\crtobjtu.cpp': No such file or directory
+crtrexit.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtrexit.cpp': No such file or directory
+crtroom.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtroom.cpp': No such file or directory
+crtroomu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\crtroomu.cpp': No such file or directory
+de.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\de.cpp': No such file or directory
+default.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\default.cpp': No such file or directory
+delete.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\delete.cpp': No such file or directory
+delexitu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\delexitu.cpp': No such file or directory
+delmobhu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobhu.cpp': No such file or directory
+delmobt.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobt.cpp': No such file or directory
+delmobtu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\delmobtu.cpp': No such file or directory
+delobjh.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjh.cpp': No such file or directory
+delobjhu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjhu.cpp': No such file or directory
+delobjt.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjt.cpp': No such file or directory
+delobjtu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\delobjtu.cpp': No such file or directory
+delqstu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\delqstu.cpp': No such file or directory
+delroomu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\delroomu.cpp': No such file or directory
+delshpu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\delshpu.cpp': No such file or directory
+dispflag.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\dispflag.cpp': No such file or directory
+display.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\display.cpp': No such file or directory
+dispmisc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\dispmisc.cpp': No such file or directory
+dispmob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\dispmob.cpp': No such file or directory
+dispobj.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\dispobj.cpp': No such file or directory
+disproom.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\disproom.cpp': No such file or directory
+dispzone.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\dispzone.cpp': No such file or directory
+edesc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\edesc\edesc.cpp': No such file or directory
+editable.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editable.cpp': No such file or directory
+editchck.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editchck.cpp': No such file or directory
+editdisp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editdisp.cpp': No such file or directory
+editent.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\editent.cpp': No such file or directory
+editexit.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editexit.cpp': No such file or directory
+editflag.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\editflag.cpp': No such file or directory
+editichk.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editichk.cpp': No such file or directory
+editmchk.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editmchk.cpp': No such file or directory
+editmflg.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmflg.cpp': No such file or directory
+editmms2.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmms2.cpp': No such file or directory
+editmms3.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmms3.cpp': No such file or directory
+editmmsc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmmsc.cpp': No such file or directory
+editmob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmob.cpp': No such file or directory
+editmobu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\editmobu.cpp': No such file or directory
+editobj.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editobj.cpp': No such file or directory
+editobju.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editobju.cpp': No such file or directory
+editochk.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editochk.cpp': No such file or directory
+editoexd.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoexd.cpp': No such file or directory
+editofl2.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editofl2.cpp': No such file or directory
+editoflg.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoflg.cpp': No such file or directory
+editoms2.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editoms2.cpp': No such file or directory
+editomsc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editomsc.cpp': No such file or directory
+editotrp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\editotrp.cpp': No such file or directory
+editqst.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqst.cpp': No such file or directory
+editqsti.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqsti.cpp': No such file or directory
+editqstm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstm.cpp': No such file or directory
+editqstq.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstq.cpp': No such file or directory
+editqstu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\editqstu.cpp': No such file or directory
+editrchk.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\editrchk.cpp': No such file or directory
+editrexd.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrexd.cpp': No such file or directory
+editrext.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrext.cpp': No such file or directory
+editrflg.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrflg.cpp': No such file or directory
+editrmsc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrmsc.cpp': No such file or directory
+editroom.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editroom.cpp': No such file or directory
+editrsec.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\editrsec.cpp': No such file or directory
+editshp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshp.cpp': No such file or directory
+editshpb.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpb.cpp': No such file or directory
+editshpc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpc.cpp': No such file or directory
+editshpm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpm.cpp': No such file or directory
+editshpr.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpr.cpp': No such file or directory
+editshps.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshps.cpp': No such file or directory
+editshpt.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpt.cpp': No such file or directory
+editshpu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\editshpu.cpp': No such file or directory
+editzflg.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzflg.cpp': No such file or directory
+editzmsc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzmsc.cpp': No such file or directory
+editzone.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\editzone.cpp': No such file or directory
+equip.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\equip.cpp': No such file or directory
+exit.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\exit.cpp': No such file or directory
+flagdef.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\flagdef.cpp': No such file or directory
+flags.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\flags.cpp': No such file or directory
+getstrn.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\getstrn.cpp': No such file or directory
+history.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\history.cpp': No such file or directory
+init.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\init.cpp': No such file or directory
+initcomm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\initcomm.cpp': No such file or directory
+initscr.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\initscr.cpp': No such file or directory
+interp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\interp.cpp': No such file or directory
+inv.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\inv.cpp': No such file or directory
+keywords.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\keywords.cpp': No such file or directory
+list.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\list.cpp': No such file or directory
+load.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\load.cpp': No such file or directory
+loaded.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\loaded.cpp': No such file or directory
+look.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\look.cpp': No such file or directory
+maincomm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\maincomm.cpp': No such file or directory
+master.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\master.cpp': No such file or directory
+menu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\menu.cpp': No such file or directory
+misc.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\misc.cpp': No such file or directory
+misccomm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\misccomm.cpp': No such file or directory
+mob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mob.cpp': No such file or directory
+mobhere.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobhere.cpp': No such file or directory
+mobtypes.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobtypes.cpp': No such file or directory
+mobu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\mobu.cpp': No such file or directory
+mountfol.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\mountfol.cpp': No such file or directory
+mudcomm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\mudcomm.cpp': No such file or directory
+object.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\object.cpp': No such file or directory
+objectu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objectu.cpp': No such file or directory
+objhere.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objhere.cpp': No such file or directory
+objtypes.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\objtypes.cpp': No such file or directory
+purge.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\purge.cpp': No such file or directory
+put.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\put.cpp': No such file or directory
+qsttypes.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\qsttypes.cpp': No such file or directory
+quest.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\quest.cpp': No such file or directory
+readmob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\readmob.cpp': No such file or directory
+readobj.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\readobj.cpp': No such file or directory
+readqst.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\readqst.cpp': No such file or directory
+readshp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\readshp.cpp': No such file or directory
+readwld.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\readwld.cpp': No such file or directory
+readzon.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\readzon.cpp': No such file or directory
+room.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\room.cpp': No such file or directory
+roomtype.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\roomtype.cpp': No such file or directory
+roomu.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\roomu.cpp': No such file or directory
+setcomm.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\setcomm.cpp': No such file or directory
+setrand.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\setrand.cpp': No such file or directory
+shop.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\shop.cpp': No such file or directory
+stat.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\stat.cpp': No such file or directory
+strings.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\strings.cpp': No such file or directory
+strnnode.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\misc\strnnode.cpp': No such file or directory
+system.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\system.cpp': No such file or directory
+template.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\template.cpp': No such file or directory
+unequip.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\inv\unequip.cpp': No such file or directory
+var.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\command\var.cpp': No such file or directory
+vardef.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\vardef.cpp': No such file or directory
+writemob.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\mob\writemob.cpp': No such file or directory
+writeobj.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\obj\writeobj.cpp': No such file or directory
+writeqst.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\quest\writeqst.cpp': No such file or directory
+writeshp.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\shop\writeshp.cpp': No such file or directory
+writewld.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\room\writewld.cpp': No such file or directory
+writezon.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\writezon.cpp': No such file or directory
+zone.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\zone.cpp': No such file or directory
+zonetype.cpp
+fatal error C1083: Cannot open source file: 'C:\Documents and Settings\Xangis\Desktop\MUD\DikuEdit\de_current\zone\zonetype.cpp': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DE.exe - 150 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

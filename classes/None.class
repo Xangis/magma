@@ -1,0 +1,18 @@
+Nm          None~
+WhoNm       None~
+Cla         0
+AtrPrm      3
+Wpn         243
+Sklladpt    95
+Thac0       180
+Thac47      60
+Hpmin       5
+Hpmax       8
+Mana        1
+Skll         1 'aerial combat'
+Skll         1 'scrolls'
+Skll         1 'mount'
+Skll         1 'staves'
+Skll         1 'wands'
+Skll         1 'swim'
+End

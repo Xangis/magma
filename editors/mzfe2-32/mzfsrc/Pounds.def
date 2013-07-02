@@ -1,0 +1,21 @@
+;------------------------------------------------
+;   Main pounds
+;   
+;   Copyright © 1994-5. All Rights Reserved.
+;
+;   SUBSYSTEM:    pounds.exe Module Defintion File
+;   FILE:         pounds.def
+;   AUTHOR:       Slash
+;
+;------------------------------------------------
+
+NAME pounds
+
+DESCRIPTION 'MAKE.ZONES.FAST - Copyright © 1994-5. Some Rights Reserved.'
+EXETYPE     WINDOWS
+CODE        PRELOAD MOVEABLE DISCARDABLE
+DATA        PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE    1024
+;STACKSIZE   12288
+STACKSIZE   20480
+

@@ -1,0 +1,164 @@
+Changes between 3.09 and 3.10:
+------------------------------
+    Added a bunch of new weapon types.
+
+Changes between 3.08 and 3.09:
+------------------------------
+    Added the Neogi race.
+    Included the keywords.txt file in the archive, which explains advanced
+      keyword use on mobs.
+    Updated the Generic_Vnums file.  It is now version 2.
+    Updated the DikuEdit documentation and sorted files into directories.
+    Added "(ignored)" to any spells on the spell list if they are either
+      not processed or not understood by the MUD.  You can still set the
+      value, after all it might be made to work someday, but it's nice to
+      know whether something will work before you create it.
+    Added "required room #" field for switches.  If set, this means that the
+      switch will only work when in that room vnum.
+    Added Chronomancer and Illusionist spells (and a few misc. others).
+    Changed some of the internal routines.  This may help those of you that
+      have reported odd screen/text glitches.
+    Added the mud-wide object limit field to objects.  Please do not set this,
+      as it's something the immortals will handle.  It controls the number of
+      object that may exist in the mud on all players and will limit the
+      instances of an object circulating to a specific number.  Note that an
+      instance of the object MUST be loaded into the zone for this number
+      to save.
+
+Changes between 3.07 and 3.08:
+------------------------------
+    Made the anti-whatever bits check mob's class properly for equipping.
+      Newer classes like elementalists and such weren't checked for.
+    Added the following classes:
+      Chronomancer
+      Warlock
+      Enslaver
+    Added the following races:
+      Umber Hulk
+      Angel
+      Slaad
+      Boar
+      Shadow Elemetal
+    Added the following races to the list of keywords:
+      Derro
+      Githzerai
+      Rust Monster
+      Half-Orc
+      Aboleth
+    Corrected in the list of race keywords:
+      Bear
+
+Changes between 3.06 and 3.07:
+------------------------------
+    Changed save vs. rod to save vs. poison.
+    Changed save vs. petrification to save vs. disease.
+    Added new quest "receive item" types:
+      6 = Transfer all mobs from room <vnum>
+      7 = Create mob <vnum>
+      8 = Create mob <vnum> as player's pet
+      9 = Transfer player to room <vnum>
+      10 = Transfer player's group to room <vnum>
+
+Changes between 3.05 and 3.06:
+------------------------------
+    Removed comparing numbers of rooms with zone number, as we use the zone
+      number field on basternae as extended terrain info for the worldmap.
+    Added the norepair extra2 flag.
+    Added the ability to actually set maximum # loaded for objects within
+      the .obj file.
+
+Changes between 3.04 and 3.05:
+------------------------------
+    Added summon item type.  Much like a teleport, but will summon mobs
+      from a specified room based on a command trigger.
+    No Camp flag added to rooms.
+    Nice thief act flag on mobs is now Guardian.
+    Ship room #1 and #2 flags added to keys, for internal use by the MUD.
+    Ship/vehicle cargo capacity added.
+
+Changes between 3.03 and 3.04:
+------------------------------
+    Lead material type added.
+    Mob race Bear now has keywords BE - previously creating a bear would
+      actually create an aboleth.
+    The limit scan room bit is ignored by the mud.  It's been changed to
+      unused in the editor to show this.
+
+Changes between 3.02 and 3.03:
+------------------------------
+
+    Added more teleport trigger keywords
+    Language setting for notes added.
+    Object type book removed.  Use note instead.
+    Object type ship and vehicles value settings were added.
+    Monks changed to mystics on anti-flags.
+
+Changes between 3.01 and 3.02:
+------------------------------
+
+    Added a few nore trap damage types.
+    Added the instrument types pipes, fiddle, and dulcimer.
+    Shopkeeper racist information for the new races has been added.
+    Jade material type added.
+    Unused positions flying, levitating, and swimming have been removed
+      due to the fact that that is determined by the bits, abilities, and
+      terrain of the mob.  The illegal (sub-sleeping) positions have also
+      been removed.
+
+Changes between 3.00f and 3.01:
+-------------------------------
+
+    Added wemic race.
+    Traps have more options for trigger types and also have a percent chance
+      of going off settable.
+    Quests added to.
+    Added to the racist list for shops.
+
+
+Changes between 3.00e and 3.00f:
+-------------------------------
+
+    Added githzerai and rust monster races.
+    Default shop strings for new shops more normal.  Old ones still goofy.
+      The new shop messages use $N instead of %s for the player's name and
+      use $t instead of %s for the cash amount.  Don't ask why, just go
+      with the "It's a code thing".
+    Added the hunter class.
+    Added anti flags for minotaur and githzerai races
+    Added no exp flag to mobs, to be used sparingly.
+    MobProg information now included as part of the distribution.
+
+Changes between 3.00d and 3.00e:
+--------------------------------
+
+    Added the pet shop flag for internal use.
+
+Changes between 3.00c and 3.00d:
+--------------------------------
+
+    Added the ability to flag a room inn or bank.
+    Added classes illusionist and the four elementalist classes.
+    Re-enabled object craftsmanship.
+
+Changes between 3.00b and 3.00c:
+--------------------------------
+
+    Left off material and weight in object editing.  Fixed.
+
+
+Changes between 3.00a and 3.00b:
+--------------------------------
+
+    Timken fixed the crash bugs when looking at mobs!  Someone should step
+      forth and buy the man a new car.
+
+    Veygoth modified the editor flags for use with the new Basternae.
+      Note that if you have flagged anything biofeedback or anti-good
+      in a previous version you will have to reset those bits.
+
+Proposed Future Changes:
+------------------------
+
+    Ability to assign specials to mobs, objects, and rooms directly.
+
+    Ability to write mobprograms within the editor.

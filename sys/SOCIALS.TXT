@@ -1,0 +1,3645 @@
+#SOCIAL
+Name        accuse~
+CharNoArg   Accuse whom?~
+OthersNoArg $n is in an accusing mood.~
+CharFound   You look accusingly at $M.~
+OthersFound $n looks accusingly at $N.~
+VictFound   $n looks accusingly at you.~
+CharAuto    You accuse yourself.~
+OthersAuto  $n seems to have a bad conscience.~
+End
+
+#SOCIAL
+Name        ack~
+CharNoArg   You ACK around like Bill the Cat.~
+OthersNoArg $n ACKS around like Bill the Cat.~
+CharFound   You ACK at $M like Bill the Cat.~
+OthersFound $n ACKS at $N like Bill the Cat.~
+VictFound   $n ACKS at you like Bill the Cat.~
+CharAuto    You ACK at yourself.~
+OthersAuto  $n ACKS at $mself like Bill the Cat.. where's the hairball?~
+End
+
+#SOCIAL
+Name		afk~
+CharNoArg	You announce that you are going away from keyboard for a few moments.~
+OthersNoArg	$N is going away from keyboard for a few moments.~
+CharFound	You let everyone know that $N is away from the keyboard.~
+OthersFound	$n lets everyone know that $N is away from keyboard.~
+VictFound	$N lets everyone know that you are away from keyboard.~
+CharAuto	If you are afk, how can you let everyone know you are?~
+OthersAuto	$N is here in spirit, however $e is afk at the moment.~
+End
+
+#SOCIAL
+Name        agree~
+CharNoArg   You seem to be in an agreeable mood.~
+OthersNoArg $n seems to agree.~
+CharFound   You agree with $M.~
+OthersFound $n agrees with $N.~
+VictFound   $n agrees with you.~
+CharAuto    Well I hope you would agree with yourself!~
+OthersAuto  $n agrees with $mself, of course.~
+End
+
+#SOCIAL
+Name		amaze~
+CharNoArg	You can only hope to amaze SOMEBODY.~
+CharFound	You do your best to amaze $M.~
+OthersFound	$n does their best to amaze you, Nice try!~
+VictFound	$n does $m best to amaze you. Nice try.~
+CharAuto	You amaze yourself. Wow! You never knew how talented you were.~
+OthersAuto	$n has amazed $mself with a fit of self-inspiration.~
+End
+
+#SOCIAL
+Name        apologize~
+CharNoArg   You apologize for your behavior.~
+OthersNoArg $n apologizes for $s rude behavior.~
+CharFound   You apologize to $M.~
+OthersFound $n apologizes to $N.~
+VictFound   $n apologizes to you.~
+CharAuto    You apologize to yourself.~
+OthersAuto  $n apologizes to $mself.  Hmmmm.~
+End
+
+#SOCIAL
+Name        applaud~
+CharNoArg   Clap, clap, clap.~
+OthersNoArg $n gives a round of applause.~
+CharFound   You clap at $S actions.~
+OthersFound $n claps at $N's actions.~
+VictFound   $n gives you a round of applause.  You MUST'VE done something good!~
+CharAuto    You applaud at yourself.  Boy, are we conceited!~
+OthersAuto  $n applauds at $mself.  Boy, are we conceited!~
+End
+
+#SOCIAL
+Name		arch~
+CharNoArg	Sorry, no one here is that smart.~
+OthersNoArg	$n arches a witty saying, grounded in bizarre concepts.~
+CharFound	Sorry, no one here is that smart.~
+OthersFound	$n arches a witty saying at $N, grounded in bizarre concepts.~
+VictFound	$n arches a witty saying at you, grounded in bizarre concepts.~
+CharAuto	Sorry, no one here is that smart.~
+OthersAuto	$n arches a witty saying at $mself, grounded in bizarre concepts.~
+End
+
+#SOCIAL
+Name		ayt~
+CharNoArg	Is WHO there?~
+CharFound	You wave your hands in $N's face, wondering if $E's really there.~
+OthersFound	&n waves $s hands in $N's face, wondering if $E's really there.~
+VictFound	Hello, is anyone home? $n waves $m hands in front of your face.~
+CharAuto	You wonder if you are really here.~
+OthersAuto	$n's lights are on, but nobody's home.~
+End
+
+#SOCIAL
+Name		bandaid~
+CharNoArg	You desperately try to bandage your wounds!~
+OthersNoArg	$n tries desperately to bandage $s wounds!~
+CharFound	You band-aid $M, kiss $M, and make it feel all better.~
+OthersFound	$n puts a bandaid on $N, making $M feel better.~
+VictFound	$n puts a Snoopy Bandaid on your booboo, kisses it, makes it feel all better.~
+CharAuto	Your bandaid sticks together.~
+OthersAuto	$n puts a Snoopy Bandaid on $s owie and makes $mself feel better.~
+End
+
+#SOCIAL
+Name		bang~
+CharNoArg	OUCH! A head like that should hurt.~
+OthersNoArg	$n bangs $s head against the wall.~
+CharFound	You bang $S head against the wall.~
+OthersFound	$n bangs $N's head against the wall.~
+VictFound	$n bangs your head against the wall.  Ouch! Stop it!~
+CharAuto	You shoot yourself in the head.~
+OthersAuto	$n shoots $sself in the head.~
+End
+
+#SOCIAL
+Name        banzai~
+CharNoArg   You scream 'BANZAI!!!!' and brandish your sword for battle.~
+OthersNoArg $n screams 'BANZAI!!!!' and charges into the fray.~
+CharFound   You scream 'BANZAI!!!!' and drag $M into the fray with you.~
+OthersFound $n screams 'BANZAI!!!!' and drags $N into the fray with $m!~
+VictFound   $n screams 'BANZAI!!!!, and drags you into the fray with $m!~
+CharAuto    You scream 'BANZAI!!!!' at yourself, and brandish your weapon for battle.~
+OthersAuto  $n screams 'BANZAI!!!!' at $mself, and charges into the fray.~
+End
+
+#SOCIAL
+Name        bark~
+CharNoArg   Woof!  Woof!~
+OthersNoArg $n barks like a dog.~
+CharFound   You bark at $M.~
+OthersFound $n barks at $N.~
+VictFound   $n barks at you.~
+CharAuto    You bark at yourself.  Woof!  Woof!~
+OthersAuto  $n barks at $mself.  Woof!  Woof!~
+End
+
+#SOCIAL	
+Name		bath~
+CharNoArg	You take a bath.~
+OthersNoArg	$n takes a bath.~
+CharFound	You give $M a bath.~
+OthersFound	$n gives $N a bath.~
+VictFound	$n gives you a bath, and $m hands are very intimate with your body.~
+CharAuto	You bathe yourself.~
+OthersAuto	$n gives $mself a bath, $m hands all over her body.~
+End
+
+#SOCIAL	
+Name		bbl~
+CharNoArg	You let everyone know you will be back later.~
+OthersNoArg	See ya! $n will be back later.~
+CharFound	You let everyone know you will be back later.~
+OthersFound	$n lets everyone know that $e will be back later.~
+VictFound	
+CharAuto	
+OthersAuto	
+End
+
+#SOCIAL
+Name		beam~
+CharNoArg	What a bright smile!~
+OthersNoArg	$n beams a smile, lighting up the room.~
+CharFound	You beam a smile at $N.~
+OthersFound	$n beams a bright smile at $N.~
+VictFound	$n beams a bright smile at you.~
+CharAuto	
+OthersAuto	
+End
+
+#SOCIAL
+Name        bearhug~
+CharNoArg   You hug a grizzly bear.~
+OthersNoArg $n hugs a flea-infested grizzly bear.~
+CharFound   You bearhug $M.~
+OthersFound $n bearhugs $N.  Some ribs break.~
+VictFound   $n bearhugs you.  Wonder what's coming next?~
+CharAuto    You bearhug yourself.~
+OthersAuto  $n bearhugs $mself.~
+End
+
+#SOCIAL
+Name        beer~
+CharNoArg   You pop open a cold, frosty beer and take a drink.~
+OthersNoArg $n pops open a cold, frosty beer and takes a drink.~
+CharFound   You draw a cold, frosty beer for $N.~
+OthersFound $n draws a cold, frosty beer for $N.~
+VictFound   $n draws a cold, frosty beer for you.~
+CharAuto    You draw yourself a beer.~
+OthersAuto  $n draws $mself a beer.~
+End
+
+#SOCIAL
+Name        beg~
+CharNoArg   You beg the gods for mercy.~
+OthersNoArg The gods fall down laughing at $n's request for mercy.~
+CharFound   You beg $N... Pretty pwease?!~
+OthersFound $n begs $N... Pretty pwease?!~
+VictFound   Pretty pwease?!? $n begs you, looking desperate.~
+CharAuto    Begging yourself for money doesn't help.~
+OthersAuto  $n begs $mself for money.~
+End
+
+#SOCIAL
+Name        bid~
+CharNoArg   You bid on the offer like a beggar.~
+OthersNoArg $n bids on the offer rather eagerly.~
+CharFound   You bid on $N's offer.~
+OthersFound $n bids on $N's offer.~
+VictFound   $n bids eagerly on your offer.~
+CharAuto    Sheesh, give it to yourself already.~
+OthersAuto  $n bids on $m own offer eagerly.~
+End
+
+#SOCIAL
+Name		bird~
+CharNoArg	You give everyone the bird.~
+OthersNoArg	$n flips everyone off.~
+CharFound	You flip $N off.~
+OthersFound	$n flips $N off.~
+VictFound	CHIRP!  $n flips you off!~
+CharAuto	Birdie crashed~
+End
+
+#SOCIAL
+Name		bite~
+CharNoArg	Who do you want to bite?~
+OthersNoArg	$n bares $s fangs, looking for something to bite.~
+CharFound	You bite $M on the leg.~
+OthersFound	$n bites $N on the leg.~
+VictFound	OUCH!! $n bites you on the leg!~
+CharAuto	You bite yourself on the leg.~
+OthersAuto	$n bites $mself on the leg.~
+End
+
+#SOCIAL
+Name        bkiss~
+CharNoArg   Blow a kiss to whom?~
+OthersNoArg $n blows at $s hand.~
+CharFound   You blow a kiss to $M.~
+OthersFound $n blows a kiss to $N.  Touching, ain't it?~
+VictFound   $n blows a kiss to you.  Not as good as a real one, huh?~
+CharAuto    You blow a kiss to yourself.~
+OthersAuto  $n blows a kiss to $mself.  Weird.~
+End
+
+#SOCIAL
+Name        bleed~
+CharNoArg   You bleed all over the room!~
+OthersNoArg $n bleeds all over the room!  Get out of $s way!~
+CharFound   You bleed all over $M!~
+OthersFound $n bleeds all over $N.  Better leave, you may be next!~
+VictFound   $n bleeds all over you!  YUCK!~
+CharAuto    You bleed all over yourself!~
+OthersAuto  $n bleeds all over $mself.~
+End
+
+#SOCIAL
+Name        blindfold~
+CharNoArg   You pull out a blindfold and grin evilly.~
+OthersNoArg $n pulls out a blindfold and grins evilly.~
+CharFound   You a tie a blindfold securely about $S head.~
+OthersFound $n ties a blindfold securely about $N's head. Must be dark in there.~
+VictFound   $n ties a blindfold securely about your head. You can't see a thing.~
+CharAuto    You blindfold yourself, not wanting to see what happens next.~
+OthersAuto  $n blindfolds $mself, not wanting to see what happens next.~
+End
+
+#SOCIAL
+Name        blink~
+CharNoArg   You blink in utter disbelief.~
+OthersNoArg $n blinks in utter disbelief.~
+CharFound   You blink at $M in disbelief.~
+OthersFound $n blinks at $N.~
+VictFound   $n blinks at you, not believing.~
+CharAuto    You are sooooooooooooo confused~
+OthersAuto  $n blinks at $mself in complete confusion.~
+End
+
+#SOCIAL
+Name		blow~
+CharNoArg	Blow in whose ear?~
+CharFound	You blow seductively in $S ear.~
+OthersFound	$n blows seductively into $N's ear.~
+VictFound	$n blows seductively into your ear.  Your whole body begins to tingle!~
+CharAuto	You feel the wind whistle between your ears.~
+OthersAuto	$n feels the wind whistle between $s ears.~
+End
+
+#SOCIAL
+Name        blush~
+CharNoArg   Your cheeks are burning.~
+OthersNoArg $n blushes a fiery red.~
+CharFound   You get all flustered at seeing $M, blushing bright red.~
+OthersFound $n blushes as $e sees $N here.~
+VictFound   $n blushes as $e sees you here.  Such an effect on people!~
+CharAuto    You blush at your own folly.~
+OthersAuto  $n blushes as $e notices $s boo-boo.~
+End
+
+#SOCIAL
+Name        boggle~
+CharNoArg   You boggle at that concept.~
+OthersNoArg $n boggles at that concept.~
+CharFound   You boggle at $M, what the heck is $E talking about?~
+OthersFound $n boggles at $N, totally confounded.~
+VictFound    What?!  $n looks boggled.  What the heck do you mean?~
+CharAuto    BOGGLE  Um.. let's see. therapy.. here it is.. 1-900-GET-HELP..~
+OthersAuto  $n looks totally boggled about $mself.~
+End
+
+#SOCIAL
+Name        bonk~
+CharNoArg   BONK.~
+OthersNoArg ~
+CharFound   Bonk! You bonk $M on the head.~
+OthersFound Bonk! $n bonks $N on the head.~
+VictFound   Bonk! $n bonks you on the head. Ooh, look at all the pretty stars!~
+CharAuto    Hey, look at all the little birdies!~
+OthersAuto  $n bonks $mself, sending birdies flying around $s head.~
+End
+
+#SOCIAL
+Name        boogie~
+CharNoArg   You boogie down!~
+OthersNoArg $n gets down and boogies!!~
+CharFound   You grab $M and boogie down!~
+OthersFound $n grabs $N and they boogie down!~
+VictFound   $n grabs you and boogies with you!~
+CharAuto    You boogie with yourself.  What a great dancer you are!~
+OthersAuto  $n boogies with $mself.  Guess no one will dance with $m.~
+End
+
+#SOCIAL
+Name		bored~
+CharNoArg	You let everyone in the room know that you're bored.~
+OthersNoArg	$n is bored and needs something to do!~
+CharFound	You let $N know just how much $E bores you.~
+OthersFound	$n lets $N know just how much $E bores $m.~
+VictFound	$n lets you know just how much you bore $m.~
+CharAuto	You are soooooooooo bored...
+OthersAuto	$n is soooooooooooooo bored...~
+End
+
+#SOCIAL
+Name        bottle~
+CharNoArg   You open up a cold bottle of brew.~
+OthersNoArg $n opens a cold bottle of brew.~
+CharFound   You open up a cold bottle of brew for $M.~
+OthersFound $n opens a cold bottle of brew for $N.~
+VictFound   $n opens a cold bottle of brew for you.~
+CharAuto    You open a cold bottle of brew for yourself.~
+OthersAuto  $n opens a cold bottle of brew for $mself.~
+End
+
+#SOCIAL
+Name        bounce~
+CharNoArg   BOIINNNNNNGG!~
+OthersNoArg $n bounces around.~
+CharFound   You bounce onto $S lap.~
+OthersFound $n bounces onto $N's lap.~
+VictFound   $n bounces onto your lap.~
+CharAuto    You bounce your head like a basketball.~
+OthersAuto  $n plays basketball with $s head.~
+End
+
+#SOCIAL
+Name        bow~
+CharNoArg   You bow deeply.~
+OthersNoArg $n bows deeply.~
+CharFound   You bow before $M.~
+OthersFound $n bows before $N.~
+VictFound   $n bows before you.~
+CharAuto    You kiss your toes.~
+OthersAuto  $n folds up like a jack knife and kisses $s own toes.~
+End
+
+#SOCIAL
+Name        brb~
+CharNoArg   You announce that you will be right back.~
+OthersNoArg $n says in a stern voice, 'I'll be back!'~
+CharFound   You announce to $M that you will be right back.~
+OthersFound $n says to $N in a stern voice, 'I'll be back!'~
+VictFound   $n says to you in a stern voice, 'I'll be right back!'~
+CharAuto    You mumble to yourself, 'I'll be right back'~
+OthersAuto  $n mumbles to $mself, 'I'll be right back, won't I?'~
+End
+
+#SOCIAL
+Name        brush~
+CharNoArg   Brush what? Who? Where?~
+CharFound   You brush out $S hair for $M.  Very thoughtful.~
+OthersFound $n brushes $N's hair for $M.  Looks better now.~
+VictFound   $n brushes out your hair.  How nice of $m.~
+CharAuto    You brush out your hair.  There - much better.~
+OthersAuto  $n brushes out $s hair.  Looks much better now.~
+End
+
+#SOCIAL
+Name        bungee~
+CharNoArg   You tie a bungee cord to the mud and jump into internet.~
+OthersNoArg $n ties a bungee cord to the mud and jumps into internet.~
+CharFound   You tie a bungee cord to $N and throw $M off the mud.~
+OthersFound $n ties a bungee cord to $N and throws $M off the mud.~
+VictFound   $n ties a bungee cord to you and throws you off the mud.~
+CharAuto    You tie a bungee cord to yourself and jump off the mud.~
+OthersAuto  $n ties a bungee cord to $mself and jumps off the mud.~
+End
+
+#SOCIAL
+Name        burp~
+CharNoArg   You burp loudly.~
+OthersNoArg $n burps loudly.~
+CharFound   You burp loudly to $M in response.~
+OthersFound $n burps loudly in response to $N's remark.~
+VictFound   $n burps loudly in response to your remark.~
+CharAuto    You burp at yourself.~
+OthersAuto  $n burps at $mself.  What a sick sight.~
+End
+
+#SOCIAL
+Name        bye~
+CharNoArg   You say goodbye to all in the room.~
+OthersNoArg $n says goodbye to everyone in the room.~
+CharFound   You say goodbye to $N.~
+OthersFound $n says goodbye to $N.~
+VictFound   $n says goodbye to you.~
+CharAuto    You say goodbye to yourself.  Contemplating suicide?~
+OthersAuto  $n says goodbye to $mself.  Is $e contemplating suicide?~
+End
+
+#SOCIAL
+Name        cackle~
+CharNoArg   You throw back your head and cackle with insane glee!~
+OthersNoArg $n throws back $s head and cackles with insane glee!~
+CharFound   You cackle gleefully at $N~
+OthersFound $n cackles gleefully at $N.~
+VictFound   $n cackles gleefully at you.  Better keep your distance from $m.~
+CharAuto    You cackle at yourself.  Now, THAT'S strange!~
+OthersAuto  $n is really crazy now!  $e cackles at $mself.~
+End
+
+#SOCIAL
+Name		calm~
+CharNoArg	Calm? CALM?? Calm WHO?!~
+OthersNoArg	$n looks around, then hollers for everyone to calm down!!~
+CharFound	You try to calm $M down.~
+OthersFound	$n tries to calm $M down.~
+VictFound	$n tries to calm you down. You can feel your blood pressure dropping.~
+CharAuto	Your blood pressure drops a little.~
+OthersAuto	$n tries to calm $mself down.~
+End
+
+#SOCIAL
+Name        caress~
+CharNoArg   Who would you like to caress?~
+OthersNoArg $n is looking for someone to caress with $s gentle touch.~
+CharFound   You run your hands across $S body, caressing $M gently.~
+OthersFound $n runs $s hands across $N's body, caressing $M gently.~
+VictFound   $n runs $s hands across your body, caressing you gently.~
+CharAuto    You lightly caress yourself- wouldn't you rather do that in private?~
+OthersAuto  $n caresses $mself all over- and in public, no less!~
+End
+
+#SOCIAL
+Name        catnap~
+CharNoArg   You curl into a tiny ball and go to sleep.~
+OthersNoArg $n curls $mself into a tiny ball and goes to sleep.~
+CharFound   You curl up in $S lap and go to sleep.~
+OthersFound $n curls up in $N's lap and goes to sleep.~
+VictFound   $n curls up in your lap and goes to sleep.~
+CharAuto    You curl into a tiny ball and go to sleep.~
+OthersAuto  $n curls $mself into a tiny ball and goes to sleep.~
+End
+
+#SOCIAL
+Name		cheek~
+CharNoArg	Kiss who on the cheek?~
+CharFound	You kiss $M lightly on the cheek.~
+OthersFound	$n kisses $N lightly on the cheek.~
+VictFound	$n kisses you lightly on the cheek.  How sweet!~
+CharAuto	You bend over and slap a wet one on your behind.~
+OthersAuto	$n bends over and kisses $s behind.~
+End
+
+#SOCIAL
+Name        cheer~
+CharNoArg   Hip! Hip! Hooray!~
+OthersNoArg $n cheers wildly, Hip! Hip! Hooray!~
+CharFound   You cheer wildly for $N, Yay!~
+OthersFound Yay $N! $n cheers wildly for $N!~
+VictFound   Yay! $n cheers wildly for you! YAY!~
+CharAuto    You cheer wildly for yourself!~
+OthersAuto  Yay! Yay $n!  $n cheers wildly for $mself.~
+End
+
+#SOCIAL
+Name        cherish~
+CharNoArg   You cherish the moment.~
+OthersNoArg $n cherishes the moment.~
+CharFound   You cherish $M with all your heart.~
+OthersFound $n cherishes $N with all $s heart.~
+VictFound   $n cherishes you with all $s heart.~
+CharAuto    You cherish yourself. Getting a bit narcissistic, are you?~
+OthersAuto  $n cherishes $mself narcissistically.~
+End
+
+#SOCIAL
+Name		choke~
+CharNoArg	you start to choke, and you cough and gasp for air.~
+OthersNoArg	$n starts choking,and $e coughs and gasps for air.~
+CharFound	You start choking $N, and $S eyeballs start bulging.~
+OthersFound	$n starts choking $N, making $S eyeballs bulge out of their sockets.~
+VictFound	$n starts choking you, and your brain starts losing precious oxygen....~
+CharAuto	You grasp your throat and start to choke yourself.~
+OthersAuto	$n starts choking $mself, $s face slowly turning blue...~
+End
+
+#SOCIAL
+Name        chuckle~
+CharNoArg   You chuckle politely.~
+OthersNoArg $n chuckles politely.~
+CharFound   You chuckle at $N.~
+OthersFound $n chuckles at $N.~
+VictFound   $n chuckles at you.~
+CharAuto    You chuckle at your own joke, since no one else would.~
+OthersAuto  $n chuckles at $s own joke, since none of you would.~
+End
+
+#SOCIAL
+Name        clap~
+CharNoArg   You clap your hands together.~
+OthersNoArg $n shows $s approval by clapping $s hands together.~
+CharFound   You clap in approval for $N.~
+OthersFound $n claps in approval for $N.~
+VictFound   $n claps in approval for you.~
+CharAuto    You clap at your own performance.~
+OthersAuto  $n claps at $s own performance.~
+End
+
+#SOCIAL
+Name        clueless~
+CharNoArg   You chastise everyone in the room for being clueless.~
+OthersNoArg $n chastises everyone for being clueless.~
+CharFound   You chastise $M for being clueless.~
+OthersFound $n chastises $N for being clueless.~
+VictFound   $n chastises you for being clueless.~
+CharAuto    You chastise yourself for being clueless.  What a dweeb you are!~
+OthersAuto  $n chastises $mself for being clueless.  What a dweeb!~
+End
+
+#SOCIAL
+Name        coffee~
+CharNoArg   You sip from a hot cup of coffee.~
+OthersNoArg $n sips from a hot cup of coffee.~
+CharFound   You offer $M a hot cup of strong coffee.~
+OthersFound $n offers $N a hot cup of strong coffee.~
+VictFound   $n offers you a hot cup of strong coffee.~
+CharAuto    You quaff a hot cup of strong coffee. You are WIRED.~
+OthersAuto  $n quaffs a hot cup of strong coffee, getting WIRED.~
+End
+
+#SOCIAL
+Name        comfort~
+CharNoArg   Do you feel uncomfortable?~
+CharFound   You comfort $M.~
+OthersFound $n comforts $N.~
+VictFound   $n comforts you.~
+CharAuto    You make a vain attempt to comfort yourself.~
+OthersAuto  $n has no one to comfort $m but $mself.~
+End
+
+
+#SOCIAL
+Name		comb~
+CharNoArg	You comb your hair - perfect!~
+OthersNoArg	$n combs $s hair, what a dashing specimen!~
+CharFound	You patiently untangle $N's hair - what a mess!~
+OthersFound	$n tries patiently to untangle $N's hair.~
+VictFound	$n pulls your hair in an attempt to comb it.~
+CharAuto	You pull your hair, but it will not be combed.~
+OthersAuto	$n tries to comb $s tangled hair.
+End
+
+#SOCIAL
+Name        comfort~
+CharNoArg   Do you feel uncomfortable?~
+CharFound   You comfort $M.~
+OthersFound $n comforts $N.~
+VictFound   $n comforts you.~
+CharAuto    You make a vain attempt to comfort yourself.~
+OthersAuto  $n has no one to comfort $m but $mself.~
+End
+
+#SOCIAL
+Name		congratulate~
+CharNoArg	Congratulate who?~
+CharFound	You clap $M over the shoulder and congratulate $M.~
+OthersFound	$n congratulate $N!~
+VictFound	Congratulations!  $n is proud of you!~
+CharAuto	Congratulations!  You've done a fine job!~
+OthersAuto	Congratulations $n!! $n congratulates $mself.~
+End
+
+#SOCIAL
+Name        cough~
+CharNoArg 	Yuck, try to cover your mouth next time!~
+OthersNoArg $n coughs loudly.~
+CharFound   You cough in $N's face.~
+OthersFound $n coughs loudly, and glares at $N, like it is $S fault.~
+VictFound   $n coughs in your face, where are their manners?~
+CharAuto    You cough at yourself.~
+OthersAuto  $n coughs at $mself.~
+End
+
+#SOCIAL
+Name        cower~
+CharNoArg   What are you afraid of?~
+OthersNoArg $n cowers in the corner in abject terror.~
+CharFound   You cower in the corner at the sight of $M.~
+OthersFound $n cowers in the corner at the sight of $N.~
+VictFound   $n cowers in the corner at the sight of you.~
+CharAuto    You cower in the corner at the thought of yourself.  You scaredy cat!~
+OthersAuto  $n cowers in the corner.  What is wrong with $m now?~
+End
+
+#SOCIAL
+Name        cringe~
+CharNoArg   You cringe in terror. Eeek!~
+OthersNoArg $n cringes in terror, their face white as a sheet!~
+CharFound   You cringe away from $M.~
+OthersFound $n cringes away from $N in mortal terror.~
+VictFound   $n cringes away from you.~
+CharAuto    I beg your pardon?~
+End
+
+#SOCIAL
+Name        cry~
+CharNoArg   Waaaaah ...~
+OthersNoArg $n bursts into tears.~
+CharFound   You cry on $S shoulder.~
+OthersFound $n cries on $N's shoulder.~
+VictFound   $n cries on your shoulder.~
+CharAuto    You cry to yourself.~
+OthersAuto  $n sobs quietly to $mself.~
+End
+
+#SOCIAL
+Name        cuddle~
+CharNoArg   Whom do you feel like cuddling today?~
+CharFound   You cuddle $M.~
+OthersFound $n cuddles $N.~
+VictFound   $n cuddles you.~
+CharAuto    You must feel very cuddly indeed ... :)~
+OthersAuto  $n cuddles up to $s shadow.  What a sorry sight.~
+End
+
+#SOCIAL
+Name		curious~
+CharNoArg	You are so curious!~
+OthersNoArg	a curious look comes over $n's face.~
+CharFound	You look at $N curiously.~
+OthersFound	$n looks at $N curiously.~
+VictFound	$n gives you a curious look, do tell!~
+CharAuto	Share a little of yourself with yourself!~
+OthersAuto	A curious look comes over $N's face as $e thinks about $mself.~
+End
+
+#SOCIAL
+Name        curse~
+CharNoArg   You swear loudly for a long time.~
+OthersNoArg $n swears: @*&^%@*&!~
+CharFound   You swear at $M.~
+OthersFound $n swears at $N.~
+VictFound   $n swears at you!  Where are $s manners?~
+CharAuto    You swear at your own mistakes.~
+OthersAuto  $n starts swearing at $mself.  Why don't you help?~
+End
+
+#SOCIAL
+Name        curtsey~
+CharNoArg   You curtsey to your audience.~
+OthersNoArg $n curtseys gracefully.~
+CharFound   You curtsey to $M.~
+OthersFound $n curtseys gracefully to $N.~
+VictFound   $n curtseys gracefully for you.~
+CharAuto    You curtsey to your audience (yourself).~
+OthersAuto  $n curtseys to $mself, since no one is paying attention to $m.~
+End
+
+#SOCIAL
+Name        dance~
+CharNoArg   Feels silly, doesn't it?~
+OthersNoArg $n tries to break dance, but nearly breaks $s neck!~
+CharFound   You sweep $M into a romantic waltz.~
+OthersFound $n sweeps $N into a romantic waltz.~
+VictFound   $n sweeps you into a romantic waltz.~
+CharAuto    You skip and dance around by yourself.~
+OthersAuto  $n dances a pas-de-une.~
+End
+
+#SOCIAL
+Name		disgust~
+CharNoArg	You throw your hands up in disgust.~
+OthersNoArg	$n throws $s hands up in disgust.~
+CharFound	You mutter under your breath about $N, throwing your hands up in disgust.~
+OthersFound	$n mutters under $s breath about $N, throwing $s hands up in disgust.~
+VictFound	$n mutters under $s breath about you, throwing $s hands up in disgust.~
+CharAuto	You mutter under your breath about yourself, throwing your hands up in disgust.~
+OthersAuto	$n mutters under $s breath about $mself, throwing $s hands up in disgust.~
+End
+
+#SOCIAL
+Name        dive~
+CharNoArg   You dive into the ocean.~
+OthersNoArg $n dives into the ocean.~
+CharFound   You dive behind $M and hide.~
+OthersFound $n dives behind $N and hides.~
+VictFound   $n dives behind you and hides.~
+CharAuto    You take a dive.~
+OthersAuto  $n takes a dive.~
+End
+
+#SOCIAL
+Name        dizzy~
+CharNoArg   You are so dizzy from all this chatter.~
+OthersNoArg $n spins twice and hits the ground, dizzy from all this chatter.~
+CharFound   You are dizzy from all of $N's chatter.~
+OthersFound $n spins twice and hits the ground, dizzy from all $N's chatter.~
+VictFound   $n spins twice and hits the ground, dizzy from all your chatter.~
+CharAuto    You are dizzy from lack of air.  Don't talk so much!~
+OthersAuto  $n spins twice and falls to the ground from lack of air.~
+End
+
+#SOCIAL
+Name        doc~
+CharNoArg   You nibble on a carrot and say 'Eh, what's up Doc?'~
+OthersNoArg $n nibbles on a carrot and says 'Eh, what's up Doc?'~
+CharFound   You nibble on a carrot and say to $M, 'Eh, what's up Doc?'~
+OthersFound $n nibbles on a carrot and says to $N, 'Eh, what's up Doc?'~
+VictFound   $n nibbles on a carrot and says to you, 'Eh, what's up Doc?'~
+CharAuto    You nibble on a carrot and say to yourself, 'Eh, what's up $n?'~
+OthersAuto  $n nibbles on a carrot and says 'Eh, what's up Doc?'~
+End
+
+#SOCIAL
+Name        doh~
+CharNoArg   You say, 'Doh!!' and hit your forehead.  What an idiot you are!~
+OthersNoArg $n hits $mself in the forehead and says, 'Doh!!!'~
+CharFound   You say, 'Doh!!' and hit your forehead.  What an idiot you are!~
+OthersFound $n hits $mself in the forehead and says, 'Doh!!!'~
+VictFound   $n hits $mself in the forehead and says, 'Doh!!!'~
+CharAuto    You hit yourself in the forehead and say, 'Doh!!!'~
+OthersAuto  $n hits $mself in the forehead and says, 'Doh!!!'~
+End
+
+#SOCIAL
+Name		dream~
+CharNoArg	You dream of better times.~
+OthersNoArg	$n looks absent-minded, $s eyes staring into space.~
+CharFound	You stare off into open space, dreaming about $M.~
+OthersFound	$n dreams about $N.!
+VictFound	$n stares into space, dreaming about you.~
+CharAuto	You dream about yourself!~
+OthersAuto	$n dreams about $mself!~
+End
+
+#SOCIAL
+Name        drool~
+CharNoArg   You drool on yourself.~
+OthersNoArg $n drools on $mself.~
+CharFound   You drool all over $N.~
+OthersFound $n drools all over $N, what an appetizing dish!~
+VictFound   $n drools all over you.~
+CharAuto    You drool on yourself.~
+OthersAuto  $n drools on $mself.~
+End
+
+#SOCIAL
+Name		dropkick~
+CharNoArg	Nothing to hit....~
+CharFound	You dropkick $M across the room.~
+OthersFound	$n sends $N flying across the room screaming in terror.~
+VictFound	OUCH! $n dropkicks you, sending you flying across the room!~
+CharAuto	You dropkick yourself, enjoying all those bruises.~
+OthersAuto	$n sends $mself flying across the room screaming in terror.~
+End
+
+#SOCIAL
+Name        duck~
+CharNoArg   Whew!  That was close!~
+OthersNoArg $n ducks.~
+CharFound   You duck behind $M.  Whew!  That was close!~
+OthersFound $n ducks behind $N to avoid the fray.~
+VictFound   $n ducks behind you to avoid the fray.~
+CharAuto    Quack! Quack!~
+OthersAuto  Quack! $n polymorphs into a duck.~
+End
+
+#SOCIAL
+Name		duh~
+CharNoArg	Duh!~
+OthersNoArg	A stupid look comes over $n's face and $e says 'DUH!'~
+CharFound	You look at $M stupidly and say 'Duh!'~
+OthersFound	$n looks stupidly at $N and says 'Duh!'~
+VictFound	Duh! $n looks stupidly at you. You figure that one out all by yourself?~
+CharAuto	Duh! You feeling stupid?~
+OthersAuto	Duh!  $n looks stupidly at $mself.~
+End
+
+#SOCIAL
+Name        embrace~
+CharNoArg   Who do you want to hold?~
+OthersNoArg $n looks around for someone to hold close to $m.~
+CharFound   You hold $M in a warm and loving embrace.~
+OthersFound $n holds $N in a warm and loving embrace.~
+VictFound   $n holds you in a warm and loving embrace.~
+CharAuto    You hold yourself in a warm and loving embrace.  Feels silly doesn't it?~
+OthersAuto  $n holds $mself in a warm and loving embrace.  $e looks pretty silly.~
+End
+
+#SOCIAL
+Name		envy~
+CharNoArg	You feel a green color glow from your eyes.~
+OthersNoArg	$n turns green with envy.~
+CharFound	You leer at $N enviously.~
+OthersFound	$n leers enviously at $N.~
+VictFound	$n leers enviously at you.  Hah! You got some and $e doesn't!~
+CharAuto	Wow!  You're so great you are jealous of yourself!~
+OthersAuto	$n is jealous of $mself.~
+End
+
+#SOCIAL
+Name        eskimo~
+CharNoArg   Who do you want to eskimo kiss with?~
+OthersNoArg $n is looking for someone to rub noses with.  Any volunteers?~
+CharFound   You rub noses with $M.~
+OthersFound $n rubs noses with $N.  You didn't know they were eskimos!~
+VictFound   $n rubs noses with you.~
+CharAuto    You ponder the difficulties involved in rubbing noses with yourself.~
+OthersAuto  $n ponders the difficulties involved in rubbing noses with $mself.~
+End
+
+#SOCIAL
+Name        eyebrow~
+CharNoArg   You raise your eyebrow.  Hmmm...~
+OthersNoArg $n raises an eyebrow.~
+CharFound   You raise an eyebrow at $M.~
+OthersFound $n raises an eyebrow at $N.~
+VictFound   $n raises an eyebrow at you.~
+CharAuto    You raise an eyebrow at yourself.  That hurt!~
+OthersAuto  $n furrows $s eyebrows.~
+End
+
+#SOCIAL
+Name        faint~
+CharNoArg   You feel dizzy and hit the ground like a board.~
+OthersNoArg $n's eyes roll back in $s head and $e crumples to the ground.~
+CharFound   You faint into $S arms.~
+OthersFound $n faints into $N's arms.~
+VictFound   $n faints into your arms.  How romantic.~
+CharAuto    You look down at your condition and faint.~
+OthersAuto  $n looks down at $s condition and faints dead away.~
+End
+
+#SOCIAL
+Name		faith~
+CharNoArg	Keep the faith!~
+OthersNoArg     $n will do this as an act of faith.~
+CharFound	You have faith in $N.~
+OthersFound	$n has faith in $N.~
+VictFound	$n has faith in you! You can do it!~
+CharAuto	You believe in yourself, how faithful.. ~
+OthersAuto	$n has faith in $mself and so should you!~
+End
+
+#SOCIAL
+Name        fart~
+CharNoArg   Where are your manners?~
+OthersNoArg $n lets off a real rip-roarer ... a greenish cloud envelops $n!~
+CharFound   You fart at $M.  Boy, you are sick.~
+OthersFound $n farts in $N's direction.  Better flee before $e turns to you!~
+VictFound   $n farts in your direction.  You gasp for air.~
+CharAuto    You fart at yourself.  You deserve it.~
+OthersAuto  $n farts at $mself.  Better $m than you.~
+End
+
+#SOCIAL	
+Name		fidget~
+CharNoArg	You fidget restlessly.~
+OthersNoArg	$n fidgets restlessly.~
+End
+
+#SOCIAL
+Name		flame~
+CharNoArg	You sizzle in flames.~
+OthersNoArg	$n sizzles in flames.~
+CharFound	You turn the flamethrower on $M.~
+OthersFound	$n throws flames at $N, who only gets singed.~
+VictFound	$n throws flames at you, you are undamaged except for your feelings.~
+CharAuto	You burn yourself up in flames.~
+OthersAuto	$n burns $mself up in flames.~
+End
+
+#SOCIAL
+Name        flash~
+CharNoArg   You flash your naked body at the gawking crowd.~
+OthersNoArg $n flashes $s naked body at everyone.  Gasp!~
+CharFound   You flash your naked body at $M.~
+OthersFound $n flashes $s naked body at $N.  Aren't you jealous?~
+VictFound   $n flashes $s naked body at you.  Everyone else is jealous.~
+CharAuto    You flash your naked body at yourself.  How strange.~
+OthersAuto  $n is looking down $s shirt and grinning.  Very wierd!~
+End
+
+#SOCIAL
+Name        flex~
+CharNoArg   You up those bulging muscles, ooo impressive!~
+OthersNoArg $n flexes $s muscles and puts yours to shame!~
+CharFound   You flex your bulging muscles at $M.~
+OthersFound $n flexes $s muscles at $N.~
+VictFound   $n flexes $s muscles at you.  $n must be trying to impress you.~
+CharAuto    You flex your muscles at yourself.  Wow, you are HUGE!~
+OthersAuto  $n flexes $s muscles at $mself.  How narcissistic!~
+End
+
+#SOCIAL
+Name        flip~
+CharNoArg   You flip head over heels.~
+OthersNoArg $n flips head over heels.~
+CharFound   You flip $M up in the air with ease.~
+OthersFound $n flips $N up in the air with ease.~
+VictFound   $n flips you up into the air with ease.  Hmmmm.~
+CharAuto    You flip head over heels over yourself, landing head over heels.  Ouch!.~
+OthersAuto  $n flips head over heels over $mself, landing on $s head. .~
+End
+
+#SOCIAL
+Name        flirt~
+CharNoArg   Wink wink!~
+OthersNoArg $n flirts -- Anyone or anything interested?~
+CharFound   You flirt outrageously with $M.~
+OthersFound $n flirts with $N.~
+VictFound   $n starts flirting outrageously with you! Isn't $e cute?~
+CharAuto    You flirt with yourself.~
+OthersAuto  $n flirts with $mself.  Hoo boy.~
+End
+
+#SOCIAL
+Name        flower~
+CharNoArg   You admire a beautifull {g---,--'--{{{r@{x on a nearby bush.~
+OthersNoArg $n admires a beautifull {g---,--'--{{{r@{x on a nearby bush.~
+CharFound   You give $M a beautifull {g---,--'--{{{r@{x~
+OthersFound $n gives $N a beautifull {g---,--'--{{{r@{x~
+VictFound   $n gives you a beautifull {g---,--'--{{{r@{x~
+CharAuto    You put a beautifull {g---,--'--{{{r@{x in your hair.~
+OthersAuto  $n puts a beautifull {g---,--'--{{{r@{x in his hair.~
+End
+
+#SOCIAL
+Name        flutter~
+CharNoArg   You flutter your eyelashes demurely.~
+OthersNoArg $n flutters $s eyelashes demurely.~
+CharFound   You flutter your eyelashes at $M, trying to look attractive.~
+OthersFound $n flutters $s eyelashes in $N's direction.~
+VictFound   $n looks at you and flutters $s eyelashes, trying to look attractive.~
+CharAuto    You flutter your eyelashes at the thought of yourself.~
+OthersAuto  $n flutters $s eyelashes at no one in particular.~
+End
+
+#SOCIAL
+Name        fondle~
+CharNoArg   Who needs to be fondled?~
+CharFound   You fondly fondle $M.~
+OthersFound $n fondly fondles $N.~
+VictFound   $n fondly fondles you.~
+CharAuto    You fondly fondle yourself, feels funny doesn't it ?~
+OthersAuto  $n fondly fondles $mself - this is going too far !!~
+End
+
+#SOCIAL
+Name		fool~
+CharNoArg	You are fooled by yourself... Not hard is it?~
+CharFound	You brand $M as a fool.~
+OthersFound	$n stamps the word 'FOOL' on $N's forehead in flashing neon letters.~
+VictFound	You are branded as a fool by $n.~
+CharAuto	You feel foolish.~
+OthersAuto	$n stamps the word 'FOOL' across $s own forehead.~
+End
+
+#SOCIAL
+Name        french~
+CharNoArg   Kiss whom?~
+CharFound   You give $N a long and passionate kiss.~
+OthersFound $n kisses $N passionately.~
+VictFound   $n gives you a long and passionate kiss.~
+CharAuto    You gather yourself in your arms and try to kiss yourself.~
+OthersAuto  $n makes an attempt at kissing $mself.~
+End
+
+#SOCIAL
+Name        frown~
+CharNoArg   What's bothering you ?~
+OthersNoArg $n frowns.~
+CharFound   You frown at what $E did.~
+OthersFound $n frowns at what $N did.~
+VictFound   $n frowns at what you did.~
+CharAuto    You frown at yourself.  Poor baby.~
+OthersAuto  $n frowns at $mself.  Poor baby.~
+End
+
+#SOCIAL
+Name		full~
+CharNoArg	You let everyone know your hands are full and you can't carry any more!~
+OthersNoArg	$n's hands are full, $e can't carry anymore!~
+CharFound	You let $N know $S hands are full!~
+OthersFound	$n lets $N know $S hands are full!~
+VictFound	Sheesh!! You carry too much crap! $n lets you know your hands are full.~
+CharAuto	You try to give yourself something but you can't!~
+End
+
+#SOCIAL
+Name        fume~
+CharNoArg   You grit your teeth and fume with rage.~
+OthersNoArg $n grits $s teeth and fumes with rage.~
+CharFound   You stare at $M, fuming.~
+OthersFound $n stares at $N, fuming with rage.~
+VictFound   $n stares at you, fuming with rage!~
+CharAuto    That's right - hate yourself!~
+OthersAuto  $n clenches $s fists and stomps $s feet, fuming with anger.~
+End
+
+#SOCIAL
+Name		fuzzy~
+CharNoArg	A warm fuzzy feeling overtakes you!~
+OthersNoArg	$n gets a warm fuzzy feeling all over and turns into a big teddy bear.~
+CharFound	You get a warm fuzzy feeling from $N.~
+OthersFound	$n gets a warm fuzzy feeling from $N.~
+VictFound	$n lets you know that you give $m a warm fuzzy feeling!~
+CharAuto	Warm fuzzy things stick all over you!~
+OthersAuto	WArm fuzzy fluff sticks all over $n.~
+End
+
+#SOCIAL
+Name        gag~
+CharNoArg   You gag in disgust.~
+OthersNoArg $n gags in disgust.~
+CharFound   You stuff a sock in $s mouth, gagging $M. Ahhhhhhh...sweet silence!~
+OthersFound $n stuffs a sock in $N's mouth, gagging $M. Ahhhhhhh...sweet silence!~
+VictFound   $n gags your mouth with a sock. Everyone enjoys a moment of silence.~
+CharAuto    You gag yourself with a sock before you say something you might regret.~
+OthersAuto  $n gags $mself with a sock before $e says something $e might regret.~
+End
+
+#SOCIAL
+Name		gape~
+CharNoArg	Your mouth drops open and hits the floor as you reel in shock.~
+OthersNoArg	$n gapes and $s mouth drops open, hitting the floor.~
+CharFound	Your jaw goes slack at $N.~
+OthersFound	$n gapes at $N, $s jaw dropping to the floor.~
+VictFound	$n gapes at you, not comprehending anything at all.~
+CharAuto	You gape at yourself... wow... ~
+End
+
+#SOCIAL
+Name        gasp~
+CharNoArg   You gasp in astonishment.~
+OthersNoArg $n gasps in astonishment.~
+CharFound   You gasp in astonishment at $M, and nearly faint.~
+OthersFound $n gasps in astonishment at $N.~
+VictFound   $n gasps in astonishment at you!  Eeeek!~
+CharAuto    You look at yourself and gasp!~
+OthersAuto  $n takes one look at $mself and gasps in astonishment!~
+End
+
+#SOCIAL
+Name        gawk~
+CharNoArg   You gawk at everyone around you.~
+OthersNoArg $n gawks at everyone in the room.~
+CharFound   You gawk at $M.~
+OthersFound $n gawks at $N.~
+VictFound   $n gawks at you.~
+CharAuto    You gawk as you think what you must look like to others.~
+OthersAuto  $n is gawking again.  What is on $s mind?~
+End
+
+#SOCIAL
+Name        german~
+CharNoArg   You speak your best German in hopes of getting a beer.~
+OthersNoArg $n says 'Du bist ein luder!'  What the hell?~
+CharFound   You speak your best German to $M in hopes of getting a beer.~
+OthersFound $n says to $N, 'Du bist ein luder!'  What the hell?~
+VictFound   $n says to you, 'Du bist ein luder!'  What the hell?~
+CharAuto    You speak your best German in hopes of getting a beer.~
+OthersAuto  $n says 'Du bist ein luder!'  What the hell?~
+End
+
+#SOCIAL
+Name        ghug~
+CharNoArg   GROUP HUG!  GROUP HUG!~
+OthersNoArg $n hugs you all in a big group hug.  How sweet!~
+CharFound   GROUP HUG!  GROUP HUG!~
+OthersFound $n hugs you all in a big group hug.  How sweet!~
+VictFound   $n hugs you all in a big group hug.  How sweet!~
+CharAuto    GROUP HUG!  GROUP HUG!~
+OthersAuto  $n hugs you all in a big group hug.  How sweet!~
+End
+
+#SOCIAL
+Name        giggle~
+CharNoArg   You giggle.~
+OthersNoArg $n giggles.~
+CharFound   You giggle at $N.~
+OthersFound $n giggles at $N.~
+VictFound   $n giggles at you.~
+CharAuto    You giggle at yourself.  You must be nervous or something.~
+OthersAuto  $n giggles at $mself.  $e must be up to something.~
+End
+
+#SOCIAL
+Name        glare~
+CharNoArg   You glare at nothing in particular.~
+OthersNoArg $n glares around $m.~
+CharFound   You glare icily at $M.~
+OthersFound $n glares at $N.~
+VictFound   $n glares icily at you, you feel cold to your bones.~
+CharAuto    You glare icily at your feet, they are suddenly very cold.~
+OthersAuto  $n glares at $s feet, what is bothering $m?~
+End
+
+#SOCIAL
+Name        goose~
+CharNoArg   You honk like a goose.~
+OthersNoArg $n honks like a goose.~
+CharFound   You goose $S luscious bottom.~
+OthersFound $n gooses $N's soft behind.~
+VictFound   $n squeezes your tush.  Oh my!~
+CharAuto    The goose feathers flutter down to your feet.~
+OthersAuto  $n gooses $mself.  Yuck.~
+End
+
+#SOCIAL
+Name        grimace~
+CharNoArg   You contort your face in disgust.~
+OthersNoArg $n grimaces in disgust.~
+CharFound   You grimace in disgust at $M.~
+OthersFound $n grimaces in disgust at $N.~
+VictFound   $n grimaces in disgust at you.~
+CharAuto    You grimace at yourself in disgust.~
+OthersAuto  $n grimaces at $mself in disgust.~
+End
+
+#SOCIAL
+Name        grin~
+CharNoArg   You grin wickedly.~
+OthersNoArg $n grins wickedly.~
+CharFound   You grin wickedly at $M.~
+OthersFound $n grins wickedly at $N.~
+VictFound   $n grins wickedly at you.  Hmmm.~
+CharAuto    You grin at yourself.  You must be getting very bad thoughts.~
+OthersAuto  $n grins at $mself.  You must wonder what's in $s mind.~
+End
+
+#SOCIAL
+Name        groan~
+CharNoArg   You groan loudly.~
+OthersNoArg $n groans loudly.~
+CharFound   You groan loudly at $M.~
+OthersFound $n groans loudly at $N.~
+VictFound   $n groans loudly at you.~
+CharAuto    You groan as you realize what you have done.~
+OthersAuto  $n groans loudly at $mself.~
+End
+
+#SOCIAL	
+Name		grope~
+CharNoArg	Whom do you wish to grope?~
+CharFound	Well, what sort of noise do you expect here?~
+OthersFound	$n gropes $N.~
+VictFound	$n gropes you.~
+CharAuto	You grope yoursef - YUCK.~
+OthersAuto	$n gropes $mself - YUCK.~
+End
+
+#SOCIAL
+Name        grovel~
+CharNoArg   You grovel in the dirt.~
+OthersNoArg $n grovels in the dirt.~
+CharFound   You grovel before $M.~
+OthersFound $n grovels in the dirt before $N.~
+VictFound   $n grovels in the dirt before you.~
+CharAuto    That seems a little silly to me.~
+End
+
+#SOCIAL
+Name        growl~
+CharNoArg   Grrrrrrrrrr ...~
+OthersNoArg $n growls menacingly.~
+CharFound   Grrrrrrrrrr ... take that, $N!~
+OthersFound $n growls menacingly at $N.~
+VictFound   $n growls ferociously at you.  Hey, two can play it that way!~
+CharAuto    You growl at yourself.  Boy, do you feel bitter!~
+OthersAuto  $n growls at $mself.  This could get interesting...~
+End
+
+#SOCIAL
+Name        grumble~
+CharNoArg   You grumble.~
+OthersNoArg $n grumbles incoherently about something or other..~
+CharFound   You grumble under your breath about $M.~
+OthersFound $n grumbles something snide about $N.~
+VictFound   $n grumbles something snide about your ancestry..~
+CharAuto    You grumble incoherently under your breath.~
+OthersAuto  $n grumbles incoherently about something or other.~
+End
+
+#SOCIAL
+Name        grunt~
+CharNoArg   You grunt like a wild animal.~
+OthersNoArg $n grunts loudly.~
+CharFound   You grunt at $N.~
+OthersFound $n grunts to $N.  What a pig!~
+VictFound   $n grunts to you.  What a pig!~
+CharAuto    GRNNNHTTTT.~
+OthersAuto  $n grunts to $mself.  What a pig!~
+End
+
+#SOCIAL
+Name		gulp~
+CharNoArg	Yikes! You can't think of anything to say!~
+OthersNoArg	$n gulps, at a loss for words.~
+End
+
+#SOCIAL
+Name        halo~
+CharNoArg   An aura of heavenly light appears above your head.~
+OthersNoArg An aura of heavenly light appears above $n's head.~
+CharFound   You project an aura of heavenly light above $S head.~
+OthersFound $n projects an aura of heavenly light above $N's head.~
+VictFound   $n projects an aura of heavenly light above your head.~
+CharAuto    An aura of heavenly light appears above your head.~
+OthersAuto  An aura of heavenly light appears above $n's head.~
+End
+
+#SOCIAL
+Name        hand~
+CharNoArg   Kiss whose hand?~
+CharFound   You kiss $S hand.~
+OthersFound $n kisses $N's hand.  How sweet!~
+VictFound   $n kisses your hand.  How sweet!~
+CharAuto    You kiss your own hand.~
+OthersAuto  $n kisses $s own hand.~
+End
+
+#SOCIAL
+Name        handcuff~
+CharNoArg   You pull out a pair of handcuffs.~
+OthersNoArg $n pulls out a pair of handcuffs.~
+CharFound   You handcuff $M, putting $M completely at your mercy.~
+OthersFound $n handcuffs $N, pretty kinky, huh?~
+VictFound   $n handcuffs you. This could get interesting.~
+CharAuto    You handcuff yourself. Too bad you can't seem to find the key.~
+OthersAuto  $n handcuffs $mself. Too bad $e can't seem to find the key.~
+End
+
+#SOCIAL
+Name        hangover~
+CharNoArg   You pop a few aspirin and put on your sunglasses.  Ow, your head hurts!~
+OthersNoArg $n holds $s head and says 'Quit breathing so loud!'~
+CharFound   Won't $N be quiet?  Your head is gonna split in two if $E keeps talking!~
+OthersFound $n complains to $N 'Be quiet!  I have a hangover!~
+VictFound   $n complains to you 'Be quiet!  I have a hangover!~
+CharAuto    You shush yourself.  Be quiet!  You have a hangover!~
+OthersAuto  $n shushes $mself.  Wow, what a hangover that must be!~
+End
+
+#SOCIAL
+Name        happy~
+CharNoArg   You smile happily.~
+OthersNoArg $n smiles happily.~
+CharFound   You smile wide at $M.~
+OthersFound $n beams a smile at $N.~
+VictFound   $n is as happy as can be about you.~
+CharAuto    You smile inwardly at yourself.~
+OthersAuto  $n smiles inwardly at a job well done.~
+End
+
+#SOCIAL
+Name        hello~
+CharNoArg   You say hello to everyone in the room.~
+OthersNoArg $n says hello to everyone in the room.~
+CharFound   You tell $M how truly glad you are to see $M.~
+OthersFound $n tells $N 'Hi!'~
+VictFound   $n tells you how truly glad $e is that you are here.~
+CharAuto    You greet yourself enthusiastically.~
+OthersAuto  $n greets $mself enthusiastically.  How odd.~
+End
+
+#SOCIAL
+Name        hero~
+CharNoArg   You heroically risk life and limb to save the day.~
+OthersNoArg $n heroically risks life and limb to save the day.~
+CharFound   You say to $M, '$N, YOU'RE MY HERO!'~
+OthersFound $n says to $N, '$N, YOU'RE MY HERO!'~
+VictFound   $n says to you, '$N, YOU'RE MY HERO!'~
+CharAuto    You try to look heroic.~
+OthersAuto  $n does $s best impression of a hero.~
+End
+
+#SOCIAL
+Name		hiccup~
+CharNoArg	You hiccup.  *HIC*~
+OthersNoArg	$n hiccups.~
+End
+
+#SOCIAL
+Name        hi5~
+CharNoArg   You jump in the air...oops, better get someone else to join you.~
+OthersNoArg $n jumps in the air by $mself.  Is $e a cheerleader, or just daft?~
+CharFound   You jump in the air and give $M a big highfive!~
+OthersFound $n jumps in the air and gives $N a big highfive!~
+VictFound   $n jumps in the air and gives you a big highfive!~
+CharAuto    You jump in the air and congratulate yourself!~
+OthersAuto  $n jumps in the air and gives $mself a big highfive!  Wonder what $e did?~
+End
+
+#SOCIAL
+Name		hickey~
+CharNoArg	Whom to you wish to suck on?~
+CharFound	You suck a bright red hickey on $N's neck.~
+OthersFound	$n sucks on $N's neck, giving $M a bright red hickey.~
+VictFound	Oooo, $n starts sucking on your neck!! Wonder if $e left a mark?~
+CharAuto	You practice safe hickey by using a straw.~
+OthersAuto	$n uses a straw and leaves a bright red suck mark on $s neck.~
+End
+
+#SOCIAL
+Name		hiss~
+CharNoArg	You hiss loudly, extending your claws.~
+OthersNoArg	$n hisses loudly, claws extended.~
+CharFound	You hiss loudly at $M.~
+OthersFound	$n hisses loudly at $N.~
+VictFound	$n hisses loudly at you.~
+CharAuto	Pffft.. hiss where?~
+OthersAuto	$n hisses loudly at $mself.~
+End
+
+#SOCIAL
+Name        holdon~
+CharNoArg   Who do you want to hold onto?~
+OthersNoArg $n pauses for a moment, somewhat hesitant.~
+CharFound   You hug $M, holding $M closely.~
+OthersFound $n hugs $N, holding $M closely.~
+VictFound   $n hugs you and holds you tightly, $e won't let go!~
+CharAuto    You hold yourself together.~
+OthersAuto  $n holds $mself together... $e's falling apart at the seams!~
+End
+
+#SOCIAL
+Name        hop~
+CharNoArg   You hop around on one foot.~
+OthersNoArg $n hops around on one foot.~
+CharFound   $n hops around $N.~
+OthersFound $n hops around $N.~
+VictFound   $n hops around you.~
+CharAuto    You hop up and down like a giant bunny rabbit.~
+OthersAuto  $n hops up and down, like a giant bunny rabbit.~
+End
+
+#SOCIAL
+Name		hose~
+CharNoArg	you are now a hoser!~
+CharFound	You hose $M down, $E's been coming on a bit too strong!~
+OthersFound	$n hoses $N down with cold water.~
+VictFound	$n hoses you down with cold water.  Coming on a bit too strong?~
+CharAuto	You spew water at nobody in particular.~
+OthersAuto	$n hoses $mself down with cold water.~
+End
+
+#SOCIAL
+Name        howl~
+CharNoArg   AROOOOOOOOOOOOooooo!!  You howl at the full moon.~
+OthersNoArg AROOOOOOOOOOOOooooo!!  $n howls at the full moon.~
+CharFound   You howl at $M.~
+OthersFound $n howls at $N.  Someone's gonna die!~
+VictFound   $n howls at you.  You must be good looking.~
+CharAuto    You howl at yourself.~
+OthersAuto  $n howls at $mself.  Where's the wolfbane?~
+End
+
+#SOCIAL
+Name        hmm~
+CharNoArg   You Hmmmm out loud.~
+OthersNoArg $n thinks, 'Hmmmm.'~
+CharFound   You gaze thoughtfully at $M and say 'Hmmm.'~
+OthersFound $n gazes thoughtfully at $N and says 'Hmmm.'~
+VictFound   $n gazes thoughtfully at you and says 'Hmmm.'~
+CharAuto    You Hmmmm out loud.~
+OthersAuto  $n thinks, 'Hmmmm.'~
+End
+
+#SOCIAL
+Name        hug~
+CharNoArg   Hug whom?~
+CharFound   You hug $M.~
+OthersFound $n hugs $N.~
+VictFound   $n hugs you.~
+CharAuto    You hug yourself.~
+OthersAuto  $n hugs $mself.~
+End
+
+#SOCIAL
+Name        hum~
+CharNoArg   You hum a little melody to yourself.~
+OthersNoArg $n hums a little melody to $mself.~
+CharFound   You hum a little ditty for $M.  Hmm Hmm Hmm Hmmmmmm.~
+OthersFound $n hums a little ditty for $N.  Hmm Hmm Hmm Hmmmmmm.~
+VictFound   $n hums a little ditty for you.  Hmm Hmm Hmm Hmmmmmm.~
+CharAuto    Hmm Hmm Hmmmmmmm.~
+OthersAuto  $n hums like a bee with a chest cold.~
+End
+
+#SOCIAL
+Name		hunger~
+CharNoArg	Your stomach starts rumbling again.~
+OthersNoArg	$n holds a sign that says: "Will work for food." Somebody feed $m.~
+CharFound	You beg $N for some food, salivating heavily.~
+OthersFound	$n begs $n for some food, drooling uncontrollably.~
+VictFound	$n begs you for some food, drooling all over $mself.~
+CharAuto	Breaking your diet again, eh?~
+OthersAuto	$n lets $mself have some food after starving.~
+End
+
+#SOCIAL
+Name        icecube~
+CharNoArg   You wonder who would like an ice cube down their shirt.~
+OthersNoArg With a devious look on $s face, $n hides something behind $s back.~
+CharFound   You stuff an ice cube down $S shirt. You laugh as $E hops around.~
+OthersFound $n stuffs an ice cube down $N's shirt, better hope that was $s last ice cube.~
+VictFound   $n stuffs an ice cube down your shirt. Brrr! $n laughs as you struggle to get it out.~
+CharAuto    You stick an ice cube down your shirt. Brrr!~
+OthersAuto  $n sticks an icecube down $s shirt, trying to cool off.~
+End
+
+#SOCIAL         
+Name		imitate~
+CharNoArg	Whom do you wish to imitate?~
+CharFound	You do a stunning imitation of $N.~
+OthersFound	$n does a stunning imitation of $N.~
+VictFound	$n does an imitation of you! Is that flattery or insult?~
+CharAuto	You do a stunning imitation of yourself.~
+OthersAuto	$n re-enacts $s moments of courage and valor.~
+End
+
+#SOCIAL
+Name		impale~
+CharNoArg	And who do you wish to slay?~
+CharFound	You impale $M on a long spike and watch $M writhe in agony.~
+OthersFound	$n impales $N with a long spike, and watches $M writhe in agony.~
+VictFound	$n impales you on a long spike. OUCH!~
+CharAuto	You impale yourself on a long spike, relishing the pain.~
+OthersAuto	$n impales $mself on a long spike, relishing the pain.~
+End
+
+#SOCIAL
+Name		introduce~
+CharNoArg	You introduce yourself to everyone.~
+OthersNoArg	Hi! $n introduces $mself to everyone.~
+CharFound	You introduce yourself to $N.~
+OthersFound	$n introduces $mself to $N.~
+VictFound	Hi! It's nice to meet you! $n introduces $mself to you.~
+CharAuto	You introduce yourself to all your other personalities.~
+OthersAuto	$n introduces $mself to all $s other personalities.~
+End
+
+#SOCIAL
+Name        invite~
+CharNoArg   You speak your best French in hopes of getting lucky.~
+OthersNoArg $n tells you, 'Voulez-vous couche avec moi ce soir?'~
+CharFound   You speak your best French to $M in hopes of getting lucky.~
+OthersFound $n tells $N, 'Voulez-vous couche avec moi ce soir?'~
+VictFound   $n tells you, 'Voulez-vous couche avec moi ce soir?'~
+CharAuto    You speak your best French in hopes of getting lucky, with yourself???~
+OthersAuto  $n says to $mself, 'Voulez-vous couche avec moi ce soir?'~
+End
+
+#SOCIAL
+Name        innocent~
+CharNoArg   You whistle innocently, trying to hide your guilt.~
+OthersNoArg $n whistles innocently.~
+CharFound   You whistle innocently, avoiding $S question.~
+OthersFound $n whistles innocently, a sure sign of guilt.~
+VictFound   $n whistles innocently at your question...hmmmmm.~
+CharAuto    You whistle innocently.~
+OthersAuto  $n whistles innocently, trying to hide $s guilt.~
+End
+
+#SOCIAL
+Name		jk~
+CharNoArg	Hah! Just kidding!~
+OthersNoArg	$n was just kidding, calm down.~
+CharFound	you let $N know you were 'just kidding!'.~
+OthersFound	$n lets $N know that $e was just kidding.~
+VictFound	$n lets you know $e was 'Just Kidding', Go ahead and kick $m.~
+CharAuto	You tease yourself with silly thoughts.~
+OthersAuto	$n lets $s other personality know $e was 'Just Kidding'.~
+End
+
+#SOCIAL
+Name		jump~
+CharNoArg	You jump high in the air.~
+OthersNoArg	$n jumps high in the air.~
+Charfound	You jump high in the air and land on $M!~
+OthersFound	$n jumps high in the air and lands on top of $N!~
+VictFound	$n jumps high in the air and lands on top of you!~
+CharAuto	CRUNCH! You jump high in the air and do a bellyflop on the ground!~
+OthersAuto	CRUNCH! $n jumps high in the air and does a bellyflop on the ground!~
+End
+ 
+#SOCIAL
+Name        lag~
+CharNoArg   It creeps up on you, sucking you into the eternal plane of nothingness...~
+OthersNoArg Lag sucks $n into the eternal plane of nothingness..~
+CharFound   You complain to $N about the lag.~
+OthersFound $n complains to $N about the lag.~
+VictFound   $n complains to you about the lag.~
+CharAuto    You complain about the lag, your hitpoints...~
+OthersAuto  $n seems to have lost $s link because of the lag.~
+End
+
+#SOCIAL
+Name        laugh~
+CharNoArg   You fall down laughing.~
+OthersNoArg $n falls down laughing.~
+CharFound   You fall down laughing at $N.~
+OthersFound $n falls down laughing at $N.~
+VictFound   $n falls down laughing at you.~
+CharAuto    You look in the mirror and laugh.~
+OthersAuto  $n laughs at $mself. Looks like $e has just gone over the edge.~
+End
+
+#SOCIAL
+Name		lean~
+CharNoArg	you lean back, taking some weight off your legs.~
+OthersNoArg	$n leans back, taking some weight off $s legs.~
+CharFound	You lean over $S shoulder.~
+OthersFound	$n leans over $N's shoulder.~
+VictFound	$n leans over your shoulder.~
+CharAuto	You lean over and fall to the ground.. THUMP!~
+OthersAuto	$n leans over so far $e tips over.~
+End
+
+#SOCIAL
+Name        lick~
+CharNoArg   You lick your lips and smile.~
+OthersNoArg $n licks $s lips and smiles.~
+CharFound   You lick $M.~
+OthersFound $n licks $N.~
+VictFound   $n licks you.~
+CharAuto    You lick yourself.~
+OthersAuto  $n licks $mself - YUCK.~
+End
+
+#SOCIAL
+Name		lost~
+CharNoArg	You are totally and utterly lost! Next time bring a compass!~
+OthersNoArg	$n is totally and utterly lost and has no clue where we are!~
+CharFound	You really think $N is lost.~
+OthersFound	$n thinks $N is totally lost and has no clue where we are.~
+VictFound	$n thinks you are lost! Give it up!~
+CharAuto	You lose yourself and everyone else.~
+OthersAuto	$n is so lost! Somebody help $m.~
+End
+
+#SOCIAL
+Name        love~
+CharNoArg   You love the whole world.~
+OthersNoArg $n loves everybody in the world.~
+CharFound   You tell your true feelings to $N.~
+OthersFound $n whispers softly to $N.~
+VictFound   $n whispers to you sweet words of love.~
+CharAuto    Well, we already know you love yourself (lucky someone does!)~
+OthersAuto  $n loves $mself, can you believe it ?~
+End
+
+#SOCIAL
+Name		lucky~
+CharNoArg	You wish yourself good luck!~
+OthersNoArg	$n takes a deep breath and courageously steps forward.~
+CharFound	You wish $N all the luck in the world!~
+OthersFound	$n wishes $N good luck!~
+VictFound	Good Luck! $n wishes you all the good luck in the world!~
+CharAuto	Tymora blows a kiss of good luck in your direction.~
+OthersAuto	Tymora blows a kiss of good luck at $n.~
+End
+
+#SOCIAL
+Name        maim~
+CharNoArg   Who do you want to maim?~
+OthersNoArg $n is looking for someone to maim.~
+CharFound   You maim $M with your dull fingernails.~
+OthersFound $n raises $s hand and tries to maim $N to pieces.~
+VictFound   $n raises $s hand and paws at you.  You've been maimed!~
+CharAuto    You maim yourself with your dull fingernails.~
+OthersAuto  $n raises $s hand and maims $mself to pieces.~
+End
+
+#SOCIAL
+Name        marvelous~
+CharNoArg   You say 'Ah dahling, you look MAHVELLOUS!'~
+OthersNoArg $n says 'Ah dahling, you look MAHVELLOUS!'~
+CharFound   You say to $M, 'Ah dahling, you look MAHVELLOUS!'~
+OthersFound $n says to $N, 'Ah dahling, you look MAHVELLOUS!'~
+VictFound   $n says to you, 'Ah dahling, you look MAHVELLOUS!'~
+CharAuto    You say 'Ah dahling, I look MAHVELLOUS!'~
+OthersAuto  $n says 'Ah dahling, I look MAHVELLOUS!'~
+End
+
+#SOCIAL
+Name        massage~
+CharNoArg   Massage what?  Thin air?~
+CharFound   You gently massage $N's shoulders.~
+OthersFound $n massages $N's shoulders.~
+VictFound   $n gently massages your shoulders.  Ahhhhhhhhhh ...~
+CharAuto    You practice yoga as you try to massage yourself.~
+OthersAuto  $n gives a show on yoga positions, trying to massage $mself.~
+End
+
+#SOCIAL
+Name		melt~
+CharNoArg	You melt into a puddle of emotional slush.~
+OthersNoArg	$n melts.~
+CharFound	You melt into $S arms.~
+OthersFound	$n melts into $N's arms.~
+VictFound	$n melts into your arms.~
+CharAuto	You melt into a puddle of emotional slush.~
+OthersAuto	$n melts into a greasy puddle... ICK!~
+End
+
+#SOCIAL
+Name        meow~
+CharNoArg   MEOW.~
+OthersNoArg $n meows.  What's $e going to do next, wash $mself with $s tongue?~
+CharFound   You meow at $M, hoping $E will give you some milk.~
+OthersFound $n meows at $N, hoping $e will get some milk. ~
+VictFound   $n meows at you.  Maybe $e wants some milk.~
+CharAuto    You meow like a kitty cat.~
+OthersAuto  $n meows like a kitty cat.~
+End
+
+#SOCIAL
+Name        mmm~
+CharNoArg   You go mmMMmmMMmmMMmm.~
+OthersNoArg $n says, 'mmMMmmMMmmMMmm.'~
+CharFound   You go mmMMmmMMmmMMmm.~
+OthersFound $n says, 'mmMMmmMMmmMMmm.'and looks at $N.~
+VictFound   $n thinks of you and says, 'mmMMmmMMmmMMmm.'~
+CharAuto    You think of yourself, and go mmMMmmMMmmMMmm.~
+OthersAuto  $n thinks of $mself and says, 'mmMMmmMMmmMMmm.'~
+End
+
+#SOCIAL
+Name		mnm~
+CharNoArg	You look for that elusive green M&M.~
+OthersNoArg	$n looks for the elusive green M&M.~
+CharFound	You throw M&M's at $N from across the room!~
+OthersFound	$n flings M&M's at $N from across the room.~
+VictFound	Caught one! You catch an M&M that $n threw at you.~
+CharAuto	awwwwww have another one!~
+OthersAuto	$n eats M&Ms by $mself in the corner.~
+End
+
+#SOCIAL
+Name        moan~
+CharNoArg   You start to moan.~
+OthersNoArg $n starts moaning.~
+CharFound   You moan softly at $N.~
+OthersFound $n moans softly at $N.~
+VictFound   $n moans at you, trying to show that $e is sexually deprived.~
+CharAuto    You moan at yourself.~
+OthersAuto  $n makes $mself moan.~
+End
+
+#SOCIAL
+Name		mourn~
+CharNoArg	You mourn the loss of the dead.~
+OthersNoArg	$n mourns the loss of the dead.~
+CharFound	You mourn at the loss of $N's life.~
+OthersFound	$n mourns at the loss of $N's life.~
+VictFound	$n mourns at the loss of your life.~
+CharAuto	You break out in tears, going into full mourning.~
+OthersAuto	$n breaks out in tears, in full mourning.~
+End
+
+#SOCIAL
+Name        mooch~
+CharNoArg   You beg for money, weapons, coins.~
+OthersNoArg $n says 'Spare change?'~
+CharFound   You beg $N for money, weapons, coins.~
+OthersFound $n begs $N for favors of the insidious type...~
+VictFound   $n begs you for favors of the insidious type...~
+CharAuto    You beg for money, weapons, coins.~
+OthersAuto  $n says 'Spare change?'~
+End
+
+#SOCIAL
+Name        moocow~
+CharNoArg   You make cow noises.  Mooooooooooooooooooo!~
+OthersNoArg $n Mooooooooooooooooooooooooos like a cow.~
+CharFound   You make cow noises at $M.  Mooooooooooooooooooo!~
+OthersFound $n Mooooooooooooooooooooooooos like a cow at $N.~
+VictFound   $n looks at you and Mooooooooooooooooooooooooos like a cow.~
+CharAuto    You make cow noises.  Mooooooooooooooooooo!~
+OthersAuto  $n Mooooooooooooooooooooooooos like a cow.~
+End
+
+#SOCIAL
+Name        moon~
+CharNoArg   Gee your butt is big.~
+OthersNoArg $n moons the entire room.~
+CharFound   You pull down your pants and show $m your bottom.~
+OthersFound $n shows $s bottom to $N.  Find a paddle, quick!~
+VictFound   $n pulls down $s pants and shows you her bottom. Ain't it cute?~
+CharAuto    You moon yourself.~
+OthersAuto  $n moons $mself.  Ugliest butt you ever saw.~
+End
+
+#SOCIAL
+Name        mosh~
+CharNoArg   You MOSH insanely about the room.~
+OthersNoArg $n MOSHES insanely about the room.~
+CharFound   You MOSH $M into a pile of Jello pudding.  Ewww!~
+OthersFound $n MOSHES $N into Jello pudding.  Ah, the blood!~
+VictFound   $n MOSHES you into the ground.~
+CharAuto    You MOSH yourself.  Ah the blood!~
+OthersAuto  $n MOSHES and MOSHES and MOSHES and MOSHES...~
+End
+
+#SOCIAL
+Name        muhaha~
+CharNoArg   You laugh diabolically.  MUHAHAHAHAHAHA!~
+OthersNoArg $n laughs diabolically.  MUHAHAHAHAHAHA!~
+CharFound   You laugh at $M diabolically.  MUHAHAHAHAHAHA!~
+OthersFound $n laughs at $N diabolically.  MUHAHAHAHAHAHA!~
+VictFound   $n laughs at you diabolically.  MUHAHAHAHAHAHA!~
+CharAuto    Muhaha at yourself??  Wierd.~
+End
+
+#SOCIAL
+Name		mutter~
+CharNoArg	You mutter something intelligable.~
+OthersNoArg	$n mutters something under $s breath.~
+CharFound	You mutter something under your breath about $N.~
+OthersFound	$n mutters something about $N under $s breath.~
+VictFound	$n mutters something about you under $s breath!~
+CharAuto	Gee, it really sucks to be you.. really!~
+OthersAuto	$n mutters something about $mself under $s breath.~
+End
+
+#SOCIAL
+Name        nail~
+CharNoArg   You nibble nervously on your nails.~
+OthersNoArg $n nibbles nervously on $s fingernails.~
+CharFound   You nibble nervously on $Ns nails.~
+OthersFound $n nibbles nervously on $Ns fingernails.~
+VictFound   $n nibbles nervously on your fingernails.  Yuck!~
+CharAuto    You nibble nervously on your nails.~
+OthersAuto  $n nibbles nervously on $s fingernails.~
+End
+
+#SOCIAL
+Name		nap~
+CharNoArg	Time for a nap!!~
+OthersNoArg	$n settles down for a nap.~
+CharFound	You think $N should get some sleep!~
+OthersFound	$n thinks $N should get some sleep.~
+VictFound	GO TO BED! $n thinks you need the sleep.~
+CharAuto	You think you ought to hit the sack.~
+OthersAuto      $n thinks $e needs to get some sleep.~
+End
+
+#SOCIAL
+Name        nasty~
+CharNoArg   You do the best imitation of the nasty you can.~
+OthersNoArg $n does the nasty solo? -- wow.~
+CharFound   You do the nasty with $M.~
+OthersFound $n does the nasty with $N.  Find a firehose quick!~
+VictFound   $n does the nasty with you.  How do you like it?~
+CharAuto    You do the nasty with yourself.~
+OthersAuto  $n does the nasty with $mself.  Hoo boy.~
+End
+
+#SOCIAL
+Name        ni~
+CharNoArg   You exclaim proudly, 'I am a knight that goes NI!'~
+OthersNoArg $n exclaims proudly, 'I am a knight that goes NI!'~
+CharFound   You exclaim proudly to $M, 'I am a knight that goes NI!'~
+OthersFound $n exclaims proudly to $N, 'I am a knight that goes NI!'~
+VictFound   $n proudly exclaims to you, 'I am a knight that goes NI!'~
+CharAuto    You exclaim proudly, 'I am a knight that goes NI!'~
+OthersAuto  $n exclaims proudly, 'I am a knight that goes NI!'~
+End
+
+#SOCIAL
+Name        nibble~
+CharNoArg   Nibble on whom?~
+CharFound   You nibble on $N's ear, exciting, isn't it?~
+OthersFound $n nibbles on $N's ear.~
+VictFound   $n nibbles on your ear, feel that blood pressure RISE!~
+CharAuto    You nibble on your OWN ear.~
+OthersAuto  $n nibbles on $s OWN ear.~
+End
+
+#SOCIAL
+Name        nod~
+CharNoArg   You nod.~
+OthersNoArg $n nods.~
+CharFound   You nod at $M.~
+OthersFound $n nods at $N.~
+VictFound   $n nods at you.~
+CharAuto    You nod at yourself. You're okay.~
+OthersAuto  $n nods at $mself, reassuring $mself that $e's ok.~
+End
+
+#SOCIAL
+Name		nog~
+CharNoArg	You nog.~
+OthersNoArg	$n nogs.~
+CharFound	You nog at $N.~
+OthersFound	$n nogs at $N.~
+VictFound	$n nogs at you.~
+CharAuto	You nog at yourself.~
+OthersAuto	$n nogs at $mself.~
+End
+
+#SOCIAL
+Name        noogie~
+CharNoArg   You look around, wondering who would like to get a noogie.~
+OthersNoArg $n looks around, wondering who would like to get a noogie.~
+CharFound   You put $M in a headlock and give $M a severe noogie.~
+OthersFound $n puts $N in a headlock and gives $M a noogie.~
+VictFound   $n puts you in a headlock and gives you a severe noogie.~
+CharAuto    You give yourself a noogie. What a goof!~
+OthersAuto  $n gives $mself a noogie. What a goof!~
+End
+
+#SOCIAL
+Name        nose~
+CharNoArg   You pick your nose. YUM!~
+OthersNoArg $n pulls something green and slimy from $s nose and slurps it down.~
+CharFound   You tweak $S nose.~
+OthersFound $n poke $N in the nose.~
+VictFound   $n pokes you in the nose.  Ow!~
+CharAuto    You wiggle your nose.~
+OthersAuto  $n wiggles $s nose.~
+End
+
+#SOCIAL
+Name        nudge~
+CharNoArg   Nudge whom?~
+CharFound   You nudge $M.~
+OthersFound $n nudges $N.~
+VictFound   $n nudges you.~
+CharAuto    You nudge yourself, for some strange reason.~
+OthersAuto  $n nudges $mself, to keep $mself awake.~
+End
+
+#SOCIAL
+Name        nuke~
+CharNoArg   Who do you want to nuke?~
+OthersNoArg $n tries to put something in the microwave.~
+CharFound   You envelope $M in a mushroom cloud.~
+OthersFound $n detonates a nuclear warhead at $N.  Uh oh!~
+VictFound   $n envelopes you in a mushroom cloud.~
+CharAuto    You nuke yourself.~
+OthersAuto  $n puts $mself in the microwave.~
+End
+
+#SOCIAL
+Name        nuzzle~
+CharNoArg   Nuzzle whom?~
+CharFound   You nuzzle $S neck softly.~
+OthersFound $n softly nuzzles $N's neck.~
+VictFound   $n softly nuzzles your neck.~
+CharAuto    I'm sorry, friend, but that's impossible.~
+End
+
+#SOCIAL
+Name        ogle~
+CharNoArg   Whom do you want to ogle?~
+CharFound   You ogle $M like $E was a piece of meat.~
+OthersFound $n ogles $N.  Maybe you should leave them alone for awhile?~
+VictFound   $n ogles you.  Guess what $e is thinking about?~
+CharAuto    You ogle yourself.  You may just be too wierd for this mud.~
+OthersAuto  $n ogles $mself.  Better hope that $e stops there.~
+End
+
+#SOCIAL
+Name        ohno~
+CharNoArg   Oh no!  You did it again!~
+OthersNoArg Oh no!  $n did it again!~
+CharFound   You exclaim to $M, 'Oh no!  I did it again!'~
+OthersFound $n exclaims to $N, 'Oh no!  I did it again!'~
+VictFound   $n exclaims to you, 'Oh no!  I did it again!'~
+CharAuto    You exclaim to yourself, 'Oh no!  I did it again!'~
+OthersAuto  $n exclaims to $mself, 'Oh no!  I did it again!'~
+End
+
+#SOCIAL
+Name        oink~
+CharNoArg   You make pig noises.  OINK!~
+OthersNoArg $n oinks 'OINK OINK OINK!'~
+CharFound   You make pig noises at $M.  OINK!~
+OthersFound $n oinks at $N: 'OINK OINK OINK!'~
+VictFound   $n oinks at you: 'OINK OINK OINK!'~
+CharAuto    You make pig noises.  OINK!~
+OthersAuto  $n oinks 'OINK OINK OINK!'~
+End
+
+#SOCIAL
+Name        ooo~
+CharNoArg   You go ooOOooOOooOOoo.~
+OthersNoArg $n says, 'ooOOooOOooOOoo.'~
+CharFound   You go ooOOooOOooOOoo.~
+OthersFound $n says, 'ooOOooOOooOOoo.'~
+VictFound   $n thinks of you and says, 'ooOOooOOooOOoo.'~
+CharAuto    You go ooOOooOOooOOoo.~
+OthersAuto  $n says, 'ooOOooOOooOOoo.'~
+End
+
+#SOCIAL
+Name		pace~
+CharNoArg       Don't wear a hole in the rug....~
+OthersNoArg	$n paces restlessly back and forth.~
+End
+
+#SOCIAL
+Name		panic~
+CharNoArg	AAAYYYYYEEEEAaaaaaaaaaaaaaahhhhhhhhhhhhh!~
+OthersNoArg	$n panics, screams and runs around in little circles, waving $s hands in the air.~
+CharFound	You panic around $M.~
+OthersFound	$n panics around $N.~
+VictFound	$n panics wildly around you!! Are you okay?!~
+CharAuto	Dang! And you thought you had a life!~
+OthersAuto	$n panics wildly about $mself!~
+End
+
+#SOCIAL
+Name		pant~
+CharNoArg	You start panting with your tongue hanging out, looking like a dog.~
+OthersNoArg	$n starts panting with $s tongue hanging out, looking like a dog.~
+CharFound       You pant at $M.  Wow, $E sure takes your breath away!~
+OthersFound	$n pants at $N, because $e finds $M breathtaking!~
+VictFound       $n pants at you, because $e finds you breathtaking!~
+CharAuto	Maybe you should start dating a bit more?~
+OthersAuto	$n starts panting at $mself..now there is one sick puppy!~
+End
+
+#SOCIAL
+Name        pat~
+CharNoArg   Pat whom?~
+CharFound   You pat $N on $S head.~
+OthersFound $n pats $N on $S head.~
+VictFound   $n pats you on your head.~
+CharAuto    You pat yourself on your head.  Aren't you proud?~
+OthersAuto  $n pats $mself on the head.  $e is proud of $mself!~
+End
+
+#SOCIAL
+Name        peck~
+CharNoArg   You peck for seeds on the ground.~
+OthersNoArg $n pecks for seeds on the ground.~
+CharFound   You give $M a little peck on the cheek.~
+OthersFound $n gives $N a small peck on the cheek.~
+VictFound   $n gives you a sweet peck on the cheek.~
+CharAuto    You kiss your own pectoral muscles.~
+OthersAuto  $n pecks $mself on $s pectoral muscles.~
+End
+
+#SOCIAL
+Name        peer~
+CharNoArg   You peer intently about your surroundings.~
+OthersNoArg $n peers intently about the area.~
+CharFound   You peer at $M quizzically.~
+OthersFound $n peers at $N quizzically.~
+VictFound   $n peers at you quizzically.~
+CharAuto    You peer intently about your surroundings.~
+OthersAuto  $n peers intently about the area.~
+End
+
+#SOCIAL	
+Name		pet~
+CharNoArg	Who do you want to pet?~
+CharFound	You pet $N lovingly.~
+OthersFound	$n pets $N lovingly.~
+VictFound	$n pets you lovingly.~
+CharAuto	You pet yourself.~
+OthersAuto	$n pets $mself, feeling lonely.~
+End
+
+#SOCIAL
+Name		pillow~
+CharNoArg	You pull a pillow out of thin air and get comfy.~
+OthersNoArg	$n pulls a pillow out of thin air and gets comfy.~
+CharFound	You pull a pillow out of thin air and throws it at $M.~
+OthersFound	$n throws a pillow at $N, sending feathers flying.~
+VictFound	$n pulls a pillow out of thin air and throws it at you! Pillow fight!~
+CharAuto	you stuff feathers down your throat and choke.~
+OthersAuto	$n pulls a pillow out of thin air and stuffs it down $s throat.~
+End
+
+#SOCIAL
+Name        pinch~
+CharNoArg   You toss a pinch of salt over your shoulder.~
+OthersNoArg $n tosses a pinch of salt over $s shoulder.~
+CharFound   You pinch $S rosy cheeks.~
+OthersFound $n pinches $N's rosy cheeks.~
+VictFound   $n pinches your chubby cheeks.~
+CharAuto    You need a pinch of salt.~
+OthersAuto  $n needs a pinch of salt.~
+End
+
+#SOCIAL
+Name        ping~
+CharNoArg   Ping who?~
+CharFound   You ping $N.  $N is unreachable.~
+OthersFound $n pings $N.  $N is unreachable.~
+VictFound   $n pings you.  Is your server dead or alive?~
+CharAuto    You ping yourself. Ooof!~
+OthersAuto  $n pings $mself. Ooof!~
+End
+
+#SOCIAL
+Name		plonk~
+CharNoArg	Plonk! Wow.. how fascinating!~
+OthersNoArg	$n plonks down on the floor in wonderment.~
+CharFound	You plonk yourself on top of $N.~
+OthersFound	$n plonks $mself on top of $N.  Hmmm.. should they be left alone?~
+VictFound	$n plonks $mself on top of you!~
+CharAuto	You plonk yourself on top of yourself?? OUCH!~
+OthersAuto	Plonk!  $n contorts wildly on the floor.~
+End
+
+#SOCIAL
+Name        plot~
+CharNoArg   You rub your hands together as you plot deviously.~
+OthersNoArg $n rubs $s hands together as $e plots deviously.~
+CharFound   You rub your hands together, plotting $N's demise.~
+OthersFound $n rubs $s hands together, plotting $N's demise.~
+VictFound   $n rubs $s hands together, plotting your demise.~
+CharAuto    You deviously plot something.
+OthersAuto  $n suddenly looks devious as $e plots something.~
+End
+
+#SOCIAL
+Name        point~
+CharNoArg   You cover your eyes and point randomly into space.~
+OthersNoArg $n points randomly into space.~
+CharFound   You point your finger at $M.~
+OthersFound $n points $s finger at $N....~
+VictFound   $n points $s finger at you .~
+CharAuto    You indicate yourself.~
+OthersAuto  $n indicates $mself.~
+End
+
+#SOCIAL
+Name        poke~
+CharNoArg   Poke whom?~
+CharFound   You poke $M in the ribs.~
+OthersFound $n pokes $N in the ribs.~
+VictFound   $n pokes you in the ribs.~
+CharAuto    You poke yourself in the ribs, feeling very silly.~
+OthersAuto  $n pokes $mself in the ribs, looking very sheepish.~
+End
+
+#SOCIAL
+Name        ponder~
+CharNoArg   You detach from reality a moment, pondering.~
+OthersNoArg $n begins to ponder on something.~
+CharFound   You rub your chin and ponder about $N.~
+OthersFound $n rubs $s chin and stares at $N, pondering about $M.~
+VictFound   $n rubs $s chin and stares at you, pondering about you.~
+CharAuto    You rub your chin and ponder about yourself.~
+OthersAuto  $n rubs $s chin and ponders about $mself.~
+End
+
+#SOCIAL
+Name        possum~
+CharNoArg   You do your best imitation of a corpse.~
+OthersNoArg $n hits the ground... DEAD.~
+CharFound   You do your best imitation of a corpse.~
+OthersFound $n hits the ground... DEAD.~
+VictFound   $n hits the ground... DEAD.~
+CharAuto    You do your best imitation of a corpse.~
+OthersAuto  $n hits the ground... DEAD.~
+End
+
+#SOCIAL
+Name        potato~
+CharNoArg   You juggle a hot potato in your hands.~
+OthersNoArg $n juggles a hot potato in $s hands.~
+CharFound   You juggle a hot potato and pass it onto $M.~
+OthersFound $n juggles a hot potato and gives it to $N!~
+VictFound   $n juggles a hot potato and gives it to YOU!~
+CharAuto    You juggle a hot potato in your hands.~
+OthersAuto  $n juggles a hot potato in $s hands.~
+End
+
+#SOCIAL
+Name		pounce~
+CharNoArg	You pounce on the ground like a playful kitten.~
+OthersNoArg	$n pounces on the ground, playing with something.~
+CharFound	You pounce on $N, pinning $M to the ground.~
+OthersFound	$n pounces on $N, pinning $M to the ground.~
+VictFound	$n pounces on top of you, pinning you to the ground.~
+CharAuto	Pounce!~
+OthersAuto	$n stumbles over $mself, trying to pin something down.~
+End
+
+#SOCIAL
+Name        poupon~
+CharNoArg   You say 'Pardon me, do you have any Grey Poupon?'.~
+OthersNoArg $n says 'Pardon me, do you have any Grey Poupon?'~
+CharFound   You say to $M, 'Pardon me, do you have any Grey Poupon?'.~
+OthersFound $n says to $N, 'Pardon me, do you have any Grey Poupon?'~
+VictFound   $n says to you, 'Pardon me, do you have any Grey Poupon?'~
+CharAuto    You say 'Pardon me, do you have any Grey Poupon?'.~
+OthersAuto  $n says 'Pardon me, do you have any Grey Poupon?'~
+End
+
+#SOCIAL
+Name        pout~
+CharNoArg   Ah, don't take it so hard.~
+OthersNoArg $n pouts.~
+CharFound   Ah, don't take it so hard.~
+OthersFound $n pouts at $N.  What did $N do?~
+VictFound   $n pouts at you.  What did you do to $m?~
+CharAuto    Ah, don't take it so hard.~
+OthersAuto  $n pouts at herself.~
+End
+
+#SOCIAL
+Name        propose~
+CharNoArg   You propose a contract game of bridge.~
+OthersNoArg $n proposes a contract game of bridge.~
+CharFound   You propose marriage to $M.~
+OthersFound $n gets down on one knee and proposes to $N.~
+VictFound   $n says quietly 'Will you marry me?'~
+CharAuto    Even you wouldn't marry yourself.~
+OthersAuto  $n refuses the proposal made by $mself.~
+End
+
+#SOCIAL
+Name		protect~
+CharNoArg	Whom do you wish to protect?~
+CharFound	You stand protectively in front of $N.~
+OthersFound	$n protects $N.~
+VictFound	$n stands protectively in front of you.~
+CharAuto	You beg someone to protect you.~
+OthersAuto	Help! $n begs someone to protect $m.~
+End
+
+#SOCIAL
+Name		pucker~
+CharNoArg	You pucker up.  Is someone supposed to kiss you now?~
+OthersNoArg	$n puckers up.. either $e sucked a lemon or $e wants a kiss!~
+CharFound	You pucker your lips up at $N, waiting for a kiss.~
+OthersFound	$n puckers $s lips up waiting for $N to kiss $m.~
+VictFound	$n puckers $s lips up at you! Go ahead! Kiss $m already!~
+CharAuto	You pucker your lips up and they fall off.~
+OthersAuto	$n puckers up to $mself.~
+End
+
+#SOCIAL
+Name        puke~
+CharNoArg   You puke ... chunks everywhere!~
+OthersNoArg $n pukes.~
+CharFound   You puke on $M.~
+OthersFound $n pukes on $N.~
+VictFound   $n spews vomit and pukes all over your clothing!~
+CharAuto    You puke on yourself.~
+OthersAuto  $n pukes on $s clothes.~
+End
+
+#SOCIAL
+Name		pull~
+CharNoArg	Pull what?~
+OthersNoArg	$n pulls $s hair out in frustration.~
+CharFound	You pull $S hair, Grow up!~
+OthersFound	$n pulls $N's hair.~
+VictFound	$n pulls your hair.  Owie! Isn't that immature?~
+CharAuto	You're already bald!~
+End
+
+#SOCIAL
+Name        punch~
+CharNoArg   Punch whom?~
+CharFound   You punch $M playfully.~
+OthersFound $n punches $N playfully.~
+VictFound   $n punches you playfully.  OUCH!~
+CharAuto    You punch yourself.  You deserve it.~
+OthersAuto  $n punches $mself.  Why don't you join in?~
+End
+
+#SOCIAL
+Name        purr~
+CharNoArg   You purr contentedly.~
+OthersNoArg $n purrs contentedly.~
+CharFound   You purr contentedly in $N's lap.~
+OthersFound $n purrs contentedly in $N's lap.~
+VictFound   $n purrs contentedly in your lap.~
+CharAuto    You purr at yourself.~
+OthersAuto  $n purrs at $mself.  Must be a cat thing.~
+End
+
+#SOCIAL
+Name        push~
+CharNoArg   Push what?~
+OthersNoArg $n pushes against the wall.~
+CharFound   You push $M away rudely away from you.  Hey buddy, take it outside!.~
+OthersFound $n pushes $N away in disgust.~
+VictFound   $n pushes you away from $m, how rude!~
+CharAuto    You push yourself up against the wall.~
+OthersAuto  $n pushes $mself up against the wall arguing with $mself.~
+End
+
+#SOCIAL
+Name		puzzle~
+CharNoArg	Puzzling, isn't it?~
+OthersNoArg	$n looks puzzled.~
+CharFound	You puzzle over what $E meant.~
+OthersFound	$n is quite puzzled over $N.~
+VictFound	$n is puzzled over what you mean.~
+CharAuto	Puzzle away.. you'll never figure yourself out!!~
+End
+
+#SOCIAL
+Name        raise~
+CharNoArg   You raise your hand.~
+OthersNoArg $n raises $s hand.~
+CharFound   You raise your hand in response to $N.~
+OthersFound $n raises $s hand in response to $N.~
+VictFound   $n raises $s hand to you in response.~
+CharAuto    You raise your hand in response.~
+OthersAuto  $n raises up on $s toes, calling out, 'Me! Me! Me!'.~
+End
+
+#SOCIAL
+Name		ready~
+CharNoArg	You let everyone know that you're ready to go!~
+OthersNoArg	$n is ready to go!~
+CharFound	You let $N that you are ready to go.~
+OthersFound	$n lets $N know that $e is ready to go.~
+VictFound	$n lets you know that $e is ready to go.~
+CharAuto	You let yourself know that you are ready to go!~
+End
+
+#SOCIAL
+Name        reassure~
+CharNoArg   You reassure everyone that everything will be ok.~
+OthersNoArg $n reassures everyone that everything will be ok.~
+CharFound   You hug $M reassuringly.~
+OthersFound $n hugs $N reassuringly.~
+VictFound   $n hugs you reassuringly.~
+CharAuto    You try to reassure yourself that everything will be ok.~
+OthersAuto  $n tries to reassure $mself that everything will be ok.~
+End
+
+#SOCIAL
+Name		roar~
+CharNoArg	ROARRRRRRRRRRRRRRRRRRRRR!~
+OthersNoArg	$n lets out a huge thunderous roar! ROARRRRRRRRRRRRR!~
+CharFound	You roar loudly at $M.~
+OthersFound	$n roars loudly at $N.~
+VictFound	ROARRRRR! $n roars loudly at you!~
+CharAuto	You ROAR loudly at yourself.~
+OthersAuto	$n roars loudly at $mself!~
+End
+
+#SOCIAL
+Name        rofl~
+CharNoArg   You roll on the floor laughing.~
+OthersNoArg $n rolls on the floor laughing.~
+CharFound   You roll on the floor laughing at $N.~
+OthersFound $n rolls on the floor laughing at $N.~
+VictFound   $n rolls on the floor laughing at you, $e must think you are funny.~
+CharAuto    You lose yourself in hysterical laughter.~
+OthersAuto  $n rolls on the floor laughing, tears streaming from $s eyes..~
+End
+
+#SOCIAL
+Name        roll~
+CharNoArg   You roll your eyes in disgust.~
+OthersNoArg $n rolls $s eyes.~
+CharFound   You roll your eyes at $M.~
+OthersFound $n rolls $s eyes at $N.~
+VictFound   $n rolls $s eyes at you.~
+CharAuto    You roll your eyes back into your head.~
+OthersAuto  $n rolls $s eyes back into $s back into $s head and they fall in.~
+End
+
+#SOCIAL
+Name		rose~
+CharNoArg	You pull a rose out of thin air.~
+OthersNoArg	$n pulls a long-stemmed red rose out of thin air.~
+CharFound	You give $N a red rose.~
+OthersFound	$n gives $N a long-stemmed red rose.~
+VictFound	$n gives you a long-stemmed red rose. What a sweetie!~
+CharAuto	You give yourself a rose.~
+OthersAuto	Feeling lonely, $n gives $mself a rose.~
+End
+
+#SOCIAL
+Name        rub~
+CharNoArg   You rub your eyes.  How long have you been at this?~
+OthersNoArg $n rubs $s eyes.  $n must have been playing all day.~
+CharFound   You rub your eyes.  Has $N been playing as long as you have?~
+OthersFound $n rubs $s eyes.  $n must have been playing all day.~
+VictFound   $n rubs $s eyes.  Have you been playing as long as $m?~
+CharAuto    You rub your eyes.  How long have you been at this?~
+OthersAuto  $n rubs $s eyes.  $n must have been playing all day.~
+End
+
+#SOCIAL
+Name        ruffle~
+CharNoArg   You've got to ruffle SOMEONE.~
+CharFound   You ruffle $N's hair playfully.~
+OthersFound $n ruffles $N's hair playfully.~
+VictFound   $n ruffles your hair playfully.~
+CharAuto    You ruffle your hair.~
+OthersAuto  $n ruffles $s hair.~
+End
+
+#SOCIAL
+Name        russian~
+CharNoArg   You speak Russian.  Yeah, right.  Dream on.~
+OthersNoArg $n says 'Ya horosho stari malenky koshka.'  Huh?~
+CharFound   You speak Russian to $M.  Yeah, right.  Dream on.~
+OthersFound $n says to $N 'Ya horosho stari malenky koshka.'  Huh?~
+VictFound   $n says to you 'Ya horosho stari malenky koshka.'  Huh?~
+CharAuto    You speak Russian.  Yeah, right.  Dream on.~
+OthersAuto  $n says 'Ya horosho stari malenky koshka.'  Huh?~
+End
+
+#SOCIAL
+Name        sad~
+CharNoArg   You put on a glum expression.~
+OthersNoArg $n looks particularly glum today.  *sniff*~
+CharFound   You give $M your best glum expression.~
+OthersFound $n looks at $N glumly.  *sniff*  Poor $n.~
+VictFound   $n looks at you glumly.  *sniff*   Poor $n.~
+CharAuto    You bow your head and twist your toe in the dirt glumly.~
+OthersAuto  $n bows $s head and twists $s toe in the dirt glumly.~
+End
+
+#SOCIAL
+Name        salute~
+CharNoArg   You salute smartly.~
+OthersNoArg $n salutes smartly.~
+CharFound   You salute $M.~
+OthersFound $n salutes $N.~
+VictFound   $n salutes you.~
+CharAuto    Huh?~
+End
+
+#SOCIAL
+Name		scratch~
+CharNoArg	You scratch an itch.~
+OthersNoArg	$n scratches an itch.~
+CharFound	You scratch $m back.~
+OthersFound     $n scratches $N's back.~
+VictFound	$n scratches your back.. Mmmmmmm feels good!~
+CharAuto	Poor thing, confused and dandruff too?~
+OthersAuto	$n looks confused and scratches $s head.~
+End
+
+#SOCIAL
+Name		seduce~
+CharNoArg	Seduction takes two... WHO?~
+OthersNoArg	$n quickly freshens up and now appears so much more attractive.~
+CharFound	You disrobe and stand naked before $N, trembling with desire.~
+OthersFound	$n disrobes and stands naked before $N, trembling with desire.~
+VictFound	$n disrobes and stands naked before you, trembling with desire.~
+CharAuto	Well, don't feel guilty about it!~
+OthersAuto	$n disrobes and stands naked, trembling with desire for $mself.~
+End
+
+#SOCIAL
+Name		scare~
+CharNoArg	Who do you want to scare?~
+CharFound       You scare $N, making $s hair stand straight up in the air.~
+OthersFound     BOO! $n scares $N, and $s's hair stands straight up.~
+VictFound	BOO! $n scares the pants off you! Your hair stands straight up.~
+CharAuto	You scare yourself, What did you do.. look in the mirror?~
+OthersAuto	$n scares $mself. Hmm, $e must have looked in the mirror.~
+End
+
+#SOCIAL
+Name        scold~
+CharNoArg   You scold everyone for being so naughty!~
+OthersNoArg $n scolds everyone for being so naughty!~
+CharFound   You scold $M for being so naughty!~
+OthersFound $n scolds $N for being so naughty!~
+VictFound   $n scolds you for being so naughty!~
+CharAuto    You scold yourself for being so naughty!~
+OthersAuto  $n scolds $mself for being so naughty!~
+End
+
+#SOCIAL
+Name        scream~
+CharNoArg   ARRRRRRRRRRGH!!!!!~
+OthersNoArg $n screams loudly!~
+CharFound   ARRRRRRRRRRGH!!!!!  Yes, it MUST have been $S fault!!!~
+OthersFound $n screams loudly at $N.  Better leave before $e blames you too!!!~
+VictFound   $n screams at you!  That's not nice!  *sniff*~
+CharAuto    You scream at yourself.  Yes, that's ONE way of relieving tension!~
+OthersAuto  $n screams loudly at $mself!  Is there a full moon up?~
+End
+
+#SOCIAL
+Name        shake~
+CharNoArg   You shake your head.~
+OthersNoArg $n shakes $s head.~
+CharFound   You shake $S hand.~
+OthersFound $n shakes $N's hand.~
+VictFound   $n shakes your hand.~
+CharAuto    You are shaken by yourself.~
+OthersAuto  $n shakes and quivers like a bowl full of jelly.~
+End
+
+#SOCIAL
+Name        shiver~
+CharNoArg   Brrrrrrrrr.~
+OthersNoArg $n shivers uncomfortably.~
+CharFound   You shiver uncomfortably at $M.~
+OthersFound $n shivers uncomfortably at $N.~
+VictFound   $n shivers uncomfortably at you.~
+CharAuto    You shiver to yourself?~
+OthersAuto  $n shivers uncomfortably to $mself.~
+End
+
+#SOCIAL
+Name		shove~
+CharNoArg       Who would you like to shove around?~
+CharFound       You shove $N, sending $m flying so that $e lands face first.~
+OthersFound     $n shoves $N, sending $N flying so that $e lands face first.~
+VictFound	$n shoves you, and you land face first on the floor.~
+CharAuto	Shoving that person would be difficult indeed!~
+OthersAuto	$n shoves $mself around.. how kooky.~
+End
+
+#SOCIAL
+Name        shrug~
+CharNoArg   You shrug helplessly.~
+OthersNoArg $n shrugs helplessly.~
+CharFound   You shrug helplessly at $N.~
+OthersFound $n shrugs helplessly at $N.~
+VictFound   $n shrugs helplessly at you.~
+CharAuto    You shrug to yourself.~
+OthersAuto  $n shrugs to $mself.  What a strange person.~
+End
+
+#SOCIAL
+Name		shudder~
+CharNoArg	You shudder.~
+OthersNoArg	$n shudders.~
+CharFound	You shudder at $M.~
+OthersFound	$n shudders at $N.~
+VictFound	$n shudders at you.~
+CharAuto	You shudder to yourself, and wrap your hands around your body.~
+OthersAuto	$n shudders to $mself, and wraps $s hands around $s body.~
+End
+
+#SOCIAL	
+Name		shush~
+CharNoArg	You place your finger on your mouth and say "Shhhh!"~
+OthersNoArg	Shhh! $n wants everyone to be quiet!~
+CharFound	You lean over to $M, place your finger on your mouth and say "Shhhh!"~
+OthersFound	Shhhh! $n wants $N to be quiet!~
+VictFound	Shhhh! $n wants you to be quiet!~
+CharAuto	You zip your lips.~
+OthersAuto	$n zips $s lips.~
+End
+
+#SOCIAL
+Name        sigh~
+CharNoArg   You sigh.~
+OthersNoArg $n sighs loudly.~
+CharFound   You give $N a deep long sigh.~
+OthersFound $n sighs at the sight of $N.~
+VictFound   $n gives you a deep long sigh.~
+CharAuto    You heave your chest and give yourself a deep long sigh.~
+OthersAuto  $n heaves $e chest and gives $mself a deep long sigh.~
+End
+
+#SOCIAL
+Name        sing~
+CharNoArg   You raise your clear voice towards the sky.~
+OthersNoArg $n has begun to sing.~
+CharFound   You sing a ballad to $M.~
+OthersFound $n sings a ballad to $N.~
+VictFound   $n sings a ballad to you!  How sweet!~
+CharAuto    You sing a little ditty to yourself.~
+OthersAuto  $n sings a little ditty to $mself.~
+End
+
+#SOCIAL
+Name		skip~
+CharNoArg	You skip around the room like a little kid.~
+OthersNoArg	$n skips around the room, driving you nuts.~
+CharFound	You skip all around $N.~
+OthersFound	$n skips around $N.~
+VictFound	$n skips around you.~
+CharAuto	Skip.. skip.. skip..~
+OthersAuto	$n skips a beat.~
+End
+
+#SOCIAL
+Name		slap~
+CharNoArg	Normally you slap SOMEBODY!~
+CharFound       You give $N a stinging slap across the face.~
+OthersFound     Smack! $n slaps $N.~
+VictFound	You are slapped by $n. OUCH! Your face stings!~
+CharAuto	You slap yourself, silly you!~
+OthersAuto	$n slaps $mself, leaving a bright red hand-print on $s face.~
+End
+
+#SOCIAL
+Name        slobber~
+CharNoArg   A puddle forms at your feet as you slobber.~
+OthersNoArg $n slobbers and a puddle slowly forms at $s feet.~
+CharFound   You slobber all over $M, drenching $M with your saliva.~
+OthersFound $n slobbers all over $N, drenching $M with $s saliva.~
+VictFound   $n slobbers all over you, drenching you with $s saliva.~
+CharAuto    You slobber all over yourself, drenching yourself with your saliva.~
+OthersAuto  $n slobbers all over $mself, drenching $mself with saliva.~
+End
+
+#SOCIAL
+Name		smell~
+CharNoArg	You take a deep breath, smelling the fresh clean air.~
+OthersNoArg	$n takes a deep breath and smells the fresh clean air.~
+CharFound	You smell $M and nearly pass out from the odor.~
+OthersFound	$n smells $N and nearly passes out from the odor.~
+VictFound	$n smells you and $e nearly passes out from the odor.~
+CharAuto	You smell yourself under the armpits and nearly pass out.~
+OthersAuto	$n smells $mself under the armpits and nearly passes out.~
+End
+
+#SOCIAL
+Name        smile~
+CharNoArg   You smile happily.~
+OthersNoArg $n smiles happily.~
+CharFound   You smile at $M.~
+OthersFound $n beams a smile at $N.~
+VictFound   $n smiles at you.~
+CharAuto    You smile at yourself.~
+OthersAuto  $n smiles, pleased with $mself.~
+End
+
+#SOCIAL
+Name        smirk~
+CharNoArg   You smirk.~
+OthersNoArg $n smirks teasingly.~
+CharFound   You smirk at $N, teasing $M.~
+OthersFound $n smirks at $N teasingly.~
+VictFound   $n smirks at you teasingly.~
+CharAuto    You smirk at yourself.  Okay ...~
+OthersAuto  $n smirks at $s own 'wisdom'.~
+End
+
+#SOCIAL
+Name        smoke~
+CharNoArg   You calmly light a cigarette and take a puff.~
+OthersNoArg $n calmly lights a cigarette and take a puff.~
+CharFound   You blow smoke into $S eyes.~
+OthersFound $n blows smoke into $N's eyes.~
+VictFound   $n blows smoke rings into your eyes.~
+CharAuto    You call down lightning and SMOKE yourself.~
+OthersAuto  $n calls down lightning and SMOKES $mself.~
+End
+
+#SOCIAL
+Name        smooch~
+CharNoArg   You are searching for someone to smooch.~
+OthersNoArg $n is looking for someone to smooch.~
+CharFound   You give $M a nice, wet smooch.~
+OthersFound $n and $N are smooching in the corner.~
+VictFound   $n smooches you passionately on the lips.~
+CharAuto    You smooch yourself.~
+OthersAuto  $n smooches $mself.  Yuck.~
+End
+
+#SOCIAL
+Name        snap~
+CharNoArg   PRONTO ! You snap your fingers.~
+OthersNoArg $n snaps $s fingers.~
+CharFound   You snap your fingers at $M.~
+OthersFound $n snaps $s fingers at $N.~
+VictFound   $n snaps at you!~
+CharAuto    You snap yourself to attention.~
+OthersAuto  $n snaps $mself to attention.~
+End
+
+#SOCIAL
+Name        snarl~
+CharNoArg   You grizzle your teeth and look mean.~
+OthersNoArg $n snarls angrily.~
+CharFound   You snarl at $M.~
+OthersFound $n snarls at $N.~
+VictFound   $n snarls at you for some reason.~
+CharAuto    You snarl at yourself.~
+OthersAuto  $n snarls at $mself.~
+End
+
+#SOCIAL
+Name		sneer~
+CharNoArg	You put a sneer on your face.~
+OthersNoArg	$n sneers in contempt.~
+CharFound	You sneer in contempt of $M.~
+OthersFound	$n sneers in contempt of $N.~
+VictFound	$n sneers in contempt of you.  What's $s problem I wonder?~
+CharAuto	You sneer in contempt of yourself.~
+OthersAuto	$n sneers in contempt of $mself.~
+End
+
+#SOCIAL
+Name        sneeze~
+CharNoArg   Gesundheit!~
+OthersNoArg $n sneezes.~
+CharFound   $n sneezes.~
+OthersFound $n sneezes.~
+VictFound   $n sneezes.~
+CharAuto    $n sneezes.~
+OthersAuto  $n sneezes.~
+End
+
+#SOCIAL
+Name        snicker~
+CharNoArg   You snicker softly.~
+OthersNoArg $n snickers softly.~
+CharFound   You snicker softly at $N.~
+OthersFound $n snickers softly at $N.~
+VictFound   $n snickers softly with you.~
+CharAuto    You snicker at your own evil thoughts.~
+OthersAuto  $n snickers at $s own evil thoughts.~
+End
+
+#SOCIAL
+Name        sniff~
+CharNoArg   You sniff sadly. *SNIFF*~
+OthersNoArg $n sniffs sadly.~
+CharFound   You sniff sadly at $N.~
+OthersFound $n sniffs sadly at $N.~
+VictFound   $n sniffs sadly at you.~
+CharAuto    You sniff sadly at your lost opportunities.~
+OthersAuto  $n sniffs sadly at $mself.  Something MUST be bothering $m.~
+End
+
+#SOCIAL
+Name		snoogie~
+CharNoArg	Snoogie whom?~
+OthersNoArg	$n desperately searches teh room for someone in need of a snoogie.~
+CharFound	You give $N a warm, fuzzy snoogie.. you shiny, happy person you!~
+OthersFound	$n gives $N a warm, fuzzy-looking snoogie.~
+VictFound	$n gives you a warm, fuzzy snoogie!  You feel much loved.~
+CharAuto	You give yourself a war, fuzzy snoogie! Now you can face the day!~
+OthersAuto	$n gives $mself a war, fuzzy snoogie! What a shiny happy person!~
+End
+
+#SOCIAL
+Name        snore~
+CharNoArg   Zzzzzzzzzzzzzzzzz.~
+OthersNoArg $n snores loudly.~
+CharFound   $n snores loudly at $N.~
+OthersFound $n snores loudly at $N.~
+VictFound   $n snores loudly at you.~
+CharAuto    $n snores loudly at yourself...tired?~
+OthersAuto  $n snores loudly at $mself.~
+End
+
+#SOCIAL
+Name        snort~
+CharNoArg   You snort.~
+OthersNoArg $n snorts lewdly.~
+CharFound   You snort derisively at $N.~
+OthersFound $n snorts derisively at $N.~
+VictFound   $n snorts derisively at you.~
+CharAuto    No can do.~
+OthersAuto  $n snorts at $mself.~
+End
+
+#SOCIAL
+Name        snowball~
+CharNoArg   Whom do you want to throw a snowball at?~
+CharFound   You throw a snowball in $N's face.~
+OthersFound $n throws a snowball at $N.~
+VictFound   $n throws a snowball at you.~
+CharAuto    You throw a snowball at yourself.~
+OthersAuto  $n throws a snowball at $mself.~
+End
+
+#SOCIAL
+Name        snuggle~
+CharNoArg   Snuggle victim not found!~
+OthersNoArg $n looks around for someone to snuggle!~
+CharFound   You snuggle $N warmly.~
+OthersFound $n snuggles warmly with $N.~
+VictFound   $n snuggles warmly with you.~
+CharAuto    You snuggle up, getting ready to sleep.~
+OthersAuto  $n snuggles up, getting ready to sleep.~
+End
+
+#SOCIAL
+Name        spam~
+CharNoArg   Arrrrrrrgh! The world is flying by too fast.~
+OthersNoArg $n sings 'SPAM SPAM SPAM SPAM SPAM SPAM....'~
+CharFound   You spam $N sending $m head reeling.~
+OthersFound $n hurls a can of SPAM at $N.~
+VictFound   $n SPAMS you viciously.~
+CharAuto    You mutter 'SPAM' in the corner quietly.~
+OthersAuto  $n mutters 'SPAM SPAM SPAM SPAM'.  Join in!~
+End
+
+#SOCIAL
+Name        spanish~
+CharNoArg   You speak Spanish or at least you think you do.~
+OthersNoArg $n says 'Naces pendejo, mueres pendejo.'  Uh oh.~
+CharFound   You speak Spanish or at least you think you do.~
+OthersFound $n says 'Naces pendejo, mueres pendejo.'  Uh oh.~
+VictFound   $n says 'Naces pendejo, mueres pendejo.'  Uh oh.~
+CharAuto    You speak Spanish or at least you think you do.~
+OthersAuto  $n says to $mself 'Naces pendejo, mueres pendejo.'  Uh oh.~
+End
+
+#SOCIAL
+Name        spank~
+CharNoArg   Interesting thought, but it needs to be directed somewhere.~
+CharFound   You spank $M playfully.~
+OthersFound $n spanks $N playfully.~
+VictFound   $n spanks you playfully.  OUCH!~
+CharAuto    You spank yourself.  Kinky!~
+OthersAuto  $n spanks $mself.  Kinky!~
+End
+
+#SOCIAL
+Name        spin~
+CharNoArg   You spin around in circles.~
+OthersNoArg $n spins around in circles, making you dizzy.~
+CharFound   You spin $M around in circles until $E is dizzy.~
+OthersFound $n spins $N around in circles until $E is dizzy.~
+VictFound   $n spins you around in circles making you dizzy.~
+CharAuto    You spin yourself around and around and around....~
+OthersAuto  $n spins $mself around and around and around...~
+End
+
+#SOCIAL
+Name		spit~
+CharNoArg	You spit over your left shoulder.~
+OthersNoArg	$n spits over $s left shoulder.~
+CharFound	You spit in $S face.~
+OthersFound	$n spits in $N's face.~
+VictFound	$n spits in your face, YUCK!~
+CharAuto	You drool down your front.~
+OthersAuto	$n drools down $s front.~
+End
+
+#SOCIAL
+Name        squeal~
+CharNoArg   You squeal with delight.~
+OthersNoArg $n squeals with delight.~
+CharFound   You squeal at $M.~
+OthersFound $n squeals at $N.  Wonder why?~
+VictFound   $n squeals at you.  You must be doing something good.~
+CharAuto    You squeal at yourself.~
+OthersAuto  $n squeals at $mself.~
+End
+
+#SOCIAL
+Name        squeeze~
+CharNoArg   Where, what, how, whom?~
+CharFound   You squeeze $M fondly.~
+OthersFound $n squeezes $N fondly.~
+VictFound   $n squeezes you fondly.~
+CharAuto    You squeeze yourself - try to relax a little!~
+OthersAuto  $n squeezes $mself.~
+End
+
+#SOCIAL
+Name        squirm~
+CharNoArg   You squirm.~
+OthersNoArg $n squirms.~
+CharFound   You squirm in front of $M.~
+OthersFound $n squirms in front of $N.~
+VictFound   $n squirms in front of you.~
+CharAuto    You squirm and squirm and squirm....~
+OthersAuto  $n squirms and squirms and squirm.....~
+End
+
+#SOCIAL
+Name        squish~
+CharNoArg   You squish your toes into the sand.~
+OthersNoArg $n squishes $s toes into the sand.~
+CharFound   You squish $M between your legs.~
+OthersFound $n squishes $N between $s legs.~
+VictFound   $n squishes you between $s legs.~
+CharAuto    You squish yourself.~
+OthersAuto  $n squishes $mself.  OUCH.~
+End
+
+#SOCIAL
+Name        stare~
+CharNoArg   You stare at the sky.~
+OthersNoArg $n stares at the sky.~
+CharFound   You stare dreamily at $N, completely lost in $S eyes..~
+OthersFound $n stares dreamily at $N.~
+VictFound   $n stares dreamily at you, completely lost in your eyes.~
+CharAuto    You stare dreamily at yourself - enough narcissism for now.~
+OthersAuto  $n stares dreamily at $mself - NARCISSIST!~
+End
+
+#SOCIAL
+Name		steam~
+CharNoArg	You start steaming, with smoke billowing from your ears and nose.~
+OthersNoArg	$n starts teaming, with smoke billowing from $s ears and nose.~
+CharFound	You start steaming at $M, with smoke billowing from your ears and mouth.~
+OthersFound	$n starts teaming at $N, with smoke billowing from $s ears and nose.~
+VictFound       $n steams wildly at you, with smoke billowing from $s ears and nose.~
+CharAuto	You're enveloped by your own fog.~
+OthersAuto	$n starts steaming at $mself, and envelopes $mself in $s own fog.~
+End
+
+#SOCIAL
+Name        stickup~
+CharNoArg   You don a mask and ask for everyone's gold.~
+OthersNoArg $n says 'This is a stickup.  Gimme yer gold, NOW!'~
+CharFound   You don a mask and ask for $S gold.~
+OthersFound $n says to $N, 'This is a stickup.  Gimme yer gold, NOW!'~
+VictFound   $n says to you, 'This is a stickup.  Gimme yer gold, NOW!'~
+CharAuto    You extort money from yourself.~
+OthersAuto  $n holds $s weapon to $s throat and says 'Ok, me, give me all my money!'~
+End
+
+#SOCIAL
+Name		stomp~
+CharNoArg	You stomp around the room.~
+OthersNoArg	Stomp!  $n stomps around the room!~
+CharFound	You stomp on $S toes! Meanie! ~
+OthersFound	$N's toes explode as $n stomps on them!~
+VictFound	Your toes explode as $n stomps on them.~
+CharAuto	You stomp on your own toes! Ouch!~
+OthersAuto	$n stomps on $s own toes!~
+End
+
+#SOCIAL	
+Name		strangle~
+CharNoArg	Who would you like to strangle?~
+OthersNoArg     $n looks around, hands clenching as though $e wants to strangle someone!~
+CharFound	You start strangling $N, squeezing the life out of $M.~
+OthersFound	$n starts strangling $N, squeezing the life out of $M.~
+VictFound	$n starts strangling you, squeezing the the life out of you! Gasp!~
+CharAuto	You start strangling yourself, squeezing the last breath out of yourself.~
+OthersAuto	$n starts strangling $mself, squeezing the last breath out of $mself.~
+End
+
+#SOCIAL
+Name        stretch~
+CharNoArg   You stretch and relax your sore muscles.~
+OthersNoArg $n stretches luxuriously in an attempt to relax $s body.~
+CharFound   You stretch and relax your sore muscles.~
+OthersFound $n stretches luxuriously.  Make you want to, doesn't it.~
+VictFound   $n stretches luxuriously.  Make you want to, doesn't it.~
+CharAuto    You stretch and relax your sore muscles.~
+OthersAuto  $n stretches luxuriously.  Make you want to, doesn't it.~
+End
+
+#SOCIAL
+Name        strip~
+CharNoArg   You show some of your shoulder as you begin your performance.~
+OthersNoArg $n shows $s bare shoulder and glances seductively around the room.~
+CharFound   You show some of your shoulder as you begin your performance.~
+OthersFound $n shows $s bare shoulder and glances seductively at $N.~
+VictFound   $n shows $s bare shoulder and glances seductively at you.~
+CharAuto    You show some of your shoulder as you begin your performance.~
+OthersAuto  $n shows $s bare shoulder and glances seductively around the room.~
+End
+
+#SOCIAL
+Name        strut~
+CharNoArg   You strut your little tush on the catwalk...~
+OthersNoArg $n struts $s little tush on the catwalk...~
+CharFound   You strut your stuff proudly in front of $N, your head held high.~
+OthersFound $n struts  $s stuff proudly in front of $N.~
+VictFound   $n struts $s stuff in front of you.~
+CharAuto    You strut to yourself, lost in your own world.~
+OthersAuto  $n struts to $mself, lost in $s own world.~
+End
+
+#SOCIAL
+Name        suffer~
+CharNoArg   No xp again?  You suffer at the hands of fate.~
+OthersNoArg $n is suffering.  Looks like $e can't seem to level.~
+CharFound   You tell $M how you suffer whenever you're away from $M.~
+OthersFound $n tells $N that $e suffers whenever they're apart.~
+VictFound   $n tells you that $e suffers whenever you're apart.~
+CharAuto    No xp again?  You suffer at the hands of fate.~
+OthersAuto  $n is suffering.  Looks like $e can't seem to level.~
+End
+
+#SOCIAL
+Name        sulk~
+CharNoArg   You sulk, looking for a corner to hide in.~
+OthersNoArg $n sulks, looking for a corner to hide in.~
+CharFound   You sulk in the corner.~
+OthersFound $n sulks at $N, looking for a corner to hide in.~
+VictFound   $n sulks at you.~
+CharAuto    $n sulks in the corner.~
+OthersAuto  $n sulks in the corner.~
+End
+
+#SOCIAL
+Name		swat~
+CharNoArg	You swat at the air frantically.~
+OthersNoArg	$n swats at the air frantically.~
+CharFound	You swat $N.~
+OthersFound	$n swats $N like a fly.~
+VictFound	$n swats at you like a fly! You must be bugging $m.~
+CharAuto	You swat yourself like a fly.~
+OthersAuto	$n swats $mself like an annoying insect.~
+End
+
+#SOCIAL
+Name		sweat~
+CharNoArg	Sweat drips down your whole body!  Phew!~
+OthersNoArg	Sweat drops off $n's body, $e's losing it!~
+CharFound       You drip sweat all over $N.&n~
+OthersFound     $n&n sweats all over $N&n.  Now they both need a shower!~
+VictFound       $n&n drips sweat all over you.  Ewwww!~
+CharAuto        You sweat buckets.~
+OthersAuto      $n&n is sweating so hard you are in danger of drowning.~
+End
+
+#SOCIAL
+Name        sweep~
+CharNoArg   You grab a broom and sweep up the mess you made.~
+OthersNoArg $n grabs a broom and sweeps up the mess $e made.~
+CharFound   You sweep $M up off $S feet and swirl $M around in happiness.~
+OthersFound $n sweeps $N up off $S feet and swirls $M around in happiness.~
+VictFound   $n sweeps you off your feet and swirls you around in happiness.~
+CharAuto    You swirl around in happiness.~
+OthersAuto  $n swirls $mself around.  Pretty silly, huh?~
+End
+
+#SOCIAL
+Name        swoon~
+CharNoArg   You swoon in ecstacy.~
+OthersNoArg $n swoons in ecstacy.~
+CharFound   You swoon in ecstacy at the thought of $M.~
+OthersFound $n swoons in ecstacy at the thought of $N.~
+VictFound   $n swoons in ecstacy as $e thinks of you.~
+CharAuto    You swoon in ecstacy.~
+OthersAuto  $n swoons in ecstacy.~
+End
+
+#SOCIAL
+Name        tackle~
+CharNoArg   You can't tackle the AIR!~
+CharFound   You run over to $N and bring $M down!~
+OthersFound $n makes a flying leap at $N and tackles $M to the ground!~
+VictFound   $n makes a flying leap at you, and tackles you to the ground.~
+CharAuto    You wrap your arms around yourself, and throw yourself to the ground.~
+OthersAuto  $n wraps $s arms around $mself and brings $mself down!?~
+End
+
+#SOCIAL
+Name        tap~
+CharNoArg   You tap your foot impatiently.~
+OthersNoArg $n taps $s foot impatiently.~
+CharFound   You tap $M on the shoulder.  Excuse me?~
+OthersFound $n taps $N on the shoulder.~
+VictFound   $n taps you on the shoulder. Excuse me?~
+CharAuto    Wow, funny how your head echoes, isn't it?~
+OthersAuto  $n taps $mself on the head, marvelling at the echo.~
+End
+
+#SOCIAL
+Name		tarzan~
+CharNoArg	You beat your chest and yell like the primitive beast you are.~
+OthersNoArg	$n beats $s chest and yells like a primitive beast.~
+End
+
+#SOCIAL
+Name		taunt~
+CharNoArg	Taunting requires someone to taunt.~
+OthersNoArg	~
+CharFound	You taunt $M.~
+OthersFound	$n taunts $N, 'Nah-nah! Nah-nah!'~
+VictFound	$n taunts you, 'Nah-nah! Nah-nah!'~
+CharAuto	You tread on your self-esteem.~
+OthersAuto	$n taunts $mself.  Guess $e finally cracked!~
+End
+
+#SOCIAL
+Name		tease~
+CharNoArg	Who do you want to tease?~
+CharFound	You tease $N, trying to provoke more emotion.~
+OthersFound	$n teases $N, trying to provoke more emotion.~
+VictFound	$n teases you, trying to provoke more emotion.~
+CharAuto        You tease yourself.  You need to get out and meet some people, buddy!~
+OthersAuto      $n teases $mself.  Sheesh, $e needs to get a life!~
+End
+
+#SOCIAL
+Name		teeth~
+CharNoArg	Hey, nice teeth ya got there..~
+OthersNoArg	$n bares $s teeth menacingly.~
+CharFound	You bare your teeth menacingly at $N.~
+OthersFound	$n bares $s teeth menacingly at $N.~
+VictFound       $n bares $s teeth menacingly at you.  Brrrrrr!~
+CharAuto        It's not Halloween, put away the costume!~
+OthersAuto	$n bares $s teeth at $mself and gets scared.~
+End
+
+#SOCIAL
+Name        tender~
+CharNoArg   You will enjoy it more if you choose someone to kiss.~
+CharFound   You give $M a soft, tender kiss.~
+OthersFound $n gives $N a soft, tender kiss.~
+VictFound   $n gives you a soft, tender kiss.~
+CharAuto    You'd better not, people may start to talk!~
+End
+
+#SOCIAL
+Name        thank~
+CharNoArg   Thank you too.~
+CharFound   You thank $N heartily.~
+OthersFound $n thanks $N heartily.~
+VictFound   $n thanks you heartily.~
+CharAuto    You thank yourself since nobody else wants to !~
+OthersAuto  $n thanks $mself since you won't.~
+End
+
+#SOCIAL
+Name        think~
+CharNoArg   You pull out your unused thinking cap and begin to think.~
+OthersNoArg $n thinks deeply and is lost in thought.~
+CharFound   You think long and hard about $m.~
+OthersFound $n pulls out $s unused thinking cap and begins to think.~
+VictFound   $n thinks long and hard about you.~
+CharAuto    You think about times past and friends forgotten.~
+OthersAuto  $n thinks deeply and is lost in thought.~
+End
+
+#SOCIAL
+Name		thirst~
+CharNoArg	A dry feeling in your throat makes you thirsty.~
+OthersNoArg	$n looks parched and dehydrated, panting: "Agua.. agua.."~
+CharFound	You stare longingly at $N's drink.~
+OthersFound	$n looks pleadingly at $N, wishing for a cool drink.~
+VictFound	$n look pitifully parched as $e stares longingly at your drink.~
+CharAuto	You search frantically for something to drink!!~
+OthersAuto	$n looks thirsty because $e can't find anything to drink!~
+End
+
+#SOCIAL
+Name        throttle~
+CharNoArg   Whom do you want to throttle?~
+CharFound   You throttle $M till $E is blue in the face.~
+OthersFound $n throttles $N about the neck, until $E passes out.  THUNK!~
+VictFound   $n throttles you about the neck until you pass out.  THUNK!~
+CharAuto    That might hurt!  Better not do it!~
+OthersAuto  $n is getting a crazy look in $s eye again.~
+End
+
+#SOCIAL
+Name        tickle~
+CharNoArg   Whom do you want to tickle?~
+CharFound   You tickle $N.~
+OthersFound $n tickles $N.~
+VictFound   $n tickles you - hee hee hee.~
+CharAuto    You tickle yourself, how funny!~
+OthersAuto  $n tickles $mself.~
+End
+
+#SOCIAL
+Name		tip~
+CharNoArg	You tip your hat at nobody in particular.~
+OthersNoArg	$n tips $s hat.~
+CharFound	You tip your hat to $N.~
+OthersFound	$n tips $s hat toward $N.~
+VictFound	$n tips $s hat at you!~
+CharAuto	You tip your hat at yourself.~
+OthersAuto	$n's hat falls down over $s eyes.~
+End
+
+#SOCIAL
+Name		tiptoe~
+CharNoArg	You tiptoe quietly through the room.~
+OthersNoArg	$n tiptoes quietly through the room.~
+CharFound	You tiptoe away from $N, trying to sneak away from $M.~
+OthersFound	$n tiptoes away from $N, trying to sneak away from $M.~
+VictFound	$n tiptoes away from you, trying to sneak away from you.~
+CharAuto	You tiptoe as quietly as possible, hoping that you might become invisible.~
+OthersAuto	$n tiptoes as quietly as possibly, hoping that $e might become invisible.~
+End
+
+#SOCIAL
+Name        tongue~
+CharNoArg   You stick out your tongue.~
+OthersNoArg $n sticks out $s tongue.~
+CharFound   You stick your tongue out at $M.~
+OthersFound $n sticks $s tongue out at $N.~
+VictFound   $n sticks $s tongue out at you.~
+CharAuto    You stick out your tongue and touch your nose.~
+OthersAuto  $n sticks out $s tongue and touches $s nose.~
+End
+
+#SOCIAL
+Name        torture~
+CharNoArg   You have to torture someone!~
+CharFound   You torture $M with rusty weapons, Mwaahhhhh!!~
+OthersFound $n tortures $N with rusty weapons, $E must have been REAL bad!~
+VictFound   $n tortures you with rusty weapons!  What did you DO!?!~
+CharAuto    You torture yourself with rusty weapons.  Was it good for you?~
+OthersAuto  $n tortures $mself with rusty weapons.  Looks like $e enjoys it!?~
+End
+
+#SOCIAL
+Name		toss~
+CharNoArg	You toss a coin in the air!~
+OthersNoArg	$n tosses a coin up into the air.  Annoying isn't it?~
+CharFound	You toss $M up in the air and catch $M.~
+OthersFound	$n tosses $N up in the air and catches $M.~
+VictFound	$n tosses you up in the air.  Wheeeeeee!!!~
+CharAuto	You do some sort of leap and land on your back.~
+OthersAuto	$n tosses $mself up in the air and lands on $s back.~
+End
+
+#SOCIAL
+Name		touch~
+CharNoArg	Touch is a sense which requires an object to be touched.~
+OthersNoArg	~
+CharFound	You touch $M.~
+OthersFound	$n touches $N.  Interesting.~
+VictFound	$n touches you.~
+CharAuto	You touch yourself.  Eeeewww feels gross doesn't it?~
+OthersAuto	$n touches $mself.  Very interesting.~
+End
+
+#SOCIAL
+Name		trip~
+CharNoArg	What a trip, dood....~
+CharFound	You trip over $M, and down $e goes!~
+OthersFound	$N trips over $n and falls face first into the dirt.~
+VictFound       You stumble over $n and fall face first into the dirt.~
+CharAuto	You trip and fall flat on your face!~
+OthersAuto	$n trips over $mself and falls flat on $s face.~
+End
+
+#SOCIAL
+Name		tug~
+CharNoArg	Tug on whose sleeve?~
+CharFound	You tug on $S sleeve, hoping for $S attention.~
+OthersFound	$n tugs on $N's sleeves.~
+VictFound	$n tugs on your sleeve.  Hey! Pay Attention!~
+CharAuto	You tug on your own sleeves and feel uncomfortable.~
+OthersAuto	$n puts $mself into a straitjacket.~
+End
+
+#SOCIAL
+Name        tummy~
+CharNoArg   You rub your tummy and wish you'd bought a pie at the bakery.~
+OthersNoArg $n rubs $s tummy and wishes $e'd bought a pie at the bakery.~
+CharFound   You rub your tummy and ask $M for some food.~
+OthersFound $n rubs $s tummy and asks $N for some food.~
+VictFound   $n rubs $s tummy and asks you for some food.  Please?~
+CharAuto    You rub your tummy and wish you'd bought a pie at the bakery.~
+OthersAuto  $n rubs $s tummy and wishes $e'd bought a pie at the bakery.~
+End
+
+#SOCIAL
+Name		tweak~
+CharNoArg	Whose nose do you want to tweak?~
+OthersNoArg	~
+CharFound	You tweak $S nose.~
+OthersFound	$n tweaks $N's nose.~
+VictFound	$n tweaks your nose.~
+CharAuto	You tweak your own nose.  HONK!~
+OthersAuto	$n tweaks $s own nose.  HONK!~
+End
+
+#SOCIAL
+Name        twibble~
+CharNoArg   You twibble around aimlessly.~
+OthersNoArg $n twibbles around aimlessly.~
+CharFound   You twibble around $N, aimlessly.~
+OthersFound $n twibbles aimlessly around $N in little circles.~
+VictFound   $n twibbles aimlessly around you in little circles.~
+CharAuto    Once upon a time, there lived a bug named Twibble. Every spring he....~
+OthersAuto  $n twibbles aimlessly about $mself, not getting anywhere.~
+End
+
+#SOCIAL
+Name        twiddle~
+CharNoArg   You patiently twiddle your thumbs.~
+OthersNoArg $n patiently twiddles $s thumbs.~
+CharFound   You twiddle $S ears.~
+OthersFound $n twiddles $N's ears.~
+VictFound   $n twiddles your ears.~
+CharAuto    You twiddle your ears like Dumbo.~
+OthersAuto  $n twiddles $s own ears like Dumbo.~
+End
+
+#SOCIAL
+Name		twirl~
+CharNoArg	You twirl around gracefully.~
+OthersNoArg	$n twirls around gracefully.~
+CharFound	You twirl $M around gracefully.~
+OthersFound	$n twirls $N around gracefully.~
+VictFound	$n twirls you around gracefully.~
+CharAuto	You twirl around in circles until you stagger and fall flat on your face.~
+OthersAuto	$n twirls around in circles until $e staggers and falls flat on $s face.~
+End
+
+#SOCIAL
+Name        type~
+CharNoArg   You throw up yor handz in dizgust at yur losy typing skils.~
+OthersNoArg $n couldn't type a period if there was only one key on the keyboard.~
+CharFound   You throw up yor handz in dizgust at yur losy typing skils.~
+OthersFound $n couldn't type a period if there was only one key on the keyboard.~
+VictFound   $n couldn't type a period if there was only one key on the keyboard.~
+CharAuto    You throw up yor handz in dizgust at yur losy typing skils.~
+OthersAuto  $n couldn't type a period if there was only one key on the keyboard.~
+End
+
+#SOCIAL
+Name		undress~
+CharNoArg	You undress, removing all your clothes until you stand naked.~
+OthersNoArg	$n undresses, removing all $s clothes until $e stands naked.~
+CharFound       You stare lustily at $N, undressing $M with your eyes.~
+OthersFound     $n stares lustily at $N, undressing $M wiht $s eyes.~
+VictFound	$n stares lustily at you, undressing you with $s eyes.~
+CharAuto	You undress yourself, as slowly as possible, to stimulate your audience.~
+OthersAuto      $n undresses $mself, as slowly as possible, to stimulate $s audience.~
+End
+
+#SOCIAL	
+Name		veto~
+CharNoArg	You veto that idea.~
+OthersNoArg	$n vetoes that idea.~
+CharFound	You veto $N's idea. Heh.~
+OthersFound	$n vetoes $N's idea, that is out of the question!~
+VictFound	$n vetoes you! That is out of the question!~
+CharAuto	You veto yourself.~
+OthersAuto	$n vetoes $s own idea.  Forget $e mentioned it.~
+End
+
+#SOCIAL
+Name		wait~
+CharNoArg	You hold up your hand, indicating that everyone should wait a second.~
+OthersNoArg	$n holds up $s hand, indicating that you should wait.~
+CharFound	You hold up your hand, indicating that $N should wait.~
+OthersFound	$n holds up $s hand, indicating that $N should wait.~
+VictFound	$n holds up $s hand, indicating that you should wait.~
+CharAuto	You hold up your hand, indicating that you are waiting.~
+OthersAuto      $n holds up $s hand, indicating that $e is waiting.~
+End
+
+#SOCIAL
+Name        wave~
+CharNoArg   You wave.~
+OthersNoArg $n waves happily.~
+CharFound   You wave goodbye to $N.~
+OthersFound $n waves goodbye to $N.~
+VictFound   $n waves goodbye to you.  Have a good journey.~
+CharAuto    Are you going on adventures as well?~
+OthersAuto  $n waves goodbye to $mself.~
+End
+
+#SOCIAL
+Name        wedgie~
+CharNoArg   You look around for someone to wedgie.~
+OthersNoArg $n is looking around for someone to wedgie!  Run!~
+CharFound   You wedgie $M.  Must be fun! ~
+OthersFound $n wedgies $N to the heavens.~
+VictFound   $n wedgies you!  Ouch!~
+CharAuto    You delight in pinning your underwear to the sky.~
+OthersAuto  $n wedgies $mself and cackles with glee.~
+End
+
+#SOCIAL
+Name		welcome~
+CharNoArg	Welcome who?~
+CharFound	You welcome $N warmly, introducing $M to everyone.~
+OthersFound	$n welcomes $N warmly, introducing $M to you.~
+VictFound	Hi! $n welcomes you warmly, introducing you to everyone.~
+CharAuto	You welcome yourself here since nobody else will~
+OthersAuto	$n welcomes $mself here, since nobody else will!~
+End
+
+#SOCIAL
+Name		wet~
+CharNoArg	You feel something wet and warm running down your legs.~
+OthersNoArg	$n wets $s pants.~
+CharFound	You splash $N with a bucket of ice-cold water!~
+OthersFound	Splash!  $n throws a bucket of cold water on $N.~
+VictFound	$n dumps a bucket of ice-cold water on you! BRRR!~
+CharAuto	You splash yourself in the face with cold water.~
+OthersAuto	$n splashes cold water all over $mself.~
+End
+
+#SOCIAL
+Name		whap~
+CharNoArg	What? Where? Why? How?
+CharFound	You whap $M upside the head.  WHAP!~
+OthersFound	$n whaps $N upside the head!~
+VictFound	$n whaps you upside the head!  OUCH!~
+CharAuto	You whap yourself in the head, sheesh you must feel silly!~
+OthersAuto	$n whaps $mself in the head repeatedly.~
+End
+
+#SOCIAL
+Name		whatever~
+CharNoArg       You mutter 'Whatever!'.~
+OthersNoArg     $n looks fed up and mutters 'Whatever!'.~
+CharFound       You get fed up with $N and mutter.~
+OthersFound	$n is fed up with $N.~
+VictFound	Whatever! $n is fed up with you! Forget it!~
+CharAuto	You are so fed up with yourself! Sheesh!~
+OthersAuto      $n mutters 'Whatever!' to $mself.~
+End
+
+#SOCIAL	
+Name		wheeze~
+CharNoArg	You wheeze heavily.~
+OthersNoArg	$n wheezes heavily.~
+End
+
+#SOCIAL
+Name		whimper~
+CharNoArg	You whimper softly.~
+OthersNoArg	$n whimpers softly.~
+CharFound	You whimper softly at $N.~
+OthersFound	$n whimpers softly at $N.~
+VictFound	$n whimpers softly at you.~
+CharAuto	You can't whimper loud enough...~
+OthersAuto	$n whimpers softly to $mself.~
+End
+
+#SOCIAL
+Name        whine~
+CharNoArg   Pleeeeeease? Come on! Let's go! Pleeeease?~
+OthersNoArg $n makes a high-pitched pleading sound.~
+CharFound   You whine at $m.  Come on, $e's gotta change $m mind, eventually!~
+OthersFound $n whines to $N.  Come on, $e's gotta change $m mind eventually!~
+VictFound   $n whines at you.  This person is starting to get on your nerves!~
+CharAuto    You whine at yourself, which really does not accomplish anything...~
+OthersAuto  $n whines at $mself.  Talk about desperate futility!~
+End
+
+#SOCIAL
+Name        whistle~
+CharNoArg   You whistle innocently.~
+OthersNoArg $n whistles innocently.~
+CharFound   You whistle appreciatively at $M.~
+OthersFound $n whistles appreciatively at $N.~
+VictFound   $n whistles at the sight of you.  Oooo $e must think you're sexy!~
+CharAuto    Try 'flirt self' instead.~
+OthersAuto  $n whistles a little tune to $mself.~
+End
+
+#SOCIAL
+Name        wiggle~
+CharNoArg   You wiggle your bottom.~
+OthersNoArg $n wiggles $s bottom.~
+CharFound   You wiggle your bottom towards $M.~
+OthersFound $n wiggles $s bottom towards $N.~
+VictFound   $n wiggles $s bottom towards you.~
+CharAuto    You wiggle your bottom, and your pants fall down around your ankles.~
+OthersAuto  $n wiggles $s bottom and $s pants fall down around $s ankles.~
+End
+
+#SOCIAL
+Name        wince~
+CharNoArg   You wince.~
+OthersNoArg $n winces in pain.~
+CharFound   You wince at $M.~
+OthersFound $n winces at $N.~
+VictFound   $n winces at you.~
+CharAuto    You wince at yourself.~
+OthersAuto  $n winces at $mself.~
+End
+
+#SOCIAL
+Name        wink~
+CharNoArg   You wink suggestively.~
+OthersNoArg $n winks suggestively.~
+CharFound   You wink suggestively at $N.~
+OthersFound $n winks at $N.~
+VictFound   $n winks suggestively at you.~
+CharAuto    You wink at yourself ?? - what are you up to ?~
+OthersAuto  $n winks at $mself - something strange is going on...~
+End
+
+#SOCIAL
+Name        wish~
+CharNoArg   You make a wish upon a star for a dream you have.~
+OthersNoArg $n sighs... and makes a wish upon a shooting star.~
+CharFound   You wish to be loved by $M.~
+OthersFound $n wishes to be loved by $N.~
+VictFound   $n wishes to be loved by you.~
+CharAuto    You wish for more attention.~
+OthersAuto  $n wishes for more attention.~
+End
+
+#SOCIAL
+Name        worship~
+CharNoArg   You make a few signs and pledge your allegiance to the gods.~
+OthersNoArg $n appears to have been struck by awe for the gods.~
+CharFound   You worship $N and crawl at $m feet.~
+OthersFound $n prostrates $mself before $N.~
+VictFound   $n worships you and crawls at your feet.~
+CharAuto    You worship yourself.~
+OthersAuto  $n worships $mself - ah, the conceitedness of it all.~
+End
+
+#SOCIAL
+Name        wrap~
+CharNoArg   You wrap a present for your love.~
+OthersNoArg $n wraps a present for someone special.~
+CharFound   You wrap your legs around $M.~
+OthersFound $n wraps $s legs around $N.~
+VictFound   $n wraps $s legs around you.  Wonder what's coming next?~
+CharAuto    You wrap yourself with some paper.~
+OthersAuto  $n wraps $mself with some wrapping paper.  Is it Christmas?~
+End
+
+#SOCIAL
+Name        yawn~
+CharNoArg   You must be tired.~
+OthersNoArg $n yawns.~
+CharFound   You yawn widely at $N.~
+OthersFound $n yawns at $N.  Maybe you should let them go to bed?~
+VictFound   $n yawns at you.  Maybe $e needs to go to bed?~
+CharAuto    You must be tired.~
+OthersAuto  $n yawns and looks for a pillow.~
+End
+
+#SOCIAL
+Name        yeehaw~
+CharNoArg   You mount your white pony (?) and shout 'YEEEEEEEEEEHAW!'~
+OthersNoArg $n mounts $s white pony (?) and shouts 'YEEEEHHHAAAAAAWWWW!'~
+CharFound   You mount your white pony (?) and shout 'YEEEEEEEEEEHAW!'~
+OthersFound $n mounts $s white pony (?) and shouts 'YEEEEHHHAAAAAAWWWW!'~
+VictFound   $n mounts $s white pony (?) and shouts 'YEEEEHHHAAAAAAWWWW!'~
+CharAuto    You mount your white pony (?) and shout 'YEEEEEEEEEEHAW!'~
+OthersAuto  $n mounts $s white pony (?) and shouts 'YEEEEHHHAAAAAAWWWW!'~
+End
+
+#SOCIAL
+Name		yodel~
+CharNoArg	YODEL AYE EE WHOOO!  You yodel.~
+OthersNoArg	YODEL AYE EE WHOOO!  $n yodels.~
+CharFound       YODEL AYE EE WHOOO!  You start an avalanche that lands on $N.~
+OthersFound	YODEL AYE EE WHOOO!  $n starts an avalanche that lands on $N.~
+VictFound	YODEL AYE EE WHOOO!  $n starts an avalanche that lands on you!~
+CharAuto	YODEL AYE EE WHOOO!  An avalanche lands on you.~
+OthersAuto	YODEL AYE EE WHOOO!  Rn avalanches $mself.~
+End
+
+#SOCIAL
+Name		zone~
+CharNoArg	You zone out and ignore the world for a few moments.~
+OthersNoArg	$nzones out and ignores the world for a few moments.~
+End
+
+#END
+EnvyMud Release 2.2
+Friday, 14th February 1997
+
+Kahn		envy@envy.com
+
+
+The central output functions are 'send_to_char', 'send_to_all_char', and 'act'.
+Of the four, 'send_to_char' is much simpler, faster, and less powerful.
+
+
+
+=== The function 'send_to_char'
+
+The interface for send_to_char is:                                          
+
+    void send_to_char( const char *txt, CHAR_DATA *ch )
+
+The string 'txt' is sent to the character 'ch'.  That's all there is to it.
+
+
+
+=== The function 'send_to_all_char'
+
+The function 'send_to_all_char' does away with multiple blocks of code in
+sending to all active descriptors.  This is useful for functions like
+system warnings and echos.
+
+The interface for send_to_all_char is:
+
+    void send_to_all_char( const char *text )
+
+The string 'text' is sent to all characters with active descriptors.
+
+
+
+=== The function 'act'
+
+The function 'act' is much hairier.  The following section is a
+precise reference guide.  If you don't already have some notion of
+what 'act' format strings look like, then you should read some code
+which uses 'act' (such as some of the spell functions in magic.c) to
+get a concrete introduction to this function.
+
+    void act( const char *format, CHAR_DATA *ch, const void *arg1,
+	     const void *arg2, int type )
+
+    const char *format;
+
+	This is a format string, with formatting specifications introduced
+	by '$' (just as 'printf' introduces its formatting sequences with '%').
+	Typically this is a complete sentence with a subject and an object.
+	This format string does not need to be terminated with '\n\r'.
+
+    CHAR_DATA *ch;
+
+	This is the subject of the sentence.  It MUST be included.
+
+    const void *arg1;
+
+	This is usually the object of the sentence, though its meaning will
+	depend on what you want to print out.  This may be an object or
+	possibly a text string.
+
+    const void *arg2;
+
+	This is the target of the sentence, as well as possibly the object of
+	the sentence.  This may be either a victim, an object, or possibly a
+	text string.
+
+    int type;
+
+	This is the 'to' type of the sentence.  For 'act', values are:
+
+	    TO_CHAR	Send only to 'ch'.
+	    TO_VICT	Send only to 'arg2' interpreted as a character
+	                    (and then only if arg2 != ch).
+	    TO_ROOM	Send to all chars in room except 'ch'.
+	    TO_NOTVICT	Send to all chars in room except 'ch' and 'arg2'.
+
+	In 'act', only characters in the same room as 'ch' are considered.
+
+Each awake character in the same room (or game) as 'ch' is considered for
+output.  (Thus 'ch' must always be a legitimate character whose location is
+not NOWHERE).  If the target character meets the 'type' requirements, then
+the formatting string 'format' is used to construct an output string, with
+'$' sequences substituted using values from 'ch', 'arg1', and 'arg2'.
+
+In the substitution of '$' sequences, attention is paid to visibility by
+calling 'can_see' and 'can_see_obj' as needed.
+
+The first character of the output string is always capitalized.
+
+
+
+
+=== The '$' sequences
+
+Here are all the '$' sequences supported by 'act':
+
+    $t
+	Result is simply the 'arg1' argument interpreted as a string.
+
+    $T
+	Result is simply the 'arg2' argument interpreted as a string.
+
+    $a
+	Result is 'a' or 'an' depending on the first letter of 'arg1'
+	(interpreted as a string).  If you can't use $t, you can't use $a.
+
+    $A
+	Result is 'a' or 'an' depending on the first letter of 'arg2'
+	(interpreted as a string).  If you can't use $T, you can't use $A.
+
+    $n
+	Result is the name of 'ch'.  If 'ch' is not visible to the target
+	character, result is the string 'someone'.
+
+    $N
+	Result is the name of 'arg2' (considered as a victim).  If 'arg2' is
+	not visible to the target character, result is the string 'someone'.
+
+    $e
+	Result is 'he', 'she', or 'it', depending on the sex of 'ch'.
+
+    $E
+	Result is 'he', 'she', or 'it', depending on the sex of 'arg2'
+	(considered as a victim).
+
+    $m
+	Result is 'him', 'her', or 'it', depending on the sex of 'ch'.
+
+    $M
+	Result is 'him', 'her', or 'it', depending on the sex of 'arg2'
+	(considered as a victim).
+
+    $s
+	Result is 'his', 'her', or 'its', depending on the sex of 'ch'.
+
+    $S
+	Result is 'his', 'her', or 'its', depending on the sex of 'arg2'
+	(considered as a victim).
+
+    $r
+	Result is 'sir', 'madam', or 'buddy', depending on the sex of 'ch'.
+
+    $R
+	Result is 'sir', 'madam', or 'buddy', depending on the sex of 'arg2'
+	(considered as a victim).
+
+    $p
+	Result is the short description of 'arg1', considered as an object.
+	If 'arg1' is invisible to the target character, result is the string
+	'something'.
+
+    $P
+	Result is the short description of 'arg2', considered as an object.
+	If 'arg2' is invisible to the target character, result is the string
+	'something'.
+
+    $d
+	Result is the first word in 'arg2', considered as a string.  If 'vo'
+	is NULL, result is the string 'door'.  This is meant for extracting
+	the name from a door's keyword list, but may be used in general for
+	other keyword lists.

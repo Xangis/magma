@@ -1,0 +1,11 @@
+Magma MUD Version 3.00
+Fall 2000
+
+Veygoth         veygoth@buckeye-express.com
+
+----
+This document is an attempt at documenting a few of the important functions in the Magma
+codebase.  Functions will be listed in alphabetical order.
+----
+
+This document will be completed in a later release of the program.

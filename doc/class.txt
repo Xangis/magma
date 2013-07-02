@@ -1,0 +1,114 @@
+Veygoth's Magma Mud 3.00
+Monday, September 25, 2000
+
+Veygoth		veygoth@buckeye-express.com
+
+=== Classes
+
+The central organizing table for classes is class_table, which is an array of
+type 'struct class_type' (defined in 'merc.h') and is defined in a class file
+located on area/classes.
+
+The fields of class_table are:
+
+    char *	name;
+
+	This is the full name of the class used for the 'who', 'whois' and
+	'score' listings.
+
+    char *	who_name;
+
+	It's also used for the list of classes shown to new characters for
+	selecting a class, and for matching the player's input in selecting a
+	class.
+
+    int 	attr_prime;
+
+	This attribute is initialized to 16 for new chars of this class.  It
+	costs only three practices to train one's prime attribute, versus five
+	practices for any other attribute.  In addition, characters may
+	increase their prime attribute (only) over 18 by using magic items.
+
+    int 	weapon;
+
+	This object (vnum) is given to new characters of this class for their
+	first weapon.
+
+    int 	guild;
+
+	This room (vnum) is off limits to characters of other classes.
+
+    int 	skill_adept;
+
+	This is the maximum level to which a character of this class may train
+	a skill or spell.
+
+    int 	thac0_00;		/* Thac0 for level  0		*/
+    int 	thac0_47;		/* Thac0 for level 47		*/
+
+	These are thac0's (To Hit Armor Class 0) for a level 0 character and a
+	level 47 character of this class.  Thac0 for any particular level is
+	computed by linear interpolation.
+
+    int 	hp_min;			/* Min hp gained on leveling	*/
+    int 	hp_max;			/* Max hp gained on leveling	*/
+    bool	fMana;			/* Class gains mana on level	*/
+
+	The fields hp_min and hp_max are the minimum and maximum hit points
+	gained on advancing a level (in addition to the constitution bonus).
+	If fMana is true, than the class gains mana when leveling.
+
+
+=== Adding, removing, and changing classes, the Magma way ===
+
+Adding, removing, and changing classes in Magma isn't quite just as simple as
+changing the CLASSES.LST file to add more classes.  There are a few in-code
+things that have to be done:
+
+const.c         - Edit repop_point structure to set race/class repop points.
+                - Edit class_avail structure to set race/class availability.
+merc.h          - Edit numbers assigned to each class, i.e. CLASS_WARRIOR
+                - Edit MAX_CLASS to reflect the number of classes available.
+                  Numbering starts at 0.
+
+Classes do not have to load in any particular order, but every class number
+must be filled and there must be no duplicates.  This will cause all manner
+of problems and crashes.
+
+Adding classes is more complex if you want new spells and skills, but it is
+very easy to add a class reusing existing spells and skills.
+
+For new classes, you may want to edit spec_mob.c and create a new AI
+function for that class.  The easiest way is to copy a similar class and
+change the name and behaviours.
+
+It is also a good idea to add any information on this new class to help.are
+so players have some clue what the class is all about.  This help file will
+also be displayed during character generation.
+
+The addition of a class can be a fairly tedious process, but it has been
+improved and streamlined greatly since the days of Diku.  It can still be
+further simplified, and that will come in time.  Much of this simplification
+can be attributed to the work of Vasco Costa (Zen).  After reading how
+complicated class addition is in Diku/Merc/Envy be sure to thank him for his
+efforts.
+
+=== Immortal Levels
+
+Mortals may advance as high as level 50, though this is configurable with
+the MAX_MORTAL_ADVANCE definition in merc.h.  Obviously you would not want
+mortals to advance into a level that would be considered an immortal level,
+unless of course you wanted your MUD to function that way.  The original
+design allows for 50 levels, with levels up to 56 being levels that are
+either granted by immortals or earned by attaining potions that advance
+you to the next level.  This scheme makes for some interesting quest
+possibilities at the higher levels of advancement.
+
+The immortal levels are Builder, Avatar, Immortal, Demigod, Lesser God,
+Greater God, Implementor, and Overlord at levels 58 - 65.  Because immortal
+commands were rewritten as skills, simply being a Junior does not mean that
+you will automatically have access to all immortal commands at that level.
+Instead, the commands are assigned by the Implementor Director, based on both
+level and group, which is one of Builder, Coder, or Implementor.  See 
+cmd_table[] in interp.c or skill_table[] in const.c for the minimum level
+necessary to use these commands.

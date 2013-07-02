@@ -1,0 +1,37 @@
+ILAB OLC Beta 1.1
+7th April 1995
+
+Jason Dinkel    jdinkel@mines.colorado.edu
+
+
+=== Considered features:
+
+	Change those crazy door bits so we don't have a 3 page case statement.
+	Rewrite save routines to take advantage of vnum ranges.
+	Use the next of the pExit structure to save room exits, or remove it.
+	Ensure that orig_doors is set when doors are changed.
+	It is interesting to note that spamming while editing strings does not
+	  result in a player quitting.
+	Automatic database saving.
+	Player houses.
+	Other editors. - Talen's help editor included as tutorial.
+	Renumber areas option - I give up.
+	Unlink area option - Simple version included as tutorial.
+	Builder motd.
+	Copy command for objects and mobiles.
+
+
+=== Not considered:
+
+	delete option - don't like this idea for 2 reasons:
+	  1) if 2 players are editing same object and one deletes it the other
+	      will be pissed!
+	  2) Deleting stuff can be dangerous if you want it back.
+
+	Ensure mob/obj/room/area not editable by more than one player
+	  simultaneously.  This is unnecessary and I can't see a way that it
+	  could cause a crash.  Players assigned to the same area by the imp
+	  should coordinate their efforts.
+
+
+- Jason

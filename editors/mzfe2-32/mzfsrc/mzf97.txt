@@ -1,0 +1,151 @@
+                       ---------------
+                         MZF 0.97-a2
+                       ROM 2.4 support
+                       ---------------
+
+MAKE.ZONES.FAST is an off-line DIKU MUD area editor for
+Windows.  It allows you to build zones for Merc, Envy,
+and similar MUD types.
+
+This is a trial version of MZF 0.97.  It reads and writes
+ROM 2.4 areas, and can convert them into Merc 2.x and
+Envy zones.  This version is for 32 bit Windows.  I have
+only tested it on Windows NT 3.51/Pentium, I assume it 
+will run under Windows 95.
+
+I am sorry it took so long.  To get MZF to do what I wanted
+I had to completely change the way #objects were handled.
+I hope this new system is more flexible for everyone.
+
+Next month I will fix any bugs reported, plus finish the new
+help file and self-extracting install.  There will also be
+MZF 0.97 for regular Windows 3.1.
+
+NEW NOTES for Alpha-2
+
+1) This is the second alpha test release of MZF 0.97.  It is
+supposed to fix up the bugs in alpha 1.  For the first time,
+it includes a full Windows help on the new features.
+2) If this fixes all of the major bugs, the next release will
+be the beta with an installation program and a sample zone.
+If anyone has written a small ROM 2.4 compatible zone they 
+want to be the sample zone, let me know and maybe I can include
+it.
+3) Thanks to everyone who tested alpha 1.
+4) If you had mob resets in your ROM 2.4 zone, this alpha might 
+not load them, as there was a bug and MZF was considering them
+part of the comments.  That was wrong.  There should be a number
+at the end of ROM 2.4 mob resets which is the number of mobiles
+of this VNUM to pop in this room.
+
+NOTES for MZF testers
+
+0) This version is just mzf3297a.exe.  You need to install
+a full version of MZF to get the sample zone, etc.
+This is the test/preview/demo version.  You will need to add
+MZF to your start bar/program manager by hand.
+
+1) This version of MZF is based on 0.94, not 0.95.  Due to
+the fact that 0.95 required Borland C++ 4.5 and I find
+myself only with 4.0 at the moment.  When my situation
+improves I will put the 0.95 goodies back in.
+
+2) The mode 'Ogham (write only)' is for a project I've been
+working at on and off.  Please ignore it.  (If you are dying
+of curiousity, I got ahold of an old (version 1.6) public domain
+Ogham mud server.  (They are now up to 2.2).  I converted it
+to C++, then I converted some Merc zones to Ogham/C++ with
+MZF.  This allows me to run a Merc zones on a public domain
+server.  I have been considering giving away Ogham servers for
+Windows instead of Merc ones.)
+
+3) This is the first version of MZF to support ROM 2.4, thanks
+to permission from Alander (Russ Taylor) to use his code for 
+loading ROM areas.
+
+4) This is the first version with the new object customization
+dialog.  This is supposed to allow you to add completely new 
+object types to MZF.  If this method works out for people, we
+can extend it to flags and other features throughout MZF.
+
+5) This version is going to ship 32 bit only, but we will be 
+testing with Win32s.  This means if you are using Windows 3.1 or
+3.11 you will be able to use this, provided you download a .DLL
+from Microsoft.  (Same as Netscape requires, and Merc/Win32s).
+This means if you are using OS/2-Win or Solaris/WABI you are out
+of luck for now.
+
+6) This is an ALPHA test.  I just finished coding the thing today.
+I haven't gone through and tested everything again.  There will
+be a new full release with help text and for the first time an install
+program for the truely clueless coming along after I get a "yea or nay"
+from the net on this version.
+
+7) The latest MZF news is always displayed at
+http://www.goodnet.com/~esnible/mzf.html
+
+===============================================================================
+
+How object customization works
+
+Object customization allows you to create new object types which MZF knows
+about.  So if you decide to add, say, vechicles to your MUD you can teach
+MZF about what goes into the slot values, and define custom tables or flags
+for each slot.
+
+If you are using Merc or Envy, you define types by number.  People have to
+learn the numbers.  So your vechicle would be type "27".  If you are using
+ROM 2.4, you use a word for your type.  So your vechicle would be "vechicle".
+
+All of the customization is written to a file called MZF.INI.  This will be
+in your Windows directory, not the MZF directory.
+
+===============================================================================
+
+About ROM 2.4 compatibility
+
+I have revised the way object slots are handled.  MZF now keeps a database of
+legal slot values instead of hard-coding them into MZF.  This allows new
+object types to be created, with new slot values.  It doesn't allow us to read
+objects in an area file with new values added, though.
+
+I have added support for ROM 2.4 specific bits.  There are a LOT of them, especially
+for mobiles.  These are currently on pop up dialogs in the object and mobile
+dialogs.  I'm sure that Windows 95 'Property Sheets' would have been better, but
+I was too lazy to write that.
+
+I have made minor changes on the mobile and object dialogs to allow for new ROM
+values, like the fifth slot and the 'either' sex.  New ROM exit flags have been
+added to the exit dialog.
+
+You might notice that MZF is taking off some of the bits on your mobiles.  This
+is because MZF doesn't write out any bits which are redundent.  MZF checks to
+see what bits a mobile of that race has by default, and only writes out the
+bits that differ from the default for the race.
+
+I started on some changes to make it easy to add new file types to MZF, but
+that was just too much work, mostly because MZF is very poorly designed.  This
+shouldn't effect you unless you are trying to make your own MZF version.
+
+===============================================================================
+
+About MUD servers for Windows
+
+In the past, I did a simple port of Merc to Windows, and added some features to
+match the MUD I was playing on at the time.  I wrote it for my own zone testing,
+then released the binaries and source for people.
+
+Some people got ahold of this source and did a full ROM 2.3 port.  I wasn't
+involved with that, and don't know what happened to that port, it isn't on
+the net anymore.
+
+Recently someone told me they had made my port work better on Windows 95.
+There is a pointer to this, and other server info, on my mud server page.
+I can't remember the URL right now, but go to
+http://www.goodnet.com/~esnible/mudinfo.html
+and click on "server info, locations".
+
+
+Slash
+esnible@goodnet.com
+http://www.goodnet.com/~esnible

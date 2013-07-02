@@ -1,0 +1,26 @@
+This is a beta test of MZF32 for Windows '95 and Windows NT 3.5x.
+It is 0.95beta.
+
+This version doesn't need the 3 large .DLLs which came with the
+alpha test version as I have relinked it.
+
+Enhancments over MZF32 alpha
+1) Does not lock up on NT when last line in file is #$ with no cr lf
+2) Does not crash NT when error message exceeds 255 characters
+3) Can take a filename argument, and can work as a file association for
+   .are documents in the explorer/file manager
+4) Keeps track of 5 most recent documents
+5) Icons closer to Win'95 standard icons
+
+Note for Windows NT users:
+Windows NT 3.5 and 3.51 users without newshell need to copy CTL3D32.DLL to
+\winnt35\system32 directory and delete from mzf directory.
+
+This version includes a zone I wrote which was the home city for a race
+of bird people known as the Aarakocrans.  Feel free to use it if your mud
+has racial cities and a race of Aarakocrans.
+
+Please report bugs to esnible@goodnet.com
+Please check http://www.goodnet.com/~esnible/mzf.html for updates.
+
+For info on 32 bit tintin see http://www.goodnet.com/~esnible/mudinfo.html

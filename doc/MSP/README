@@ -1,0 +1,13 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+=== The MSP directory
+
+This file gives a brief description of the files in the MSP directory.
+
+act_msp.c	- some initial coding based on MSP version 0.2 specs.
+msp.txt		- MSP version 0.2 specs and info.
+sounds		- directory which (will?) contain the sound & music files.

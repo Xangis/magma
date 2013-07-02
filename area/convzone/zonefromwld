@@ -1,0 +1,2 @@
+cat room.header $1.wld room.footer zone.footer > $1.are
+

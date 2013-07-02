@@ -1,0 +1,123 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Disclaimer
+
+If your name isn't in here, and you think it should be; or if your name IS
+in here and you prefer a different name or anonymity; then just e-mail me
+and i'll fix it in the next release.
+
+
+
+=== Information
+
+Almost all of the features of UltraEnvy were heavily based on work done by
+someone else, so they are who deserve your credits not me. I mostly limited
+myself to porting the code to the Envy 2.2 code base, fixing bugs, and
+occasionally rewriting some code. I wrote some details to the porting work
+bellow so you can use them for your reference.
+
+
+
+=== The HomeCooked Contributions
+
+Erwin S. A:	Scan(.v1) skill for Thieves (erwin@pip.dknet.dk)
+		Save classes info in file idea
+		Save socials info in file idea
+		prinf_to_char( ), bugf( ), logf( ) and advatoi( ).
+		More accurate string hashing function.
+
+
+Jason Huang:	Brew & Scribe skills for caster classes (huangjac@netcom.com)
+
+
+Lope:		ANSI Colour support using ColoUr_V1.2 (ant@solace.mh.se)
+		The code had a couple of bugs on. I shall give you my patch
+		someday; well... maybe... i don't have much spare time and can't
+		remember most changes i made by now.
+
+
+Sandman:	Shield Block skill for all classes (morpheus@teleport.com)
+aka Morpheus	Fast Healing skill for all classes
+		Fourth Attack skill for Warriors
+	
+
+Slash:		Falling code (esnible@goodnet.com)  Also know for his most
+		excellent MZF editor.
+
+
+Christopher S:	OLC for Envy20 port and a nice e-mail reminding me of his new
+		  release and its changes. Thanks! (stoked@iastate.edu)
+
+
+Stimpy:		Whirlwind skill for Warriors
+
+
+MOBProgs 2.1:	Written by J Murphy, N'Atas-Ha of ThePrincedom and
+		  based on a concept created on Worlds of Carnage by
+		  Aaron Buhr.
+
+
+MOM_Envy:	MobPrograms and a couple of OLC features were ported from this
+		Envy10 based source. (xerxes@primenet.com)
+
+
+ILAB OLC B1.1:	By Jason Dinkel (jdinkel@mines.colorado.edu)
+		  Original by Surreality (cxw197@psu.edu) and
+		  Locke (locke@lm.com) of TheIsles.
+
+
+MPEDIT:		Written by Walker (nkrendel@evans.cudenver.edu)
+
+
+Mythran 3.1.11:	Only looked at Mythran code after i released 0.85. They had
+		  already made most of features i later coded/ported myself
+		  to Envy 2.2 so i felt a bit pissed ;-) Just in time! I was
+		  going to port WIZNET and this saved lots of hassle...
+		Plague spell, Cure disease spell, flower social, Seven dice
+		game, High dice game, WIZNET, #GAMES support code was also based
+		on this codebase.
+
+		Mythran Mud is (C) 1996 by Mark Janssen and Jeroen van der Maat.
+		homepage: http://www.delftnet.nl/~mark/mythran/
+		e-mail: mythran@envy.com
+
+
+ROM 2.4:	ITEM_PORTAL, ITEM_WARP_STONE idea
+		  (Made code from scratch for Envy2.2 - Zen)
+		Spell "nexus", "portal" idea (Most of the code was rewritten)
+		IRV flags system idea & some 40% of it's code.
+		ROM is a nice code base. It has some very nice features like:
+		ITEM_FURNITURE, different damage types, wiznet (this is a must),
+		affects like render a char invisible by just wearing an object,
+		smarter mobs, etc.
+
+		ROM consortium:
+		  Russ Taylor (Alander), Gabrielle Taylor, and Brian Moore
+		e-mail: Alander (rtaylor@pacinfo.com).
+
+
+SMAUG team:	Social table structure in memory and social table hashing idea.
+		Score and Who commands new look.  New Clans code idea.
+		A couple of functions were also taken from SMAUG code.
+		SMAUG is a great code base. I highly advise you to look at SMAUG
+		unless you're totally addicted to a mud type, like i'm addicted
+		to Envy :-) It has loads of features, spells/skills.
+
+		SMAUG code team: Thoric, Altrag, Blodkai, Narn, Haus, Scryn,
+		    Rennard, Swordbearer, Gorog, Grishnakh and Tricops
+		e-mail: Thoric (thoric@realms.game.org)
+
+
+TheIsles:	Great unusual features and compact, clean code.
+		HIT_FUN's, improved weather system, ranged weapons, weapon
+		proficiencies, gems, mana types & ridable mobs code was based on
+		this one.  Also know as NiMUD.  Great dual hand system.
+		Btw i tried to contact Locke about this release at the address
+		below but all my email bounced back.
+		
+		TheIsles by Locke (locke@lm.com) and Surreality (cxw197@psu.edu)

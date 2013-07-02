@@ -1,0 +1,49 @@
+Veygoth's Magma MUD (Pre-release) version 0.62
+Monday, July 12, 1999
+
+Veygoth		veygoth@stax.net
+
+
+You may use these color escapes in any string which is shown with the 'act' or
+'send_to_char' functions.  This includes anything that is in an area file.
+
+== Foreground colors
+
+&+l	for black foreground (don't use - nobody can see it)
+&+r	for red foreground
+&+g	for green foreground
+&+y	for orange (or brown) foreground
+&+b	for blue foreground
+&+m	for purple foreground
+&+c	for cyan foreground
+&+w	for white (or gray) foreground
+&+L	for dark grey foreground
+&+R	for bright red/pink foreground
+&+G	for bright green foreground
+&+Y	for yellow foreground
+&+B	for bright blue foreground
+&+M	for bright purple foreground
+&+C	for bright cyan foreground
+&+W	for bright white foreground
+
+=== Other color codes
+
+There are other color codes for background colors, but those have not yet
+been added (mainly due to laziness).  I will get around to adding them
+eventually.
+
+=== Color resets
+
+&n or &N will reset color to the default color, which on most terminals
+will be white.  These reset codes should be used at the end of a string to
+prevent color bleeding.  Any act strings in the source code that include
+things like $p and $N should have &n placed immediately following them in
+order to prevent color bleeding.  Color bleeding, in case you don't know,
+is when text that is supposed to be white or the default color is the last
+color used instead.  It looks tacky.
+
+=== Old color codes
+
+I have not yet removed all of the old color codes, which are started with
+the { symbol instead of the & symbol.  If you see them, go ahead and
+remove them.  Otherwise things may look a little tacky...

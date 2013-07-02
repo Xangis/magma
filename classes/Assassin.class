@@ -1,0 +1,49 @@
+Nm          Assassin~
+WhoNm       &+rAssassin&n    ~
+Cla         6
+AtrPrm      2
+Wpn         210
+Sklladpt    95
+Thac0       18
+Thac47      3
+Hpmin       7
+Hpmax       14
+Mana        0
+Skll         1 'switch opponents'
+Skll         1 'unarmed damage'
+Skll         1 'blindfighting'
+Skll         1 'barehanded fighting'
+Skll         1 'mount'
+Skll         1 'shadow'
+Skll         1 'offense'
+Skll         1 'listen'
+Skll         1 'aerial combat'
+Skll         1 'awareness'
+Skll         1 '1h piercing'
+Skll         1 '2h piercing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h slashing'
+Skll         1 '1h misc'
+Skll         1 '2h misc'
+Skll         1 'backstab'
+Skll         1 'bandage'
+Skll         1 'circle'
+Skll         1 'dual wield'
+Skll         1 'dodge'
+Skll         1 'hide'
+Skll         1 'poison weapon'
+Skll         1 'scrolls'
+Skll         1 'sneak'
+Skll        31 'instant kill'
+Skll         1 'staves'
+Skll        21 'second attack'
+Skll        26 'pick lock'
+Skll        26 'untangle'
+Skll        46 'parry'
+Skll        46 'disarm'
+Skll        51 'third attack'
+Skll         1 'wands'
+Skll         1 'track'
+Skll         1 'swim'
+Skll         1 'carve'
+End

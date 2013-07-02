@@ -1,0 +1,15 @@
+Veygoth's Magma MUD 3.00
+Friday, September 22, 2000
+
+veygoth@buckeye-express.com
+
+To do list for future versions of Magma:
+
+1) Make the number and types of character classes in the MUD easier to configure.
+
+2) Improve the map generator to make it more versatile.
+
+3) Improve the event system.
+
+4) Improve the documentation.  Document every function in the MUD.  Easier said
+than done, of course.

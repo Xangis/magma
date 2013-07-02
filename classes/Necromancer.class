@@ -1,0 +1,67 @@
+Nm          Sorcerer~
+WhoNm       &+MSorcerer&n~
+Cla         2
+AtrPrm      3
+Wpn         264
+Sklladpt    95
+Thac0       18
+Thac47      6
+Hpmin       5
+Hpmax       8
+Mana        1
+Skll         1 '1h piercing'
+Skll         1 '1h bludgeoning'
+Skll         1 '2h bludgeoning'
+Spll         4 'acid blast'
+Spll         3 'blindness'
+Spll         2 'burning hands'
+Spll         8 'charm person'
+Spll         2 'chill touch'
+Spll         3 'colour spray'
+Spll         5 'silence'
+Spll         4 'continual light'
+Spll         9 'detect invis'
+Spll         2 'detect magic'
+Spll         6 'dispel magic'
+Spll         8 'enchant weapon'
+Spll         7 'energy drain'
+Spll         2 'faerie fire'
+Spll         6 'fireball'
+Spll         7 'fly'
+Spll         3 'giant strength'
+Spll        10 'identify'
+Spll         2 'infravision'
+Spll         7 'invis'
+Spll         5 'lightning bolt'
+Spll         4 'locate object'
+Spll         1 'magic missile'
+Spll        10 'mass invis'
+Spll         9 'pass door'
+Spll         6 'remove alignment'
+Spll         1 'shield'
+Spll         3 'shocking grasp'
+Spll         4 'sleep'
+Spll         5 'teleport'
+Spll         1 'ventriloquate'
+Spll         3 'weaken'
+Spll        10 'acid breath'
+Spll        10 'fire breath'
+Spll        10 'frost breath'
+Spll        10 'gas breath'
+Spll        10 'lightning breath'
+Skll         1 'scrolls'
+Skll         1 'staves'
+Skll         1 'wands'
+Skll        41 'shield block'
+Skll        46 'fast healing'
+Skll        36 'brew'
+Skll        36 'scribe'
+Skll         1 'swim'
+Skll         1 'meditate'
+Spll         9 'meteor swarm'
+Spll         7 'chain lightning'
+Spll         6 'wizard eye'
+Spll         7 'vortex lift'
+Spll         9 'portal'
+Spll         9 'nexus'
+End

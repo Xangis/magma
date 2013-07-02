@@ -1,0 +1,17 @@
+ILAB OLC Beta 1.1
+7th April 1995
+
+Jason Dinkel	jdinkel@mines.colorado.edu
+
+
+=== Tutorials - Installing a new interpreter
+
+If you are interested in how to add a new interpreter to the OLC system
+then you are reading the correct file.
+
+This tutorial will step you through the creation of an interpreter that
+will allow editing of help files.  Talen of Vego wrote the interpreter
+originally and I have modified it to work with this new system.
+
+
+- Jason

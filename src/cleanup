@@ -1,0 +1,11 @@
+#! /bin/csh -f
+# Written by Zen, tweaked by Veygoth.
+
+make clean
+cd ../log
+rm -f *.log
+cd ../sys
+rm -f BUGS.TXT
+cd ../src
+rm -f SHUTDOWN.TXT
+rm -f core

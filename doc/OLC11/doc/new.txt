@@ -1,0 +1,203 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87! (Ultra Envy2.2)
+Monday, 20th October 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+=== Changes for Envy2.2 & UltraEnvy:
+
+Please see 'new.txt' in the 'newdocs' directory, this file here should be very
+out of date. I sometimes do bugfixes which don't go there also, but that's life!
+
+
+- Zen
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+ILAB OLC Beta 1.1 For Envy2.0
+25th June 1997
+
+Christopher Smith	stoked@iastate.edu
+
+
+=== Changes for Envy2.0:
+
+	Lots of porting - reset_room, etc :)
+	Removed number_fuzzy in load_mobiles() to keep Mobiles at constant level
+	Added table race_flags to bit.c and improved medit to edit mob races
+	Removed the race_flags table and created a new function race_full_lookup
+	Fixed many small bugs, like do_mstat, fwrite_char
+	Changed AREA_VERBOSE to 8, not 5...  Mind wasn't cooperating
+	Fixed bust_a_prompt to check descriptors to avoid switched players
+	Fixed bust_a_prompt to include both %c and %C options (name and number)
+	Changed medit_shop delete to Erwin's suggestion
+	Hopefully fixed reset editing due to Mythran example?
+	Created a TEMP_CONE_OF_SILENCE flag, so real CONE_OF_SILENCE will save,
+	  and the TEMP one won't.
+	oedit_addaffect checks if flag_value is NO_FLAG first.
+	oedit_weight and cost can't set negatives anymore
+	added a snippit in the install/options directory for those players
+	  who want to use the help editor (hedit), including a new home-brewed
+	  function by yours truly.
+
+- Christopher
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+ILAB OLC Beta 1.0 For Envy1.0
+7th April 1995
+
+Jason Dinkel	jdinkel@mines.colorado.edu
+
+
+=== What's new in ILAB OLC Beta 1.1 For Envy1.0:
+
+These are some of the changes that I have made to this version of OLC.
+Notice that I will not be keeping a running tally of repairs I have
+made.  I will only include changes that have been made since the last
+version I released.
+
+	When removing the last builder from the list, he is replaced by "None".
+	Many superfluous functions were removed.
+	NULL removed to keep code looking Envy-esque.
+	Memory problems fixed. (str_dup used in create_mob/obj)
+	Resets now show just those in the room.
+	Randomized exits allowed.
+	Multiple flags may be entered on one line.  Thanks Russ Taylor.
+	Vnum range is syntax checked.
+	Minimal filename syntax checking.
+	Table lookup for spec_funs and stats and flags.
+	New display format for all editors.
+	Fix to close_socket by Talen added, then removed again when code
+	  revised.
+	Table lookup for commands.
+	Command dump of editor commands to user added.
+	Fixed the Who command, now it displays editing characters, then removed
+	  again when code revised.
+	Added C flag to complement c flag for prompts by showing vnum being
+	  edited.
+	Used new table format to display current flags, stats, spells,
+	  special functions.
+	Rewrote help.
+	Save routines now check for builder authorization and asave area, for
+	  example, finds the area of the currently edited object/mobile and
+	  saves only that area.  Before it would save the area that the player
+	  was physically standing in even if editing in another area at that
+	  time.
+	Editing no longer crashes game when it becomes too large.
+	Used last line skipping(as in CircleMUD) instead of truncation.
+	Ensured that strings entered via the editor cannot have '~' in them.
+	Revised security levels, now 0 is lowest, and there in no upper limit.
+	Areas are loaded with a security of 1 if they don't have a security
+	  value set.  This means that beginning players (security=0) will not
+	  be able to edit them.
+	Objects can be created and get saved in player files and still be
+	  loaded even if the database doesn't get saved.
+	Fix all d->connected checks.  By changing the configuration of
+	  olc this became unnecessary.  Connected states for editors are now
+	  internalized.
+	Tilde no longer used in SEdit.  Smash_tilde() called at the beginning
+	  if string_add so that .r "hello" "he~lo" is not allowed.  Thanks to
+	  James Seng for noticing this.
+	Removed the light command for rooms because it isn't saved in the
+	  database.
+	List "key" etc for just working area.
+	List mob <shop>, <spec (spec_name)>, <level (#)>, <name (name)>
+          <sex (letter)>, <align (number)>
+	List obj <type (? types)>, <name (name)>
+	List room
+
+
+	Changed string_add() function in string.c. New function is cleaned up
+	  and removes problem with editing strings longer than
+	  MAX_STRING_LENGTH.
+	Added check for strings longer than MAX_STRING_LENGTH to
+	  format_string().  Calling functions should check for problems.
+	  Ones I modified were: redit_ed(), redit_format(), and oedit_ed().
+	Function do_olc() was removed.  Functions do_aedit(), do_redit(),
+	  do_oedit(), and do_medit() are all called from interp.c directly.
+	  Help file was updated with the new calls. Prototypes moved from olc.h
+	  to merc.h. This was a personal preference of mine.
+	The AIX compiling system causes the following to get flagged:
+	  spec_table[cmd].spec_fun[0] != '\0'. I've changed these to:
+	  *spec_table[cmd].spec_fun in flag_string(), flag_lookup(),
+	  spec_string(), spec_lookup(), show_flag_cmds(), show_spec_cmds(),
+	  and show_help().
+	Area flags all set to FALSE so they cannot be changed.
+	EXIT_BASHED set to FALSE so closed + bashed doors cannot be made.
+	  To create a bashed door you can just make it open and describe it as
+	  bashed.
+	Aedit_create() used to return FALSE when it created an area.  Sorry.
+	Vnum maxes were coded in to ensure that vnum doesn't exceed INT_MAX.
+	Player can no longer log in as "none" and edit areas. Thanks Walker.
+	Reset randomization not supported in this version. All calls to
+	  orig_door have been removed.
+	Function new_load_rooms() was added.  This loads rooms that have
+	  #ROOMDATA as the keyword.  These rooms have the door bits set by OLC.
+	  This includes the door resets.
+	In save_rooms() there were a couple changes.
+	  a) Exits are saved even if they have to_room = NULL.
+	  b) New format(#ROOMDATA) saves the 'D' reset data into the locks bit.
+	  c) Used area vnum range as the counter because it is much faster.
+	  Profiling information available upon request.
+	Removed sex flag "none".
+	Door bits are now loaded correctly into pExit->rs_flags by
+	  load_resets().
+	Changes to reset_room(): Containers get reset to original states.
+	  Randomizations of the doors was commented out.
+	Function change_exit() was rewritten.  It no longer supports movement
+	  commands.  This ensures that the builder gets syntax information if
+	  mistyping.  Added "remove" command to remove keys or keywords or
+	  descriptions without erasing the exit.
+	WALK <dir> command was added to complement the previous change.
+	Function save_resets() accidentally assigned pRoom while in a loop using
+	  pRoom for both the O and the R resets.  This may have caused duplicate
+	  resets or skipped resets.
+	Because door resets are saved in the ROOMDATA section of area files now,
+	  we no longer need function save_door_resets().
+	New VERBOSE code was written by Rac.  Check it out!
+	VERBOSE code separated into functions and verbose can be specified
+	  inside the game to get a readable copy of your area.  Syntax is like:
+	  asave area verbose.  Added AREA_VERBOSE flag.
+	Changed from *EDIT( *edit_function ) to bool *edit_function ( blah )
+	  because ctags for NeXT and ULTRIX doesn't support #define macros to
+	  lookup functions.  Every function in act_olc.c was changed.
+	Flags are checked after commands now in *edit() functions.  I
+	  corrected some inconsistencies in the original flag code from
+	  The Isles 1.1 in the process.
+	Search tables were modified for each of the *edit interpreters.
+	  look at the code to see what changed.
+	Added automatic database saving.  Look for PULSE_DB_DUMP in merc.h. It
+	  is currently set to 30 minutes.  You can choose what is necessary for
+	  your computer.  The database is also saved before shutdown by the
+	  time_update() routine.
+
+
+I wasn't able to get to these features, or I had trouble with them on
+certain operating systems.
+
+Database syntax checking - I posted the corrections. They are accurate, but I
+didn't include the code with this version because I thought it would just
+complicate installation for people. I will post it as a module soon.
+
+	Copy commands for mobiles and objects.
+	Renumbering areas.
+	Unlinking areas.
+	Protection from teleportation to construction areas.
+
+
+=== Note
+
+I don't have a good list made up of things I need to fix or add.  If
+there are any suggestions then I would be happy to add them to this list.
+
+
+- Jason

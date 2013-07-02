@@ -1,0 +1,937 @@
+#AREA  {10 26} Manx    Goblin Caves~
+
+#MOBILES
+#20000
+sentry~
+The Sentry to the Goblin Caves~
+The Sentry to the Goblin Caves stands at attention here.
+~
+He looks like a powerful man that could easily defeat an opponent.
+The Sentry to the Goblin Caves tells you, 'Abandon all hope ye who enter here'
+~
+2 128 500 S
+19 3 0 10d10+100 10d10+100
+1000 900
+0 goblin~ 1
+
+#20001
+wizard~
+An Ancient Wizard~
+An Ancient Wizard stands here as to prevent you from entering the caves.
+~
+You realize as you look upon this wizened Wizard, that you must defeat him in 
+combat before you can enter the caves.  Why waste the effort, you should really 
+take the easy way out and leave.
+~
+2 8192 0 S
+10 3 0 10d9+50 10d9+70
+1000 900
+0 goblin~ 1
+
+#20002
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+34 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20003
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+34 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20004
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20005
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20006
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20007
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20008
+goblin~
+Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+10 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20009
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+12 3 20 3d11+5 3d17+9
+1000 900
+0 goblin~ 1
+
+#20010
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+12 3 20 3d11+5 3d17+9
+1000 900
+0 goblin~ 1
+
+#20011
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+13 3 20 3d11+5 3d17+9
+1000 900
+0 goblin~ 1
+
+#20012
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+13 3 20 3d11+5 3d17+9
+1000 900
+0 goblin~ 1
+
+#20013
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+13 3 0 6d9+11 6d9+15
+1000 900
+0 goblin~ 1
+
+#20014
+goblin~
+A Goblin Soldier~
+A Loyal soldier to the Goblin King stands at attention here.
+~
+You have never in your life seen anything so ugly!!!
+~
+32 8192 0 S
+13 3 0 6d9+11 6d9+15
+1000 900
+0 goblin~ 1
+
+#20015
+goblin king~
+Goblin King~
+The Goblin King is here ordering you to kneel.
+~
+As you bow toward this king you end up falling over in a fit of laughter.
+~
+2 8192 0 S
+23 3 40 9d17+11 9d17+15
+1000 900
+0 goblin~ 1
+
+#20016
+goblin captain~
+Captain of the Goblin Soldiers~
+The Captain of the Goblin Soldiers stands here.
+~
+The Captain of the Goblin Guard appears to be drunk...
+~
+32 8192 0 S
+17 3 40 2d7+1 2d7+5
+1000 900
+0 goblin~ 1
+
+#20017
+captive creature~
+Captive of the Goblins~
+A poor defenseless creature is here, urging you to look at it.
+~
+The Creature tells you, 'Please kill me, my life is over and i can't take the 
+torture anymore.  In return i shall give you the key to a secret doorway that 
+leads to the king.  This door is .....'.  The poor creature faints.
+~
+2 8192 0 S
+1 3 40 2d7+1 2d7+5
+1000 900
+0 animal~ 1
+
+#0
+
+#OBJECTS
+#20000
+key granite~
+a granite key~
+The key to the Goblin Caves lies here.~
+~
+18 0 1
+0~ 0~ 0~ 0~
+1 0 0
+
+#20001
+key stone~
+a stone key~
+A strange stone key is here.~
+~
+18 0 1
+0~ 0~ 0~ 0~
+1 0 0
+
+#20002
+key~
+A Jailor's key~
+The key to some horrible place of torture is here.~
+~
+18 0 1
+0~ 0~ 0~ 0~
+1 0 0
+
+#20003
+key dust~
+a secret looking key~
+There is some dust on the ground here.~
+~
+18 0 1
+0~ 0~ 0~ 0~
+1 0 0
+
+#20004
+sword goblin~
+a Goblin Sword~
+A plain but affective Goblin Sword lies here.~
+~
+5 512 8192|1
+0~ 10~ 25~ 3~
+20 100 3
+A
+19 1
+
+#20005
+plate~
+a Goblin Breast Plate~
+Some plain looking armor lies here.~
+~
+9 512 8|1
+0~ 0~ 0~ 0~
+20 100 3
+
+#20006
+sword~
+a Goblin Sentry's Sword~
+A deadly looking Goblin Sentry's sword~
+~
+5 1024 8192|1
+0~ 10~ 25~ 3~
+20 100 3
+A
+19 3
+#0
+
+#ROOMS
+#20000
+Base of the Mountain~
+You are standing at the base of the Infamous Goblin Caves.
+~
+0 1024 4
+D2
+~
+~
+0 0 5278
+D4
+~
+~
+0 0 20001
+S
+#20001
+On the Mountain Path~
+You are walking along an old and dusty path.
+~
+0 0 4
+D4
+~
+~
+0 0 20002
+D5
+~
+~
+0 0 20000
+S
+#20002
+On the Mountain Path~
+You are walking along an old and dusty path.
+~
+0 0 4
+D4
+~
+~
+0 0 20003
+D5
+~
+~
+0 0 20001
+S
+#20003
+On the Mountain Path~
+You are walking along an old and dusty path.
+~
+0 0 4
+D4
+~
+~
+0 0 20004
+D5
+~
+~
+0 0 20002
+S
+#20004
+Path to the Caves~
+After your long climb you notice that there appears to be a door to North
+~
+0 0 4
+D0
+~
+~
+0 0 20005
+D5
+~
+~
+0 0 20003
+S
+#20005
+Atop the mountain and before the caves~
+You appear to be halfway to the Cave entrance.
+~
+0 0 0
+D1
+~
+~
+0 0 20006
+D2
+~
+~
+0 0 20004
+S
+#20006
+At the entrance~
+Before you stands the entrance to the Infamous Goblin Caves.  Legend has it 
+that many a brave adventurer has set foot within, but few have ever returned.  
+However, you think to yourself "Yeah as if!!"...
+~
+0 0 0
+D3
+~
+~
+0 0 20005
+D5
+A huge granite door is here daring you to enter.
+~
+door~
+2 20000 20007
+E
+door~
+A huge granite door is here daring you to enter.
+~
+S
+#20007
+Within the Entrance~
+You stand inside the entrance to some very dank, dark and smelly caves.
+~
+0 9 0
+D0
+~
+~
+0 0 20008
+D4
+A huge granite door is here daring you to enter.
+~
+Door~
+2 20000 20006
+E
+door~
+A huge granite door is here providing your only escape out, until you finish 
+off the Goblin King.
+~
+S
+#20008
+Hallway~
+You stand in one of the many hallways that traverse the caves.
+~
+0 9 0
+D0
+~
+~
+0 0 20012
+D1
+~
+~
+0 0 20009
+D2
+~
+~
+0 0 20007
+S
+#20009
+Hallway~
+You come to a turn in the hall, it goes in a southward direction to what 
+appears to be a door.
+In the distance you hear a mumbling that sounds very much like voices......
+~
+0 9 0
+D2
+~
+~
+0 0 20010
+D3
+~
+~
+0 0 20008
+S
+#20010
+End of the Hallway~
+You have finally reached the end of the hallway.  And although it appears to 
+be a dead end, there seems to be something very odd about the east wall...  
+Also there are sounds coming from that direction as well.
+~
+0 9 0
+D0
+~
+~
+0 0 20009
+D1
+A strange looking wall.
+~
+wall~
+1 20001 20011
+S
+#20011
+Armory~
+I don't know how you did it, but you have reached the armory of the Goblins, 
+there are several useful (albeit basic) pieces of armor on the floor.  Against 
+the east wall there is a huge fire burning steadily, obviously for the 
+ironworking.
+~
+0 9 0
+D3
+A strange looking wall.
+~
+wall~
+1 20001 20010
+S
+#20012
+Intersection~
+You have reached an intersection in the hallway.  To the west, you can just
+make out a door at the end of the hallway.  To the north, you can hear moans
+and voices talking.  You also hear the footsteps of several creatures walking
+about, grunting to each other.
+~
+0 9 0
+D0
+~
+~
+0 0 20017
+
+D2
+~
+~
+0 0 20008
+
+D3
+~
+~
+0 0 20013
+S
+#20013
+Hallway~
+You are walking down a narrow hallway made of stone.  Slime coats the walls,
+as well as blood stains.  Some of the blood on the walls is very fresh!  As
+if someone had been through here today!  To the west you see a cell door, and 
+to the east, you can see an intersection.
+~
+0 9 0
+D1
+~
+~
+0 0 20012
+D3
+~
+~
+0 0 20014
+S
+#20014
+End of the Hallway~
+You have reached the end of the hallway.  Rooms lie to the north, and to the
+west, the room to the west is barred by a door.  Very faintly, you can hear
+grunts, and mumbling from all around, as if the walls were alive!
+~
+0 9 0
+D0
+~
+~
+0 0 20015
+D1
+~
+~
+0 0 20013
+D3
+A dark, metal cell door lies upon the west wall.
+~
+cell door~
+1 20002 20016
+S
+#20015
+Guard Room~
+You have entered a guard room.  Its furnishings are crude, and unimpressive.
+In general, there are a few tables, a couple chairs but nothing much else that
+seems important.  There is a large pile of dung in the corner of the room, 
+which smells particularly bad.  Rusted swords lay about, and it seems that a
+strange game involving sticks had been played upon the table.
+~
+0 9 0
+D2
+~
+~
+0 0 20014
+S
+#20016
+Dark Cell~
+You are standing in a dark, and dank cell.  There is barely any light coming
+from the hallway.  Slime covers everything in sight, and there is a small and
+rotted bench on the far wall.  Rats scurry back and forth, and almost attack
+you as you walk through the sludge.  A hallway leads east from this cell.
+~
+0 9 0
+D1
+A dark, metal cell door lies upon the west wall.
+~
+cell door~
+1 20002 20014
+S
+#20017
+Hallway~
+You have come to another intersection in the dungeon.  Hallways lead off to
+the east, and to the south.  Mumbling and footsteps can be heard in the far
+distance, as well as the very faint sound of water rushing.  You cannot tell
+exactly where it is coming from, but it is a definite sound.
+~
+0 9 0
+D1
+~
+~
+0 0 20018
+D2
+~
+~
+0 0 20012
+S
+#20018
+Alcove~
+You have reached a small alcove in the dungeon.  There is nothing interesting
+to be said here.  It's a small, oddly-carved niche in the wall, which has been
+smoothed out, and used as storage.  There is a small bench against the north 
+wall, and a few strange rocks, but other than that, there is nothing strange.
+~
+0 9 0
+D1
+Secret Doorway
+~
+secret~
+1 20003 20019
+D3
+~
+~
+0 0 20017
+S
+#20019
+Stairway~
+You have entered a newer part of the dungeon, made only recently!  A dark, and
+twisting stairway leads downwards into darkness.  From below, you can hear the
+sounds of voices, and rushing water.  A passage leads back to the west.
+~
+0 9 0
+D3
+Secret Doorway
+~
+secret~
+1 20003 20018
+D5
+~
+~
+0 0 20020
+S
+#20020
+Lower caves~
+You have reached the bottom of the stairway.  The walls here are made of very
+smooth stone, almost as if it had been eroded away by large amounts of quickly
+moving water.  In the distance, you can hear footsteps, but they are almost
+covered by the incessant roar of a waterfall nearby!
+~
+0 9 0
+D2
+~
+~
+0 0 20021
+D4
+~
+~
+0 0 20019
+S
+#20021
+Eroded Hallway~
+You have reached a very smooth hallway, which is also caused by erosion, or at
+you believe this to be so.  To the east, there is a narrow passage, and to the
+south you can make out a cave-like entrance.  The sound of the waterfall is
+quite loud here, and seems to be coming from all around.
+~
+0 9 0
+D0
+~
+~
+0 0 20020
+D1
+~
+~
+0 0 20026
+D2
+~
+~
+0 0 20022
+S
+#20022
+Cavern Entrance~
+You have come to the entrance of a very large cavern.  Inside, you can hear
+the sound of water rushing quickly.  The walls of the cavern are extraordinarily
+smooth, due to the effects of erosion.  This cavern sends a chill through your
+spine, and you can feel evil within it.  A passage leads south into the dark
+cavern, and north to a hallway.
+~
+0 9 0
+D0
+~
+~
+0 0 20021
+D2
+~
+~
+0 0 20023
+S
+#20023
+Dark Tunnel~
+You are walking through a dark tunnel running north, and east.  Pools of water
+lie at your feet, and a heavy dampness lies in the air.  The cool spray of
+water seems to be coming from the far east, as does the roaring sound of the
+waterfall.  To the north, lies the entrance to this cavern underground.
+~
+0 9 0
+D0
+~
+~
+0 0 20022
+D1
+~
+~
+0 0 20024
+S
+#20024
+Cavern Opening~
+You are crawling along a dark tunnel, and to the east you see an immense
+cavern, and the sounds of the waterfall are deafening.  Vapor and dampness
+cover the walls, and the rocks are slippery.  To the west, there is another
+dark tunnel, which looks considerably drier.
+~
+0 9 0
+D1
+~
+~
+0 0 20025
+D3
+~
+~
+0 0 20023
+S
+#20025
+Great Waterfall~
+You are standing on a large rock, which looks over the cliff.  Gallons of water
+flow over the edge, falling hundreds of feet to the bottom of the cavern below.
+The sound of the waterfall is deafening, and you clench your ears to cut the
+noise down.  You notice a series of rocks, following the cliff downwards.
+To the north, the river continues.
+~
+0 9 0
+D0
+~
+~
+0 0 20028
+D3
+~
+~
+0 0 20024
+D5
+~
+~
+0 0 20029
+S
+#20026
+Underground River~
+You have come to a very large, underground river.  The water is quite deep in
+places, and is moving rather quickly to the south.  From the south, a fresh
+cloud of water vapor covers your body in a cool dampness.  The river is at a
+dangerously wild state.  A passage leads back to the west.
+~
+0 9 0
+D2
+~
+~
+0 0 20027
+D3
+~
+~
+0 0 20021
+S
+#20027
+Underground Pool~
+You are standing on a small ledge of rock, which follows it's way along these
+cavern walls.  Before you lies the largest pool of water you have ever seen.
+It seems to span the entire cavern, and the waters splash back and forth, as
+a mighty river from the north pours into the room.  As you look east, you see
+that a larger river seems to be flowing eastward, very quickly.
+~
+0 9 0
+D0
+~
+~
+0 0 20026
+D1
+~
+~
+0 0 20028
+S
+#20028
+Underground River~
+You have come to a large river, spanning the cavern.  To the south, the river
+seems to soar off of the cliff, forming a large waterfall, over a drop of at
+least a hundred feet.  The swirling river waters are extremely swift, and deep
+even near the edge.  To the west you see a large pool, from which this river
+seems to originate.
+~
+0 9 0
+D2
+~
+~
+0 0 20025
+D3
+~
+~
+0 0 20027
+S
+#20029
+Below Waterfall~
+You have arrived on the cavern floor, just near the waterfall.  From here, you
+notice that there is a small path, leading into a large cavern to the south,
+just behind the waterfall.  You can hear the strange noises of grunts, and
+screaming coming from within the cave.  A set of rocks lies against the wall
+of the cliffside here.
+~
+0 9 0
+D2
+~
+~
+0 0 20030
+D4
+~
+~
+0 0 20025
+S
+#20030
+Large Cave~
+You have reached a large, smooth cave, behind the waterfall.  A small fire
+burns in the center of the room.  The walls are very smooth, and there is no
+water to be found.  Bones litter the floor, and there are several tables set
+up in the room.  Against the northern wall, there is a large, stone throne, 
+and against the western wall, you see a rather large chest.  Also, you notice
+a smaller cave to the east.
+~
+0 9 0
+D0
+~
+~
+0 0 20029
+D1
+~
+~
+0 0 20031
+S
+#20031
+Storage Cave~
+You have entered a large, storage cave of some kind.  Rocks, rusted weaponry,
+and all other kinds of junk litter the floor.  There is really nothing of great
+value here.  This cave is completely dry, and it almost feels warm.  A larger
+cave opens up to the west.
+~
+0 9 0
+D2
+A large, glowing portal lies against the south wall.
+~
+portal~
+1 0 20000
+D3
+~
+~
+0 0 20030
+S
+#0
+
+
+#RESETS
+D 0 20006 5 2
+D 0 20007 4 2
+D 0 20010 1 2
+D 0 20011 3 2
+D 0 20016 1 2
+D 0 20014 3 2
+D 0 20018 1 2
+D 0 20019 3 2
+D 0 20031 2 1
+*
+O 0 20005 0 20011
+O 0 20004 0 20011
+*
+M 0 20000 1 20000
+E 1 20006 0 16
+*
+M 0 20001 1 20006
+G 1 20000 100
+*
+M 0 20002 1 20007
+E 1 20004 0 16
+G 1 20001 100
+*
+M 0 20003 1 20007
+E 1 20004 0 16
+*
+M 0 20004 1 20009
+E 1 20004 0 16
+*
+M 0 20005 1 20011
+E 1 20004 0 16
+*
+M 0 20006 1 20012
+E 1 20004 0 16
+*
+M 0 20007 1 20018
+E 1 20004 0 16
+*
+M 0 20008 1 20014
+E 1 20004 0 16
+*
+M 0 20009 1 20021
+E 1 20004 0 16
+*
+M 0 20010 1 20023
+E 1 20004 0 16
+*
+M 0 20011 1 20025
+E 1 20004 0 16
+*
+M 0 20012 1 20027
+E 1 20004 0 16
+*
+M 0 20013 1 20029
+E 1 20004 0 16
+*
+M 0 20014 1 20031
+E 1 20004 0 16
+E 1 20005 0 5
+*
+M 0 20015 1 20030
+E 1 20004 0 16
+*
+M 0 20016 1 20015
+E 1 20004 0 16
+E 1 20005 0 5
+G 1 20002 100
+*
+M 0 20017 1 20016
+G 1 20003 100
+
+S
+
+#SPECIALS
+
+*updated 1/7/95 by Zelda
+
+*Spelling errors fixed:
+
+*    room#20000  imfamous should be infamous
+*    room#20022  extrodinarily should be extraordinarily
+*    room#20027  eastwards should be eastward
+S
+
+#$
+

@@ -1,0 +1,2 @@
+Castlist is something used to keep track of everyone casting a spell at the moment.  Mobs and players reside on the list only while they are casting a
+spell.

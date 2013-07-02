@@ -1,0 +1,3583 @@
+#AREA   {15 31} Mort    Castle Reinhold~
+
+
+#MOBILES
+#8200
+villager insane~
+the Insane Villager~
+An insane villager rages at the gods. 
+~
+The villager appears to be healthy except that his hands 
+are burned from prying apart smouldering buildings.
+~
+64 512|8388608|16777216 100 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8201
+villager wounded~
+the wounded villager~
+A wounded villager waves his sword at you and screams, 
+		   'BEWARE !!!'
+~
+You must BEWARE !!!!   The Dark Knights have besieged 
+Castle Reinhold. They will kill you as they have killed 
+my friends and family!  
+
+Do not go forward unless you are mighty!!!
+~
+2 8|512 20 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8202
+dark knight~
+the Dark Knight~
+The Dark Knight sneers at you.
+~
+Armored in dull black plate with a red sword emblazoned on
+his shield, the Dark Knight appears ready to take you on.  
+You and your entire nation!
+~
+32|64 32|512|8388608|16777216 -500 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8203
+captain vader~
+Captain Vader~
+Captain Vader exudes evil.
+~
+Captain Vader has a horned death skull helmet on that would 
+scare even you if you werent already afraid.  The air around 
+his sword shimmers like a summer day.
+~
+2 32|512|8192|16384|8388608|16777216 -1000 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 1
+#8204
+soldier dark~
+the Dark Soldier~
+A Dark Soldier bars your way.  He  ** ATTACKS YOU **
+~
+The Dark Soldier has many scars and momentoes of war.  
+Hanging from the silken blonde hair of one of his victims 
+are the finger bones of dozens of humans.
+~
+2|32 32|512|8388608|16777216 -300 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8205
+villager~
+the Villager~
+A Villager stands before you.
+~
+Everything that the villagers own is on them.  A few of 
+the villagers carry their possessions on their backs. Others 
+use wheel barrows, while the rest have sacks of goods.
+~
+2 512 10 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 0
+#8206
+guard ducal~
+the Ducal Guard~
+A Ducal Guard stands ready to repel Evil.
+~
+The Ducal Guard is dressed in white with purple trim.  
+The Falcon Shield that he holds is Duke Reinhold's family crest.
+~
+64 512|16777216 100 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8207
+baker Joe~
+Joe the Baker~
+Joe the Baker bakes away.
+~
+The Baker has been working hard all morning to bake the 
+breads that the castle eats. His talents are evident as the 
+smells of pastries and loafs are overpowering you.
+~
+2 512|8192|16777216 200 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 halfdwarf~ 1
+#8208
+armorer jack captain~
+Captain Jack~
+Captain Jack looks at you.
+~
+Many years ago Captain Jack retired to lead a more peaceful life.  
+His skills as a merchant and his knowledge of armor has made him 
+a very successful man.
+~
+2 512|8192|16777216 500 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 halfelf~ 1
+#8209
+Armon~
+Armon the weaponsmith~
+Armon the weaponsmith sharpening tools of the trade.
+~
+As you look closely at Armon you notice that he has many wounds about 
+his body.   He is surely a strong fighter.  Don't mess with him!
+~
+2 512|16777216 0 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 dwarf~ 0
+#8210
+stella merchant~
+Stella the Merchant~
+The Merchant Stella looks you over with a practiced eye.
+~
+This tiny little lady has the eyes and wits of a barracuda.  
+Mess with her and meet your doom.
+~
+2 512|8192|16777216 1000 S
+32 0 0 0d0+0 0d0+0
+0 0
+8 gnome~ 2
+#8211
+warlord~
+the Warlord~
+The Warlord stands ready to instruct.
+~
+As a warrior, the Warlord knows no equals.  As a teacher of 
+warrior skills he tries to passes his knowledge and experience 
+on to those who wish to follow the way of war.
+~
+2|512|1024 32|512 0 S
+32 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8212
+sergeant ducal~
+the Ducal Sergeant~
+The Ducal Sergeant is watching you.
+~
+Many criminals and evil doers have wished harm upon the 
+Ducal Sergeants of Castle Reinhold.  The only weakness 
+they have been able to find is the Sergeant's lack of 
+defense versus magics.
+~
+64 8|512|8192 500 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8213
+captain ducal~
+the Ducal Captain~
+The Ducal Captain says 'Hello stranger. GOOD shall prevail !! '
+~
+The Captain has a small tattoo on his left forearm.  
+It simply says, "GOOD will triumph".
+~
+64 8|32|128|512|8192|16777216 500 S
+27 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8214
+guards armory~
+the  Armory Guards~
+The Armory Guards seem very bored.
+~
+The Armory Guards are ASLEEP !!!  Can you believe it ?
+~
+2 512|16777216 100 S
+17 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8215
+cadet young~
+the young Cadet~
+The Cadet pushes past you.
+~
+The Cadet sneers at you because he is joining an elite 
+fighting order and you are not!
+~
+64 512 100 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8216
+cleric john paul~
+John Paul the cleric~
+The God of Light's Cleric greets you.
+~
+Underneath the glow and the sanctity you see a hardened adventurer.  
+John Paul was a powerful adventurer during his glory days...preaching 
+the benefits of GOOD and defeating the vile creatures of evil.
+~
+2 8|32|128|512|8192|16777216 800 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8217
+guard alert~
+an Alert Guard~
+The Alert Guard **  ATTACKS ** You !!!!
+~
+The Alert Guard seems wired on some type of drug.  His eyes are 
+wide and bloodshot.
+~
+2 8|32|512|16777216 50 S
+18 0 0 0d0+0 0d0+0
+0 0
+8 giant~ 1
+#8218
+servant~
+a servant~
+A servant appears to be looking for something to do.
+~
+Underneath that dusty uniform is the beating heart of a human being.
+~
+4|64 0 50 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 2
+#8219
+cook fat~
+the fat cook~
+The cook is busy.  Leave him alone.
+~
+Thanks to a quick hand, the cook has been able to hide some 
+food inside his pants.
+~
+2 0 25 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8220
+courtier~
+the Courtier~
+The Courtier bows to you.
+~
+Hidden under his silk outfit is a leather jerkin.  He also 
+seems to be armed.
+~
+64 0 10 S
+22 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8221
+attendant~
+the toilet attendant~
+The attendant is ready to serve you.
+~
+Long hours at this duty has driven the attendant mad.
+~
+2 0 500 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8222
+reinhold duke~
+Duke Reinhold~
+Duke Reinhold calmly looks you up and down.
+~
+The Duke is a tall handsome man.  His hair is graying but his 
+stature is still that of a young military man.  Without a doubt 
+he knows how to handle himself.  Be careful!
+~
+2 8|32|128|512|8192 800 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8223
+reinhold duchess~
+the Duchess Reinhold~
+The Duchess yawns with boredom.
+~
+Like her courtiers, the Duchess hides a set of armor beneath her 
+beautiful gown.
+~
+2 8|32|128|512|8192 500 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 human~ 2
+#8224
+wizard royal~
+the Royal Wizard~
+A tall Elven wizard stands before you.
+~
+Balrod, the Elven Wizard, has a crackling aura of power around him.  
+On each hand is a powerful gauntlet...glowing with power.
+At his feet are statues of the many races.  As you watch, Balrod lifts 
+his foot and brings it down upon the Goblinoid figure.  
+With the power I am gathering I shall destroy all Goblinoids upon this 
+continent. You should leave...before you make me angry.
+~
+2 8|32|512|8192 0 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 elf~ 0
+#8225
+ed apprentice loyal~
+the loyal apprentice~
+Ed the Apprentice is here.
+~
+Without a doubt, this apprentice is the most beautiful woman you have 
+ever seen. Too bad she crackles with magical energies.
+~
+2 8|32|512|8192 200 S
+18 0 0 0d0+0 0d0+0
+0 0
+8 elf~ 2
+#8226
+guardian tower~
+the tower guardian~
+You see nothing!! Yet something attacks you!   FLEE  !!!!! 
+~
+The Tower Guardian is 3'2" tall and 4" wide.  It has a huge mouth, 
+warts over most of it's body and it wears no clothes.
+
+It has talons four inches long.  Good Luck...because if you can 
+read this..you're too close!!
+~
+2|32 2|8|32|512|65536 0 S
+29 0 0 0d0+0 0d0+0
+0 0
+8 object~ 0
+#8227
+librarian~
+the Librarian~
+The Librarian holds two books within the depths of his robe.
+~
+This elder has very wise eyes...however, he seems quite angry with you.  
+SSSHHHHHH !!!!!!
+~
+2 8|32|512 100 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 halfelf~ 1
+#8228
+wench cleaning~
+the cleaning wench~
+This buxom cleaning wench has many fine attributes.
+~
+Very professional.  That's what you think of when you look at her.
+~
+4|64 0 20 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 2
+#8229
+boy pot chamber~
+the chamber pot boy~
+WATCH OUT!!!  It's the chamber pot boy.
+~
+Dirty..dirty..dirty.  Have you ever seen so much filth?
+~
+4|64 0 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8230
+nonderon grey~
+the Grey Nonderon~
+The Grey Nonderon attacks you with sharp claws!
+~
+Standing 6' tall, the Nonderon has an exoskeleton of super hard bone.
+~
+2|32 2|8|32|512|16384 -200 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 god~ 0
+#8231
+amoeba black~
+the Black Amoeba~
+A blackness engulfs you as the Black Amoeba attacks!!!
+~
+Within the Black Amoeba are the remains of it's previous victims.
+~
+2|4|32 8|32|128|512|16384 -550 S
+30 0 0 0d0+0 0d0+0
+0 0
+8 worm~ 0
+#8232
+harpy~
+the dirty harpy~
+A dirty Harpy flies at you.
+~
+The harpy has a terrible face..and her wings are filthy..and 
+her claws are disgusting, but, she's got one heck of a body!
+~
+2|4|32 8|32|512|16384 -500 S
+23 0 0 0d0+0 0d0+0
+0 0
+8 harpy~ 2
+#8233
+wyvern~
+the dark wyvern~
+The Dark Wyvern attacks you!
+~
+Many an adventurer has lost their lives to the dark wyvern.  
+Their bones litter the floor.
+~
+2|32 8|512|16384 -700 S
+28 0 0 0d0+0 0d0+0          
+0 0
+8 dragon~ 1
+#8234
+torturer~
+the Ducal torturer~
+The Ducal Torturer stands here.
+~
+Without a doubt this man loves his job.  You can hear him humming 
+a ditti under his breath.
+~
+2 8|512 500 S
+20 0 0 0d0+0 0d0+0
+0 0
+8 human~ 1
+#8235
+snakes river~
+the river snake~
+The river snake is big...I mean REALLY BIG!   WATCH OUT !!!!
+~
+The mob looks back at you!
+~
+32|64|128 512 0 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 snake~ 1
+#8236
+character shady~
+the shady character~
+The shady character tries to get your attention.
+~
+This shady character has several documents that you may 
+want to purchase.
+~
+64 512 0 S
+25 0 0 0d0+0 0d0+0
+0 0
+8 drow~ 2
+#8237
+snake deadly~
+a deadly snake~
+A greenish snake attacks you!!!
+~
+The snake has two small arms coming out of  it's abdomen.
+~
+2|32 8|32|512 -230 S
+17 0 0 0d0+0 0d0+0
+0 0
+8 snake~ 0
+#8238
+lizardman~
+the lizardman~
+A huge lizardman bares his fangs. 
+~
+Standing 6' 8" tall, the Lizardman is very impressive.  He bares 
+his fangs at you !!
+~
+2|32 8|32|512 -500 S
+15 0 0 0d0+0 0d0+0
+0 0
+8 lizard~ 1
+#8239
+dragon albino~
+the Albino Dragon~
+A Albino dragon with red eyes stares at you!
+~
+The Albino Dragon has claws like mother of pearl.  Her head 
+skeletal, her fangs wicked.
+~
+2|32 8|32|512 -1000 S
+26 0 0 0d0+0 0d0+0
+0 0
+8 dragon~ 2
+#8240
+abyss monster~
+the ABYSS Monster~
+The ABYSS Monster **** DEMOLISHES **** you.
+~
+The ABYSS Monster is void of reflective surfaces...thus you cannot see it.
+~
+2|32|64 8|32|512|8192|16384 0 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 0
+#8241
+horror~
+the Horror~
+The HORROR attacks you!
+~
+The Horror has Demon armor and a TERRIBLE attitude.
+~
+2|32|64 8|32|512|8192|16384 -1000 S
+28 0 0 0d0+0 0d0+0
+0 0
+8 undead~ 1
+#0
+
+
+#OBJECTS
+#8200
+ration rations field~
+a field ration~
+Field rations on the ground.~
+~
+19 0 1
+4~ 0~ 0~ 0~
+5 0 0
+#8201
+chain black armor~
+a Black Chain armor~
+The Black Chain armor lies on the ground.~
+~
+9 16|512 1|8
+0~ 0~ 0~ 0~
+10 0 0
+A
+13 10
+#8202
+helmet horned~
+a black Horned Helmet~
+A black horned helmet lies here.~
+~
+9 16|64|512|2048 1|16
+0~ 0~ 0~ 0~
+20 0 0
+A
+19 2
+A
+13 10
+#8203
+sword bastard~
+a Bastard Sword~
+A black Bastard Sword is stuck into the ground here.~
+~
+5 16|512 1|8192
+0~ 0~ 0~ 1~
+10 0 0
+A
+13 2
+A
+19 3
+A
+24 2
+#8204
+sack~
+a sack~
+A sack has been dropped.~
+~
+15 0 1
+8~ 0~ 0~ 0~
+3 0 0
+#8205
+shield falcon~
+a Falcon Shield~
+A Falcon Shield has been dropped here.~
+~
+9 1024 1|512
+0~ 0~ 0~ 0~
+10 0 0
+A
+13 10
+A
+23 2
+#8206
+armor plate~
+a set of Plate Armor~
+The Plate Armor has a falcon design upon it.~
+~
+9 64|1024 1|8
+0~ 0~ 0~ 0~
+12 0 0
+A
+2 2
+#8207
+guard shin~
+a set of shin guards~
+A set of shin guards rest here.~
+~
+9 1024 1|32
+0~ 0~ 0~ 0~
+5 0 0
+A
+13 10
+#8208
+sword long~
+a long sword~
+An etched long sword has been thrown to the floor.~
+~
+5 1|1024 1|8192
+0~ 0~ 0~ 3~
+8 0 0
+A
+18 3
+#8209
+wagon wooden~
+a wooden wagon~
+A wooden wagon sits here.~
+~
+15 0 1|16384
+100~ 0~ 0~ 0~
+30 0 0
+A
+14 -80
+A
+17 -10
+#8210
+ring ducal~
+a Ducal Ring~
+The Ducal guards wear this Falcon engraved ring.~
+~
+8 1024 1|2
+0~ 0~ 0~ 0~
+1 0 0
+A
+17 5
+A
+4 1
+A
+3 1
+#8211
+club patrol~
+a Ducal Patrol Club~
+The Ducal Sergeant's Patrol Club rests here.~
+~
+5 1024 1|8192
+0~ 0~ 0~ 8~
+5 0 0
+A
+13 10
+A
+18 1
+A
+19 2
+#8212
+sword short dual~
+a dual pair of short swords~
+The Ducal Captain's dual short swords rests here.~
+~
+5 64|1024 1|8192
+0~ 0~ 0~ 3~
+5 0 0
+A
+5 2
+A
+1 1
+#8213
+halberd~
+a Large Halberd~
+The Ducal armory guard's Halberd rests here.~
+~
+5 0 1|8192
+~ 0~ 0~ 2~
+8 0 0
+A
+19 3
+A
+18 -2
+#8214
+ballista siege~
+a siege ballista~
+A siege ballista stands here.~
+~
+5 0 1|8192
+0~ 0~ 0~ 11~
+20 0 0
+A
+13 -4
+A
+14 -20
+A
+19 5
+#8215
+mask skull~
+a Skull Mask~
+An evil Skull Mask rests here.~
+~
+9 16|512 1|16
+0~ 0~ 0~ 0~
+5 0 0
+A
+23 3
+A
+24 3
+#8216
+well old~
+an old well~
+The old well is covered in ivy.~
+~
+25 0 0
+0~ 0~ 0~ 0~
+5 0 0
+#8217
+pans pots~
+a set of pots and pans~
+Someone has thrown a set of pots and pans on the ground.~
+~
+13 0 1|8192
+0~ 0~ 0~ 0~
+5 0 0
+#8218
+silverware~
+a set of silverware~
+Someone tried to hide a set of silverware here.~
+~
+13 0 1|16384
+0~ 0~ 0~ 0~
+5 0 0
+#8219
+painting~
+a magnificient painting~
+You see a painting of the Giant Warrior Kiki.~
+~
+13 0 1|16384
+0~ 0~ 0~ 0~
+5 0 0
+#8220
+rug~
+a Persian Rug~
+A fine example of a Persian Rug.~
+~
+9 0 1|1024
+0~ 0~ 0~ 0~
+15 0 0
+#8221
+china~
+a set of blue China~
+Stacked neatly in a pile is a set of blue China.~
+~
+13 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8222
+plates silver~
+a set of silver plates~
+Someone has stacked a set of silver plates here.~
+~
+13 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8223
+album family~
+a Family Album~
+A Family Album has accidently been dropped here.~
+~
+13 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8224
+coins gold ~
+some gold coins~
+A pile of gold coins has been dropped here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8225
+jewels red~
+a blazing red jewel~
+A blazing red jewel lies here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 0 0
+#8226
+pearls black~
+a Black Pearl~
+A sailor must have dropped this rare black pearl.~
+~
+8 0 1|16384
+0~ 0~ 0~ 0~
+5 0 0
+#8227
+garnet fire~
+a Fire Garnet~
+A wizard must have lost this Fire Garnet.~
+~
+8 0 1|16384
+0~ 0~ 0~ 0~
+5 0 0
+#8228
+moonstone~
+a Moonstone~
+A glowing Moonstone was dropped by a god!~
+~
+8 1 1|16384
+0~ 0~ 0~ 0~
+5 0 0
+#8229
+coins platinum~
+platinum coins~
+Metal coins of great worth are here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8230
+finger small~
+mort's small finger~
+The God of Light has dropped his small finger to earth.~
+~
+3 1|64|1024|2048 1|16384
+28~ 20~ 20~ dispel evil~ 
+1 0 0
+A
+18 3
+A
+12 15
+#8231
+crowbar~
+a Crowbar~
+A glowing Crowbar has been dropped here.~
+~
+5 1|2|1024 1|8192
+0~ 0~ 0~ 8~
+8 0 0
+A
+18 -1
+A
+19 3
+#8232
+claw harpy~
+a harpy claw~
+A harpy claw has been dropped here.~
+~
+5 64 1|8192
+0~ 0~ 0~ 5~
+2 0 0
+A
+2 2
+A
+24 2
+#8233
+key large~
+the large key~
+The Large Key looks very important.~
+~
+18 0 1
+0~ 0~ 0~ 0~
+1 0 0
+#8234
+candle~
+a candle~
+A lit candle sits here.~
+~
+1 1 1
+0~ 0~ 0~ 0~
+1 0 0
+#8235
+banishing staff~
+the Staff of Banishing~
+A magical staff lies here.~
+~
+4 1|2|64 1|16384
+25~ 20~ 20~ acid blast~ 
+2 0 0
+#8236
+hat~
+a Wizard's Hat~
+A dark blue hat has been thrown on the ground.~
+~
+9 0 1|16
+0~ 0~ 0~ 0~
+5 0 0
+A
+3 2
+A
+4 2
+A
+12 10
+#8237
+potion green~
+a green potion~
+A green potion bubbles while you watch.~
+~
+10 64 1|16384
+20~ gas breath~ poison~ 0~
+2 0 0
+#8238
+pouch purple~
+a purple pouch~
+A pouch rests on the ground.~
+~
+15 0 1|2048
+40~ 0~ 0~ 0~
+2 0 0
+A
+1 1
+A
+2 2
+#8239
+necklace~
+the Necklace of Power~
+A powerful magical necklace has been discarded here.~
+~
+9 64 1|4
+0~ 0~ 0~ 0~
+2 0 0
+A
+12 15
+A
+24 4
+#8240
+book~
+a Book~
+A good book can open mysteries.~
+~
+18 0 1|16384
+0~ 0~ 0~ 0~
+1 0 0
+#8241
+gauntlets~
+a set of Power Gauntlets~
+A set of wizard gauntlets have been discarded here.~
+~
+9 1|64 1|128
+0~ 0~ 0~ 0~
+1 0 0
+A
+2 1
+A
+12 10
+A
+19 2
+#8242
+pile coins~
+a pile of coins~
+A pile of coins have been hidden here.~
+~
+20 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#8243
+bed~
+a feather bed~
+A feather bed calls your name!  Come sleep on me it says.~
+~
+12 0 1
+0~ 0~ 0~ 0~
+10 0 0
+#8244
+portrait~
+a portrait~
+A portrait of Mort, the God of LIGHT has been hidden here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 0
+E
+portrait~
+The portrait is of a young man with an innocent quality about 
+him.  Hidden by black eyes his soul crys out to the world 
+imploring everyone to stop and evaluate themselves.  His
+shoulders are bowed from the weight of sin he is carrying for 
+his worshippers. 
+His torso is highlighted by the glow of GOODNESS, 
+which seems to be generated by him.~
+#8245
+dresser~
+a cedar dresser~
+The cedar dresser is well built by royal carpenters.~
+~
+15 0 1
+100~ 0~ 0~ 0~
+15 0 0
+#8246
+bowl~
+a bowl~
+A water bowl has been left here for you.~
+~
+17 128|512 1
+5~ 1~ 0~ 0~ 
+1 0 0
+A
+1 -10
+A
+2 -10
+A
+12 -60
+A
+13 -20
+#8247
+wyvern mount~
+a wyvern mount~
+The wyvern mount is equipped with a saddle.~
+~
+4 0 1|16384
+0~ 50~ 50~ fly~
+30 0 0
+A
+14 100
+E
+saddle~
+The instructions on the saddle say to hold the Wyvern and then 
+Brandish the reins.~
+#8248
+word~
+a magical word~
+Someone has written a magical word and left it here.~
+~
+18 64 1
+0~ 0~ 0~ 0~
+5 0 0
+#8249
+rumor treasure~
+a treasure rumor~
+A rumor of treasure has been dropped here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 0 0
+E
+treasure~
+The bad wind riders possess riches untold.
+Find their lair and live and you will be rich
+beyond your dreams.  The lair cannot be found
+high above the ground.~
+#8250
+rumor trap~
+a trap rumor~
+A trap rumor has been written down and then mislaid here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 0
+E
+trap~
+The middle ring is as dangerous as the last ring.  
+Step into it and you'll regret your actions.
+Beware the tower!!   BEEEWWWAAARRRREEE~
+#8251
+rumor item~
+an item rumor~
+A rumor has been written down and dropped here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 0 0
+E
+item~
+When freedom is gone.  Beware of gifts.
+The evil which dwells amoungst us can be locked
+away and tortured, can even be cursed. Beware!~
+#8252
+meal~
+a full meal~
+A full three course meal has been put here.~
+~
+19 0 1
+50~ 0~ 0~ 0~
+2 0 0
+#8253
+angelfood cake~
+an Angelfood cake~
+An Angelfood cake has been left here.~
+~
+19 0 1
+5~ 0~ 0~ 0~
+1 0 0
+#8254
+cookie~
+a cookie~
+A delicious cookie has been dropped here.~
+~
+19 0 1
+4~ 0~ 0~ 0~
+5 0 0
+#8255
+cake birthday~
+a birthday cake~
+A birthday cake awaits someone special.~
+~
+19 0 1
+6~ 0~ 0~ 0~
+2 0 0
+#8256
+chain scarlet~
+a Scarlet Chainmail~
+A suit of Scarlet Chainmail has been left here.~
+~
+9 0 1|8
+0~ 0~ 0~ 0~
+5 0 0
+A
+9 -5
+#8257
+helmet scarlet~
+a Scarlet Helmet~
+A Scarlet Helmet has been left here.~
+~
+9 0 1|16
+0~ 0~ 0~ 0~
+5 0 0
+A
+9 -5
+#8258
+cape scarlet~
+a Scarlet Cape~
+A Scarlet Cape with silk lining has been left here.~
+~
+9 0 1|1024
+0~ 0~ 0~ 0~
+5 0 0
+A
+23 3
+#8259
+leggings scarlet~
+a Scarlet Leggings~
+A set of Scarlet Leggings has been left here.~
+~
+9 64 1|32
+0~ 0~ 0~ 0~
+5 0 0
+A
+4 2
+#8260
+boots scarlet~
+a pair of Scarlet Boots~
+A pair of Scarlet Boots has been left here.~
+~
+9 64 1|64
+0~ 0~ 0~ 0~
+5 0 0
+A
+14 30
+#8261
+gloves scarlet~
+a pair of Scarlet Gloves~
+A pair of Scarlet Gloves have been left here.~
+~
+9 64 1|128
+0~ 0~ 0~ 0~
+3 0 0
+A
+1 1
+#8262
+sword razor~
+a Razor Sword~
+A Razor Sword is so sharp you can shave with it.~
+~
+5 64 1|8192
+0~ 0~ 0~ 1~
+8 0 0
+A
+18 2
+A
+19 3
+#8263
+club mineral~
+a mineral club~
+A mineral club, glistening, sits here.~
+~
+5 0 1|8192
+0~ 0~ 0~ 8~
+10 0 0
+A
+19 3
+#8264
+ring fishbone~
+a fishbone ring~
+A fishbone ring has been dropped here.~
+~
+22 64 1|2
+0~ 0~ 0~ 0~
+1 0 0
+A
+12 10
+A
+2 2
+#8265
+claw dragon~
+an Albino Dragon Claw~
+An Albino Dragon Claw sits here.~
+~
+5 16|64 1|8192
+0~ 0~ 0~ 5~
+8 0 0
+A
+18 3
+A
+19 4
+A
+23 2
+#8266
+skull dragon~
+an Albino Dragon Skull~
+An Albino Dragon Skull helmet has been left here.~
+~
+9 16|64 1|16
+0~ 0~ 0~ 0~
+8 0 0
+A
+3 2
+A
+4 2
+A
+5 2
+#8267
+armor dragon~
+an Albino Dragon Armor~
+An Albino Dragon Armor is resting here.~
+~
+9 16|64 1|8
+0~ 0~ 0~ 0~
+10 0 0
+A
+24 2
+A
+23 4
+#8268
+abyss helm~
+an Abyss Helm~
+An Abyss Helm floats here.~
+~
+9 64|512 1|16
+0~ 0~ 0~ 0~
+5 0 0
+A
+3 2
+A
+4 2
+#8269
+abyss ring~
+an Abyss Ring~
+An Abyss Ring floats here.~
+~
+9 64|512 1|2
+0~ 0~ 0~ 0~
+5 0 0
+A
+14 20
+A
+19 2
+#8270
+abyss amulet~
+an Abyss Amulet~
+An Abyss Amulet floats here.~
+~
+9 64|512 1|4
+0~ 0~ 0~ 0~
+5 0 0
+A
+12 10
+A
+5 1
+#8271
+abyss leather jerkin~
+an Abyss leather jerkin~
+An Abyss leather jerkin floats here.~
+~
+9 64|512 1|8
+0~ 0~ 0~ 0~
+5 0 0
+A
+2 1
+A
+13 15
+#8272
+abyss leg guards~
+Abyss leg guards~
+A set of Abyss leg guards have been left here.~
+~
+9 64|512 1|32
+0~ 0~ 0~ 0~
+5 0 0
+A
+24 2
+A
+23 2
+#8273
+abyss boots~
+Abyss boots~
+A pair of Abyss boots float here.~
+~
+9 64|512 1|64
+0~ 0~ 0~ 0~
+5 0 0
+A
+17 10
+#8274
+abyss gloves~
+Abyss gloves~
+A pair of Abyss gloves float here.~
+~
+9 64|512 1|128
+0~ 0~ 0~ 0~
+5 0 0
+A
+13 2
+A
+1 2
+#8275
+abyss sleeves~
+Abyss sleeves~
+A set of Abyss sleeves floats here.~
+~
+9 64|512 1|256
+0~ 0~ 0~ 0~
+5 0 0
+A
+13 5
+#8276
+abyss shield~
+an Abyss shield~
+An Abyss shield floats here.~
+~
+9 64|512 1|512
+0~ 0~ 0~ 0~
+5 0 0
+A
+12 15
+A
+9 -15
+#8277
+abyss bracers~
+an Abyss bracer~
+An Abyss bracer floats here.~
+~
+9 64|512 1|4096
+0~ 0~ 0~ 0~
+5 0 0
+A
+19 2
+A
+18 2
+#8278
+abyss potion~
+an Abyss potion~
+An Abyss potion floats here.~
+~
+10 64|512 1
+0~ pass wall~ invisibility~ shield~
+5 0 0
+#8279
+strange potion~
+a strange potion~
+A strange potion sits here.~
+~
+10 64|512 1
+0~ teleport~ curse~ blindness~
+5 0 0
+#8280
+ring magic~
+a magic ring~
+A magic ring rests here.~
+~
+8 1024 1|2
+0~ 0~ 0~ 0~
+1 0 0
+#8281
+armor chain~
+a set of Chain Armor~
+the Chain Armor is here~
+~
+9 64|1024 1|8
+0~ 0~ 0~ 0~
+12 0 0
+#8282
+shield white~
+a White Shield~
+A White Shield sits here~
+~
+9 1024 1|512
+0~ 0~ 0~ 0~
+10 0 0
+#0
+
+
+#ROOMS
+#8200
+Field of Death~
+The stench of death nearly overpowers you when you enter 
+this area. There must be 200 dead farm animal carcasses 
+scattered about the land. Arrows and spears rise from 
+the dead like a wild field of saplings and there must be      
+a thousand campfires scattered about.  Sure signs of wagons 
+and horses lead South, and a path leads east.
+
+A scrap of paper is stuck on a stick...it flaps in the breeze.
+
+~
+0 4 2
+D1
+~
+~
+0 0 3585
+D2
+~
+~
+0 -1 8201
+E
+paper~
+The scrap of paper reads:
+		======================
+		=    B E W A R E     =
+		=                    =
+		= This area was made =
+		= by Mort for levels =
+		= higher than 15.    =
+		=                    =
+		=   You have been    =
+		=       WARNED       =
+		======================
+~
+S
+#8201
+Burnt Village~
+Rising streamers of smoke spiral into the air from the smoldering 
+ruins of a poor village. Of the twelve buildings only one wall is 
+higher than three feet.  This village has been brutally taken apart 
+and the only sign of life that you can detect  is a large buzzard 
+still digging at the corpse of a villager.
+~
+0 0 2
+D0
+~
+~
+0 -1 8200
+D2
+~
+~
+0 -1 8202
+S
+#8202
+Road to Castle~
+With the village disappearing behind you the road to Castle Reinhold 
+begins to climb upward.  In the distance, past the small stands of 
+trees mixed with the farmlands, you see the castle.  It sits upon a 
+high hill overlooking the Rhein River, commanding a strategic position 
+over the river.  Many an army has beat itself to death upon the Castle.
+~
+0 0 2
+D0
+~
+~
+0 -1 8201
+D2
+~
+~
+0 -1 8203
+S
+#8203
+Bridge over Rhein River~
+This granite bridge is a masterpiece of workmanship.  It spans a chasm 
+three hundred feet deep.  Five foot high granite walls border the entire 
+length of the fifty foot long bridge. On the other side of the bridge 
+you see a cobblestone road leading uphill towards the castle .
+~
+0 4 4
+D0
+~
+~
+0 -1 8202
+D1
+~
+~
+0 -1 8204
+D2
+~
+~
+0 -1 8206
+S
+#8204
+A path along the river.~
+This path is actually large enough for wagons.  As a matter of fact, 
+you see many signs that wagons have passed this way. If you listen 
+very hard you will detect, over the sound of the rushing river, sounds 
+of wood chopping.  Looking ahead you see tiny strands of smoke rising 
+into the air.
+~
+0 0 4
+D1
+~
+~
+0 -1 8205
+D3
+~
+~
+0 -1 8203
+S
+#8205
+Logging Camp~
+You have walked into the middle of a rough logging camp.  Trees are 
+falling in the distance, and axe carrying men are moving about the camp.
+Unlike most camps, this one has women and children.  How strange this is.  
+**  WAIT **  What are those guards doing here?  It appears that you have 
+walked into part of the besieging army's camp.  The loggers are cutting 
+trees for siege engines.
+~
+0 0 3
+D3
+~
+~
+0 -1 8204
+D5
+~
+~
+0 -1 8208
+S
+#8206
+Cobblestone Road~
+After crossing the granite bridge, you feel some relief to be back 
+on solid ground. The Cobblestones were obviously quarried from the 
+area and with great skill the craftsmen of the Castle fitted them 
+together to form a magnificient road.  
+You wonder if humans did the work or if Dwarven craftsmen did it. 
+Hhmmmm. Ahead of you...drifting on the slight breeze from the chasm, 
+you detect the sound of a loud voice.  Someone ahead is shouting.
+~
+0 0 1
+D0
+~
+~
+0 -1 8203
+D2
+~
+~
+0 -1 8207
+S
+#8207
+Scenic Overlook~
+AAAAAaaahhhhhhhh.  The view from this narrow curving road is tremendous.
+Far below you the Rhein River winds its way through the mountains.  
+It's green color matching the  few plants along its banks. 
+To the East you can make out Castle Reinhold.  The three walls surrounding 
+it are fifty feet tall.  Armament crowds every available surface.  
+Three towers rise high into the sky like the points of a crown.  
+Truly this city has never been conquerqued.
+~
+0 0 1
+D0
+~
+~
+0 -1 8206
+D2
+~
+~
+0 -1 8224
+S
+#8208
+Rope Ladder~
+You had better be careful!   This rope ladder is at least one hundred 
+feet long.  It is damp and woven of horse and female hair.  
+With luck you may make it to the bridge below.
+~
+0 0 5
+D4
+~
+~
+0 -1 8205
+D5
+~
+~
+0 -1 8209
+S
+#8209
+Tree Bridge~
+You are now standing on a gigantic tree which has wedged itself 
+into a narrowing of the chasm.  The far end has buried itself into 
+the wall of the cliff.  The other end is protruding into a cave.   
+Better hurry!!!   There's no telling when this thing may collapse!
+~
+0 512 5
+D2
+~
+~
+0 -1 8210
+D4
+~
+~
+0 -1 8208
+S
+#8210
+The Cave Entrance~
+That's a relief!!!   The log bridge was a little too unstable.
+The cave you are in now was carved by the river thousands of years 
+ago.  You can smell  water from inside the cave and from the river below.
+~
+0 8 0
+D0
+~
+~
+0 -1 8209
+D1
+~
+~
+0 -1 8211
+D2
+~
+~
+0 -1 8214
+S
+#8211
+A tiny tunnel~
+The tunnel is PITCH BLACK!  You had better have a light!
+~
+0 8|512 0
+D1
+~
+~
+0 -1 8212
+D3
+~
+~
+0 -1 8210
+S
+#8212
+Crystal Cavern~
+If it weren't for the bats hanging from the roof, this cavern 
+would be the most beautiful place you have ever seen.
+The corners are pitch black still, but you detect the faint 
+gleam of light from many crystal formations.  
+Huge stalamites and other formations combine in a successful 
+effort to create a wonderland.  The soft sound of dropping water 
+sends echoes throughout the cavern and tunnels.
+~
+0 8|8192 0
+D1
+~
+~
+0 -1 8213
+D3
+~
+~
+0 -1 8211
+S
+#8213
+Too Dark to tell.  Scary huh.~
+You have walked into a cavern with a ...FFFAAALLLLLLIIIINNNNNNGGGG   <thump!>
+~
+0 8 0
+D2
+~
+~
+0 -1 8287
+D3
+~
+~
+0 -1 8212
+S
+#8214
+An underground River~
+Lucky you had a boat....otherwise you would not be very cold, 
+wet, and deep into the mountain.
+~
+0 1|4|8 7
+D0
+~
+~
+0 -1 8210
+D1
+~
+~
+0 -1 8215
+S
+#8215
+River ride.~
+You are on the river.  The water that splashes over the edge of 
+your boat is very very cold indeed.
+~
+0 1|8 7
+D1
+~
+~
+0 -1 8216
+D3
+~
+~
+0 -1 8214
+S
+#8216
+Dark cold river.~
+You begin to wonder where this river is taking you.  You have 
+finally noticed that you are not paddling your craft.  The river 
+current has you and you are moving very fast through this underground river.
+~
+0 1|8 7
+D1
+~
+~
+0 -1 8289
+D2
+~
+~
+0 -1 8217
+D3
+~
+~
+0 -1 8215
+S
+#8217
+Inside the mountain.~
+You have finally discovered a place to land.  The river thunders 
+by you and falls into a deep hole just a little beyond this landing.
+You are almost blinded by a flash of daylight coming from above.  
+Straining your eyesight you note that there are metal bars inside 
+the circular tunnel above your head.
+~
+0 4|8 0
+D0
+~
+~
+0 -1 8216
+D4
+~
+~
+0 -1 8218
+S
+#8218
+Plaza Well~
+You are standing at the top of a deep well made of a white marble.  
+
+The rope and bucket are together, waiting for someone who needs 
+the cold water below. To the West, East, and South is Castle Reinhold's plaza.  
+Because of the siege, the citizens are not allowed to set up a bazaar, 
+but are allowed to wander around. 
+After taking in the sites and smells of the Plaza, some of the 
+citizens go East to visit the healer.
+~
+0 0 1
+D1
+~
+~
+0 -1 8223
+D2
+~
+~
+0 -1 8236
+D3
+~
+~
+0 -1 8219
+D5
+~
+~
+0 -1 8217
+S
+#8219
+Western Plaza~
+The entrance to the Plaza area has always been a crowd favorite.  
+Anyone of importance who enters the Plaza must pass through this 
+narrow tunnel opening to get to the Plaza.
+For many citizens, it will be the closest they will ever come to 
+royalty or other people of importance.
+~
+0 0 1
+D1
+~
+~
+0 -1 8218
+D2
+~
+~
+0 -1 8221
+D3
+~
+~
+0 -1 8220
+S
+#8220
+Small Tunnel~
+This small tunnel is very easy to defend.  Arrow slots have been 
+cut into the walls and steel grills are ready to crash down and 
+capture anyone in the tunnel without permission.
+~
+0 8|512 1
+D1
+~
+~
+0 -1 8219
+D3
+~
+~
+0 -1 8222
+S
+#8221
+The Armorer~
+Sounds of a hammer tapping on metal greets your ears as you step 
+into the best armor shoppe in the city.
+Thanks to nearly a lifetime of adventuring, the armorer has collected 
+a fine collection protective armor.
+~
+0 8 0
+D0
+~
+~
+0 -1 8219
+D2
+~
+~
+0 -1 8235
+S
+#8222
+A Small Tunnel~
+The city planners designed this tunnel as a secure means of access 
+to the Plaza and heart of the castle.  
+
+With arrow slits, oil vats, and swing steel grates they did their 
+best to anticipate all situations...be it direct assault or the siege 
+presently going on.
+~
+0 8|512 1
+D0
+~
+~
+0 -1 8288
+D1
+~
+~
+0 -1 8220
+D3
+~
+~
+0 -1 8233
+S
+#8223
+Eastern Plaza~
+There used to be a beautiful herb garden here.  Flowers grew at 
+the corners and with the fountain nearby...a romantic situation 
+was easily created.
+However, one of the civilians goats got loose and ate the herbs.  
+It died shortly afterwards from missing it's herbs, but the loss 
+of the garden still hits the Healer badly.
+~
+0 8 1
+D2
+~
+~
+0 -1 8238
+D3
+~
+~
+0 -1 8218
+S
+#8224
+Preamble to evil.~
+The Castle is very very close now.  It's shadow covers the 
+cobblestone road you are now on.  The stench of blood fills your 
+nostrils and you notice riverlets of it streaming down the 
+cobblestone road.
+
+You can hear the sounds of combat nearby.
+~
+0 0 1
+D0
+~
+~
+0 -1 8207
+D1
+~
+~
+0 -1 8225
+S
+#8225
+Downward Slope~
+At last.  Castle Reinhold shines with the light of GOODNESS.  
+Below you, in the small valley before the gates of the castle, 
+rests an army. A black standard flies from hundreds of spears 
+and the dull beating of war drums fills the air.   
+Death hangs over the valley and needs little help from the 
+smoking ruins of civilian homes to darken the sun and spirits 
+of Good warriors.
+~
+0 0 1
+D2
+~
+~
+0 -1 8226
+D3
+~
+~
+0 -1 8224
+S
+#8226
+Battle Zone~
+Without drawing the attention of the perimeter guards you have 
+walked into the center of the dark camp. You notice for the first 
+time the abscence of camp followers and of beast of burdon.   
+How can an army exist without the comforts of their women...and 
+what about food?   You saw that they left animal carcasses to rot 
+in the sun.  
+
+Hhhmmm.   You stop your contemplation when you notice a stew pot, 
+hanging over a low fire.  You look inside. ***   GASP  ***    
+Floating inside the pot are body parts of a small girl.  
+You now realize that you are in the presence of pure evil.
+~
+0 8192 2
+D0
+~
+~
+0 -1 8225
+D2
+~
+~
+0 -1 8227
+S
+#8227
+Before the Gates~
+Castle Reinhold looms high over your head.   
+It's dark shadow passes across the valley and you feel no comfort 
+from it's strength.  Not now.  
+For you are in the presence of the Dark Captain himself.
+~
+0 0 2
+D0
+~
+~
+0 -1 8226
+D2
+The Castle Gates are tremendous!  They are burned, scarred
+and show signs of great abuse...but they are still standing.
+~
+gate~
+1 0 8228
+S
+#8228
+Castle Entrance~
+You have made it into the castle.  Blood drips from your body onto the floor.  
+Ducal guards are watching you closely...and have been watching you for 
+some time.   They thought at first you were a spy, now they know you are one.  
+For only a spy could get past the Dark Captain.   
+			
+			You are not welcome here spy.
+~
+0 4|8 1
+D0
+The Castle Gates are almost ready to collapse.
+~
+gate~
+1 0 8227
+D2
+~
+~
+0 -1 8229
+S
+#8229
+Palace Road~
+This ancient road has the oldest stonework in the city.  
+The rest of the castle was built off this road, and you can tell by 
+looking around that this is also the most defensive section of the city.
+Ducal Guards are everywhere.  
+You hear the ** CLANKING ** of their armor and of their boots.  
+Somewhere to the West you hear the shrill screaming of woman and kids.
+~
+0 8 1
+D0
+~
+~
+0 -1 8228
+D1
+~
+~
+0 -1 8233
+D2
+~
+~
+0 -1 8232
+D3
+~
+~
+0 -1 8230
+S
+#8230
+Park Avenue~
+If the civilians weren't here, you would discover a park beyond 
+measure in beauty. However,  the civilians have turned this park 
+into a pig sty.  Trash and possessions are everywhere.   
+Sanitation facilities are overrun.  Men and women, with children 
+running rampant, have let their fear of the evil outside the walls 
+to turn them into animals. The sight makes you sick to your stomach.
+~
+0 8 1
+D1
+~
+~
+0 -1 8229
+D2
+~
+~
+0 -1 8231
+S
+#8231
+South End of Park~
+Here was once a beautiful pond.  Swans graced it's surface with 
+beauty, and brought smiles to the faces of small children.
+Today, it is the parents who smile.  They who have full bellies 
+for the first time in many weeks.  Yes, they even smile as they 
+beat their clothes clean in the green oily water of the pond.
+~
+0 0 2
+D0
+~
+~
+0 -1 8230
+S
+#8232
+Palace Entrance~
+The entrance to the royal palace has been barricaded with 
+iron grills.  Much thought and planning went into the effort as 
+not even the best thief in the world could open the doors.   
+There must be another entrance to the palace.
+~
+0 0 1
+D0
+~
+~
+0 -1 8229
+S
+#8233
+Grendel Avenue~
+This magnificient Avenue has been dedicated to Grendel, the Giant Warrior.  
+His exploits have become legend and the citizens of Castle Reinhold have 
+attempted to show him how much they care for him.
+~
+0 8 1
+D1
+~
+~
+0 -1 8222
+D2
+~
+~
+0 -1 8234
+D3
+~
+~
+0 -1 8229
+S
+#8234
+The Bakery~
+Even during time of war...the smell of a bakery can put a smile 
+on someones face. And judging from the terrific aroma floating 
+on the breeze, the baker is hard at work.
+~
+0 8 0
+D0
+~
+~
+0 -1 8233
+S
+#8235
+The Weaponsmith~
+The ** SCRAPING ** noise that you hear is the sound of a craftsman 
+honing the blade of a fine weapon.
+
+The last thing you want to do is mess with this guy.  His shop is 
+immaculate and there is always a weapon on hand.
+
+Large wooden barrels hold dozens of spears and arrows, while unstrung 
+bows hang from hooks on the wall.  
+Cases and bookshelves hold hundreds of swords and knives.
+~
+0 8 0
+D0
+~
+~
+0 -1 8221
+D1
+~
+~
+0 -1 8237
+S
+#8236
+Southern Plaza~
+The Southern Plaza has always been an open air market.  That is, 
+until the siege.
+Today the Plaza is empty.  Not a vendor in sight.
+The Southern Plaza is grey cobblestone with green ivy growing on 
+nearby buildings.
+~
+0 8 0
+D0
+~
+~
+0 -1 8218
+D2
+~
+~
+0 -1 8237
+S
+#8237
+Parade Grounds~
+This large dirt lot is void of all grass due to the marching feet 
+of trainees learning close order drill.  
+The Ducal Guard has always claimed this area as it's own.
+Cadets learn teamwork and other group skills here.
+~
+0 8 0
+D0
+~
+~
+0 -1 8236
+D1
+~
+~
+0 -1 8240
+D2
+~
+~
+0 -1 8241
+D3
+~
+~
+0 -1 8235
+S
+#8238
+Dark Tunnel~
+The plaza is behind you and darkness is with you.  Like the heart of 
+the earth, this tunnel, this path, must lead to something better.  
+This path through darkness smothers your soul.
+
+Ahead...at the end of the tunnel you see a light.
+~
+0 4|8 0
+D0
+~
+~
+0 -1 8223
+D2
+~
+~
+0 -1 8239
+S
+#8239
+The LIGHT~
+You have entered a sanctuary to the God of Light !  
+
+High above your head are thousands of balls of light, eternally 
+lighting this room. To the West is an exit and to the East is one 
+of the God's clerics blessing a group of villagers and Ducal guards.
+Perhaps he has time to see you as well.
+~
+0 8|1024|8192 0
+D0
+~
+~
+0 -1 8238
+D2
+~
+~
+0 -1 8240
+S
+#8240
+Peace Garden~
+Although this garden is close to the Parade Grounds, it is still 
+one of the most peaceful places within the Castle.
+A white gravel path meanders amoungst six foot tall hedges.  
+Small statues dot the landscape and a fountain or two provides 
+many birds a source of refreshment. Ivy covered walls complete the scene.
+~
+0 4 1
+D0
+~
+~
+0 -1 8239
+D2
+~
+~
+0 -1 8244
+D3
+~
+~
+0 -1 8237
+S
+#8241
+First Floor Barracks~
+Uh oh.  You have entered the Ducal Guard Barracks.
+A few tables and chairs are currently occupied, but there seems 
+to be a free one near the fireplace.
+
+As you sit, your eyes adjust to the dim light and you see several 
+cadets fixing their armor, while others are practicing their hand 
+to hand communication skills.
+~
+0 8 1
+D0
+~
+~
+0 -1 8237
+D4
+~
+~
+0 -1 8242
+S
+#8242
+The Second Floor~
+This narrow hallway leads to several individual rooms and at the end 
+of the corridor is a staircase leading upwards to the third floor.
+Along the length of the corridor are rooms.  
+Several Cadets sleep in the same room.
+
+The Cadet rooms are bare except for a sleeping mat, a chamber pot, 
+and a weapons rack.
+~
+0 8 0
+D4
+The Armory Door looks like a vault.
+~
+door~
+1 0 8243
+D5
+~
+~
+0 -1 8241
+S
+#8243
+The Armory~
+A thick, reinforced door is open about a foot.  Inside you see racks 
+and racks of weapons and bins of armor.
+
+The door is obviously not supposed to be open.  Many of the weapons 
+appear to be home made...perhaps from the militia.  The other items 
+are very very good.
+~
+0 8 0
+D5
+The Armory door looks like a vault.
+~
+door~
+1 0 8242
+S
+#8244
+Crowbar Street~
+Crowbar Street has been dedicated to a valient warrior spirit.  
+A spirit without fear or regret, without remorse.  A spirit whose foes
+dread meeting..knowing that they will die.  Maybe not this time, 
+but soon.
+~
+0 8 1
+D0
+~
+~
+0 -1 8240
+D2
+~
+~
+0 -1 8245
+S
+#8245
+Kiki Street~
+Large stones from a nearby quarry have been used to create a primal, 
+raw, artistic expression.  In tribute to the great warrior woman Kiki, 
+the Duke had his best craftsman work for many weeks to blend the energy 
+of nature with the control and power of an irresistable woman.
+~
+0 8 1
+D0
+~
+~
+0 -1 8244
+D2
+This large, reinforced door has been beaten on, burned, and attacked with
+magic....and it still stands.
+~
+door~
+1 8233 8246
+S
+#8246
+Keep Entrance~
+Castle Reinhold is heavily fortified from without, with three major 
+walls and several defensive towers.
+
+Within the maze is Reinhold Keep.  With walls twenty feet thick, 
+grills at every entrance this Keep is the goal of every invader.
+Built to withstand an extended direct assault, the Keep has been 
+stocked with supplies to last two years.
+~
+0 8 0
+D0
+This door has been beaten on, burned, and attacked by magic.  
+It still stands.
+~
+door~
+1 8233 8245
+D2
+~
+~
+0 -1 8247
+S
+#8247
+Main Hall~
+This is the Main Hall of the Keep.   
+Shields hang from the walls and banners hang from the ceiling.  
+Suits of armor are spaced along the length of the room.
+~
+0 4|8|8192 0
+D0
+~
+~
+0 -1 8246
+D2
+~
+~
+0 -1 8257
+D3
+~
+~
+0 -1 8248
+S
+#8248
+Forest Hall~
+Aaaaahhhh.  Indoor plants abound in this room.  Tall trees scrape 
+the glass ceiling twenty feet up while a riotous blend of flora swells 
+from the corners to a centerpiece statue.
+The statue is of Duke Reinhold.  Large, armored in his favorite platemail, 
+with sword drawn he presents an impressive figure.
+~
+0 8 0
+D1
+~
+~
+0 -1 8247
+D2
+~
+~
+0 -1 8253
+D3
+~
+~
+0 -1 8249
+S
+#8249
+Dining Hall~
+Three HUGE fireplaces light and warm this gathering place.  
+In the center of the room is a table made from half of a giant 
+redwood.  Deeply polished and beautifully emblazoned this table 
+seats approximately fifty persons.
+
+Silver candlesticks are scattered about, and on the walls, amoungst 
+the shields, banners and other trophies of war, you see chains for 
+securing prisoners to the wall.
+~
+0 8 0
+D1
+~
+~
+0 -1 8248
+D2
+~
+~
+0 -1 8252
+D3
+~
+~
+0 -1 8251
+S
+#8250
+Ceptic Tank~
+You IDIOT!  You have stepped into a very deep ceptic tank.  
+
+		       You FAALLLLLLLLL!!!
+
+You land in a pile of ofal three feet thick.  Liquids quickly seep 
+into every crevice of your armor and SOMETHING scitters across the 
+filth and rubs against your leg before it slithers into the darkness.
+~
+0 4|8|512 0
+S
+#8251
+The Indoor Toilets~
+Who would have thought it??  Indoor toilets!  The world will always 
+be able to amaze you.
+The attendant has obviously spent a lot of time on the seats...
+they virtually GLOW!
+~
+0 8|512 0
+D1
+~
+~
+0 -1 8249
+D5
+~
+~
+0 -1 8250
+S
+#8252
+The Kitchen~
+The HEAT from the two fireplaces has this room as hot as the sun...
+or so it seems.
+
+A few small tables are scattered around the room for food preparation 
+and there are four cabinets with cooking supplies in them.
+A set of burnished copper pots hang from the ceiling.  Some very sharp 
+knives are stuck into a wooden target off to the side of the largest 
+preparation table.
+~
+0 8 0
+D0
+~
+~
+0 -1 8249
+S
+#8253
+Flight of stairs~
+As you walk into this room you hear a sound like a distance gong 
+being struck.
+At the rear of the room, a spiral staircase goes upward into the 
+darkness of the tower.
+Scattered about on the floor is several months of accumulated trash 
+and dust.
+Brush marks indicate that someone has attempted to sweep the trash 
+but as far as you can see to little success.
+~
+0 8|512 0
+D0
+~
+~
+0 -1 8248
+D4
+~
+~
+0 -1 8254
+S
+#8254
+The First Ring ~
+The First Ring of the tower is devoted to the trappings of a mage.  
+With tapestries of blackness hanging from the walls the room is 
+dark indeed.
+Shining sconces of silver have foot thick candles burning in them...
+the candles giving off a peculiar aroma, faint yet cloying.
+Bookcases line the walls and bins of scrolls are stacked in the corners.  
+If you were a sage you could spend twenty years just catagorizing 
+this treasure trove of information.
+~
+0 8 0
+D4
+~
+~
+0 -1 8255
+D5
+~
+~
+0 -1 8253
+S
+#8255
+The Second Ring~
+In the center of this room is a silver summoning circle.  
+The circle is actually imbedded into the ground...and appears to be 
+very thick.
+While you watch...a shimmering blur of color appears inside the circle.  
+It quickly resolves into a beast of unimaginable horror.  You are 
+revolted by what you see.
+The third head of the four headed beast turns to you and says, 
+"You are puny and have nothing which I desire.  You will live.  
+When you become a Demigod, return here and I will open the gate for you 
+to another place."  The monster then dissapears.
+~
+0 8 0
+D1
+A shimmering ward.
+~
+Ward~
+1 8248 8286
+D4
+~
+~
+0 -1 8256
+D5
+~
+~
+0 -1 8254
+S
+#8256
+Third Ring~
+This last level is high above the castle proper.  Open to the air 
+with no railing, it is a dangerous place.
+
+In the center of the room is an urn of ponderous weight and awe 
+inspiring workmanship.  
+
+Wards of power hang glowing in the air..inches from your face.  
+There is a shimmering field of power glowing just off the edge of the level.
+~
+0 512|8192 0
+D5
+~
+~
+0 -1 8255
+S
+#8257
+Red Hall~
+This beautifully decorated room also contains some of the strangest 
+trophies you have ever seen.  
+Battle tophies occupy the majority of the wall space, however, there 
+are also some hunting trophies intermixed with the shields, banners, 
+and weapons of long vanquished enemies.
+~
+0 8 0
+D0
+~
+~
+0 -1 8247
+D2
+~
+~
+0 -1 8258
+S
+#8258
+Grand Hall~
+With magically glowing banners and balls of light, this room is lit 
+with daylight.
+A feeling of confidence overwhelms your senses as you realize that 
+Duke Reinhold has the situation well under control.
+His near presence has almost driven every other thought out of your head.
+~
+0 8 0
+D0
+~
+~
+0 -1 8257
+D2
+~
+~
+0 -1 8259
+S
+#8259
+Audience Chamber~
+In the middle of the room is a gigantic throne.  It is shaped 
+like a peacock with the feathers embedded with jewels and gems 
+from around the world.
+Tall candles illuminate this area with a soft light that is very 
+soothing and calming.
+~
+0 8 0
+D0
+~
+~
+0 -1 8258
+D2
+~
+~
+0 -1 8260
+S
+#8260
+Grand Staircase~
+The Grand Staircase is a miracle of architecture.  There are no 
+visible means of support for this circular staircase.   
+It's wonderful glow is all natural <not magically enhanced>.
+~
+0 8 0
+D0
+~
+~
+0 -1 8259
+D2
+~
+~
+0 -1 8269
+D3
+~
+~
+0 -1 8261
+S
+#8261
+Great Hall~
+The Great Hall is the pride and joy of Duchess Reinhold.  
+She has directed the activities of the architects and artisans for 
+the last five years and has finally given her seal of approval.
+The Great Hall has been painted with the exploits of popular myth 
+and with Duke Reinhold's own adventures.
+~
+0 8 0
+D1
+~
+~
+0 -1 8260
+D2
+~
+~
+0 -1 8268
+D3
+~
+~
+0 -1 8262
+S
+#8262
+The Great Hall~
+Wonderful paintings decorate the ceiling of this hallway.  Tremendous 
+efforts have gone into making this an example for all visiting 
+dignitaries to take back to their homes.
+~
+0 8 0
+D1
+~
+~
+0 -1 8261
+D2
+~
+~
+0 -1 8267
+D3
+~
+~
+0 -1 8263
+S
+#8263
+Middle Hall~
+This section of hallway is currently under construction.  
+Upon completion, it should rival the Great Hall.
+If you look closely you will see the beginnings of a large mosaic.
+~
+0 8 0
+D1
+~
+~
+0 -1 8262
+D2
+~
+~
+0 -1 8266
+D3
+~
+~
+0 -1 8264
+S
+#8264
+End of the Hall~
+BE CAREFUL!  This end of the hall is extremely unstable.  Large 
+loose blocks of masonry have fallen before and could fall again.
+~
+0 8 0
+D1
+~
+~
+0 -1 8263
+D2
+~
+~
+0 -1 8265
+S
+#8265
+Large Bedroom~
+You have entered the large bedroom set aside for guests.  
+At this moment the workers have all of their equipment stored here.  
+Not a pretty sight I assure you.
+~
+0 8 0
+D0
+~
+~
+0 -1 8264
+S
+#8266
+Visitor's Room~
+This room has also been set aside for visitors.  Many a dignitary 
+has stayed here.
+~
+0 8 0
+D0
+~
+~
+0 -1 8263
+S
+#8267
+Master Bedroom~
+This bedroom belongs to the Duke and Duchess.  It is magnificient.  
+Very opulant and with every modern gadget you can imagine.
+Their bed is a huge canopy bed with red ruffles.  Silk sheets and 
+pillows accessorize the royal love nest.
+~
+0 8 0
+D0
+~
+~
+0 -1 8262
+S
+#8268
+Mistress Bedroom~
+Duchess Reinhold has her own bedroom for those special nights that 
+the Duke stays out drinking with his war buddies.
+She has many of her personal items here as well as her jewelry collection.
+Pink is the dominant color.
+~
+0 8 0
+D0
+~
+~
+0 -1 8261
+S
+#8269
+Great Library~
+Aaaahhhh. The Great Library is the centerpiece of the continent and 
+the free world.
+There are thousands upon thousands of hard bound books within this library.
+Cedar and Cherry wood shelves cover all four walls from top to bottom.  
+You need a ladder to reach the upper shelves.
+There are two very comfortable chairs in the center of the room.  
+An oil lamp rests on the table nearby.
+~
+0 8 0
+D0
+~
+~
+0 -1 8260
+D2
+The bookshelf appears to be well made, with some type of roller system
+attached to the upper and lowers ends.
+With a slight pressure, the bookshelf will swing open.
+~
+door~
+2 8240 8270
+S
+#8270
+A Bookshelf~
+After stepping through the bookshelf you entered a secret passageway.
+There appears to be no one around.
+~
+0 4|8 0
+D0
+The bookshelf appears to be well made, with some type of roller system
+attached to the upper and lowers ends.
+With a slight pressure, the bookshelf will swing open.
+~
+door~
+1 8240 8269
+D2
+~
+~
+0 -1 8271
+S
+#8271
+Dirty passageway~
+This passageway has become very small all of a sudden.  SSSSShhhhhhhhh!!
+Quiet!  I think that I hear something...or someone.
+~
+0 8 0
+D0
+~
+~
+0 -1 8270
+D2
+~
+~
+0 -1 8274
+D3
+~
+~
+0 -1 8272
+S
+#8272
+A narrow passageway~
+Bending over double you move forward.
+~
+0 8|512 0
+D1
+~
+~
+0 -1 8271
+D5
+~
+~
+0 -1 8273
+S
+#8273
+Shaky stairway~
+This stairway is extremely small and not well built.  At the bottom 
+of the stairs you hear metal hitting against metal.
+~
+0 8|512 0
+D3
+~
+~
+0 -1 8282
+D4
+~
+~
+0 -1 8272
+S
+#8274
+Natural Cave~
+The manmade tunnel that you were following has become a natural cave.
+~
+0 1|8 0
+D0
+~
+~
+0 -1 8271
+D2
+~
+~
+0 -1 8275
+S
+#8275
+The Dead Cavern~
+Long ago this cavern was carved by a river or stream.  A river long dead.
+~
+0 8 0
+D0
+~
+~
+0 -1 8274
+D2
+~
+~
+0 -1 8276
+D3
+~
+~
+0 -1 8281
+S
+#8276
+Small cave~
+Fresh air streams through a small opening in the cave wall to the East.  
+The opening is approximately three feet wide and is coated in bat droppings.
+~
+0 8 0
+D0
+~
+~
+0 -1 8275
+D2
+~
+~
+0 -1 8277
+D3
+~
+~
+0 -1 8279
+S
+#8277
+Overlook cave~
+The outer wall of this cave has been caved in by someone or something, 
+creating a nine foot wide entrance.
+
+Below you and down the hill a bit is a small road running alongside 
+the Rhein River.
+
+To your West you detect a terrible smell.
+~
+0 8 0
+D0
+~
+~
+0 -1 8276
+D5
+~
+~
+0 -1 8204
+D3
+~
+~
+0 -1 8278
+S
+#8278
+The Lair~
+Unfortunately for you..this cavern is occupied!  BETTER FLEE !!!!
+~
+0 8 0
+D1
+~
+~
+0 -1 8277
+S
+#8279
+A dark dangerous cavern~
+You are standing in the presence of several wild wyverns.  
+		       
+		       They *** ATTACK *** You.
+~
+0 8|8192 0
+D1
+~
+~
+0 -1 8276
+D4
+~
+~
+0 -1 8280
+S
+#8280
+Treasure Room~
+This tiny cave is too small for the wyverns to enter, however, it 
+has not stopped them from hiding their items here.
+Uh oh!  Perhaps I spoke too soon.  It appears that at least one 
+wyvern has made it into the room.
+
+Perhaps if you help it get out it will serve you for a few years.
+~
+0 4|8|8192 0
+D5
+~
+~
+0 -1 8279
+S
+#8281
+Side cavern~
+You are standing in a tiny side cavern compared to others you 
+have seen. This cavern seems peaceful enough.  Perhaps you can 
+rest a moment.  ZZZZZzzzzz.
+~
+0 4|8|8192 0
+D1
+~
+~
+0 -1 8275
+S
+#8282
+The Torturer's Pit~
+After surviving the ancient stairs you come to the entrance of 
+Duke Reinhold's dungeon.
+
+Screams of pure agony can be faintly heard.
+~
+0 4|8|8192 0
+D1
+~
+~
+0 -1 8273
+D3
+~
+~
+0 -1 8283
+S
+#8283
+Torture Chamber~
+Uuhhhgg.  This room reeks of death and torture.  In the center of 
+the room is the fire pit.  Inside which three irons are constantly 
+being heated.
+
+To the side is a hideous bed with straps to hold victims down.  
+Alongside the bed is a feather.  
+
+Chains are imbedded deeply in society but we will never know.
+The Torturer is humming a special song as he works.  
+"I love you, you love me, " etc..
+~
+0 4|8|8192 0
+D1
+~
+~
+0 -1 8282
+D3
+~
+~
+0 -1 8285
+S
+#8284
+Dungeon Cell~
+The cell you are in has been approved by the GOOD Alliance Board 
+of Regents.
+
+There is a bedding of freshly picked flowers on the floor for when 
+you need sleep. Many writings on the wall are inspirational sayings...
+trying to remind evil followers that they are hurting real people.
+
+There appears to be writing on the wall.
+~
+0 4|8|512 0
+E
+writing~
+The Duk suxs!  His wife is a whore!  His children are pigs!
+~
+S
+#8285
+The Last Mile~
+Many of the evil inmates have cried for mercy as they are taken down 
+this tunnel.
+~
+0 4|8|8192 0
+D0
+~
+~
+0 -1 8284
+D1
+~
+~
+0 -1 8283
+D2
+~
+~
+0 -1 8284
+D3
+~
+~
+0 -1 8284
+S
+#8286
+Inside the Summoning Ring~
+You are completely surrounded by a ring of magic and silver.  
+If you try to touch the sides you receive a massive shock and you 
+are thrown backwards.
+The monsters from this area have come from this summoning ring.  
+The ring maintains links to them and if you look closely you can 
+see lines of power feeding them.
+Travel along the lines and you will magically arrive at the beasts.
+~
+0 4|8|512|8192 0
+D1
+~
+~
+0 -1 8296
+D2
+~
+~
+0 -1 8205
+D3
+The shimmering ward.
+~
+Ward~
+1 8248 8255
+D4
+~
+~
+0 -1 8295
+S
+#8287
+The Way Out~
+Lucky you.  Now, be careful next time.  This cave leads to safety.
+To the East is a swirling magical vortex....step into it and you'll be safe.
+~
+0 8|8192 0
+D0
+~
+~
+0 -1 8213
+D1
+~
+~
+0 8248 8200
+S
+#8288
+Mercantile~
+The building you are standing in has a quaint atmosphere about it.  
+There are many adventuring items hanging from hooks and thrown on 
+shelves.  A huge counter, piled high with odds and ends, attracts 
+your attention.  You step up to the counter.
+~
+0 8 0
+D2
+~
+~
+0 -1 8222
+S
+#8289
+A Dangerous Fall~
+The river is becoming violent as it dives into a huge hole in the 
+ground.  The underground  river goes underground.
+
+Are you really sure that you want to continue?
+~
+0 8 7
+D3
+~
+~
+0 -1 8216
+D5
+~
+~
+0 -1 8290
+S
+#8290
+No exit blackness~
+Doomed Doomed Doomed Doomed Doomed Doomed Doomed.
+
+The river beats a rythem upon the rocks.  As the river hits the rocks 
+it splashes towards the walls of the cavern, creating interesting 
+designs and crevices.
+~
+0 8 7
+D3
+~
+~
+0 -1 8291
+D4
+~
+~
+0 -1 8289
+S
+#8291
+Under the waterfall~
+Under the waterfall is a beautiful cavern, glistening wet from the 
+spray of the water.
+You see a florescent moss growing on the walls of the cavern, 
+illuminated a tunnel leading deeper into the mountain.
+The floor of this cave has been many wet trails leading from the 
+waterfall's pool to the tunnel before you.
+~
+0 8 0
+D0
+~
+~
+0 -1 8292
+D1
+~
+~
+0 -1 8290
+S
+#8292
+The waterfall tunnel~
+This tunnel goes DEEP into the mountain.  The further you go 
+the chiller the air becomes until you are able to see your breath.
+~
+0 8 0
+D2
+~
+~
+0 -1 8291
+D3
+~
+~
+0 -1 8293
+S
+#8293
+A Large underground cavern~
+You have entered another world.  There is a large reptillian presence here.
+Many small mud dens rise like igloos from the damp floor of the cavern.
+~
+0 8 0
+D1
+~
+~
+0 -1 8292
+D4
+~
+~
+0 -1 8294
+S
+#8294
+God's Room~
+The room you are in has many elements of the underwater world.  
+Deep in the back recesses of the cavern is a massive bulk.
+It appears that the lizardmen have been feeding and worshipping 
+a small dragon!
+~
+0 8 0
+D5
+~
+~
+0 -1 8293
+S
+#8295
+Hall of Horrors~
+You have entered the Hall of Horrors.  Terrible SOUNDS can be heard...the 
+screaming of thousands of souls SCREAMING their last cries into the 
+darkness.  On the walls of this Hall are thousands upon thousands of 
+flayed skin tapestries.  All races are represented.
+~
+0 8|512 0
+D5
+~
+~
+0 -1 8286
+S
+#8296
+The Dark Abyss~
+You are standing upon a tiny, 2 foot square piece of rock....  floating 
+in the blackest abyss.  As you look around, you see the door and the rock 
+you are standing on....and that is all.  The blackness is so complete it 
+is oppressive.  The weight of the world beats down upon your head.
+~
+0 8|512 0
+D3
+~
+~
+0 -1 8286
+S
+#0
+
+
+#RESETS
+*
+M 1 8205 1 8201    the Villager to Burnt Village
+G 1 8224 100
+*
+M 1 8200 1 8201          the Insane Villager to Burnt Village
+G 1 8200 100
+G 1 8204 100
+*          
+*
+M 1 8202 1 8205          the Dark Knight to Logging site
+E 1 8201 1 12
+E 1 8215 1 6
+G 1 8200 100
+*
+M 1 8204 1 8205          the Dark Soldier to Logging site
+O 1 8209 1 8205          a wooden wagon to Logging Camp
+O 1 8214 1 8205          a siege ballista to Logging Camp
+*
+M 1 8201 1 8207
+O 1 8214 1 8205         a siege ballista to Logging Camp
+O 1 8216 1 8218         an old well to Top of the well.
+*
+M 1 8208 1 8221       Captain Jack to The Armorer
+G 1 8280 10                                                                   
+G 1 8281 10                                                                   
+G 1 8282 10                                                                   
+*                                                           
+*                                                             
+*                                                                  
+*
+M 1 8204 1 8225    the Dark Soldier to Downward Slope
+*
+*
+M 1 8202 1 8226
+E 1 8215 1 6
+*
+E 1 8201 1 5
+E 1 8215 1 6
+G 1 8200 100
+*
+M 1 8202 4 8226    the Dark Knight to Battle Zone
+E 1 8201 1 5
+E 1 8215 1 6
+G 1 8200 100
+*
+M 1 8204 1 8226    the Dark Soldier to Battle Zone
+*
+M 1 8203 1 8227    Captain Vader to Before the Gates
+E 1 8201 1 5
+E 1 8202 1 6
+E 1 8203 1 16
+G 1 8200 100
+*
+M 1 8202 4 8227    the Dark Knight to Before the Gates
+E 1 8201 1 5
+E 1 8215 1 6
+*
+M 1 8204 1 8227    the Dark Soldier to Before the Gates
+*
+M 1 8206 4 8229    the Ducal Guard to Palace Road
+E 1 8207 1 7
+E 1 8205 1 11
+E 1 8208 1 16
+*
+M 1 8206 4 8229
+*
+M 1 8212 1 8229    the Ducal Sergeant to Palace Road
+E 1 8210 1 1
+E 1 8206 1 5
+E 1 8211 1 16
+*
+M 1 8206 4 8232    the Ducal Guard to Palace Entrance
+E 1 8210 1 1
+G 1 8200 100
+*
+M 1 8205 1 8230    the Villager to Park Avenue
+G 1 8219 1 
+*
+M 1 8205 2 8230    the Villager to Park Avenue
+E 1 8227 1 17
+*
+M 1 8205 1 8231    the Villager to South End of Park
+G 1 8220 100
+*
+M 1 8207 1 8234    Joe the Baker to Bakery
+G 1 8200 10                                                                 
+G 1 8253 20                                                                 
+G 1 8254 20                                                                 
+G 1 8255 20                                                                 
+*
+M 1 8209 1 8235    Armon the weaponsmith to The Weaponsmith
+G 1 8231 200                                                                   
+G 1 8213 200                                                                   
+*
+M 1 8216 1 8239    John Paul the cleric to The LIGHT
+*
+M 1 8211 1 8237    the Warlord to Parade Grounds
+*
+M 1 8206 4 8241    the Ducal Guard to First Floor Barracks
+*
+M 1 8215 3 8241    the young Cadet to First Floor Barracks
+*
+M 1 8215 3 8242    the young Cadet to The Second Floor
+*
+M 1 8214 2 8243
+E 1 8206 1 5
+E 1 8213 1 16
+*
+M 1 8214 2 8243    the  Armory Guards to The Armory
+E 1 8206 1 5
+E 1 8213 1 16
+*
+M 1 8215 4 8237    the young Cadet to Parade Grounds
+O 1 8231 1 8243     a Crowbar to The Armory
+O 1 8208 1 8243      a long sword to The Armory
+*
+M 1 8205 1 8240    the Villager to Peace Garden
+E 1 8227 1 17 
+*
+M 1 8217 1 8244    an Alert Guard to Crowbar Street
+E 1 8232 1 16 
+*
+M 1 8206 4 8246    the Ducal Guard to Keep Entrance
+E 1 8213 1 16 
+*
+M 1 8212 2 8246    the Ducal Sergeant to Keep Entrance
+E 1 8210 1 1  
+E 1 8210 1 2 
+E 1 8206 1 5
+E 1 8207 1 7 
+E 1 8205 1 11
+E 1 8211 1 16
+E 1 8228 1 17
+*
+M 1 8217 1 8246    an Alert Guard to Keep Entrance
+*
+M 1 8217 1 8245    an Alert Guard to Kiki Street
+E 1 8231 1 16 
+G 1 8233 100 
+*
+M 1 8221 1 8251    the toilet attendant to The Indoor Toilets
+*
+M 1 8218 2 8249    a servant to Dining Hall
+*
+M 1 8219 1 8252    the fat cook to The Kitchen
+*
+M 1 8225 1 8253    the loyal apprentice to Flight of stairs
+*
+M 1 8226 1 8254    the tower guardian to The First Ring 
+*
+M 1 8226 1 8255    the tower guardian to The Second Ring
+*
+M 1 8224 1 8256    the Royal Wizard to Third Ring
+E 1 8239 1 3
+E 1 8236 1 6
+E 1 8238 1 13
+E 1 8235 1 17
+E 1 8241 1 9
+G 1 8237 100
+G 1 8237 100
+G 1 8248 100
+*
+M 1 8220 1 8248    the Courtier to Forest Hall
+*
+M 1 8228 1 8248    the cleaning wench to Forest Hall
+*
+M 1 8218 3 8249    a servant to Dining Hall
+*
+M 1 8220 2 8257    the Courtier to Red Hall
+*
+M 1 8218 2 8257    a servant to Red Hall
+*
+M 1 8206 5 8257    the Ducal Guard to Red Hall
+*
+M 1 8206 6 8258    the Ducal Guard to Grand Hall
+*
+M 1 8212 3 8258    the Ducal Sergeant to Grand Hall
+E 1 8206 1 5 
+E 1 8211 1 16
+*
+M 1 8206 7 8259
+*
+M 1 8222 1 8259    Duke Reinhold to Audience Chamber
+E 1 8210 1 1
+E 1 8210 1 2
+E 1 8256 1 5
+E 1 8257 1 6
+E 1 8259 1 7
+E 1 8260 1 8
+E 1 8261 1 9                                                                            
+E 1 8205 1 11
+E 1 8258 1 12
+E 1 8262 1 16
+*
+M 1 8223 1 8259    the Duchess Reinhold to Audience Chamber
+*
+M 1 8206 8 8259    the Ducal Guard to Audience Chamber
+*
+M 1 8220 4 8259    the Courtier to Audience Chamber
+*
+M 1 8218 2 8259    a servant to Audience Chamber
+*
+M 1 8229 1 8264    the chamber pot boy to End of the Hall
+*
+M 1 8228 1 8264    the cleaning wench to End of the Hall
+*
+M 1 8229 1 8266
+*
+M 1 8229 1 8266    the chamber pot boy to Visitor's Room
+*
+M 1 8228 1 8266    the cleaning wench to Visitor's Room
+*
+M 1 8228 1 8267    the cleaning wench to Master Bedroom
+*
+M 1 8229 1 8267    the chamber pot boy to Master Bedroom
+*
+M 1 8229 1 8268    the chamber pot boy to Mistress Bedroom
+*
+M 1 8228 1 8268    the cleaning wench to Mistress Bedroom
+*
+M 1 8217 1 8268    an Alert Guard to Mistress Bedroom
+*
+M 1 8217 1 8267    an Alert Guard to Master Bedroom
+*
+M 1 8227 1 8269    the Librarian to Great Library
+G 1 8240 100
+*
+M 1 8217 1 8272      an Alert Guard to A narrow passageway
+*
+M 1 8230 1 8274      the Grey Nonderon to Natural Cave
+*
+M 1 8231 1 8275
+*
+M 1 8231 1 8275      the Black Ameiba to The Dead Cavern
+*
+M 1 8232 2 8278         the dirty harpy to The Lair
+O 1 8218 1 8278         a set of silverware to The Lair
+O 1 8214 1 8278         a siege ballista to The Lair
+O 1 8232 1 8278         a harpy claw to The Lair
+*
+M 1 8233 1 8279         the dark wyvern to A dark dangerous cavern
+M 1 8233 2 8280		The dark wyvern to Treasure Room
+M 1 8233 2 8280		The dark wyvern to Treasure Room
+M 1 8232 1 8280		The dirty harpy to Treasure Room
+O 1 8219 1 8280              a magnificient painting to Treasure Room
+O 1 8220 1 8280              a Persian Rug to Treasure Room
+O 1 8224 1 8280              some gold coins to Treasure Room
+O 1 8229 1 8280              a Platinum coin  to Treasure Room
+O 1 8238 1 8280              a purple pouch to Treasure Room
+O 1 8242 1 8280              a pile of coins to Treasure Room
+O 1 8213 1 8280              a Large Halberd to Treasure Room
+O 1 8203 1 8280              a Bastard Sword to Treasure Room
+*
+M 1 8232 1 8277         the dirty harpy to Overlook cave
+*
+M 1 8234 1 8283         the Ducal torturer to Torture Chamber
+O 1 8246 1 8284              a bowl to Dungeon Cell
+O 1 8243 1 8268              a feather bed to Mistress Bedroom
+O 1 8245 1 8268              a cedar dresser to Mistress Bedroom
+O 1 8244 1 8268              a portrait to Mistress Bedroom
+O 1 8243 1 8267              a feather bed to Master Bedroom
+O 1 8245 1 8267              a cedar dresser to Master Bedroom
+O 1 8247 1 8280              a wyvern mount to Treasure Room
+*
+M 1 8235 3 8214         the river snake to An underground River
+*
+M 1 8210 1 8288            Stella the Merchant to Mercantile
+G 1 8200 5                                                                   
+G 1 8209 5                                                                   
+G 1 8217 5                                                                   
+*
+M 1 8236 1 8244              the shady character to Lamar Street
+G 1 8249 3                                              
+G 1 8250 3                                              
+G 1 8251 3                                              
+*
+M 1 8237 3 8292              a deadly snake to The waterfall tunnel
+*
+M 1 8238 1 8293              the lizardman to A Large underground cavern
+E 1 8264 1 1
+E 1 8263 1 16
+*
+M 1 8237 3 8293              a deadly snake to A Large underground cavern
+*
+M 1 8239 1 8294              the Albino Dragon to God's Room
+E 1 8267 1 5
+E 1 8266 1 6
+E 1 8265 1 16
+*
+D 0 8245 2 2
+D 0 8246 0 2
+*
+D 0 8269 2 2
+D 0 8270 0 2
+*
+D 0 8227 2 1
+D 0 8228 0 1
+*
+D 0 8242 4 1
+D 0 8243 5 1
+*
+D 0 8255 1 2
+D 0 8286 3 2
+*
+M 1 8235 4 8292                 the river snake to The waterfall tunnel
+*
+M 1 8238 1 8293                 the lizardman to A Large underground cavern
+*
+M 1 8235 5 8216                 the river snake to Dark cold river.
+*
+M 1 8205 1 8236                 the Villager to Southern Plaza
+*
+M 1 8215 4 8236                 the young Cadet to Southern Plaza
+*
+M 1 8204 1 8205                 the Dark Soldier to Logging Camp
+*
+M 1 8238 1 8212                 the lizardman to Crystal Cavern
+E 1 8263 1 16                 
+*
+M 1 8235 4 8215                 the river snake to River ride.
+*
+M 1 8205 1 8219                 the Villager to Western Plaza
+G 1 8217 100                    
+*
+M 1 8205 1 8223                 the Villager to Eastern Plaza
+*
+M 1 8204 1 8226                 the Dark Soldier to Battle Zone
+*
+M 1 8206 4 8229                 the Ducal Guard to Palace Road
+*
+M 1 8205 1 8230                 the Villager to Park Avenue
+*
+M 1 8205 1 8231                 the Villager to South End of Park
+*
+M 1 8215 4 8237                 the young Cadet to Parade Grounds
+*
+M 1 8230 1 8280                 the Grey Nonderon to Treasure Room
+*
+M 1 8241 1 8295                 the Horror to Hall of Horrors
+G 1 8279 100                    
+G 1 8279 100                    
+*
+M 1 8240 1 8296                 the ABYSS Monster to The Dark Abyss
+E 1 8269 1 1                  
+E 1 8269 1 2                  
+E 1 8270 1 3                  
+E 1 8270 1 4                  
+E 1 8271 1 5                  
+E 1 8268 1 6                  
+E 1 8272 1 7                  
+E 1 8273 1 8                  
+E 1 8274 1 9                  
+E 1 8275 1 10                 
+E 1 8276 1 11                 
+E 1 8277 1 14                 
+E 1 8277 1 15                 
+G 1 8278 100                    
+G 1 8278 100                    
+G 1 8278 100                    
+S
+
+
+#SHOPS
+8207 19 0 0 0 0 40 100 0 23                 ; Joe the Baker
+8208 9 0 0 0 0 90 100 0 23                     ; Jack the Armorer
+8209 5 4 3 0 0 80 110 0 23                     ; Armon the Weaponsmith
+8210 12 15 8 0 0 80 110 0 2                          
+8236 8 0 0 0 0 40 110 0 23            
+0
+
+
+#SPECIALS
+M  8202 spec_breath_acid
+M  8203 spec_breath_fire
+M  8204 spec_guard
+M  8206 spec_guard
+M  8212 spec_guard
+M  8213 spec_guard
+M  8216 spec_cast_adept
+M  8217 spec_guard
+M  8222 spec_guard
+M  8223 spec_cast_mage
+M  8224 spec_cast_mage
+M  8225 spec_cast_mage
+M  8226 spec_breath_any
+M  8230 spec_breath_lightning
+M  8231 spec_cast_mage
+M  8232 spec_breath_gas
+M  8233 spec_breath_acid
+M  8235 spec_poison
+M  8237 spec_poison
+M  8238 spec_poison
+M  8239 spec_breath_any
+M  8240 spec_poison
+M  8241 spec_cast_mage
+S
+
+
+#$

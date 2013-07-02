@@ -1,0 +1,49 @@
+MagmaMud Release 3.04
+Monday, March 24th, 2008
+
+Xangis	xangis@yahoo.com
+
+
+In version 3.03 of Magma we added support for most, but not all, Envy 2.2
+areas.  So far we have only verified that 61 of the original 63 Envy zones
+are able to load.  We do convert Envy values/flags to Magma values, but areas
+have not been tested thoroughly, so don't be surprised if you see strange
+values on mobs, objects, or rooms.  Any strangeness should be reported to
+the above email address.  
+
+The following areas were changed in order to work with Magma 3.03:
+
+smurf.are:   Vnums were changed because they overlapped with the required limbo.are.
+ocean.are:   Vnums were changed because they overlapped with the required limbo.are.
+plains.are:  Vnums were changed because they overlapped with the required limbo.are.
+ofcol.are:   Vnums pointing to changed areas were updated.
+haon.are:    Vnums pointing to changed areas were updated.
+shaolin.are: Vnums pointing to changed areas were updated.
+
+The following areas will not load in Magma 3.04:
+
+descent.are
+gods.are
+
+They are included in this package in case you wish to add support for them.
+
+All other Envy areas included in this distribution should be unchanged from Envy version
+2.2.
+
+=== The area directory
+
+AREA.LST	   - Contains a list of all areas to be loaded into the server.
+		     The areas are loaded in top-down order.
+README.TXT     - This file.
+limbo.are      - Objects, mobs, and rooms required by the game for proper operation.
+                 includes templates for spell-created items and creatures.
+screens.are    - Required by the game for proper operation.  Contains welcome, news,
+                 message of the day, and race selection screens.
+help.are       - The main help file.  Contains help entries for the game.
+VNUMS.TXT      - A list of the VNUMs used by each area.
+<filename>.are - Contains all of the data for a single area.
+/convzone      - This folder contains a script for compiling areas created
+                 with DikuEdit into the Magma area format.
+/maps          - This folder contains basic C code used for generating overland
+                 maps.  This code should be customized for your own use if you
+                 wish to generate overland maps.

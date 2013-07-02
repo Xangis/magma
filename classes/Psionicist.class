@@ -1,0 +1,63 @@
+Nm          Psionicist~
+WhoNm       &+bPsionicist  &n~
+Cla         3
+AtrPrm      4
+Wpn         239
+Sklladpt    95
+Thac0       180
+Thac47      90
+Hpmin       4
+Hpmax       10
+Mana        1
+Skll         1 'aerial casting'
+Skll         1 'aerial combat'
+Skll         1 'bandage'
+Skll         1 '1h piercing'
+Skll         1 'mount'
+Skll         1 'scrolls'
+Skll         1 'staves'
+Skll         1 'wands'
+Skll         1 'swim'
+Skll         4 'chameleon power'
+Skll        21 'meditate'
+Skll        21 'shadow form'
+Skll        26 'heighten senses'
+Skll        46 'shield block'
+Spll         1 'combat mind'
+Spll         1 'ego whip'
+Spll         1 'thought shield'
+Spll         2 'ballistic attack'
+Spll         2 'teleport'
+Spll         2 'enhanced strength'
+Spll         2 'levitation'
+Spll         3 'adrenaline control'
+Spll         3 'agitation'
+Spll         3 'cell adjustment'
+Spll         3 'create sound'
+Spll         3 'energy containment'
+Spll         3 'intellect fortress'
+Spll         3 'share strength'
+Spll         4 'aura sight'
+Spll         4 'domination'
+Spll         4 'flesh armor'
+Spll         4 'mental barrier'
+Spll         4 'mind thrust'
+Spll         5 'biofeedback'
+Spll         5 'invis'
+Spll         5 'inflict pain'
+Spll         5 'lend health'
+Spll         5 'project force'
+Spll         6 'awe'
+Spll         6 'psionic blast'
+Spll         7 'energy drain'
+Spll         7 'detonate'
+Spll         7 'ectoplasmic form'
+Spll         7 'enhance armor'
+Spll         8 'displacement'
+Spll         8 'flight'
+Spll         8 'mana drain'
+Spll         8 'neural fragmentation'
+Spll         9 'deathfield'
+Spll        10 'inertial barrier'
+Spll        10 'wormhole'
+End

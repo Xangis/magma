@@ -1,0 +1,44 @@
+Notes for installing Talen's Help Editor.
+=========================================
+
+NOTE (Envy 2.0):
+In addition to these steps, drop the save_help_are function into olc.c,
+before do_asave, so you can add the asave helps option.  You'll need
+to read the notes at the bottom of that file too.  Note that this function
+saves ALL helps, so get rid of all references to olc.hlp, then append
+that file to help.are and take it out of your AREA.LST file (offline),
+and any #HELPS defined in specific areas (add those to help.are too)
+
+
+Date: 3/26/95
+Time: 10:37pm
+
+olc.h
+=====
+(1) Added ED_HELP 5.
+(2) Added DECLARE_DO_FUN( hedit );
+
+olc.c
+=====
+(1) run_olc_editor: added case ED_HELP.
+(2) olc_ed_name: added case ED_HELP.
+(3) olc_ed_vnum: added case ED_HELP.
+
+mem.c
+=====
+(1) Added new and free help functions.
+(2) Needed: HELP_DATA		*	help_free;
+(3) Needed: HELP_DATA		*	help_last;
+olc.c
+=====
+(1) Added hedit
+(2) Added do_hedit
+
+help.are
+========
+need help file.
+
+
+Then just drop olc_help.c into your src directory and compile
+olc*.c.  Enjoy.
+

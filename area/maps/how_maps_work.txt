@@ -1,0 +1,3 @@
+If you are going to change the dimensions of a particular map that has already been
+implemented, you will have to change the width and height of the map in the code in
+merc.h.

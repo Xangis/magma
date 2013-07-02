@@ -1,0 +1,25 @@
+MZF is a MUD editor for Merc and Envy format DikuMUDs.
+
+This is the second public release of MZF source code.  It will probably
+be the last, I haven't developed this in a long time.
+
+MZF requires Borland C++ 4.x to compile.  It could be made to compile
+with later versions of Borland C++ with a little work.  The code is kind
+of crappy, I never intended it to become some big.  Borland C++ 4.01
+sometimes gets upset by the large size of this program.
+
+This version uses .INI files for customization of spells, etc.  This
+technique worked ok in the 32 bit version, but it was slow as hell in
+the 16 bit version so you probably won't want to build a 16 bit version.
+
+This source version builds both 16 bit and 32 bit executables.  The 
+Diku, Merc, and Envy licenses still apply.  Sorry, I would prefer a
+licence like the GPL but I wanted to use the actual Merc/Envy parser
+which meant Diku licence.
+
+To contact the author, http://www.goodnet.com/~esnible/
+esnible@acm.org
+
+Slash
+
+

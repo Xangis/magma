@@ -1,0 +1,79 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87! (Ultra Envy2.2)
+Monday, 20th October 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Credits for Envy 2.2:
+
+	MOBProgs 2.1:  Written by J Murphy, N'Atas-Ha of ThePrincedom and
+		       based on a concept created on Worlds of Carnage by
+		       Aaron Buhr.
+	ILAB OLC B1.1: By Jason Dinkel ( jdinkel@mines.colorado.edu )
+		       Original by Surreality ( cxw197@psu.edu ) and
+		       Locke ( locke@lm.com )
+
+xerxes@primenet.com for MOM_Envy (January/97) which i also needed to include
+MobPrograms in the OLC code.
+
+Everyone else listed below in this file.
+
+- Zen
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ILAB OLC Beta 1.1 For Envy2.0
+11th May 1997
+
+Christopher Smith	stoked@iastate.edu
+
+
+
+=== Credits for Envy 2.x:
+
+I'd like to thank: everyone listed in Jason Dinkel's credits,
+
+Merlin of Aargh MUD for running the code to discover preliminary bugs
+
+and of course Jason Dinkel for making it all possible with the original
+package for Envy 1.0.
+
+
+- Christopher
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+ILAB OLC Beta 1.1
+7th April 1995
+
+Jason Dinkel	jdinkel@mines.colorado.edu
+
+
+
+=== Credits for other versions Envy1.0, etc.
+
+I'd like to thank the following people for helping make this product possible:
+
+	- Surreality for the base code.
+
+	- Locke for releasing The Isles with Surreality's OLC code to the public
+	  domain.
+
+	- Russ Taylor for the ideas for table lookup and the lookup routines.
+
+	- Walker of Troll MUD for many bug fixes and general help and support.
+
+	- Talen of Vego MUD for his many bug fixes and writing the help editor.
+
+	- Hans Hvidsten Birkeland for his help with my pointer problems.
+
+  The subscribers of the Merc mailing list for helping me with many small
+questions that I had.
+
+
+- Jason

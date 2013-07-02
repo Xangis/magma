@@ -1,0 +1,64 @@
+Nm          Anti-Paladin~
+WhoNm       &+LAnti-Paladin&n~
+Cla         9
+AtrPrm      1
+Wpn         200
+Sklladpt    95
+Thac0       18
+Thac47      0
+Hpmin       9
+Hpmax       16
+Mana        0
+Skll         1 'unarmed damage'
+Skll         1 'blindfighting'
+Skll         1 'bandage'
+Skll         1 'meditate'
+Skll         1 'mount'
+Skll         1 'dodge'
+Skll         1 'barehanded fighting'
+Skll         1 '1h piercing'
+Skll         1 '1h slashing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h misc'
+Skll         1 '2h piercing'
+Skll         1 '2h slashing'
+Skll         1 '2h bludgeoning'
+Skll         1 '2h misc'
+Skll         1 'aerial combat'
+Skll         1 'aerial casting'
+Skll         1 'guard'
+Skll         1 'bash'
+Skll         1 'offense'
+Skll         1 'kick'
+Skll         1 'parry'
+Skll         1 'riposte'
+Skll         1 'rescue'
+Skll         1 'scrolls'
+Skll         1 'second attack'
+Skll         1 'staves'
+Skll         1 'wands'
+Skll         1 'shield block'
+Skll         1 'swim'
+Skll         1 'summon mount'
+Skll         1 'carve'
+Skll        31 'quick chant'
+Skll        31 'mounted combat'
+Spll         3 'armor'
+Spll         3 'minor agony'
+Spll         3 'protection from good'
+Spll         3 'stamina'
+Spll         4 'dispel good'
+Spll         5 'agony'
+Spll         5 'fear'
+Spll         5 'greater stamina'
+Spll         6 'blindness'
+Spll         6 'greater agony'
+Spll         6 'curse'
+Spll         7 'soulshield'
+Spll         8 'darkness'
+Spll         8 'wither'
+Spll         9 'harm'
+Spll         9 'unholy word'
+Spll        10 'battle ecstasy'
+Spll        11 'apocalypse'
+End

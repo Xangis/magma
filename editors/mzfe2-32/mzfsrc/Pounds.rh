@@ -1,0 +1,1033 @@
+//#if !defined(__pounds_rh)                // Sentry use file only if it's not already included.
+//#define __pounds_rh
+
+/*  Main pounds
+
+    Copyright © 1994. All Rights Reserved.
+
+    SUBSYSTEM:    pounds.exe Application
+    FILE:         pounds.h
+    AUTHOR:       Ed Snible
+
+
+    OVERVIEW
+    ========
+    Constant definitions for all resources defined in pounds.rc.
+*/
+
+
+//
+// IDHELP BorButton for BWCC dialogs.
+//
+#define IDD_ROMROOM	23057
+#define IDD_ROMMOBPARTS	23021
+#define IDD_ROMMOBBITS	21020
+#define IDD_ROMMOBPROP	23019
+#define IDI_SPEC_NASTY	3028
+#define IDD_ENCHANTMENTS	23064
+#define IDI_SPEC_TROLL	3027
+#define IDI_SPEC_OGRE	3026
+#define IDC_VNUM	1636
+#define IDC_ALIGN	134
+#define IDD_ROMOBJ	23017
+#define IDD_ROMMOB	23016
+#define IDD_FLAGDIA	22001
+#define IDHELP                  998             // Id of help button
+#define IDC_ROOMCOUNTPROMPT	125
+#define IDC_ROOMCOUNT	124
+#define IDC_THAC0PROMPT	923
+#define IDC_ACPROMPT	924
+#define IDC_HPPROMPT	925
+#define IDC_DEFFLAG	104
+#define IDC_PURGEFLAG	105
+#define IDC_NEWMEANING	103
+#define IDC_NEWFLAG	102
+#define IDC_DELVULN	126
+#define IDC_ADDVULN	125
+#define IDC_DELRES	124
+#define IDC_ADDRES	123
+#define IDC_DELIMM	122
+#define IDC_ADDIMM	121
+#define IDC_DELAFFECT	120
+#define IDC_ADDAFFECT	119
+#define IDC_COMBOBOX1	124
+#define IDC_WEAR_CODE_PROMPT 782
+#define IDC_RESCOMMENT	783
+#define IDC_VULN	118
+#define IDC_RES	117
+#define IDC_IMM	116
+#define IDC_AFFECT	114
+#define IDC_OWNER	105
+#define IDC_CLAN	106
+#define IDC_MANARATE	104
+#define IDC_HEALRATE	103
+#define IDC_NOWHERE	102
+#define IDC_LAW	101
+#define IDC_ROMFLAGS	113
+#define IDC_NOLOCK	112
+#define IDC_NOCLOSE	111
+#define IDC_INFURIATING	110
+#define IDC_HARD	109
+#define IDC_EASY	108
+#define IDC_FLAGLIST	101
+#define IDC_OBJNUM	107
+#define IDC_PUSHBUTTON1	105
+#define IDC_REM5	934
+#define IDC_REM4	933
+#define IDC_REM3	932
+#define IDC_REM2	931
+#define IDC_REM1	930
+#define IDC_ADD5	927
+#define IDC_ADD4	926
+#define IDC_ADD3	925
+#define IDC_ADD2	924
+#define IDC_ADD1	923
+#define IDC_EDIT5	1104
+#define IDC_EDIT4	1103
+#define IDC_EDIT3	1102
+#define IDC_EDIT2	1101
+#define IDC_EDIT1	1100
+#define IDC_BROWSE	118
+#define IDC_WORD5	134
+#define IDC_WORD4	133
+#define IDC_WORD3	132
+#define IDC_WORD2	131
+#define IDC_WORD1	130
+#define IDC_LIST5	112
+#define IDC_LIST4	111
+#define IDC_LIST3	110
+#define IDC_LIST2	109
+#define IDC_LIST1	108
+#define IDC_FLAG5	106
+#define IDC_FLAG4	105
+#define IDC_FLAG3	104
+#define IDC_FLAG2	103
+#define IDC_FLAG1	102
+#define IDC_RTEXT4	136
+#define IDC_RTEXT3	132
+#define IDC_RTEXT2	128
+#define IDC_RTEXT1	121
+#define IDC_BURNPROOF	111
+#define IDC_NOUNCURSE	112
+#define IDC_CONDITION	113
+#define IDC_SELLEXTRACT	110
+#define IDC_HADTIMER	109
+#define IDC_MELTDROP	108
+#define IDC_NOLOCATE	107
+#define IDC_NONMETAL	106
+#define IDC_VISDEATH	104
+#define IDC_ROTDEATH	103
+#define IDC_CHECKBOX2	117
+#define IDC_CHECKBOX44	159
+#define IDC_CHECKBOX45	160
+#define IDC_CHECKBOX46	161
+#define IDC_CHECKBOX47	162
+#define IDC_CHECKBOX48	163
+#define IDC_CHECKBOX49	164
+#define IDC_CHECKBOX50	165
+#define IDC_CHECKBOX51	166
+#define IDC_CHECKBOX58	173
+#define IDC_CHECKBOX38	153
+#define IDC_CHECKBOX37	152
+#define IDC_CHECKBOX36	151
+#define IDC_CHECKBOX35	150
+#define IDC_CHECKBOX34	149
+#define IDC_CHECKBOX31	146
+#define IDC_CHECKBOX40	155
+#define IDC_GROUPBOX6	243
+#define IDC_GROUPBOX7	244
+#define IDC_DAMTYPE	106
+#define IDC_MOBGROUP	116
+#define IDC_MATERIAL	115
+#define IDC_ROMSIZE	114
+#define IDC_DEFPOS	113
+#define IDC_STARTPOS	112
+#define IDC_AC4	111
+#define IDC_AC3	110
+#define IDC_AC2	109
+#define IDC_AC1	108
+#define IDC_MANADICE	105
+#define IDC_DAMDICE	103
+#define IDC_HITDICE	102
+#define IDC_HITROLL	101
+#define IDC_CHECKBOX39	154
+#define IDC_CHECKBOX30	145
+#define IDC_CHECKBOX126	247
+#define IDC_CHECKBOX125	246
+#define IDC_CHECKBOX124	245
+#define IDC_CHECKBOX29	144
+#define IDC_CHECKBOX28	143
+#define IDC_CHECKBOX27	142
+#define IDC_CHECKBOX26	141
+#define IDC_CHECKBOX25	140
+#define IDC_CHECKBOX24	139
+#define IDC_CHECKBOX74	189
+#define IDC_CHECKBOX73	188
+#define IDC_CHECKBOX72	187
+#define IDC_CHECKBOX68	183
+#define IDC_CHECKBOX67	182
+#define IDC_CHECKBOX66	181
+#define IDC_CHECKBOX65	180
+#define IDC_CHECKBOX64	179
+#define IDC_CHECKBOX63	178
+#define IDC_CHECKBOX62	177
+#define IDC_CHECKBOX57	172
+#define IDC_CHECKBOX56	171
+#define IDC_CHECKBOX76	191
+#define IDC_GROUPBOX2	192
+#define IDC_CHECKBOX75	190
+#define IDC_CHECKBOX55	170
+#define IDC_ROM24	113
+#define IDC_OGHAM	112
+// FORM bits for ROM mobiles.  These need to be in the order the control
+// appears in the .rc file, and numbered sequentially
+#define IDC_FORMA	2104
+#define IDC_FORMB	2105
+#define IDC_FORMC	2106
+#define IDC_FORMD	2107
+#define IDC_FORME	2108
+//#define IDC_FORMF
+#define IDC_FORMG	2109
+#define IDC_FORMH	2110
+#define IDC_FORMI	2111
+#define IDC_FORMJ	2112
+#define IDC_FORMK	2113
+#define IDC_FORML	2114
+#define IDC_FORMM	2115
+#define IDC_FORMN	2116
+#define IDC_FORMO	2117
+#define IDC_FORMP	2118
+#define IDC_FORMbb	2119
+#define IDC_FORMR	2120
+#define IDC_FORMS	2121
+//#define IDC_FORMT
+//#define IDC_FORMU
+#define IDC_FORMV	2122
+#define IDC_FORMW	2123
+#define IDC_FORMX	2124
+#define IDC_FORMY	2125
+#define IDC_FORMZ	2126
+#define IDC_FORMaa	2127
+#define IDC_FORMQ	2128
+#define IDC_FORMcc	2129
+// PART bits for ROM mobiles.  These need to be in the order in which
+// the controls appear in the .rc file, and numbered sequentially
+#define IDC_PARTA	3221
+#define IDC_PARTB	3222
+#define IDC_PARTC	3223
+#define IDC_PARTD	3224
+#define IDC_PARTE	3225
+#define IDC_PARTF	3226
+#define IDC_PARTG	3227
+#define IDC_PARTH	3228
+#define IDC_PARTI	3229
+#define IDC_PARTJ	3230
+#define IDC_PARTN	3231
+#define IDC_PARTL	3232
+#define IDC_PARTM	3233
+#define IDC_PARTK	3234
+#define IDC_PARTO	3235
+#define IDC_PARTP	3236
+#define IDC_PARTQ	3237
+// PARTR
+// PARTS
+// PARTT
+#define IDC_PARTU	3238
+#define IDC_PARTV	3239
+#define IDC_PARTW	3240
+#define IDC_PARTX	3241
+#define IDC_PARTY	3242
+// IMM bits for ROM mobiles
+#define IDC_IMMA	4174
+#define IDC_IMMB	4175
+#define IDC_IMMC	4176
+#define IDC_IMMD	4177
+#define IDC_IMME	4178
+#define IDC_IMMF	4179
+#define IDC_IMMG	4180
+#define IDC_IMMH	4181
+#define IDC_IMMI	4182
+#define IDC_IMMJ	4183
+#define IDC_IMMK	4184
+#define IDC_IMML	4185
+#define IDC_IMMM	4186
+#define IDC_IMMN	4187
+#define IDC_IMMO	4188
+#define IDC_IMMP	4189
+#define IDC_IMMQ	4190
+#define IDC_IMMR	4191
+#define IDC_IMMS	4192
+// RES bits for ROM mobiles
+#define IDC_RESB	5175
+#define IDC_RESC	5176
+#define IDC_RESD	5177
+#define IDC_RESE	5178
+#define IDC_RESF	5179
+#define IDC_RESG	5180
+#define IDC_RESH	5181
+#define IDC_RESI	5182
+#define IDC_RESJ	5183
+#define IDC_RESK	5184
+#define IDC_RESL	5185
+#define IDC_RESM	5186
+#define IDC_RESN	5187
+#define IDC_RESO	5188
+#define IDC_RESP	5189
+#define IDC_RESQ	5190
+#define IDC_RESR	5191
+#define IDC_RESS	5192
+// VULN bits for ROM mobiles
+#define IDC_VULNC	6176
+#define IDC_VULND	6177
+#define IDC_VULNE	6178
+#define IDC_VULNF	6179
+#define IDC_VULNG	6180
+#define IDC_VULNH	6181
+#define IDC_VULNI	6182
+#define IDC_VULNJ	6183
+#define IDC_VULNK	6184
+#define IDC_VULNL	6185
+#define IDC_VULNM	6186
+#define IDC_VULNN	6187
+#define IDC_VULNO	6188
+#define IDC_VULNP	6189
+#define IDC_VULNQ	6190
+#define IDC_VULNR	6191
+#define IDC_VULNS	6192
+#define IDC_VULNT	6193
+#define IDC_VULNU	6194
+#define IDC_VULNV	6195
+// ASSIST bits for ROM
+#define IDC_ALL	   131
+#define IDC_ASSALIGN	132
+#define IDC_ASSRACE	133
+#define IDC_PLAYERS	134
+#define IDC_GUARD	   135
+#define IDC_ASSVNUM	136
+// OFF bits for ROM
+#define IDC_AREAATTACK	1416
+#define IDC_BACKSTAB	   1417
+#define IDC_BASH	      1418
+#define IDC_BERSERK	   1419
+#define IDC_DISARM	   1420
+#define IDC_DODGE	      1421
+#define IDC_FADE	      1422
+#define IDC_FAST	      1423
+#define IDC_KICK	      1424
+#define IDC_KICKDIRT	   1425
+#define IDC_PARRY	      1426
+#define IDC_RESCUE	   1427
+#define IDC_TAIL	      1428
+#define IDC_TRIP	      1429
+#define IDC_CRUSH	      1430
+#define IDC_OFFOTHER	   1431
+// ACT bits for ROM
+#define IDC_UNDEAD	   1736
+#define IDC_CLERIC	   1737
+#define IDC_MAGE	      1738
+#define IDC_THIEF	      1739
+#define IDC_WARRIOR	   1740
+#define IDC_NOALIGN	   1741
+#define IDC_NOPURGE	   1742
+#define IDC_ISHEALER	   1743
+#define IDC_GAIN	      1744
+#define IDC_UPDATE	   1745
+#define IDC_ISCHANGER	1746
+
+
+//
+// Application specific definitions:
+//
+#define ICON_45	45
+#define ICON_JANITOR2	45
+#define IDD_CONTAIN	2
+#define IDD_MOBPROG	1
+#define IDC_TRIGGERS	101
+#define IDC_PROGRAM	102
+#define IDC_SYNTAX	105
+#define IDC_THEMOBILE	201
+#define IDC_ADDTRIGGER	103
+#define IDC_DELTRIGGER	104
+#define IDC_FILENAME	200
+#define ICON_44	44
+#define IDD_RESETROOM	23015
+#define IDI_UNKNOWN_SPEC	3025
+#define ICON_43	43
+#define IDI_SPEC_REPAIRMAN	3024
+#define ICON_42	42
+#define IDI_SPEC_PSIONICIST	3023
+#define ICON_41	41
+#define IDI_SPEC_GHOST	3022
+#define ICON_40	40
+#define IDI_SPEC_CIRCUIT	3021
+#define ICON_39	39
+#define IDI_SPEC_FOLLOW	3020
+#define ICON_38	38
+#define IDI_SPEC_OBJECT	3019
+#define ICON_37	37
+#define IDI_SPEC_NO_OBJECT	3018
+#define ICON_36	36
+#define IDI_SPEC_BRIBE	3017
+#define ICON_35	35
+#define IDI_SPEC_SHOPKEEPER	3016
+#define ICON_34	34
+#define IDI_SPEC_CAST_LIST	3015
+#define ICON_32	32
+#define IDI_SPEC_CHARM	3014
+#define BITMAP_4	4
+#define IDI_SLASH3	6003
+#define IDI_SLASH2	6002
+#define IDI_SLASH1	6000
+#define BM_SECTTYPES	5001
+#define BITMAP_3	3
+#define BM_ROOMFLAGS	5000
+#define ICON_23	23
+#define ICON_33	33
+#define IDI_SHOP	1009
+#define IDI_PANEL	1008
+#define ICON_31	31
+#define ICON_30	30
+#define ICON_27	27
+#define ICON_26	26
+#define ICON_24	24
+#define ICON_22	22
+#define IDD_PANELDIALOG	23012
+#define IDI_DOORNONE	1603
+#define IDI_DOOROPEN	1600
+#define IDI_DOORLOCKED	1602
+#define IDI_DOORCLOSED	1601
+#define IDC_NAME	101
+#define IDC_CONTENTS	102
+#define IDC_DELITEM	104
+#define IDC_ADDITEM	103
+#define IDC_STRONGER	103
+#define IDC_WEAKER	104
+#define IDC_RENUMBER	105
+#define IDC_TOCLIPBOARD	106
+#define IDC_EXITCOHER	120
+#define IDC_USEAREADATA	107
+#define IDC_MAXCHANGE	118
+#define IDC_TIMEZONE	119
+#define IDC_REPOP	117
+#define IDC_MAXMAGIC	116
+#define IDC_MINMAGIC	115
+#define IDC_MAXWIND	114
+#define IDC_MINWIND	113
+#define IDC_MAXPRECIP	112
+#define IDC_MINPRECIP	111
+#define IDC_MAXTEMP	109
+#define IDC_MINTEMP	108
+#define IDC_RECALLPROMPT	110
+#define IDC_WEAKEST	401
+#define IDC_TOUGHEST	400
+#define IDC_RECALL	102
+#define ICON_21	21
+#define IDI_SPEC_NONE	3013
+#define ICON_29	29
+#define IDI_NEUTER	2002
+#define ICON_28	28
+#define IDI_FEMALE	2001
+#define IDI_SPEC_THIEF	3012
+#define IDI_SPEC_POISON	3011
+#define IDI_SPEC_MAYOR	3010
+//#define ICON_27	27
+#define IDI_SPEC_JANITOR	3009
+//#define ICON_26	26
+#define IDI_SPEC_GUARD	3008
+//#define ICON_25	25
+#define IDI_SPEC_FIDO	3007
+#define IDI_SPEC_EXEC	3006
+//#define ICON_24	24
+#define IDI_SPEC_UNDEAD	3005
+#define IDI_SPEC_MAGE	3004
+//#define ICON_23	23
+#define IDI_SPEC_JUDGE	3003
+//#define ICON_22	22
+#define IDI_SPEC_CLERIC	3002
+//#define ICON_21	21
+#define IDI_SPEC_ADEPT	3001
+#define IDD_FTYPEDIALOG	23011
+#define IDI_SPEC_BREATH	3000
+#define IDI_MALE	2000
+#define SPEC_BREATH	3000
+#define IDC_MOBPROGS	115
+#define IDC_GROUPBOX1	105
+#define IDC_TESTFONT	106
+#define IDC_ENVY20	111
+#define IDC_THINNER	107
+#define IDC_WIDER	108
+#define IDC_SHORTER	109
+#define IDC_TALLER	110
+#define IDC_ROM	104
+#define IDC_ENVY	103
+#define IDC_TFCMUD	102
+#define IDC_MERC	101
+#define IDD_RANDOMDIALOG	23009
+#define BITMAP_2	2
+#define IDD_HELPS	23008
+#define ICON_20	20
+#define IDI_WRIST	618
+#define ICON_19	19
+#define IDI_PRIDE	617
+#define ICON_18	18
+#define IDI_ARMS	616
+#define ICON_17	17
+#define IDI_WIELD	615
+#define IDI_TOMANYWIELDS	614
+#define IDI_NOTAKE	613
+#define IDD_EXIT	23007
+#define IDI_TAKE	612
+#define IDC_KEYWORDS	103
+#define IDC_EXITDESCR	104
+#define IDC_CLOSED	105
+#define IDC_LOCKED	106
+#define IDC_LEAVEALONE	107
+#define IDC_OPEN	102
+#define IDC_TOROOM	101
+#define ICON_16	16
+#define IDI_NPC_CORPSE	724
+#define ICON_15	15
+#define IDI_DRINK_CON	723
+#define ICON_14	14
+#define IDI_KEY	722
+#define ICON_13	13
+#define IDI_BOAT	721
+#define ICON_12	12
+#define IDI_PILL	720
+#define BITMAP_1	1
+#define DIALOG_7	7
+#define IDD_OBJLIST	23010
+#define IDC_OBJLIST	101
+#define IDD_SHOP	23006
+#define IDC_OPENHOUR	109
+#define IDC_CLOSEHOUR	110
+#define IDC_COMMENT	111
+#define IDC_PROFITSELL	108
+#define IDC_PROFITBUY	107
+#define IDC_BUY5	106
+#define IDC_BUY4	105
+#define IDC_BUY3	104
+#define IDC_BUY2	103
+#define IDC_BUY1	102
+#define IDC_KEEPER	101
+#define IDD_APPLY	23005
+#define IDI_HELPS	1007
+#define IDI_HOLD	611
+#define IDI_HEAD	603
+#define IDI_WAIST	610
+#define IDI_ABOUTBODY	609
+#define IDI_SHIELD	608
+#define IDI_HANDS	606
+#define IDI_FEET	605
+#define IDI_LEGS	604
+#define IDI_NECK	601
+#define IDI_FINGER	600
+#define IDI_FOUNTAIN	719
+#define IDI_GOLD	716
+#define IDI_FOOD	715
+#define IDI_CONTAINER	711
+#define IDI_TREASURE	710
+#define IDI_TRASH	709
+#define IDI_FURNITURE	708
+#define IDI_POTION	707
+#define IDI_ARMOR	706
+#define IDI_WEAPON	705
+#define IDI_STAFF	704
+#define IDI_WAND	703
+#define IDI_SCROLL	701
+#define IDI_LIGHT	700
+#define IDI_BODY	602
+#define IDI_OBJECTS	1006
+#define IDI_MOBILES	1005
+#define IDC_APPLY	101
+#define IDC_NEWRESET	102
+#define IDD_MOBRESET	23004
+#define IDC_MOBILE	   101
+#define IDC_LOCATION	   102
+#define IDC_COUNT	      103
+
+#define IDC_WIELD_LIGHT 104
+#define IDC_RING	      105
+#define IDC_RING2	      106
+#define IDC_NECK1	      107
+#define IDC_NECK2	      108
+#define IDC_WIELD_BODY  109
+#define IDC_WIELD_HEAD  110
+#define IDC_LEGGINGS	   111
+#define IDC_WIELD_FEET  112
+#define IDC_WIELD_HANDS 113
+#define IDC_SLEEVES	   114
+#define IDC_WIELD_SHIELD 115
+#define IDC_ABOUT_BODY	116
+#define IDC_BELT	      117
+#define IDC_WRIST_L	   118
+#define IDC_WRIST_R	   119
+#define IDC_WIELDED	   120
+#define IDC_WIELD_HOLD  121
+#define IDC_WEAR_CODE	122
+
+#define IDD_OBJDIA	23003
+#define IDD_MOBDIA	23002
+#define IDC_NAMELIST	101
+#define IDC_SHORTDESCR	102
+#define IDC_LONGDESCR	103
+#define IDC_LIGHT	104
+#define IDC_SCROLL	105
+#define IDC_WAND	106
+#define IDC_STAFF	107
+#define IDC_WEAPON	108
+#define IDC_ARMOR	109
+#define IDC_POTION	110
+#define IDC_MISC	104
+#define IDC_FINE	107
+#define IDC_EXTRA	111
+#define IDC_DECENT	106
+#define IDC_SHODDY	105
+#define IDC_FURNITURE	111
+#define IDC_TRASH	112
+#define IDC_CONTAINER	113
+#define IDC_DRINK	114
+#define IDC_KEY	115
+#define IDC_FOOD	116
+#define IDC_GOLD	117
+#define IDC_BOAT	118
+#define IDC_NPC_CORPSE	119
+#define IDC_FOUNTAIN	120
+#define IDC_PILL	121
+#define IDC_GLOW	122
+#define IDC_HUM	123
+#define IDC_EVIL	124
+#define IDC_MAGIC	125
+#define IDC_NODROP	126
+#define IDC_ANTIGOOD	127
+#define IDC_ANTIEVIL	128
+#define IDC_ANTINEUTRAL	129
+#define IDC_NOREMOVE	130
+#define IDC_INVIS	131
+#define IDC_METALLIC	132
+#define IDC_TAKE	433
+#define IDC_FINGER	434
+#define IDC_NECK	435
+#define IDC_BODY	436
+#define IDC_HEAD	437
+#define IDC_LEGS	438
+#define IDC_FEET	439
+#define IDC_HANDS	440
+#define IDC_ARMS	441
+#define IDC_SHIELD	442
+#define IDC_ABOUTBODY	443
+#define IDC_WAIST	444
+#define IDC_WRIST	445
+#define IDC_WIELD	446
+#define IDC_HOLD	447
+#define IDC_INV	130
+#define IDC_ADDINV	131
+#define IDC_DELINV	132
+#define IDC_WITHPRIDE	448
+#define IDC_APPLIES_LIST	149
+#define IDC_APPLY_AMOUNT	150
+#define IDC_ADDAPPLY	753
+#define IDC_DELETEAPPLY	151
+#define IDC_EXTRADESCR	156
+#define IDC_SHORT_DESCR	102
+#define IDC_LONG_DESCR	103
+#define IDC_LEVEL	105
+#define IDC_HELPTEXT	110
+#define IDC_MALE	106
+#define IDC_FEMALE	107
+#define IDC_NEUTER	108
+#define IDC_LOOK	104
+#define IDC_SENTINEL	109
+#define IDC_SCAVENGER	110
+#define IDC_AGGRESSIVE	111
+#define IDC_STAY_AREA	112
+#define IDC_WIMPY	113
+#define IDC_TRAIN	114
+#define IDC_PRACTICE	115
+#define IDC_SUPER_WIMPY	116
+#define IDC_INVISIBLE	117
+#define IDC_DETECTINVIS	118
+#define IDC_DETECT_HIDDEN	119
+#define IDC_FAERIE_FIRE	120
+#define IDC_INFRAVISION	121
+#define IDC_PROT_FROM_EVIL	122
+#define IDC_SNEAK	123
+#define IDC_HIDE	124
+#define IDC_FLYING	125
+#define IDC_PASSDOOR	126
+#define IDC_PROT_FROM_GOOD	129
+#define IDC_NOSLEEP	130
+#define IDC_NOSUMMON	131
+#define IDC_NOCHARM	132
+#define IDC_WATERWALK	133
+#define IDC_MUTE	136
+#define IDC_GILLS	137
+#define IDC_SPECFUN	238
+#define IDC_MAKEKEEPER	135
+#define IDD_EXTRADIA	23001
+#define IDC_KEYWORD	101
+#define IDC_DESCR	102
+#define ICON_11	11
+#define IDI_WATERBOAT	1017
+#define ICON_10	10
+#define IDI_WATERSWIM	1016
+#define ICON_9	9
+#define IDI_DESERT	1020
+#define ICON_8	8
+#define IDI_AIR	1019
+#define ICON_7	7
+#define IDI_UNDERWATER	1018
+#define ICON_6	6
+#define IDI_MOUNTAIN	1015
+#define ICON_5	5
+#define IDI_HILLS	1014
+#define ICON_4	4
+#define IDI_FOREST	1013
+#define ICON_3	3
+#define IDI_FIELD	1012
+#define ICON_2	2
+#define IDI_CITY	1011
+#define ICON_1	1
+#define IDI_INSIDE	1010
+#define IDD_ROOM	23000
+#define IDC_ROOMNAME	101
+#define IDC_ROOMDESCR	102
+#define IDC_DARK	103
+#define IDC_NOMOB	104
+#define IDC_INDOORS	105
+#define IDC_PRIVATE	106
+#define IDC_SAFE	107
+#define IDC_SOLITARY	108
+#define IDC_PETSHOP	109
+#define IDC_NORECALL	110
+#define IDC_INSIDE	112
+#define IDC_CITYSTREETS	113
+#define IDC_FIELD	114
+#define IDC_FOREST	115
+#define IDC_HILLS	116
+#define IDC_MOUNTAIN	117
+#define IDC_WATERSWIM	118
+#define IDC_WATERNOSWIM	119
+#define IDC_UNDERWATER	120
+#define IDC_AIR	121
+#define IDC_DESERT	122
+#define IDC_NORTH	123
+#define IDC_EAST	124
+#define IDC_SOUTH	125
+#define IDC_WEST	126
+#define IDC_UP	127
+#define IDC_DOWN	128
+#define IDC_ISDOOR	129
+#define IDC_ISPICKPROOF	130
+#define IDC_ISBASHPROOF	131
+#define IDC_EDITEXTRA	159
+#define IDC_WEIGHT	160
+#define IDC_ADDEXTRA	157
+#define IDC_DELEXTRA	158
+#define IDC_EXTRALIST	139
+#define IDC_PASSPROOF	132
+#define IDC_WALKMODE	133
+#define IDC_CREATEMODE	134
+#define IDC_WALKCREATE	135
+#define IDC_SETEXIT	136
+#define IDC_DELEXIT	137
+#define IDC_SECTORTYPE	800
+#define IDC_PREV	138
+#define IDC_NEXT	140
+#define IDC_RANDOM	123
+#define IDC_LIMIT	956
+#define IDC_OTHER	143
+#define IDC_OTHERTEXT	144
+#define IDC_TYPECUSTOM2	141
+#define IDC_TYPECUSTOM3	142
+#define IDC_TYPECUSTOM1	139
+#define IDC_GAMBLE	139
+#define IDC_SANCT	141
+#define IDC_SPECICON	2013
+#define IDC_HP	814
+#define IDC_AC	815
+#define IDC_THAC0	816
+#define IDC_ASSIST	127
+#define IDC_ASSISTALWAYS	142
+#define IDC_FIRESHIELD	146
+#define IDC_NOSTEAL	147
+#define IDC_MOBPROG	149
+#define IDC_CODE	1257
+#define IDC_RACE	150
+#define IDC_BITS	152
+#define IDC_PARTS	151
+#define IDC_RACEPROMPT	719
+#define IDC_EITHER	2003
+#define IDI_EITHER	2003
+#define IDC_RESETS	148
+#define IDC_IMPROVED_INVIS	145
+#define IDC_INVULNERABLE	144
+#define IDC_ANTIMAGIC	143
+#define IDC_ASSISTSAME	128
+#define IDC_GROUPASSIST	555
+#define IDC_SEXICON	2012
+#define IDC_TREASURE	133
+#define IDC_OBJTYPE	777
+#define IDC_WIELDTYPE	778
+#define IDC_PROMPT5	904
+#define IDC_PROMPT4	903
+#define IDC_PROMPT3	902
+#define IDC_PROMPT2	901
+#define IDC_PROMPT1	900
+#define IDC_VALUE5	638
+#define IDC_CUSTOMIZE	134
+#define IDC_VALUE4	637
+#define IDC_VALUE3	636
+#define IDC_VALUE2	635
+#define IDC_VALUE1	634
+#define IDC_TUNNEL	141
+#define IDC_CONESIL	142
+#define IDC_MOBS	143
+#define IDC_OBJS	144
+#define IDC_ADDMOB	145
+#define IDC_DELMOB	146
+#define IDC_OBJCONT	149
+#define IDC_RANDOMDOORS	151
+#define IDC_DOORSTATUS	813
+#define IDC_RFLAG131072	153
+#define IDC_RFLAG2621444	154
+#define IDC_RFLAG65536	152
+#define IDC_PEACEFUL	111
+#define IDC_MOBEQU	150
+#define IDC_ADDOBJ	147
+#define IDC_DELOBJ	148
+#define IDC_DESCRTEXT	807
+#define IDC_WORDTEXT	805
+#define IDC_KEYTEXT	803
+#define IDC_TOTEXT	801
+#define IDC_DESCRPROMPT	806
+#define IDC_WORDPROMPT	804
+#define IDC_KEYPROMPT	802
+#define IDC_TOPROMPT	808
+#define IDI_MDIAPPLICATION      1001            // Application icon
+#define IDI_RESETS	1004
+#define IDI_ROOMS	1003
+#define IDI_DOC                 1002            // MDI child window icon
+#define IDD_OBJTYPEDIA	23018
+
+#define MDI_MENU                100             // Menu resource ID and Accelerator IDs
+#define CM_HELPROM	2008
+#define CM_HELPCREDITS	2005
+#define CM_HELPENVY	2004
+#define CM_HELPMERC	2003
+#define CM_HELPFORMAT	2007
+#define CM_EDITITEM	2006
+
+//
+// CM_FILEnnnn commands (include\owl\editfile.rh except for CM_FILEPRINTPREVIEW)
+//
+#define CM_MDIFILENEW           24331
+#define CM_MDIFILEOPEN          24332
+#define CM_FILECLOSE            24339
+#define CM_FILESAVE             24333
+#define CM_FILESAVEAS           24334
+#define CM_FILEREVERT           24335
+#define CM_VIEWCREATE           24341
+#define CM_FILEPRINT            24337
+#define CM_FILEPRINTERSETUP     24338
+#define CM_FILEPRINTPREVIEW     24340
+
+
+//
+// Window commands (include\owl\window.rh)
+//
+#define CM_EXIT                 24310
+
+
+//
+// CM_EDITnnnn commands (include\owl\window.rh)
+//
+#define CM_EDITUNDO             24321
+#define CM_EDITCUT              24322
+#define CM_EDITCOPY             24323
+#define CM_EDITPASTE            24324
+#define CM_EDITDELETE           24325
+#define CM_EDITCLEAR            24326
+#define CM_EDITADD              24327
+#define CM_EDITEDIT             24328
+
+
+//
+// Search menu commands (include\owl\editsear.rh)
+//
+#define CM_EDITFIND             24351
+#define CM_EDITREPLACE          24352
+#define CM_EDITFINDNEXT         24353
+
+
+//
+// Windows menu commands (include\owl\mdi.rh)
+//
+#define CM_CASCADECHILDREN      24361
+#define CM_TILECHILDREN         24362
+#define CM_TILECHILDRENHORIZ    24363
+#define CM_ARRANGEICONS         24364
+#define CM_CLOSECHILDREN        24365
+#define CM_CREATECHILD          24366
+
+
+//
+// Help menu commands.
+//
+#define CM_HELPCONTENTS         2001
+#define CM_HELPUSING            2002
+#define CM_HELPABOUT            2009
+
+
+// Context sensitive help cursor.
+#define IDC_HELPCURSOR          24000
+
+
+//
+// About Dialogs
+//
+#define IDD_ABOUT            22000
+#define IDC_VERSION             22001
+#define IDC_COPYRIGHT           22002
+#define IDC_DEBUG               22003
+
+//
+// OWL defined strings
+//
+
+// Statusbar
+#define IDS_MODES               32530
+#define IDS_MODESOFF            32531
+
+
+// EditFile
+#define IDS_UNABLEREAD          32551
+#define IDS_UNABLEWRITE         32552
+#define IDS_FILECHANGED         32553
+#define IDS_FILEFILTER          32554
+                                
+// EditSearch                   
+#define IDS_CANNOTFIND          32540
+
+
+//
+// General & application exception messages (include\owl\except.rh)
+//
+#define IDS_UNKNOWNEXCEPTION    32767
+#define IDS_OWLEXCEPTION        32766
+#define IDS_OKTORESUME          32765
+#define IDS_UNHANDLEDXMSG       32764
+#define IDS_UNKNOWNERROR        32763
+#define IDS_NOAPP               32762
+#define IDS_OUTOFMEMORY         32761
+#define IDS_INVALIDMODULE       32760
+#define IDS_INVALIDMAINWINDOW   32759
+
+//
+// Owl 1 compatibility messages
+//
+#define IDS_INVALIDWINDOW       32756
+#define IDS_INVALIDCHILDWINDOW  32755
+#define IDS_INVALIDCLIENTWINDOW 32754
+
+//
+// TXWindow messages
+//
+#define IDS_CLASSREGISTERFAIL   32749
+#define IDS_CHILDREGISTERFAIL   32748
+#define IDS_WINDOWCREATEFAIL    32747
+#define IDS_WINDOWEXECUTEFAIL   32746
+#define IDS_CHILDCREATEFAIL     32745
+
+#define IDS_MENUFAILURE         32744
+#define IDS_VALIDATORSYNTAX     32743
+#define IDS_PRINTERERROR        32742
+
+#define IDS_LAYOUTINCOMPLETE    32741
+#define IDS_LAYOUTBADRELWIN     32740
+
+//
+// TXGdi messages
+//
+#define IDS_GDIFAILURE          32739
+#define IDS_GDIALLOCFAIL        32738
+#define IDS_GDICREATEFAIL       32737
+#define IDS_GDIRESLOADFAIL      32736
+#define IDS_GDIFILEREADFAIL     32735
+#define IDS_GDIDELETEFAIL       32734
+#define IDS_GDIDESTROYFAIL      32733
+#define IDS_INVALIDDIBHANDLE    32732
+
+
+//// ListView (include\owl\listview.rh)
+//#define IDS_LISTNUM             32582
+
+
+// DocView (include\owl\docview.rh)
+#define IDS_DOCMANAGERFILE      32500
+#define IDS_DOCLIST             32501
+#define IDS_VIEWLIST            32502
+#define IDS_UNTITLED            32503
+#define IDS_UNABLEOPEN          32504
+#define IDS_UNABLECLOSE         32505
+#define IDS_READERROR           32506
+#define IDS_WRITEERROR          32507
+#define IDS_DOCCHANGED          32508
+#define IDS_NOTCHANGED          32509
+#define IDS_NODOCMANAGER        32510
+#define IDS_NOMEMORYFORVIEW     32511
+#define IDS_DUPLICATEDOC        32512
+
+
+//
+// Printing error message string resource IDs (include\owl\printer.rh)
+//
+#define IDS_PRNON               32590
+#define IDS_PRNERRORTEMPLATE    32591
+#define IDS_PRNOUTOFMEMORY      32592
+#define IDS_PRNOUTOFDISK        32593
+#define IDS_PRNCANCEL           32594
+#define IDS_PRNMGRABORT         32595
+#define IDS_PRNGENERROR         32596
+#define IDS_PRNERRORCAPTION     32597
+
+
+//
+// Printer abort dialog & control IDs
+//
+#define IDD_ABORTDIALOG         32599
+#define ID_TITLE                101
+#define ID_DEVICE               102
+#define ID_PORT                 103
+#define ID_PAGE                 104              // Page # text control
+
+
+//
+// Print Preview
+//
+#define APX_PPR_PREVIOUS        24500
+#define APX_PPR_NEXT            24501
+#define APX_PPR_ONEUP           24502
+#define APX_PPR_TWOUP           24503
+#define APX_PPR_CURRPAGE        24504
+
+
+// TInputDialog DIALOG resource (include\owl\inputdia.rh)
+#define IDD_INPUTDIALOG         32514
+#define ID_PROMPT               4091
+#define ID_INPUT                4090
+
+
+// TSlider bitmaps (horizontal and vertical) (include\owl\slider.rh)
+
+
+// Validation messages (include\owl\validate.rh)
+#define IDS_VALPXPCONFORM       32520
+#define IDS_VALINVALIDCHAR      32521
+#define IDS_VALNOTINRANGE       32522
+#define IDS_VALNOTINLIST        32523
+#define ICON_25	25
+#define ICON_98	98
+
+
+//#endif         // __pounds_rh sentry.

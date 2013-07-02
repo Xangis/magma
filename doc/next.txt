@@ -1,0 +1,75 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== What's next?
+
+I might finish and include these features in the next patch to EnvyMud.
+These features are by NO MEANS guaranteed to be coded. You might notice most of
+the ideas aren't highly original. You see, my mind is usually useless at having
+ideas for what to do if i don't have a set goal :-)
+
+		Full language support.
+
+		Debugging, cleanup, testing, improvement of code. You know...
+		Now i am using strstr and strchr in lots of code...
+
+                Different "schools" like in OBLIVION.
+
+		Substitute MOBPrograms for NiMUD scripts. Why? I'll tell you
+		why: NiMUD scripts can understand loops, expressions, you can
+		assign variables... Need i go on?
+
+		Bulletin Boards (like SMAUG's)
+
+		Automated arena code, including challenge mode.
+
+		Improved auction (like Erwin's idea)
+
+		Add value5 field to objects? Or value10?
+
+		Increase number of mortal levels to 60?
+
+		Now we have OLC the time is right to change the area format
+		while keeping compatibility with old areas (you will lose
+		some of the new format's features but that's life!).
+		Maybe Slash of MZF fame's idea for a new code format?  It has a
+		couple of small flaws in my view though.
+
+		Add pose table to class files
+
+                A new class different from the others (no Paladins please)!
+		( ideas desperately needed, my mind is void... )
+
+                Even more spells, even more skills.
+
+                Traps (discussed in the Merc mailing list)
+		(Useless if we had proper room progs)
+
+		Add a couple more immskills ( never can have enough :-) )
+
+		Online editing of classes & socials (save routine already made)
+
+		RFC 1413 protocol use: well, SMAUG, EOS and Mordor feature
+		this, so it should be fairly simple to slam it in Envy2.2
+		Of course my knowledge of networking protocols is near zero
+		:-) But hey! The old art of cut & paste usually works... With
+		a few dozens of modifications...
+		There is some info on RFC protocols on:
+			http://wuarchive.wustl.edu
+		(This feature has very little use -- delayed undefinedly)
+
+
+I guess you are seeing SMAUG mentioned here loads of times huh?  Because it's
+just soo nice...  But i like more the feel of Envy you know...  Maybe i'm just
+plain nut or something.  Toric (Derek Snider) has done a wonderful job on SMAUG.
+I generally feel like Envy is more user friendly, and has cleaner, but sometimes
+slower code (Maybe caused by the number of stock areas).  And i have made it
+even slower!  Much slower!  Muhahahah... :-)  Just kidding...  It's not as slow
+as that.  BTW booting is FASTER than on Envy2.2.  Guess i'm being ultra picky.
+
+
+- Zen

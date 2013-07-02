@@ -1,0 +1,59 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Platforms
+
+--- UltraEnvy 0.87
+
+These platforms have been directly tested:
+
+	Generic PC	x86		Linux 2.0.29	     -Use Makefile.lnx
+        DEC		AXP 10000/620	Digital Unix V4.0B   -Use Makefile.osf
+	Sun		Sun4		SunOS 5.5.1	     -Use Makefile.sol
+	Generic PC	x86		Windows NT           -See README.WIN
+
+
+If you have gcc on your system, it would be best to try the standard Makefile
+first.  If you have cc on your system, it would be best to try the standard
+Makefile with gcc replaced with cc.
+
+The standard version of gcc as of this release is gcc 2.7.2.1
+
+I am simply unable to test UltraEnvy on every platform. It should work on the
+same platforms Envy2.2 does, since this code isn't very machine dependent
+(i think).
+
+
+=== Requirements
+
+The hardware requirements are essentially: two megabytes of memory; five
+megabytes of disk space; any 32-bit processor; 50 kilobits per second network
+bandwidth.  Processor speed is not important.
+
+The software requirements are essentially: a C compiler; a Unix or
+Unix-like operating system; BSD-compatible TCP/IP networking.
+
+Envy uses 32-bit integers and is casual about the distinction between 'int' and
+'long'.  (It is possible to clean up the code to run with 16-bit integers, but
+the demand is nonexistent, and we don't have any 16-bit C compilers with which
+to test.)  If you are running on a personal computer, make sure your C compiler
+is giving you 32-bit integers and not running in 16-bit mode.
+
+Area files, player files, the note file, class files, the socials file and the
+bugs/ideas/typo files are all in ASCII format, so that they may be freely moved
+from one machine type to another.
+
+
+=== Performance
+
+All this measured on a 16MB Pentium 100 MHz running Linux 2.0.29.
+
+Boot time:    5 CPU seconds (Envy2.2: 5 CPU seconds on my system).
+Memory:       4984 bytes SZ size.
+CPU usage:    1.5 CPU minutes per hour + 1-2 CPU seconds per player.
+Disk space:   6 megabytes plus 10K per player file.
+IP packets:   about 10 per second with 20 people logged in. (?)

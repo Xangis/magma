@@ -1,0 +1,60 @@
+This is not part of the install. I started writing it and
+found it to be taking too much time.  You can add it and
+try to improve it.
+
+It needs to still have the following attributes:
+1) Remove resets associated with these exits.
+2) Check that a path still exists to any areas that this
+   area connects to.  (Use graph.c modified from circleMUD
+   that I released a while back)
+3) Remove resets not in this area that refer to mobiles
+   and objects that are part of this area.
+
+---- olc.h
+DECLARE_OLC_FUN( aedit_unlink		);
+
+
+---- olc.c
+    {   "unlink",	aedit_unlink	},
+
+
+---- act_olc.c
+/*
+ * This doesn't unlink everything, just room exits.
+ * It is merely a starting point towards a utility
+ * system.
+ */
+AEDIT( aedit_unlink )
+{
+    ROOM_INDEX_DATA *pRoomIndex;
+    AREA_DATA *pArea;
+    EXIT_DATA *pExit;
+    int iHash;
+    int door;
+
+    EDIT_AREA(ch, pArea);
+
+    for( iHash = 0; iHash < MAX_KEY_HASH; iHash++ )
+    {
+        for( pRoomIndex = room_index_hash[iHash]; pRoomIndex; pRoomIndex = pRoomIndex->next )
+        {
+	    for( door = 0; door < MAX_DIR; door++ )
+	    {
+		if ( ( pExit = pRoomIndex->exit[door] )
+		  && pExit->to_room->area == pArea
+		  && pRoomIndex->area != pArea )
+		{
+		    free_exit( pRoomIndex->exit[door] );
+		    pRoomIndex->exit[door] = NULL;
+		    SET_BIT( pRoomIndex->area->area_flags, AREA_CHANGED );
+		}
+	    }
+	}
+    }
+    send_to_char( "Area unlinked.\n\r", ch );
+    return FALSE;
+}
+
+
+
+

@@ -1,0 +1,95 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Greetings!
+
+My name in MUDs is Zen... in rl i'm called Vasco Costa.
+The first MUD i ever played was Envy 2.0 and Envy is my favorite mud still.
+Reasons? No need of scrolls of recall, no need to retrieve corpse, need i go
+on? Envy is soo much user friendly...
+
+
+=== BUGS/UNDOCUMENTED FEATURES in this release of UltraEnvy:
+
+		Missile weapons support isn't very good yet (no bugs though).
+		Ridable mobs need more testing.
+		Clans code needs even more testing.
+		Resets aren't converted properly.  (ILAB OLC feature).
+		  [check out shaolin.are object's levels]
+
+Otherwise, none i know of. I usually squash them when i see them. But see
+new.txt also, just in case i forgot to add something here.
+
+Thanx are in order for Joguel, Satan, Spear & Thanatos for helping me playtest
+the mud in the early days.  Also thanx to all the players of DragonMud which
+flooded me with bugs reports ;-)  I couldn't have made this release stable
+without your precious help.
+
+
+=== BUGS/UNDOCUMENTED FEATURES in Envy 2.2:
+
+
+Zen:			Don't do "ofind all"... If you do... segmentation fault!
+			Since "ofind all" overflowed the output buffer it would
+			  crash the mud.
+			Fixed!
+
+
+Zen:			mobile_update() in update.c: mobs flee in terror if hurt
+			  from some PC even if they can't see him...
+			Fixed!
+
+Zen:			do_imtlset has a bug when you use the '-' option.
+			  Sometimes the mud crashes with a segmentation fault...
+			Fixed!
+
+
+Zen:			If you set a mobile in the area files to have
+			  AFF_CHARM and try to kill him the mud crashes... :(
+			NOW FIXED! The bug was in fight.c's violence_update().
+
+
+Kenneth Dugas:		lower level thieves steal better than > level bug
+Zen:			comment: Steal bug still existed in act_obj.c!!!!!!!! :(
+			NOW FIXED! Just changed "percent > number_percent()" to
+			  "percent < number percent".
+
+
+Zen:			Mob of race Fish may walk in dry land...
+			Solution: change do_move in act.move.c.
+			Fixed!
+
+Joguel:			characters/mobs of race Fish can't breathe
+			if room is ROOM_WATER_SWIM or ROOM_WATER_NOSWIM!
+Zen:			Solution: fix update.c
+			Fixed!
+
+
+Zen & Joguel: 		Wand of water breathing in Midgaard magic shop is
+			  utterly useless unless player is of race Bear.
+			As default player races don't have RACE_SWIM players 
+			  can't move in ROOM_UNDERWATER (see act_move.c)
+			Fish and God race have gills so why bother with the
+			  wand? Zen's suggestion: new swim skill.
+			Swim skill implemented!
+
+
+Zen:			'Cast from pointer to integer of different size' 
+			  warnings in save.c caused segmentation faults on DEC
+			  Alpha.
+
+
+Zen:			Fixed bug in Envy 2.2 which caused descriptions of
+			  objects in player files to have the corrupt string on
+			  DEC Alpha.  Some genius defined key_data.key[11]  In
+			  case you don't know this has value range [0..10] NOT
+			  [0..11] so when comparing "Description" which is
+			  actually { 'D', 'e', 's', 'c', 'r', 'i', 'p', 't',
+			  'i', 'o', 'n' ,'\0' } you ran out of space...
+
+
+- Zen

@@ -1,0 +1,39 @@
+Nm          Warrior~
+WhoNm       &+BWarrior&n~
+Cla         1
+AtrPrm      1
+Wpn         200
+Guild       3022
+Sklladpt    95
+Thac0       18
+Thac47      0
+Hpmin       10
+Hpmax       17
+Mana        0
+Skll         1 '1h piercing'
+Skll         1 '1h slashing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h misc'
+Skll         1 '2h piercing'
+Skll         1 '2h slashing'
+Skll         1 '2h bludgeoning'
+Skll         1 '2h misc'
+Skll         1 'bash door'
+Skll         1 'berserk'
+Skll         1 'dual wield'
+Skll         1 'offense'
+Skll         1 'kick'
+Skll         1 'parry'
+Skll         1 'rescue'
+Skll         1 'scrolls'
+Skll         1 'second attack'
+Skll         1 'staves'
+Skll        46 'third attack'
+Skll         1 'wands'
+Skll         1 'shield block'
+Skll        21 'fast healing'
+Skll        51 'fourth attack'
+Skll        16 'whirlwind'
+Skll         1 'swim'
+Skll         1 'carve'
+End

@@ -1,0 +1,2 @@
+cat obj.header $1.obj obj.footer zone.footer > $1.are
+

@@ -1,0 +1,30 @@
+Sender  Govno~
+Date    Fri Aug 13 11:18:17 1999~
+Stamp   934557497
+To      govno~
+Subject test~
+Text
+scooby dooby doo
+~
+
+Sender  Govno~
+Date    Fri Aug 13 11:18:52 1999~
+Stamp   934557532
+To      imm~
+Subject test 2~
+Text
+blah blah blah
+~
+
+Sender  Lohrr~
+Date    Mon Sep 20 19:52:44 1999~
+Stamp   937871564
+To      knik~
+Subject test~
+Text
+Hey... This is a test..
+It's supposed to be prototype for the mail, I think.
+Well, just wanted to see if it works.
+Does &+gAnsi work?&n
+~
+

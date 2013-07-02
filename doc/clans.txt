@@ -1,0 +1,98 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Clans code changes
+
+The old clans code has been thrown out trough the window. The new code is such a
+mix of several clan implementation's ideas i can't quite remind of them.
+However i must say: it is very close to the SMAUG clans system tough a bit
+more complex. Most clans code is in act_clan.c, but file load/saving is in
+tables.c
+
+
+=== The fundamental structures in memory are
+
+++ The clans linked memory list ++
+
+struct  clan_data
+{
+    CLAN_DATA * next;           /* next clan in list                    */
+    char *      filename;       /* Clan filename                        */
+    char *      who_name;       /* Clan who name                        */
+    char *      name;           /* Clan name                            */
+    char *      motto;          /* Clan motto                           */
+    char *      description;    /* A brief description of the clan      */
+    char *      overlord;       /* Head clan leader                     */
+    char *      chieftain;      /* Second in command                    */
+    int         pkills;         /* Number of pkills on behalf of clan   */
+    int         pdeaths;        /* Number of pkills against clan        */
+    int         mkills;         /* Number of mkills on behalf of clan   */
+    int         mdeaths;        /* Number of clan deaths due to mobs    */
+    int         illegal_pk;     /* Number of illegal pk's by clan       */
+    int         score;          /* Overall score                        */
+    int         clan_type;      /* See clan type defines                */
+    int         subchiefs;      /* Number of subchiefs                  */
+    int         clanheros;      /* Number of clanheros                  */
+    int         members;        /* Number of clan members               */
+    int         clanobj1;       /* Vnum of first clan obj (ring)        */
+    int         clanobj2;       /* Vnum of second clan obj (shield)     */
+    int         clanobj3;       /* Vnum of third clan obj (weapon)      */
+    int         recall;         /* Vnum of clan's recall room           */
+    int         donation;       /* Vnum of clan's donation pit          */
+    int         class;          /* For guilds                           */
+};
+
+
+++ The player (pcdata) clan info data structures ++
+
+	CLAN_DATA *ch->pcdata->clan	/* pointer to player's clan */
+	int        ch->pcdata->rank	/* clan rank bits           */
+
+
+	RANK_NONE		      0		/* Doesn't have a clan  */
+	RANK_EXILED		      1		/* Exiled from a clan   */
+	RANK_CLANSMAN		      2		/* Foot soldier         */
+	RANK_CLANHERO		      3		/* Knight               */
+	RANK_SUBCHIEF		      4		/* Knight Lord          */
+	RANK_CHIEFTAIN		      5		/* Second in command    */
+	RANK_OVERLORD		      6		/* Head clan leader     */
+
+=== Rules & info on clan system
+
+A clan may be of 4 types: regular (PKILL), no PKILL, Order or Guild like in
+SMAUG.
+
+However the rank system is more complex; (from top to bottom) you have 5 ranks:
+Overlord, Chieftain, Subchief, Clanhero, Clansman.
+
+There may only be 1 Overlord of course, he may "exile", "promote" and "demote"
+his fellow clansmen.
+Both the Overlord and Chieftain may "initiate" players into the clan. There may
+only be 1 Chieftain.
+
+But some rules are required in this chaos; so you need enough members to have
+new officers:
+
+Chieftain:	9 members required, max 1
+Subchief:	6 members required, max unlimited
+Clanhero:	3 members required, max unlimited
+Clansman:	no limits, you may have as many foot soldiers has you want.
+
+As they rise trough the ranks, clansmen get clan prizes:
+
+Clan Ring:	upon promotion to Clanhero
+Clan Shield:	upon promotion to Subchief
+Clan Weapon:	upon promotion to Chieftain
+
+Of course this system needs several improvements like clan score for example.
+With added score you could get more rooms for your clan or a special
+spec_healer type program for example.  Of course these limits are too small for
+a large mud.  However since here we shouldn't have too many players (when and
+if i get a place in a mud team) i find these limits reasonable.
+
+
+- Zen

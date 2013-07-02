@@ -1,0 +1,1566 @@
+#AREA   { 2 10} Hatchet The Rats Lair~
+
+
+
+#HELPS
+0 HATCHET~
+Hatchet is a Merc Guy.  He founded Merc with Kahn one day in 1992 because one
+day, when he complained about muds, the imps said, 'If you have a problem, go 
+make your own mud.'  His love is for the mudders, specifically a lady named 
+Icaza.
+~
+0 ICAZA~
+Icaza is a Goddess of the mud realm.  She is currently being pursued by Hatchet
+of Merc.  Her smiles are contagious, and her Southern accent is intriguing.
+~
+0 $~
+
+
+
+#MOBILES
+#3801
+rat small~
+a small rat~
+A small rat is scurrying from room to room.
+~
+This rat looks like ... a rat.
+~
+128 32768 -100 S
+1 20 10 1d1+11 1d1+2
+0 100
+8 rat~ 0
+#3802
+Snigger snake~
+Snigger~
+Snigger, Icaza's cute man-eating snake, slithers around the room.
+~
+Snigger is a pretty big snake, at 7 feet and growing.  Although Icaza swears
+that Snigger has no fangs, any casual observer would quickly argue that point.
+Poisonous?  Why don't you find out?
+~
+2 128|8192 1000 S
+40 -20 -10 40d40+999 2d40+40
+0 20000
+8 snake~ 1
+#3803
+Sammy Sam kitten~
+Sammy~
+Sammy, Hatchet's cute flesh-clawing kitten, meows in a corner.
+~
+Sammy is a cute little kitten, probably weighs less than 3 pounds, but she has
+claws long enough and leap high enough to jump up and claw your eyes out!  She
+is currently purring and washing herself, oblivious to your presense.
+~
+2 128|8192 1000 S
+40 -20 -10 40d40+999 2d40+40
+0 20000
+8 animal~ 2
+#3804
+rat~
+a rat~
+A rat scurries around.
+~
+This rat is about average size, with average size teeth and average size claws.
+~
+32|64|128 32768 -200 S
+2 18 8 2d2+20 1d2+2
+0 150
+8 rat~ 0
+#3805
+rat large~
+a large rat~
+A large rat stares at you hungrily, then attacks you!
+~
+This rat is about the length of your arm, with sharp claws and teeth, which it
+uses now to bite at you!
+~
+32|64 0 -400 S
+3 17 7 3d3+33 1d3+3
+0 300
+8 rat~ 0
+#3806
+rat were wererat~
+a wererat~
+A humanoid rat notices you, then attacks!
+~
+This beast looks like a combination rat and human, as it has properties of
+both, namely standing erect, wielding a weapon, but with fur, ears, and tail
+of a rat.
+~
+2|32 0 -500 S
+4 16 6 4d4+44 1d4+4
+0 400
+8 rat~ 0
+#3807
+rat were wererat guard~
+a wererat guard~
+A humanoid rat stands guard here, but decides to attack you!
+~
+This beast looks like a combination rat and human, as it has properties of
+both, namely standing erect, wielding a weapon, but with fur, ears, and tail
+of a rat.  He seems to be guarding something.
+~
+2|32 0 -500 S
+5 15 5 5d5+55 1d5+5
+0 400
+8 rat~ 0
+#3808
+rat were wererat~
+a wererat~
+A humanoid rat sits here, discussing some business.
+~
+This beast looks like a combination rat and human, as it has properties of
+both, namely standing erect, wielding a weapon, but with fur, ears, and tail
+of a rat.  They don't notice you in their duscussion.
+~
+2|64|128 0 -5 S
+4 16 6 4d4+44 1d4+4
+0 400
+8 rat~ 0
+#3809
+drake firedrake~
+a firedrake~
+A red dragon-beast sits here, staring at you and blowing fire at you!
+~
+This beast looks a lot like a red dragon, except that it's a bit smaller.  It
+has red scales over it's four-legged reptilian body, with sharp claws and 
+piercing tail.  It is disturbed by your intrusion.
+~
+2|32 8 -700 S
+7 13 3 7d7+77 1d7+7
+0 1000
+8 dragon~ 0
+#3810
+rat were wererat leader~
+the wererat leader~
+A bulky rat-beast is here, enraged that you have intruded upon its room!
+~
+This beast looks like a combination rat and human, as it has properties of
+both, namely standing erect, wielding a weapon, but with fur, ears, and tail
+of a rat.  This one is different from the others, since it is better attired
+and also much bigger.
+~
+2|32 0 -700 S
+7 13 3 7d7+77 1d7+7
+0 1000
+8 rat~ 0
+#3811
+rat large~
+a large rat~
+A large rat stares at you menacingly, then attacks you!
+~
+This rat is about the length of your arm, with sharp claws and teeth, which it
+uses now to bite at you!
+~
+2|32 0 -400 S
+3 17 7 3d3+33 1d3+3
+0 300
+8 rat~ 0
+#3812
+rat were wererat slavemaster~
+a wererat slavemaster~
+A large wererat cracks his whip at you!
+~
+This beast looks like a combination rat and human, as it has properties of
+both, namely standing erect, wielding a weapon, but with fur, ears, and tail
+of a rat.  This one looks quite big, and the barbed whip he flicks toward you 
+looks quite deadly.
+~
+32 0 -600 S
+6 14 4 6d6+66 1d6+6
+0 600
+8 rat~ 1
+#3813
+slave human~
+a human slave~
+A human slave crouches in a corner, shivering.
+~
+This human looks familiar, and upon further examination, you see that this 
+slave used to be a citizen of Midgaard!  She asks pitifully for you to help
+her escape.
+~
+128 0 100 S
+2 18 8 2d2+22 1d2+2
+0 100
+8 human~ 2
+#3814
+slave human~
+a human slave~
+A human slave is here, digging in the tunnels.
+~
+This human looks familiar, and upon further examination, you see that this
+slave used to be a citizen of Midgaard!  He asks pitifully for you to help
+him escape.
+~
+128 0 100 S
+2 18 8 2d2+22 1d2+2
+0 100
+8 human~ 1
+#3815
+god mortal manifestation~
+the mortal Hatchet~
+The mortal manifestation of Overlord Hatchet sits here, whispering
+to Goddess Icaza.
+~
+Even in his mortal, statuesque form, Hatchet smirks a bit.  He smiles at your
+entrance, and welcomes you to join in conversation.
+~
+2 8|128|8192 1000 S
+40 -20 -30 40d40+444 1d40+40
+0 200000
+8 human~ 1
+#3816
+goddess mortal manifestation~
+the mortal Icaza~
+The mortal manifestation of Goddess Icaza sits here, whispering to
+Overlord Hatchet.
+~
+Even in her mortal, statuesque form, Icaza smiles and blushes a bit.  She
+smiles at you, and with an accent not too different from a Southern one, says,
+'Please join us in conversation!'
+~
+2 8|128|8192 1000 S
+40 -20 -30 40d40+444 1d40+40
+0 200000
+8 human~ 2
+#3817
+ooze green~
+the green Ooze~
+Some green ooze clings onto the ceiling and the walls.
+~
+This ooze looks like bad stuff, almost as if it's alive.
+~
+2|32 0 0 S
+5 15 5 5d5+55 1d5+5
+0 500
+8 plant~ 0
+#0
+
+
+
+#OBJECTS
+#3801
+silver key~
+a silver key~
+A silver key rest here, making a clean perimeter wherever it touches.~
+~
+18 0 1
+3838~ 0~ 0~ 0~
+1 0 0
+E
+silver key~
+Inscribed on this key are unintelliglble runes.
+~
+E
+runes~
+You don't understand what the runes say at all.
+~
+#3802
+key necklace~
+a key on a necklace~
+A necklace with a key on it is on the floor.~
+~
+18 0 1|4
+3827~ 0~ 0~ 0~
+1 0 0
+#3803
+key iron~
+an iron key~
+An iron key is on the floor.~
+~
+18 0 1
+3831~ 0~ 0~ 0~
+1 0 0
+#3804
+wall walls~
+the walls~
+The old wooden walls look like they are about to fall down on you.~
+~
+15 0 0
+300~ 0~ 0~ 0~
+1 0 0
+E
+wall walls~
+The walls here are made of rock holding back the rock and soil.  They look like
+they are ready to fall apart.  Most of these walls hold a torch.
+~
+#3805
+wall walls cave caves cavern~
+the walls of the cave~
+The walls gleam with hidden treasures!~
+~
+15 0 0
+300~ 0~ 0~ 0~
+1 0 0
+E
+wall walls cave caves cavern~
+The walls of this cave shine with sparkling gems, although most of them are
+too small to be dug out.
+~
+#3806
+box~
+the box~
+~
+~
+15 0 0
+300~ 0~ 0~ 0~
+1 0 0
+#3807
+crate~
+the crate~
+~
+~
+15 0 0
+300~ 0~ 0~ 0~
+1 0 0
+#3808
+table~
+the table~
+~
+~
+15 0 0
+300~ 0~ 0~ 0~
+1 0 0
+#3809
+stool~
+the stool~
+A lone stool sits on the floor.~
+~
+5 0 1|8192
+0~ 2~ 2~ 8~
+10 0 0
+A
+18 -1
+A
+19 2
+E
+stool~
+This sturdy stool looks like it can be used as a weapon!
+~
+#3810
+food~
+food fit for rats~
+Some food fit for rats gathers dust on the floor and assimilates.~
+~
+19 0 1
+15~ 0~ 0~ 0~
+5 0 0
+E
+food~
+Well, you can barely eat it, but you can eat it.
+~
+#3811
+stake wooden~
+a wooden stake~
+A wooden stake is against the wall.~
+~
+5 0 1|8192
+0~ 2~ 2~ 11~
+5 0 0
+E
+stake wooden~
+This wooden stake is quite sharp, and looks designed as a weapon.  The blood-
+stains at the tip confirm this idea.
+~
+#3812
+shrine~
+the shrine~
+~
+~
+15 0 0
+200~ 0~ 0~ 0~
+5 0 0
+E
+shrine~
+This shrine is built for worshiping the Goddess Icaza.  Red carnation petals
+cover the shrine, exuding a light, fresh scent to this place.
+~
+#3813
+long rusted knife~
+a long rusted knife~
+A long bladed knife is rusting on the floor.~
+~
+5 0 1|8192
+0~ 2~ 3~ 3~
+7 0 0
+A
+19 1
+E
+long rusted knife~
+This knife is rusted, but the rust only adds to the wickedness of this blade.
+~
+#3814
+tin bracer~
+a tin bracer~
+A tin bracer is rusting on the floor.~
+~
+9 0 1|4096
+4~ 0~ 0~ 0~
+5 0 0
+#3815
+tin leggings~
+tin leggings~
+A pair of tin leggings rusts on the floor.~
+~
+9 0 1|32
+4~ 0~ 0~ 0~
+5 0 0
+#3816
+tin armguards~
+tin armguards~
+A pair of tin armguards rusts on the floor.~
+~
+9 0 1|256
+4~ 0~ 0~ 0~
+5 0 0
+#3817
+flail spiked~
+a spiked flail~
+A spiked flail rests on the floor.~
+~
+5 0 1|8192
+0~ 3~ 3~ 7~
+5 0 0
+A
+19 2
+#3818
+whip barbed~
+a barbed whip~
+A barbed whip is curled up on the floor.~
+~
+5 0 1|8192
+0~ 3~ 4~ 4~
+10 0 0
+A
+18 1
+A
+19 1
+#3819
+rod holy icaza~
+Holy Rod of Icaza~
+A rod of gold rests millimeters from the floor.~
+~
+4 1|2|64|256|1024|2048 1|16384
+10~ 3~ 3~ protection~
+10 0 0
+A
+17 -5
+A
+24 -2
+A
+3 1
+E
+rod holy icaza~
+This rod was blessed by the touch and laugh of Goddess Icaza.  Holding on to it
+will bring you luck and protection.
+~
+#3820
+torch~
+a torch~
+A torch is here.~
+~
+1 0 1
+0~ 0~ 99~ 0~
+3 0 0
+#3821
+treasure gold coins~
+the treasure of gold coins~
+A big pile of gold coins is in the middle of the room!~
+~
+20 1 1
+2000~ 0~ 0~ 0~
+10 0 0
+#3822
+sapphire gem~
+a sapphire gem~
+A big sapphire gem glitters on the floor.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 0
+#3823
+ruby gem~
+a ruby gem~
+A big ruby gem glitters on the floor.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+5 0 3
+#3824
+minigun mini gun mini-gun~
+a 30mm Minigun~
+A big Minigun is resting against the floor.~
+~
+3 0 1|16384
+20~ 999~ 999~ general purpose~
+5 0 0
+#3825
+book poetry poems~
+a book of poetry~
+A book of poetry is beckoning you to read it.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 0 0
+E
+book poetry poems~
+This book of poetry is written by Hatchet for his loving Goddess, Icaza.  There
+are 5 poems in this book currently.  To read them, read ONE, TWO, THREE, 
+FOUR or FIVE.
+~
+E
+one~
+.
+			Dear Icaza
+
+		Roses are red,
+		Violets are blue.
+		For being my love,
+		I write this book for you.
+
+Inspired by and dedicated for the fair lady Icaza.
+by Hatchet, 3/7/94
+~
+E
+two~
+.
+		Little Girl
+
+One day, I happened upon a little girl,
+Sitting on the stump of a tree.
+She was dressed in blue, head full of curls,
+And she was smiling at me!
+
+"Hello, dear old man," she says to me.
+"I'm going to Wonderland!
+If you would like to come join me,
+Please, take hold of my hand!"
+
+I had barely touched her hand,
+When she ran off at a tear,
+Pulling me to a far away land
+That only she knew where.
+
+I watched this girl run like the fire,
+She must be under twenty.
+But she didn't slow, she didn't tire,
+While I hobbled behind, panting aplenty.
+
+Suddenly, we both started flying,
+With the Earth shrinking behind.
+I thought I must be dying,
+Or just losing my mind!
+
+"Where are we going, what is your name?",
+I yelled to the little girl.
+But nothing will distract this dame,
+As through a hole we hurl.
+
+I was suddenly filled with white light.
+Wondering what would next happen.
+But then I was no longer afright,
+As I saw what must be Heaven!
+
+Tranquil plains blossomed before my eyes
+As we came down to land.
+I looked around, from green grass to blue skies.
+This must be Wonderland!
+
+We finally stopped, our destination here,
+As we came upon a grand plaza.
+She leaned over, whispered to my ear,
+"I am Goddess Icaza."
+
+Inspired by and dedicated to the fair lady Icaza.
+3/7/94 by Hatchet
+~
+E
+three~
+.
+		Untitled
+	I read a poem to my love,
+	One that comes to me unbidden.
+	It is a simple poem, written by simple me,
+	but writing such a poem
+	makes me laugh, and it makes her cry
+	And I know that at that very moment,
+	we are both experiencing the same emotion, Love.
+
+Inspired by and dedicated to the fair lady Icaza
+by Hatchet 3/14/94
+~
+E
+four~
+.
+		Untitled
+	Leaves swirling around us,
+	Raindrops in our hair.
+	Locked within one another's embrace,
+	Lost in our own world.
+
+	We kiss softly, longingly,
+	Secure within our own warmth.
+	People scurry around us,
+	Oblivious to us, we oblivious to them.
+
+Inspired by and dedicated to the fair lady Icaza
+by Hatchet 4/4/94
+~
+E
+five~
+.
+		Proposal
+	I am enchanted by you.
+	So easily you have captured my heart.
+	And so happy I am when I think of you,
+	My life I wish you to be a part.
+
+	I am in love with you,
+	After only knowing you for time so short.
+	It is your love that I now woo,
+	Your hand I now quietly court.
+
+	I am lonely without you,
+	You are so vital to my life.
+	So I now humbly beg of you,
+	Susan, please be my wife.
+
+by Hatchet, 9/1/93, recited to Icaza on 9/9/1994
+~
+#3826
+book poetry poems~
+a book of poetry~
+A book of poetry is beckoning you to read it.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+1 0 0
+E
+book poetry poems~
+This book of poetry is written by Hatchet for his own pleasure.  There are
+4 poems in this book currently.  To read them, read ONE, TWO, THREE, or FOUR.
+~
+E
+one~
+.
+		Driving Fast
+	Wind streaming hy hair.
+	Racing along the highway.
+	Police behind me.
+
+by Hatchet 6/16/95
+~
+E
+two~
+.
+		Traffic Class
+	We all sit in class.
+	Listening to a comic
+	As he laughs at us.
+
+by Hatchet 6/16/95
+~
+E
+three~
+.
+		Suspension
+	A half score people
+	Bound to a room
+	By their own volition.
+	We even pay for
+	Our adult suspension.
+	We all come to this place
+	For the same reason.
+	And we await the same fate.
+
+by Hatchet 6/16/95
+~
+E
+four~
+.
+		Speeding
+	There was a guy named Mitch
+	Who drove like he had an itch.
+	He sped down Twenty Four,
+	Didn't look aft or fore,
+	And got caught by a bitch.
+
+by Hatchet 6/16/95
+~
+#0
+
+
+
+#ROOMS
+#3801
+Below a Dark Stairway~
+You are beneath a dark stairway.  Little light filters through from above, 
+allowing you to see only a dim passage leading to the south.  You see around 
+you decaying wood, and a musty smell assails your nostrils.  You look down and
+realize you are stepping on some type of feces.
+~
+38 12|16 1
+D2
+You see the dim passage leading south.
+~
+~
+0 0 3802
+D4
+You see your way out of this dark hole.
+~
+grate~
+1 -1 3026
+S
+#3802
+A Hallway~
+You are in a dim hallway.  Unlit torches hang from the walls, but the
+little light coming from the north is enough for you to see around.  This
+hallway continues south and north, with doors to the west and east.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3801
+D1
+~
+door~
+1 -1 3806
+D2
+~
+~
+0 0 3803
+D3
+~
+door~
+1 -1 3805
+S
+#3803
+A Dim Hallway~
+You are in a dim hallway, deeper into this decrepit place.  You realize that
+this place used to be a basement of some sort.  This hallway leads north and
+south, with doors to the west and east.  There is less and less light coming
+from the north, and you can barely see what's south of you.  Hanging on the
+walls are some torches.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3802
+D1
+~
+door~
+1 -1 3808
+D2
+~
+~
+0 0 3804
+D3
+~
+door~
+1 -1 3807
+S
+#3804
+A Dim Hallway Above the Stairway~
+You are at the end of the dim hallway.  Below you are some old wooden stairs.
+You can see that what's available of the light from the north can not penetrate
+the lower floor.  A room is to the west and to the east.  Hanging on the walls
+are some torches that look serviceable.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3803
+D1
+~
+door~
+1 -1 3810
+D3
+~
+door~
+1 -1 3809
+D5
+You see nothing in the gloom below.
+~
+~
+0 0 3811
+S
+#3805
+A Small Storage Room~
+You are in a small storage room.  Ripped up flour sacks litter this floor,
+along with some animal droppings.  The exit is to the east.
+~
+38 8|16 1
+D1
+~
+door~
+1 -1 3802
+S
+#3806
+A Small Storage Room~
+You are in a small storage room.  A pile of rags is against the far wall.  You
+think you saw something move in the pile of rags!  The exit is to the west.
+~
+38 8|16 1
+D3
+~
+door~
+1 -1 3802
+S
+#3807
+A Small Storage Room~
+You are in a small storage room.  A horrid stench fills this room, smelling 
+like some dead animal is rotting away here.  The exit is to the east.
+~
+38 8|16 1
+D1
+~
+door~
+1 -1 3803
+S
+#3808
+A Small Storage Room~
+You are in a small storage room.  A pile of filthy rags is against the far
+wall.  The exit is to the west.
+~
+38 8|16 1
+D3
+~
+door~
+1 -1 3803
+S
+#3809
+A Small Storage Room~
+You are in a small storage room.  A pile of filthy rags is against the far
+wall.  The exit is to the east.
+~
+38 12|16 1
+D1
+~
+door~
+1 -1 3804
+S
+#3810
+A Small Storage Room~
+You are in a small storage room.  Nothing of interest is here.  The exit is to
+the west.
+~
+38 8|16 1
+D3
+~
+door~
+1 -1 3804
+S
+#3811
+Beneath the Old Stairway~
+You are beneath the old stairway.  It reeks of dead meat and fecal matter here,
+and the combined darkness makes this place quite forbidding.  Small rooms can
+be seen in the west and east, and a hallway leads north.  Unlit torches adorn
+the walls.
+~
+38 9|16 1
+D0
+~
+~
+0 0 3812
+D1
+~
+door~
+1 -1 3816
+D3
+~
+door~
+1 -1 3815
+D4
+You see the relative safety of the upper floor.
+~
+~
+0 0 3804
+S
+#3812
+A Dark Hallway~
+You are in a dark hallway.  It appears that this part of the basement area is
+not fully complete in construction, and that the inhabitants here have made
+some make-shift arrangements.  The hallway leads north and south, with rooms
+to the west and east.  Unlit torches adorn the walls.
+~
+38 9|16 1
+D0
+~
+~
+0 0 3813
+D1
+~
+door~
+1 -1 3818
+D2
+~
+~
+0 0 3811
+D3
+~
+door~
+1 -1 3817
+S
+#3813
+A Dark Hallway~
+You are in a dark hallway that leads north to south.  West and east of you are
+some roughly made rooms.  You can see that the wooden walls are incomplete, and
+parts of the walls are just dug from rock and packed soil.  Unlit torches
+are on the walls.
+~
+38 9|16 1
+D0
+~
+~
+0 0 3814
+D1
+~
+door~
+1 -1 3820
+D2
+~
+~
+0 0 3812
+D3
+~
+door~
+1 -1 3819
+S
+#3814
+A Dark Hallway~
+You are in a dark hallway.  You see more exposed rock than wood now, as this
+unfinished place reveals it's state of incompleteness.  Someone must have 
+abandoned this place for a reason.  To the west and east are some makeshift 
+bedrooms, and this hallway leads north and south.
+~
+38 9|16 1
+D0
+~
+~
+0 0 3823
+D1
+~
+door~
+1 -1 3822
+D2
+~
+~
+0 0 3813
+D3
+~
+door~
+1 -1 3821
+S
+#3815
+A Storage Room~
+You are in a storage room.  Weapons and some armor are on the floor.  Most are
+broken, however, so they are useless to you.  The exit is to the east.
+~
+38 9|16 1
+D1
+~
+door~
+1 -1 3811
+S
+#3816
+A Storage Room~
+You are in a storage room.  "Food" and some useless tools are scattered all 
+over the floor, but they sure don't look like anything you'd dare get near!
+The exit is to the west.
+~
+38 9|16 1
+D3
+~
+door~
+1 -1 3811
+S
+#3817
+A Bedroom~
+You are in a makeshift bedroom.  A pile of rags against a wall makes a bed, and
+some boards nailed together make a table.  The exit is to the east.
+~
+38 9|16 1
+D1
+~
+door~
+1 -1 3812
+S
+#3818
+A Bedroom~
+You are in a makeshift bedroom.  A pile of rags against a wall makes a bed, and
+a crate on it's side makes a rough cabinet.  The exit is to the west.
+~
+38 9|16 1
+D3
+~
+door~
+1 -1 3812
+S
+#3819
+A Bedroom~
+You are in a makeshift bedroom.  The only thing in this room is a bed made of
+a pile of rags.  The exit is to the east.
+~
+38 9|16 1
+D1
+~
+door~
+1 -1 3813
+S
+#3820
+A Bedroom~
+You are in a makeshift bedroom.  The only thing in this room is a bed made of
+a pile of rags.  The exit is to the west.
+~
+38 9|16 1
+D3
+~
+door~
+1 -1 3813
+S
+#3821
+A Bedroom~
+You are in a makeshift bedroom.  All you see in this room is a bed made of rags
+and a wooden box.  The exit is to the east.
+~
+38 9|16 1
+D1
+~
+door~
+1 -1 3814
+S
+#3822
+A Bedroom~
+You are in a makeshift bedroom.  All you can see in this room is a bed made of
+rags and a shabbily built stool in the corner.  The exit is to the west.
+~
+38 9|16 1
+D3
+~
+door~
+1 -1 3814
+S
+#3823
+A Stairway~
+You are on a landing of an old stairway.  The stairs creak as you put any 
+pressure on it, and the combined gloom of this place gives you the creeps. 
+The stairs lead both up and down, and a hallway is to the south.
+~
+38 9|16 1
+D2
+~
+~
+0 0 3814
+D4
+~
+~
+0 0 3824
+D5
+~
+~
+0 0 3825
+S
+#3824
+A Meeting Room~
+You are in a roughly dug room, about 20 paces by 20 paces, and 8 paces high.
+A table is in the center, with about a dozen chairs surrounding it.  A lit
+torch is on a wall, and you can tell that someone must do some upkeep here, 
+because the obnoxious smell is less in this room.  The exit is down the
+stairway.
+~
+38 8|16 1
+D5
+~
+~
+0 0 3823
+S
+#3825
+At the Bottom of the Stairs~
+You are at the bottom of the stairs, in a roughly dug room.  This area smells
+like swamp, with a warm and humid odor assailing your nostrils.  An ominously
+red light comes from the south, the other exit to this room being the stairs
+back up.
+~
+38 9|16 1
+D2
+You think you smell smoke coming from the south.
+~
+~
+0 0 3826
+D4
+~
+~
+0 0 3823
+S
+#3826
+The Firedrake's Lair~
+You are in a large, roughly dug room, about 15 paces by 15 paces and 10 paces
+high.  A light smoke fills the air, and you see burn marks all around you.  A
+steel door is to the east, another is to the west, and tunnels lead north and
+south.
+~
+38 1|4|9|16 1
+D0
+~
+~
+0 0 3825
+D1
+~
+door steel~
+1 3802 3827
+D2
+~
+~
+0 0 3829
+D3
+~
+door steel~
+1 3802 3828
+S
+#3827
+The Treasure Room~
+You are in a small, unlit room.  There is nothing of interest here other than
+the obvious treasure piled in the center of this room!  The steel door leads
+west out of here.
+~
+38 9|16 1
+D3
+~
+door steel~
+1 3802 3826
+S
+#3828
+The Leader's Quarters~
+You are in a small room.  A large desk and large chair make up the furnishings
+in this room, other than a painting on the north wall.  The steel door leads
+east out of here.
+~
+38 9|16 1
+D1
+~
+door steel~
+1 3802 3826
+S
+#3829
+A Rough Tunnel~
+You are in a roughly dug tunnel.  The inhabitants of this lair must have begun
+to expand by excavating this area.  A lit lantern casts wavy shadows across
+this tunnel, which leads north and south.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3826
+D2
+~
+~
+0 0 3830
+S
+#3830
+A T-Intersection in the Tunnels~
+You are in an intersection in the tunnels.  A lit lantern casts a orange light
+in this tunnel, showing cages to the west, and side branches leading north and
+east.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3829
+D1
+~
+~
+0 0 3832
+D3
+You hear the pathetic whimpers of slaves.
+~
+cage~
+1 3803 3831
+S
+#3831
+A Large Cage~
+You are in a large, unlit cage.  It smells bad here, and you here squishing
+sounds as you tread around in this room.  The exit is to the east.
+~
+38 9|16 1
+D1
+~
+cage~
+1 3803 3830
+S
+#3832
+A Bend in the Tunnels~
+You are in a bend in the tunnels.  A lantern blazes on a low ceiling.  The 
+exits are to the west and south.
+~
+38 8|16 1
+D2
+~
+~
+0 0 3833
+D3
+~
+~
+0 0 3830
+S
+#3833
+A T-Intersection in the Tunnels~
+You are in a T-intersection in the tunnels.  A lantern shows exits in the
+cardinal directions.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3832
+D1
+~
+~
+0 0 3835
+D2
+~
+~
+0 0 3836
+D3
+~
+~
+0 0 3834
+S
+#3834
+An End of the Tunnel~
+You are at an end of the tunnel, and you can see signs of digging here.  The
+walls glitter from a lantern hung on a wall.  The exit is to the east.
+~
+38 8|16 1
+D1
+~
+~
+0 0 3833
+S
+#3835
+An End of the Tunnel~
+You are at an end of the tunnel, and you can see signs of digging here.  The
+walls glitter from a lantern hung on a wall.  The exit is to the west.
+~
+38 8|16 1
+D3
+~
+~
+0 0 3833
+S
+#3836
+The Tunnel~
+You are in the tunnels.  A high lantern shows exits to the north and south.
+The walls glitter slightly.
+~
+38 8|16 1
+D0
+~
+~
+0 0 3833
+D2
+~
+~
+0 0 3837
+S
+#3837
+An End of the Tunnel~
+You are at an end of the tunnels.  A high lantern shows a large silver door to
+the south.  The door seems to glow.  The tunnel leads back north.  There is a
+large sign here, scribbled on it, 'Do NOT Enter!'
+~
+38 8|16 1
+D0
+~
+~
+0 0 3836
+D2
+The sign says, 'Do NOT Enter!'
+~
+door silver~
+2 3801 3838
+E
+sign~
+The sign says, 'Do NOT Enter!'
+~
+S
+#3838
+A Small Shrine~
+You are in a small room.  For some reason, this room is much cleaner
+than the others in this decrepit area.  A candle burns smokelessly on a table
+in the middle of the room, and a small shrine is against the far wall.  The
+occupants of this area must avoid this room for some reason.  Some words are
+inscribed next to the shrine.  The exit is to the north.  A strange portal is
+to the west.
+~
+38 12|16 1
+D0
+~
+door~
+2 3801 3837
+D3
+The portal has no keyhole, and you see no way to get through it.  You have the
+feeling that this portal takes you to a different plane of existence!
+~
+~
+2 -1 3839
+E
+words inscription inscribed walls wall~
+The inscribed words say,
+
+My Goddess Icaza,
+     My love for you shall never end, for you are the love of my life.  I
+dedicate this room to you, and I bless it so that no evil may ever enter this
+room. 
+					Your Mortal Paladin,
+					Hatchet
+~
+S
+#3839
+On the Other Side of the Dimensional Portal~
+You are on the other side of this dimensional portal!  You look around, and
+see walls made of a golden substance harder than titanium and atlantium.  A
+divine light illuminates this room.  To the west, you see the rest of this
+estate, and to the east, you see a small room with a shrine through a hazy
+portal.
+~
+38 8|16 1
+D1
+You see the small room with the shrine.~
+~
+2 -1 3838
+D3
+~
+~
+0 0 3840
+S
+#3840
+The Living Room of Icaza and Hatchet~
+You are in a large room.  Walls made of a golden substance harder than titanium
+and atlantium rise high to the ceilings.  Paintings, tapestries, and other
+beautiful objects of art merge into the walls, as if they are part of the
+walls themselves.  Two large thrones are in the center of this room.  A large
+door wrought from a platinum-like metal is to the north, and an equally large
+door wrought from a gold-like metal is to the south.  The other exit from this
+room is the hallway to the east, and a mysterious portal to the west.
+~
+38 8|16 1
+D0
+The door looks impenetrable by mundane means.  A small sign says, 'Hatchet'.
+~
+~
+2 -1 3841
+D1
+~
+~
+0 0 3839
+D2
+The door looks impenetrable by mundane means.  A small sign says, 'Icaza'.
+~
+~
+2 -1 3842
+E
+portal west~
+This portal seems impenetrable by mortal means.
+~
+S
+#3841
+Hatchet's Study~
+You are in a small, cluttered room.  You are amazed by the amount of trash in
+this room, especially compared to the large, opulent room this is connected to.
+A picture of the fair lady Icaza is on a wall, next to a Cindy Crawford
+calendar.  You can hear the song 'Somewhere Out There' in the background.  The
+exit is to the south.
+~
+38 0|16 1
+D2
+~
+~
+0 0 3840
+S
+#3842
+Icaza's Study~
+You are in a small room.  A large bed is in the corner, and a wooden rocker
+creaks of it's own will on the hardwood floors.  You can see a stuffed ducky
+and a stuffed piggie on the bed.  This bed looks like it's for display use
+only, as the owner of this room must sleep somewhere else.  You can hear the 
+ringing of a small bell in the background.  The exit is to the north.
+~
+38 0|16 1
+D0
+~
+~
+0 0 3840
+S
+#3899
+Icaza's and Hatchet's Bedroom~
+You are in a large room.  Strangely, you see THREE beds in this room, a large
+brass bed, an equally large waterbed, and a smaller low futon.  All three look
+used, as if the owners of this room use all three beds depending on their 
+moods.  The smell of roses and perfumes permeates this room, and you can hear 
+some soft jazzy music (Kenny G?) in the background.  There is no mortal exit 
+from this room.
+~
+38 512|16 1
+S
+#0
+
+
+
+#RESETS
+*Doors*
+D 0 3801 4 1            Close the grate up
+D 0 3026 5 1            Close the grate down
+D 0 3802 1 1            Close the door to room 3806
+D 0 3806 3 1            Close the door from room 3806
+D 0 3804 3 1            Close the door to room 3809
+D 0 3809 1 1            Close the door from room 3809
+D 0 3811 1 1            Close the door to room 3816
+D 0 3816 3 1            Close the door from room 3816
+D 0 3811 3 1            Close the door to room 3815
+D 0 3815 1 1            Close the door from room 3815
+D 0 3812 1 1            Close the door to room 3818
+D 0 3818 3 1            Close the door from room 3818
+D 0 3813 3 1            Close the door to room 3819
+D 0 3819 1 1            Close the door from room 3819
+D 0 3814 3 1            Close the door to room 3821
+D 0 3821 1 1            Close the door from room 3821
+D 0 3826 1 2            Close and lock the door to room 3827
+D 0 3827 3 2            Close and lock the door from room 3827
+D 0 3826 3 2            Close and lock the door to room 3828
+D 0 3828 1 2            Close and lock the door from room 3828
+D 0 3830 3 2            Close and lock the door to room 3831
+D 0 3831 1 2            Close and lock the door from room 3831
+D 0 3837 2 2            Close and lock the door to room 3838
+D 0 3838 0 2            Close and lock the door from room 3838
+D 0 3838 3 2            Close and lock the door to room 3839
+D 0 3839 1 2            Close and lock the door from room 3839
+D 0 3840 0 2            Close and lock the door to room 3841
+D 0 3840 2 2            Close and lock the door to room 3842
+*
+M 0 3801 2 3802         Small rat in rooms
+M 0 3801 2 3810         Small rat in rooms
+O 0 3804 9 3802         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3803         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3804         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3811         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3812         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3813         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3814         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3823         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+O 0 3804 9 3824         Walls in the rooms
+P 0 3820 9 3804         Torch in walls
+*
+M 0 3804 2 3808         Rat in rooms
+M 0 3804 2 3817         Rat in rooms
+M 0 3805 1 3823         Large rat in rooms
+M 0 3806 1 3806         Wererat in room
+E 1 3811 99 16          Equipped with a stake
+M 0 3807 2 3815         Wererat guarding weapons
+E 1 3813 99 16          Rusted Knife
+E 1 3815 99 7           Leggings
+M 0 3807 2 3816         Wererat guarding food
+E 1 3813 99 16          Rusted Knife
+E 1 3816 99 10          Arm Guards
+M 0 3807 2 3815         Wererat guarding weapons
+E 1 3813 99 16          Rusted Knife
+E 1 3815 99 7           Leggings
+M 0 3807 2 3816         Wererat guarding food
+E 1 3813 99 16          Rusted Knife
+E 1 3816 99 10          Arm Guards
+M 0 3808 3 3824         Wererat in conference
+E 1 3811 99 16          Stake
+M 0 3808 3 3824         Wererat in conference
+E 1 3811 99 16          Stake
+M 0 3808 3 3824         Wererat in conference
+E 1 3811 99 16          Stake
+M 0 3810 1 3828         Wererat leader in office
+E 1 3817 99 16          Flail
+E 1 3814 99 14          Bracer
+E 1 3814 99 15          Bracer
+E 1 3815 99 7           Leggings
+E 1 3816 99 10          Arm Guards
+M 0 3811 2 3828         Large rats to support leader
+M 0 3811 2 3828         Large rats to support leader
+M 0 3812 1 3830         Slavemaster walking around
+E 1 3818 99 16          Whip
+E 1 3814 99 14          Bracer
+E 1 3814 99 15          Bracer
+G 1 3803 99             Give him the key to the cage
+O 0 3805 9 3829         Cavern walls in the rooms
+P 0 3822 9 3805         Sapphire in walls
+O 0 3805 9 3830         Cavern walls in the rooms
+P 0 3823 9 3805         Ruby in walls
+O 0 3805 9 3832         Cavern walls in the rooms
+P 0 3822 9 3805         Sapphire in walls
+O 0 3805 9 3833         Cavern walls in the rooms
+P 0 3822 9 3805         Sapphire in walls
+O 0 3805 9 3834         Cavern walls in the rooms
+P 0 3823 9 3805         Ruby in walls
+O 0 3805 9 3835         Cavern walls in the rooms
+P 0 3822 9 3805         Sapphire in walls
+O 0 3805 9 3836         Cavern walls in the rooms
+P 0 3822 9 3805         Sapphire in walls
+O 0 3805 9 3837         Cavern walls in the rooms
+P 0 3823 9 3805         Ruby in walls
+O 0 3805 9 3838         Cavern walls in the rooms
+P 0 3823 9 3805         Ruby in walls
+M 0 3813 3 3831         Slave in cage
+M 0 3813 3 3831         Slave in cage
+M 0 3813 3 3831         Slave in cage
+M 0 3814 2 3837         Slave working
+M 0 3814 2 3835         Slave working
+M 0 3815 1 3840         Mortal Hatchet
+E 1 3824 9 17           Wielding a Minigun!
+M 0 3816 1 3840         Mortal Icaza
+E 1 3824 9 17           Wielding a Minigun!
+M 0 3817 1 3819         Ooze in room
+*
+M 0 3809 1 3826         Drake in the Drake's Lair
+E 1 3802 9 3            Wearing the necklace key
+O 0 3812 9 3838         Shrine in Icaza's holy room
+P 0 3819 9 3812         Put the rod in the shrine
+O 0 3801 9 3827         Key lying on the ground
+O 0 3821 9 3827         Treasure on the ground
+O 0 3825 1 3842         Book of Poetry
+P 0 3825 1 3812         Put the Book of Poetry in the shrine
+O 0 3826 1 3841         Hatchet's Book of Poetry
+*
+M 0 3802 1 3842         Snigger in Icaza's room
+M 0 3803 1 3841         Sammy in Hatchet's room
+*
+S
+
+
+
+#SPECIALS
+M 3801 spec_poison      small rat
+M 3802 spec_poison      snigger
+M 3804 spec_poison      rat
+M 3805 spec_poison      large rat
+M 3806 spec_poison      wererat
+M 3807 spec_poison      wererat guard
+M 3808 spec_poison      wererat in conference
+M 3809 spec_breath_fire firedrake
+M 3810 spec_poison      rat leader
+M 3811 spec_poison      large rat
+M 3812 spec_poison      slavemaster
+M 3815 spec_cast_undead Hatchet
+M 3816 spec_cast_cleric Icaza
+S
+
+
+
+#$

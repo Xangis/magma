@@ -1,0 +1,14 @@
+/****************************************************************************
+
+
+idea7.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#define BITMAP_4	4
+#define BITMAP_1	1
+BITMAP_1 BITMAP "slash1.bmp"
+BITMAP_4 BITMAP "wwwline.bmp"

@@ -1,0 +1,1 @@
+copy zone.header+room.header+%1.wld+room.footer+mob.header+%1.mob+mob.footer+obj.header+%1.obj+obj.footer+shop.header+%1.shp+shop.footer+reset.header+%1.zon+quest.header+%1.qst+quest.footer+zone.footer %1.are

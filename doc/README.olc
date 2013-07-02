@@ -1,0 +1,54 @@
+ILAB OLC Beta 1.1 for Envy 2.2
+Vasco Costa - aka Zen
+vasc@camoes.rnl.ist.utl.pt
+Monday, 22nd September 1997
+
+ILAB OLC Beta 1.1 for Envy 2.0
+Christopher Smith
+stoked@iastate.edu
+June 25, 1997
+
+ILAB OLC Beta 1.1
+Jason Dinkel
+Apr. 07 1995
+
+
+=== ILAB OLC Beta 1.1 for Envy 2.0 muds
+
+This is Jason Dinkel's ILAB OLC Beta 1.1 package re-released for Envy 2.0
+muds.  It was derived from the package originally released for Envy 1.0.
+Changes were made to accommodate new features in Envy 2.0.  By no means
+do I guarantee this to be stable, or work 100% of the time.  If you
+find something that doesn't work, please report it to the Merc-L mailing
+list (merc-l@webnexus.com) or email me directly at stoked@iastate.edu
+
+This is an updated version of one I released last month, with bug fixes.
+
+
+=== What is ILAB OLC?
+
+ILAB OLC = "I Love Amy Barr" On-Line Creation.
+
+ILAB OLC is a constantly revised online creation system distributed by
+Jason Dinkel.  It was based on the public domain version of OLC written
+by Surreality and distributed by Locke in The Isles 1.1.  The first
+release was in December of 1994.  Since then many changes have occurred
+that make it a much better system to use for your online creation needs.
+
+
+=== Notes for Envy2.2 (by Zen)
+
+Now MobPrograms have been fairly tested but OLC hasn't. So please have
+patience and solve the bugs you find ;-)
+The mud should run 1st time.  It has been tested on a Linux 2.0.29 system and
+gives no compiling warnings or such.  Check out the files in newdocs/OLC11
+for OLC.
+The code was severely mutilated by myself :) so you should have trouble
+recognizing olc.c & olc_act.c from the previous versions since i made a
+u-turn and now the code resembles more its The Isles origins.  Purists shall
+become shocked to know i purged the code of loads of small functions for
+a few monster 20+ page functions; however i find the code easier to read!
+This code may be rewritten again, i'm still not happy with it.
+
+
+- Zen

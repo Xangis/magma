@@ -1,0 +1,354 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== What's new in this patch Release 0.87j
+
+The 0.87X series consists of bugfix releases only.  Don't expect any new
+features in here.  For new features wait for 0.88 (?)...
+
+		---0.87a---
+Zen:		Fixed bug in Envy 2.2 which caused descriptions of objects in
+		  player files to have the corrupt string on DEC Alpha.
+		Added CHECK_RES(), CHECK_IMM(), CHECK_SUS() macros.
+
+		---0.87b---
+		Fixed a couple of mistakes i made on 0.87a.
+		Scrolls, potions & pills v4's use finally is as described in
+		  area.txt.
+
+Rakot:		Chars damaged by daylight even if they aren't Vampires bug
+		  (fixed)
+
+Satan:		Weird value[3] in weapons crashes the mud bug (fixed)
+
+		---0.87c---
+		Fixed bug in mprog_translate() which i thought had been
+		  completely fixed way back in version 0.85.  I hope it's dead.
+		To give you "insufficient security to edit area" messages less
+		  often, you aren't allowed to enter the editor unless you
+		  have enough security.
+
+		---0.87d---
+Zen:		You can use the OLC editors without security to see stats.
+		Added a couple of more checks in fread_char().
+		OLC aedit without arguments edits the player's area.
+		OLC oedit modified to edit new object affect format.
+		OLC oedit bad value settings bug fixed.
+
+		---0.87f---
+Zen:		Removed several ugly bugs from clan code.
+		Removed yet another OLC bug in oedit addaffect.
+		It seems UltraEnvy crashed with some old Envy2.2 player files
+		  and/or areas because i changed the name of "protection"
+		  I'm actually glad this happened because it allowed me to fix
+		  one Envy2.2 bug and one memory leak! (fixed)
+
+		---0.87g---
+		If you ordered a charmed mob to suicide himself he would attack
+		  you, this one comes from Envy2.2 (fixed)
+		No more easy going for players who give offensive pills & stuff
+		  to a mob to make it hurt himself.
+		No more easy going for players who give scrolls of heal to a
+		  mob to make it heal them.
+		Added a couple of small enhancements to clan code.
+		Changed obj_update() a bit; i think it doesn't quite do what
+		  was supposed to but heck!  The mud didn't crash yet...
+		Added checks for fpReserve in a lot of places; is this really
+		  necessary?
+		Cleaned up code.  I hope i didn't introduce any new bug...
+		I had forgot to add the security check for the "sober" imm cmd.
+		Rset now understands strings besides numbers.		
+		Oset now understands strings besides numbers.
+		In comm.c getpeername and getsockname aren't used anymore so
+		  there is no need to have OS-dependent declarations for them.
+		In comm.c bzero isn't called anywhere so i scrapped all related
+		  declarations.
+		Renamed mob_commands.c to mob_comm.c.
+		Added new object_update() loop to introduce object specials.
+		Added object specials.
+		Added new room_update() loop to make falling things faster.
+		"who" command now should have less weird results.
+
+		---0.87h---
+		Solved small bug in saving of object resets.
+		Changed "#if defined( linux )" to "#if defined( __linux__ )".
+		  Although the former is defined, it is not POSIX compliant.
+		Changed OLC and do_astat to work with Sektor's new #AREADATA
+		  format.
+		Changed load_area() to convert well behaved Envy2.2 area names
+		  to Sektor's #AREADATA format.
+		Reconverted most areas back from Envy2.2 again.  Fixed up some
+		  forgotten resets also.
+
+Satan:		Shopkeeper's ITEM_FURNITURE objects get level 0 (fixed)
+
+Sektor:		Suggested new directory structure.
+		'invis', 'mass invis' and 'polymorph other' didn't have realms.
+		New area loading routines: new_load_area(), fread_area().
+
+		---0.87j---
+                Removed ridable mobs bug.
+                Scraped old aliases for Sektor's code.  MUCH better.
+                Made noticeable changes to alias code including I/O routines.
+
+Sektor:         Much improved alias code.
+
+
+=== What's new in patch Release 0.87
+
+Zen:		Now HomeCooked should be compatible with old Envy2.2 player
+		  files. However, it's now incompatible with previous HomeCooked
+		  version's player files...
+		Updated help files so you now have helps for all <= v0.85
+		  features...
+		Added Erwin's printf_to_char(), bugf() and logf() functions.
+		Implemented NiMUD hit types. Including hit FUN's.
+		Removed mobs sleepwalking bug.
+		Added ranged weapons support. NiMUD style. Still primitive.
+		Changed startupSH a bit. Only tested on bash.
+		Changed color scheme, unfortunately it is now partially
+		  incompatible with the previous version. However, now it also
+		  allows you to change the background color of text.
+		Changed score command to have a new SMAUG based look.
+		Added Mythran's WIZNET code.
+		Changed process_output() slightly to show the user the percent
+		  of lines displayed so far.
+		Changed restore so that restore with no arguments will restore
+		  the whole room (Mythran style).
+		Implemented NiMUD weather system improvements. Including:
+		  temperature, windspeed, snowing.
+		Added SMAUG's BVXX defines.
+		Cleaned up code a bit.
+		Plague spell for Clerics and Mages (Mythran)
+		Cure disease spell for Clerics (Mythran)
+		Flower social (Mythran)
+		Added WIZNET WIZ_DEBUG info.
+		Changed tracking algorithms: SMAUG's tracking module was
+		  actually graph.c with a couple more things (or so it seems).
+		  I replaced it for the SillyMUD hunt.c algorithm since it seems
+		  it's faster (at least this was mentioned on the merc
+		  mailing-list). Mythran uses this also. The code is almost
+		  twice the size of SMAUG's tracking module. But if it's faster
+		  this is no problem. Does anyone know the speeds for sure?
+		  One funny thing: hunt.c source is bigger but the object file
+		  size is 10k smaller compared to track.c (at least on Linux)
+		Changed verbose area saving a bit to look nicer.
+		Full #GAMES support added.
+		Upper Lower Triple dice game (coded by Thelonius)
+		Seven dice game (coded by Maniac)
+		High dice game (coded by Maniac)
+		Added Mythran's casino area. It was very empty so i had to do
+		  50% of the work to make it usable. Also made helps for the
+		  dice games. Some were already in gamehelp.are.
+		Added damages types ex: DAM_FIRE, DAM_COLD, etc.
+		  Also: Resistances, Immunities and Susceptibilities (RIS).
+		  The system is mostly based on ROM's IRV system (as i call it).
+		  Also took some ideas for the system from SMAUG. The problem i
+		  have is on some code in fight.c and magic.c (i can't make my
+		  mind to what damage types to use). Also i'm not sure which
+		  RIS to put on each race. Look at const.c and see for yourself.
+		  Testing of immunity was done on mob Captain Vader - Undead.
+		  Vader and the other Undeads are now immune to gas breath :-)
+		  (gas breath is DAM_POISON and Undeads can't be poisoned).
+		Weapon proficiencies, NiMUD/SMAUG/ROM style (mean hybrid :-) )
+		  (see attack_table in const.c)
+		Changed password and retire, they now use a longwinded routine
+		  in comm.c nanny() to do their stuff; done by yours truly :-)
+		Minimum level for OLC commands is now L_SEN.
+		Removed aedit, redit and replaced them for NiMUD style versions.
+		  All that source with command tables, OLC_FUN's and stuff was
+		  making code harder to read, it was spread all over the place.
+		  The inconvenience is that "commands" no longer works for OLC.
+		Changed player "description" command to use sedit.
+		Changed look of sedit's string_append() & string_add().
+		Ridable mobs (got most code from NiMUD)
+		Several code changes in update.c and MobProgs in attempt to
+		  improve performance (not much impact though).
+		Removed a couple of bugs.
+		Added command history, finally no more need for endless typing!
+		Enhanced spell system: now spells have mana types, and you
+		  can use special mana charged gems to boost your inner mana.
+		  Inner mana is automagically convertible into any of the mana
+		  types. Got idea from NiMUD but most code was changed to allow
+		  spell casting without gems.
+		Nearly finished on new clan code. Now it only needs testing and
+		  steady refinement.
+		Solved bug in MobProgs; act_prog wasn't working...
+		Fixed warnings of 'cast from pointer to integer of different
+		  size' on Alpha machines from Envy22.  Caused a segmentation
+		  fault.
+		Added name prefixes.  Example: kill fido & kill fi both work.
+		Fixed a LOT of bugs introduced from all the code changes i made.
+		  Thanks to the staff and players of DragonMud which found
+		  countless bugs which i promptly fixed.
+		Fixed bug in old HC versions which caused descriptions of
+		  objects in player files to become corrupt.
+		Changed new tracking module to compile cleanly on DEC Alpha and
+		  replaced bzero(), bcopy() for memset(), memmove().
+		It seems Envy2.2's mana cost of remove alignment was right all
+		  along...  Changed it back to 10.  Sorry.
+		Following Erwin's letter to the Merc mailing list regarding int
+		  vs char and EOF handling i changed a lot of chars to ints.
+		Changed source so it would compile without warnings on Visual
+		  C++ 4.0.  Also removed a couple of type casts here and there.
+		Changed startupWNT.cmd and startupW95.bat a bit.
+		Changed select() calls in comm.c to not trap ERRINTR as per
+		  Erwin's suggestion in a letter to the Merc mailing list so i
+		  could profile code.
+		Included more accurate string hashing function by Erwin S.A.
+		Removed a lot of wasteful calls to race_lookup() in fight.c
+		  like:
+		    -> if ( ch->race == race_lookup( "Snake" ) )
+		  for:
+		    -> if ( !str_cmp( race_table[ch->race].name, "Snake" ) )
+
+Satan:		Bug in comm.c act() sometimes made a segmentation fault.
+		  originated from Envy2.2 (fixed)
+
+
+=== What's new in patch Release 0.85
+
+Zen:		It seems like i forgot do update load_helps() in db.c.
+		Added SMAUG's track code.
+		Smarter mobs.
+		Track skill for Thieves (SMAUG code)
+		Whirlwind skill for Warriors.
+		Removed olc_envy20's ROOM_TEMP_CONE_OF_SILENCE and replaced it
+		  with a new field orig_room_flags in room_index_data. This
+		  field is saved by OLC instead of room_flags.
+		Added more detailed boot log ala SMAUG.
+		Object affects, now you can have a One Ring which renders you
+		  invisible with AFF_INVIS, or sanctuary with AFF_SANCTUARY,
+		  etc...
+		Renamed spell 'Scry' to 'Wizard Eye'.
+		Updated help.are just a little
+		Changed layout of aedit_show(), medit_show().
+		Added preliminary parts support, like the one in ROM.
+		Cleaned up send_to_char (color version)
+		Now redit_show uses do_rstat for all output.
+		It seems that when loading files from stdin, if AREA.LST had
+		  "-limbo.are" for example; when saving, it was saved it with
+		  the name "-limbo.are" instead of "limbo.are"...
+		Added new "editinfo" mode.
+		Added medit_copy.
+		Added oedit_copy.
+		Envy2.2 didn't have the Irix target defined in the top Makefile...
+		Changed Flee code a bit to make mobs look smarter and slightly
+		  more aggressive.
+		Fixed bug in mprog_translate.
+		Cleaned up some code.
+		Improved look and feel of OLC.
+		Renamed clookup to clist, and showclass do clookup.
+		Now immortals may pass all doors.
+		Fixed security loophole in mob_commands.
+		Fixed bug in mptransfer().
+
+Stimpy:		WhirlWind skill for Warriors.
+
+SMAUG team:	Most Hunt/Track code - 95% i think :-)
+		Track skill for Thieves.
+		Mobile memory. ROM2.4 mobs have better memory but i don't want
+		  a mob with a huge linked memory list...
+
+ROM 2.4:	Parts support idea, SMAUG also features this.
+
+
+=== What's new in patch Release 0.84
+
+Zen:		Quick fix, i think nobody even got 0.83 since i only left it on
+		  ftp.game.org for 2 days. Alias code was using bzero and it
+		  seems not all platforms have this... Oops!
+
+
+=== What's new in patch Release 0.83
+
+Zen:		Fixed bug in "imtlset" when using the '-' option with only one
+		immskill. Sometimes it made a segmentation fault...
+		Now you can see the OLC prompt options while switched.
+		Removed several other minor bugs.
+		Added a couple of new text attributes to colorconv().
+		Updated all Makefiles.
+		Added Slash's "falling" code.
+		All class info in a text file.
+		Socials table is now in a text file also...
+		Now the immortal command "delete" merely moves player files to
+		  the backup directory instead of erasing them.
+		Fixed bug in OLC when using redit_mlist() "all".
+		  It would list many mobs not in the area, but in the area's
+		  vnum range! It would overflow the buffer for output and cause
+		  a segmentation fault.
+		Fixed much the same bug in OLC's redit_olist() "all". It now
+		  simply checks if the object belongs in the area or not.
+		Changed alias code a little...
+		Changed "sset" so immortals may "sset all" other immortals to
+		  ALL spells/skills, even those not of their class.
+
+
+=== What's new in patch Release 0.82
+
+Zen:		Converted skills from src/Contributions.
+		ANSI color support using ColoUr_V1.2.
+		Scry spell for all caster classes
+		Mass Vortex Lift spell for Clerics
+		Vortex Lift spell for Mages and Psionicists
+		Meteor Swarm (Drool Co design) spell for Mages
+		Meditate skill for all caster classes
+		Added Arena Code using ROOM_ARENA flag, could be better.
+		Swim skill for all classes
+		Steal bug fixed.
+		Retire command.
+		new Director command "Delete" NUKES player on the fly!
+		Increased mana cost of remove alignment to 100 as in Envy2.0
+		Primitive CLANS code support.
+		do_remove now allows things as: "remove #.ring"
+		do_sacrifice now allows things as: "sacrifice #.something"
+		  where # is the word "all" or a number.
+		Added MOBPrograms 2.1.
+		Brew skill (creates potions).
+		Scribe skill (creates scrolls).
+		All ch's >= LEVEL_IMMORTAL may enter in any guild room.
+		Added "show" bit to cmd_type.
+		Killing charmed mob without master bug fixed.
+		Chain Lightning (Drool Co design) spell for Mages
+		Detect Good spell for Clerics
+		Dispel Good spell for Clerics
+		Dirt Kicking skill for Warriors and Thieves
+		Added several new liquid types
+		Added ITEM_PORTAL, ITEM_WARP_STONE
+		Added do_enter, so you can enter a portal and teleport.
+		Added several new liquid types.
+		Added Online Editing using ILAB OLC Beta 1.1.
+		Changed object format slightly. Will still load old Envy areas.
+		Added alias, and unalias commands.
+		Added CHANNEL_GRATS and "grats" command.
+		Added CHANNEL_CLANTALK and "clantalk" command.
+		Protection Good spell for Clerics.
+		Fixed colorconv() bug when player was switched.
+		Fixed bug in OLC when switched.
+
+Joguel:		race Fish should breathe in SECT_WATER/SECT_WATER_NOSWIM
+
+
+=== What can i do to help?
+
+  Please make suggestions, contribute with code or whatever. Whatever i do i
+will try to make it available to everyone. And pass it to the EnvyMud staff.
+  PLEASE do not make code which requests who uses it to put your name on the
+title screen as i have seen some code (like quest.c in ftp.solace.mh.se) i hate
+this! If everyone were like this soon we would have pages and pages of names in
+the title screen... If you want put your name in the help of the skill or
+whatever. To fight this i will include NO code which requests the author's name
+in the title screen unless it's a MAJOR code change. I have included some
+ROM/SMAUG/NiMud code and i put a reference to ROM/SMAUG/NiMud in the code as
+well as in here.
+
+  Btw i'm in need of help sections for most of the new skills/spells as i hack
+code but usually forget to make the relevant help or it's very outdated...
+I would apreciate very much if some kind soul did this for me.
+
+
+- Zen

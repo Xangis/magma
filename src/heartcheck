@@ -1,0 +1,24 @@
+#!/bin/bash -f
+
+#
+# 
+# cd into the HEARTBEAT directory
+
+cd  /home/test/src
+
+# Following command will test for a file named "HEARTBEAT" that
+# has a status change greater than $BEATTIME minutes. IF it finds
+# it, it just displays the filename ala "ls -al" format so we ask
+# grep to check the output for us.  If grep finds "HEARTBEAT" in
+# "find"'s output, then the HEARTBEWAT file isn't getting updated
+# for whatever reason and executes "killmud" script.
+#
+# find . -cmin $BEATTIME -name heartbeat -ls  #command template
+#
+# cmin set to 3 minutes.  HEARTBEAT is currently updated every two mins.
+#
+if `/usr/bin/find . -cmin +3 -name HEARTBEAT -ls | grep -q HEARTBEAT`;
+then
+    /usr/bin/killtest
+    /bin/mail -s "Testmud heartbeat stopped.  Process killed!"  bast2_gods@egroups.com
+fi

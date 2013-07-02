@@ -1,0 +1,151 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+Rakot asked for MSP support.  I haven't bothered myself much with this since
+i can't test it at home - i'm coding on Linux and there is no MSP client for
+Linux yet.  However i wrote some code in about 30 mins... It's in act_msp.c.
+It's crap but i can't use or test it anyway.  Bellow are the MSP specs.
+Got them somewhere from the homesite of the ZMud windows client at
+<http://www.zuggsoft.com>.
+
+--- MSP Draft Specification 0.2
+
+=== !!SOUND
+
+Syntax: 
+	!!SOUND(fname V=vol L=repeats P=priority T=type) 
+Where: 
+	"fname" is the name of the sound file to be played 
+	"vol" is the volume level to play the sound at
+	"repeats" is the number of times to play the sound
+	"priority" is the priority of the sound
+	"type" is the sound class
+
+Parameters:
+
+fname: 
+	"fname" may contain relative path information and wildcards, but may not
+	contain absolute path information. Any directory information should be
+	specified using "/" rather than "\", since this avoids all of those
+	nasty problems with escape characters. If multiple wave files match a
+	wildcard, one of them should be chosen at random. Wildcards should work
+	just like DOS wildcards; * should match the remainder of the file name,
+	and ? should match exactly one character. If no extension is specified,
+	".wav" should be assumed.
+
+	Following are some valid fname values:
+		weather/thund*
+		lightning.wav
+		zone231/room22.wav
+	And some invalid ones:
+		weather\lightning.wav # uses \ rather than /
+		*x*.wav # wildcards stop after the first *
+		c:\sounds\m.wav # no absolute paths
+vol: 
+	"vol" may range from 0 (0%, off) to 100 (100%, full). This parameter may
+	be omitted, in which case it defaults to 100.
+repeats: 
+	"repeats" controls the number of times to play the sound. It may be
+	omitted, in which case it defaults to 1. It may also be set to -1, which
+	causes sounds to be looped until otherwise instructed.
+priority: 
+	"priority" is the priority of the sound. If a sound is requested while
+	another sound is being played, whichever sound has the higher priority
+	wins. In the case of a tie, the sound that is already playing wins. This
+	is to prevent combat sounds from degenerating into a mishmash of sound
+	fragments. Priority may range from 0 to 100, and defaults to 50 if not
+	set. 
+type: 
+	The class of the sound. This is mud specific. Some example classes might
+	be combat, zone, death, clan. This parameter may be omitted, but if a
+	MUD opts to use it, it's recommended that it be used everywhere. The
+	actual type is a string, and should be case insensitive. 
+
+Notes:
+
+(1) If a wildcard pattern is requested for multiple repeats, the actual sound
+    played should be picked randomly for each iteration.
+(2) The sound name Off is reserved, and should cause all wave files to stop
+    playing.
+
+Examples:
+
+	!!SOUND(thunder V=100 L=1 P=30 T=weather) 
+	!!SOUND(weather/rain.wav V=80 P=20 T=weather) 
+	!!SOUND(alarm P=100 T=utility) 
+	!!SOUND(Off) 
+
+=== !!MUSIC
+
+Syntax: 
+	!!MUSIC(fname V=vol L=repeats C=continue T=type) 
+Where: 
+	"fname" is the name of the music file to be played 
+	"vol" is the volume level to play the music at "repeats" is the number
+	of times to play the music file 
+	"continue" specifies whether the file should be restarted if requested
+	again
+	"type" is the sound class 
+
+Parameters:
+
+fname: 
+	"fname" may contain relative path information and wildcards, but may not
+	contain absolute path information. Any directory information should be
+	specified using "/" rather than "\", since this avoids all of those
+	nasty problems with escape characters. If multiple music files match a
+	wildcard, one of them should be chosen at random. Wildcards should work
+	just like DOS wildcards; * should match the remainder of the file name,
+	and ? should match exactly one character. If no extension is specified,
+	".mid" should be assumed. 
+
+	Following are some valid fname values:
+		bach/fugue*.mid 
+		zone231/room22.mid 
+	And some invalid ones:
+		tchai\1812.mid # uses \ rather than / 
+		*x*.mid # wildcards stop after the first * 
+		c:\midi\m.mid # no absolute paths 
+vol: 
+	"vol" may range from 0 (0%, off) to 100 (100%, full). This parameter may
+	be omitted, in which case it defaults to 100. 
+repeats: 
+	"repeats" controls the number of times to play the sound. It may be
+	omitted, in which case it defaults to 1. It may also be set to -1, which
+	causes the midi file to be looped continuously until otherwise
+	instructed. 
+continue: 
+	"continue" specifies whether the file should simply continue playing if
+	requested again (1), or if it should restart (0). In either case, the
+	new repeat count should take precedence over the old one, and the
+	"number of plays thus far" counter should be reset to 0. By way of
+	illustration, assume two rooms, room 110, and room 111. Room 110 is set
+	to play bach/fugue.mid 3 times, while room 111 is set to play
+	bach/fugue.mid 5 times. If a character enters room 110, fugue starts
+	playing; if during halfway through the second refrain the character
+	moves to room 111, fugue would either continue or restart based on the
+	continue setting. fugue should play either 4.5 times (if continue was 1)
+	or 5 times (if continue was 0). Similarly, the volume of the most recent
+	MUSIC escape should be used. If "continue" isn't specified, it defaults
+	to 1. 
+type: 
+	The class of the sound. This is mud specific. Some example classes might
+	be combat, zone, death, clan. This parameter may be omitted, but if a
+	MUD opts to use it, it's recommended that it be used everywhere. The
+	actual type is a string, and should be case insensitive. 
+
+Notes:
+
+(1) If a wildcard pattern is requested for multiple repeats, the actual music
+    file played should be picked randomly for each iteration.
+(2) The music name Off is reserved, and should cause all midi files to stop
+    playing. 
+
+Examples:
+
+       !!MUSIC(fugue.mid V=100 L=1 C=1 T=music) 
+       !!MUSIC(berlioz/fantas1 V=80 L=-1 C=1 T=music) 
+       !!MUSIC(Off) 

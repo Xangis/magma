@@ -1,0 +1,47 @@
+#
+# Instructions provided by Kenneth Dugas <dugas@porky.uchc.edu> for
+# compilation of Envy 2.0 under Windows 95/NT using Visual C++ 2.0
+#
+# - Kahn
+
+	Here are directions someone would need to compile the source
+using Visual C++ 2.0.  There are a few other C compilers in common use
+for NT/95, the directions would be somewhat different for them.
+
+    1) Create a new project with project type = console application.
+
+    2) Add all of the *.c files.  Do NOT add the *.h files.
+
+    3) Ignore the 'cannot find whatever.h file' errors, it's not
+    smart enough to ignore the files it will not need due to
+    precompiler declarations.
+
+    4) Select Project...Settings from the menu.
+
+    5) Click on the LINK tab of the Project Settings dialog box.  Add
+    wsock32.lib to the Object/Library Modules line. Click the OK button.
+
+    6) Build the project.  It should compile without warnings.
+
+
+#
+# Instructions for compilation of UltraEnvy under Windows 95/NT
+# using Visual C++ 4.0
+#
+# - Zen
+
+	Here are directions someone would need to compile the source
+using Visual C++ 4.0.  There are a few other C compilers in common use
+for NT/95, the directions would be somewhat different for them.
+
+    1) Create a new project with project type = console application.
+
+    2) Add all of the *.c files.  Do NOT add the *.h files.
+
+    3) Select Build...Settings from the menu.
+
+    4) Click on the LINK tab of the Project Settings dialog box.  Add
+    wsock32.lib to the Object/Library Modules line. Click the OK button.
+
+    5) Build the project.  It should compile without warnings.
+

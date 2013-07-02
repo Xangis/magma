@@ -1,0 +1,72 @@
+Veygoth's Magma MUD (Pre-release) version 0.63
+Monday, July 12, 1999
+
+veygoth		veygoth@stax.net
+
+=== QUESTS
+
+With the added support for quests, there are a few things you should
+understand about quests.
+
+1)	The only safe way to write a quest is with Tavril's DikuEdit.
+2)	Never write a quest by hand.  It's a pain in the butt to get right.
+3)	The quest loading procedure is picky.  Don't change the order of
+	things in a quest section.
+
+Quests consist of two main parts - the conversations that a mob can have
+with a player, which can be part of a quest or can simply be used to give
+the mobs another level of interactivity, and the quest item data, which
+accepts items from a player and rewards them once they have given the mob
+the items needed to complete a quest.
+
+*** More information after I get quests fully implemented ***
+
+=== QUEST DATA FORMAT
+
+Here is an example of a quest section in an area file:
+#QUESTS
+#716
+M
+ring band lost hi hello silver wedding wife lost help~
+I can't find my ring! I must get it back or my wife will think I don't love
+her anymore.  please help me! wait wait! I remember this skinny little fella
+bumping into me, he must have stolen it!  Thief!  Thief!  We must catch
+him!
+~
+Q
+Oh thank you so very much! here take this amulet, its all I have of any
+value.
+~
+R I 721
+G I 720
+D
+I must be off.  I bid you farewell and wish you the best of luck in your
+adventures!
+~
+S
+#0
+#$
+[End of example]
+
+First off is the section header that identifies this as quest data.  This
+is simply #QUESTS and is used just as you would use a #MOBILES or an
+#OBJECTS section header in an area file.
+
+Second is the vnum of the mob which the quest is associated with.
+
+After the vnum are various sections signified by various letters:
+
+M	Conversational data:  Keywords and an associated responses
+Q	Beginning of Quest section:  Each Q found under a vnum
+        begins another quest associated with that mobile.  Under the Q
+        is the message given when one completes the quest.
+R       Receive item data:
+G       Give item data:
+D       Disappearance message (optional): If mob disappears when the
+        quest is completed, this is the message that is given.  If a mob
+        does not disappear, there will be no D section.
+
+So in this example, when this mob is greeted they will fret about their
+missing wedding ring, thus giving the player a clue that this is a quest.
+When they give the ring (Item #72?) to the mobile, they will thank the
+player and hand them item #72? and hurry off.

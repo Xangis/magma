@@ -1,0 +1,91 @@
+UNNOFICIAL Zen's EnvyMud patch Release 0.87j! (Ultra Envy2.2)
+Wednesday, 10th December 1997
+
+Zen             vasc@camoes.rnl.ist.utl.pt
+
+
+
+=== Copyright and License Terms
+
+Diku Mud is copyright (C) 1990, 1991 by Sebastian Hammer, Michael Seifert,
+Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.  Their license agreement
+is in the file 'license.doc'.
+
+Merc Diku Mud is a derivative of the original Diku Mud and is subject to their
+copyright and license agreement.  Merc Diku Mud contains substantial
+enhancements to Diku Mud.  These enhancements are copyright (C) 1992, 1993 by
+Michael Chastain, Michael Quan, and Mitchell Tse.  Their license agreement is
+in the file 'license.txt'.
+
+EnvyMud 1.0 is a derivative of Merc Diku Mud, version 2.2, and is subject to 
+the copyright and license agreements for both Diku Mud and Merc Diku Mud.
+The modifications and improvements contained in EnvyMud are copyright (C) 1994
+by Michael Quan, David Love, Guilherme 'Willie' Arnold, and Mitchell Tse.
+
+EnvyMud 2.0 is a derivative of EnvyMud, version 1.0, and is subject to 
+the copyright and license agreements for both Diku Mud, Merc Diku Mud,
+and Envy Mud.  The modifications and improvements contained in EnvyMud 2.0
+are copyright (C) 1995 by Michael Quan and Mitchell Tse.
+
+EnvyMud 2.2 is a derivative of EnvyMud, version 2.0, and is subject to 
+the copyright and license agreements for both Diku Mud, Merc Diku Mud,
+and Envy Mud.  The modifications and improvements contained in EnvyMud 2.2
+are copyright (C) 1996, 1997 by Michael Quan.
+
+HomeCooked 0.87 is a derivative of EnvyMud, version 2.2, and is subject to 
+the copyright and license agreements for both Diku Mud, Merc Diku Mud,
+and Envy Mud.
+
+In order to use HomeCooked you must follow the Diku license, the Merc license,
+the Envy license and my license.  The exact terms of the Diku license are in the
+file 'license.doc'.  A summary of these terms is:
+
+        -- No resale or operation for profit.
+        -- Original author's names must appear in login sequence.
+        -- The 'credits' command must report original authors.
+        -- You must notify the Diku creators that you are operating a Diku mud.
+
+The exact terms of the Merc license are in the file 'license.txt'.  A summary
+of these terms is:
+
+        -- Copyrights must remain in original source.
+        -- 'Help merc' must report Merc help text, as shipped.
+
+The exact terms of the Envy license are in the file 'license.nvy'.  A summary
+of these terms is:
+
+        -- Copyrights must remain in original source.
+        -- 'Help envy' must report Envy help text, as shipped.
+
+My terms are:
+	-- All my code here is *freeware*.
+	-- But the snippets have their own author rights, please give credit
+	   where credit is due.
+        -- Don't forget to follow the Envy, Merc and Diku licenses. You should
+	   find them in the 'doc' directory.
+
+Neither the Merc, EnvyMud nor HomeCooked license terms require keeping author
+names in the 'greeting' text.  If you want to include a reference to Merc and
+its authors (Furey, Hatchet, and Kahn), EnvyMud and its authors (Kahn and
+Hatchet) or HomeCooked author (Zen), they would appreciate it, but do not
+require it.  However, you must keep the original Diku authors in the login
+sequence.
+
+These are very generous terms for any software.  If you don't want to accept
+them, feel free to run some other software, or write your own.
+
+
+=== DISCLAIMER! ATTENTION!
+
+  I have worked hard on this code and i ask you nothing for it. All i can
+say is that it works fine on my 16MB Pentium Linux system and without any
+warnings or errors, i have tested the code very throughly and found no
+bugs (yet). So i say to you this:
+1. If this code blows up your machine it's not my fault.
+2. If your girlfriend/boyfriend leaves you it's not my fault.
+3. If while crossing the street you are hit by a car it's not my fault.
+4. In short: USE THIS AT YOUR OWN RISK!
+With that said if you report bugs i will *try* to solve them.
+
+
+- Zen

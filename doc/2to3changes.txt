@@ -1,0 +1,67 @@
+Individual code files:
+act_comm.c - Language code, group code, ignore command, many misc. changes
+act_inf0.c - More detailed messaged and informational commands, added innates such as layhands, advanced
+             coin-related commands by Lithos.
+act_move.c - Tons of changes, including movement scripts for mobs, etc.
+act_obj.c - Equipment use code changed abundantly, added the pour command, artefact tracking.
+act_wiz.c - A multitude of changes, mainly enhanced statting and information commands.
+bit.c - Many changes, added bit information, and changes to bitvector data.
+const.c - Added age and GSN's for mobs, many stat changes, added skills and spells, and monk framework
+db.c - A few functional changes, mostly additions of skill GSN's and related stuff.
+event.c - A few spell event additions, and a function to string event names by type#
+fight.c - Many combat details changed or enhanced, innate abilities for elementals, rewritten headbutt, added
+          throw code, many other details.
+fraglist.c - Almost all fraglist-related code rewritten
+gamble.c - No significant changes, just changes in variables to match code-wide changes.
+handler.c - A few functional changes, including the last_fun stuff.
+interp.c - Many added commands, some additional logging
+magic.c - Quite a few functional changes to spellcasting.
+map.c - Better map support, visibility code changes.
+mem.c - No significant changes, just last_fun stuff and changes to match code-wide changes.
+save.c - Added variables to pfile.
+songs.c - No significant changes, just changes to match code-wide changes
+spec_mob.c - Vastly expanded mob spell lists, more efficient logic algorithms, smarter mobs.
+spec_obj.c - Many added procs, most of which are Basternae specific and need to be removed.
+spells.c - A vast and inexplicable number of spell additions and changes, many balance changes.
+ssm.c - No significant changes, just commenting.
+string.c - No significant changes, just changes to match code-wide changes
+tables.c - A few updates, primarily moving clan functions to act_clan.c
+track.c - A few semantics and message changes, justice mobs can force criminals to land.
+traps.c - No significant changes, just changes to match code-wide changes
+update.c - Many functional changes, including new exp tables and poison code
+wiznet.c - Addition of the quests, hunting, hating, and lithos spam channel.  flags channel is now called crimes.
+vehicle.c - Definition of a few basic vehicle commands.
+
+/area:
+
+Updated help files: help.are, helpspell.are, olc.hlp, and screens.are
+Updated Limbo.are
+Added boat1.are
+No changes to makezone
+Added more information on surface maps.
+
+/clans:
+
+No changes.
+
+/classes:
+
+Eliminated the unused directory and moved all files to /classes.
+Many changes to currently implemented classes.
+Elimination of Basternae 2 class information.
+
+/doc
+
+Added functions.txt
+
+/mobprogs:
+
+Added a few more examples (from vkobolds.are).
+
+/src:
+
+No changes yet, many to come.
+
+/sys:
+
+Added some blank templates for the various data files.

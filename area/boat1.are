@@ -1,0 +1,74 @@
+#AREADATA
+Name        Ships and Vehicles~
+Author      Veygoth~
+Levels      1 50
+Security    1
+VNUMs       300 399
+Builders    Veygoth~
+Recall      3001
+Reset       You hear some strange noises.~
+End
+#MAGMAROOMS
+#300
+&+yMain Deck of a Sloop&n~
+   You stand upon the deck of a sloop.  The floor is made of polished wood.
+~
+1 134250496 1
+D1
+~
+~
+0 0 301
+S
+#301
+&+yControl Panel of a Sloop&n~
+   You stand at the helm of a sloop.
+~
+1 0 0
+D3
+~
+~
+0 0 300
+S
+#0
+
+#MAGMAOBJECTS
+#300
+sloop ship~
+&+ya sloop&n~
+&+yA sturdy sloop is here.&n~
+~
+28 6 3 0 7 0 8192 0 0 1 0
+0 300 301 10 25 100 0 0
+8000 0 100
+#301
+frigate ship~
+&+ya frigate&n~
+&+yA sturdy frigate is here.&n~
+~
+28 6 3 0 7 0 8192 0 0 1 0
+0 300 301 10 25 100 0 0
+8000 0 100
+#302
+galleon ship~
+&+ya galleon&n~
+&+yA sturdy galleon is here.&n~
+~
+28 6 3 0 7 0 8192 0 0 1 0
+0 300 301 10 25 100 0 0
+8000 0 100
+#0
+
+#MAGMARESETS
+#1
+A Galleon~
+301 2 0 40 50 0
+*
+* Zone edited with dikuEdit v3.03
+*
+*
+*
+*
+*
+S
+#$
+

@@ -1,0 +1,4181 @@
+#AREA	{ 5 50 } Draiden   The Castle Naytil~
+
+#RECALL 10601
+
+#MOBILES
+#10601
+vizier wizard companion Ifor~
+the grand visier~
+The kings boon companion, Ifor scrutinizes you.
+~
+This wizard's sharp eyes scrutinize you as you enter the room.  You can see
+the glow of power about him as he observes your every move. His shimmering 
+garb and large staff all quake with power whenever you approach.  For the 
+first time in your adventuring career have you seen a great and powerful 
+wizard.
+
+~
+512|1024 0 900 S
+50 2 2 1d1+30000 1d8+32
+100000 80000
+8 human~ 1
+
+#10602
+holy knight sergeant~
+the holy knight~
+The sergeant at arms challenges your passage.
+~
+This trusted knight was a sergeant in the lords army.  Now that the land is at
+peace he has not been forgotten.  The lord keeps him and all his fine soldiers
+well employed keeping the kingdom at peace.  The soldier reminds you to keep
+your swords sheathed, but sharp.  With a quick smile and a wink of his eye he
+acknowledges the fact that you are a seasoned adventurer and will run you a
+little slack.
+~
+2|64 8192 800 S
+32 2 2 6d10+3900 1d8+22
+2000 80000
+8 human~ 1
+
+#10603
+guard militia militiaman~
+the militiaman~
+A militiaman guards the streets in Baladur.
+~
+A big strong man, part of the local population, but volunteering for the kings
+service, laughs as he watches the children playing.  He remembers his idle
+days of joy and fun and realizes that children need their playtime if they are
+to become honest citizens in the future.
+~
+64|4|1 8192 1000 S
+27 15 -2 15d15+150 1d4+10
+500 19000
+8 human~ 1
+
+#10604
+janitor~
+the janitor~
+A janitor yells at you "Clean up your corpses".
+~
+The janitor pushs a broom around to insure that people visiting this fair city
+will be impressed with the beauty and wonders that the city has to offer.  He
+is worried that the slightest dirt will mar the wonders that you observe here.
+~
+1 0 900 S
+3 20 9 2d6+10 1d5+0
+34 100
+8 gnome~ 1
+
+#10605
+mutt hound dog~
+the royal hound~
+A royal hound stands here cautiously watching you.
+~
+This dog is a the faithful companion of the royalty of Baladur.  It was bread
+to be a quick fast fighter as well as a faithful companion.  It looks on you
+with disdain realizing that you are not worthy of it attention.  
+~
+161 0 -200 S
+5 20 10 1d6+4 1d4+0
+10 25
+8 animal~ 1
+
+#10606
+cutthroat muscle~
+the mob muscle~
+the mob muscle tries to intimidate you.
+~
+This cutthroat is a vicous killer.  You can see from his hardened muscles and
+his many scars that he has been employed for a long time by the cities
+underworld.  He is sizing you up to see if you will be his next victim, or 
+even if you might be a potential employee.
+~
+4 0 -200 S
+5 16 5 2d6+60 1d8+0
+47 900
+8 human~ 1
+
+#10607
+congressman man scum~
+the congressman~
+A congressman looks longingly at your pocketbook.
+~
+This Baladurian Congressman assures you that he has your best interest in
+mind.  He will take care of you and make you happy.  All things under his 
+control will fun efficiently he assures you.  All you have to do is give 
+him 75% of all your hard earned cash.
+~
+68 0 400 S
+13 19 8 2d6+22 1d6+0
+85 200
+8 human~ 1
+
+#10608
+assemblyman woman scum~
+the assemblywoman~
+An assemblywoman is here, asking for all your coins.
+~
+This assemblywoman will protect you buy insuring that all street lamps have 
+shades and that the gutters are painted puce for better visibility.  She tells
+you how much she loves and cares for you.  She explains that she know what is
+best for you.  When you try to speak up she tells you to sit down so she can
+help  you.  She.... Yes, SHE NEVER SHUTS UP.
+~
+68 0 400 S
+10 20 9 2d6+10 1d5+0
+0 100
+8 human~ 2
+
+#10609
+kitten black smokey~
+a black kitten~
+A little, cute kitten purrs at you.
+~
+This little black kitten looks like Smokey,  the little lost kitten of the
+princess.  You hear that there may be a reward for the return of smokey, but
+the kitten will not let you pick her up.  You do notice the fine fur coat she
+has.  They might make a good pair of mittens.
+~
+161 0 -200 S
+2 20 10 1d6+4 1d4+0
+10 25
+8 animal~ 1
+
+#10610
+militia guard officer~
+the militia officer~
+This officer watches you, and his troops intently.
+~
+This officers job goes far beyond just monitoring the public.  He also 
+organizes the local militia and keeps them well trained.  he insures that the
+borders are secure and that the shopkeepers prices are in line.  His job 
+insures that the good militiaman will stay employed and that the bad apples 
+get dumped.  His is an honest man doing a hard job.
+~
+64 8192 1000 S
+35 5 -2 15d15+150 1d4+10
+500 19000
+8 human~ 1
+
+#10611
+border guard~
+the border guard~
+A gruff guard stands his ground looking for intruders.
+~
+A border guard is here, watching the border. He is very careful to insure that
+no undesirables come into the city.  He loves his city and will make sure that
+all who are untrustworthy are kept out.
+~
+67 8192 1000 S
+15 5 -2 15d15+150 1d4+10
+500 19000
+8 dwarf~ 1
+
+#10612
+border guard~
+the border guard~
+A gruff guard stands his ground looking for intruders.
+~
+A border guard is here, watching the border. He is very careful to insure that
+no undesirables come into the city.  He loves his city and will make sure that
+all who are untrustworthy are kept out.
+~
+67 2|8192|65536 1000 S
+20 0 -7 20d20+200 1d4+15
+500 40000
+8 human~ 1
+
+#10613
+border guard~
+the border guard~
+A gruff guard stands his ground looking for intruders.
+~
+A border guard is here, watching the border. He is very careful to insure that
+no undesirables come into the city.  He loves his city and will make sure that
+all who are untrustworthy are kept out.
+~
+38 8192 1000 S
+15 5 -2 15d15+150 1d4+10
+0 9000
+8 human~ 1
+
+#10614
+wall guard~
+the wall guard~
+A gruff guard stands his ground looking for intruders.
+~
+The wall guard stands post at his disignated area faithfully.  He realizes he
+is the last defence before the hordes come crashing into beautiful Baladur.
+He realizes what his job is and will not discuss the possibilities of
+employment with anyone else.  He really wishes you would leave the area.
+~
+38 8192 1000 S
+15 5 -2 15d15+150 1d4+10
+0 9000
+8 human~ 1
+
+#10615
+child sabrina princess~
+the young princess~
+A beautiful child is looking for something here.
+~
+This beautiful princess tells you her name is Sabrina.  She is very concerned
+because she has lost her pet, Smokey the black cat.  She thinks someone may
+kill her beautiful Smokey and make mittens out of her.  She begs you to find
+Smokey and to bring her back.
+~
+193 8320 1000 S
+5 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10616
+dominatrix nanny nannie woman~
+the nannie~
+A buxom leather clad woman.
+~
+Obviously this nanny had another occupation before this one.  She looks you
+over, up and down.  She licks her lips in anticipation of the joys that she
+will have with you.  She understands what it is to be a woman.
+~
+128|32 8192 -500 S
+12 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10617
+teacher marm woman schoolmarm~
+the schoolmarm~
+A pristine conservativily clad woman.
+~
+The woman has an extremeley important job.  To educate the young princess in
+the matters of state, government and in reading, writing and arithmatic.  She
+has the responsiblities of the entire country of Baladur at her mercy.
+~
+128 128|8192 1000 S
+12 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10618
+cook~
+a cook~
+a white clad man wearing a bakers hat.
+~
+This cook prepares meals for people in the castle.  The staff of this castle 
+are very hard working and will do whatever necessary to please you.
+~
+128|4|2 524288 0 S
+20 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10619
+butler~
+the butler~
+A man in a black tuxedo carrying a tray.
+~
+This man used to serve the king in his armies, but now that he has gotten
+older the king has not discarded him.  He is given a position of respect
+and resposibility and a chance to further serve the king and his family.
+~
+4|64 524288|4|8|16|32|8192 500 S
+28 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10620
+maid~
+the maid~
+A scullery maid.
+~
+The scullery maid tends to the cook and his every need.  She makes sure he
+is happy and that everything is clean and spotless.  She knows her task and
+performs it well
+~
+128|2|4 65536 0 S
+6 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10621
+maid~
+the maid~
+An upstairs maid.
+~
+The upstairs maid tends the bedrooms and the living quarters of the family.
+She insures that all of the needs and wished of the royalty are met.  The
+entire cleanliness of the household is up to her.
+~
+128|4|64 65536|32768 0 S
+8 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10622
+practice dummy~
+the practice dummy~
+The practice dummy
+~
+This dummy was created to engage anyone entering the room in combat.  It was
+intended to keep the king in shape during the long periods of peacefulness.
+~
+2|32 0 0 S
+10 5 9 5d8+10 1d4+10
+75 1200
+8 object~ 0
+
+#10623
+queen Salina~
+our beloved queen~
+our beloved queen, Salina
+~
+The beautiful Salina is married to the king(naturally).  She loves to sit and
+sew in her room.  She has been trying to get her daughter to take up sewing 
+also, but with no luck.
+~
+2|64|512 4|8|16|32|128|512|8192 1000 S
+43 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10624
+cleric Salderon~
+the holy cleric~
+Salderon the wise
+~
+The head of the Church of Owinpel stands before you.  He blesses and wishes
+you a good day.  He then moves on to others who need his help.
+~
+0 4|8|16|32|128|512|8192|1048576|524288 1000 S
+45 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10625
+enchanted chair~
+an enchanted chair~
+an enchanted chair stands here
+~
+This magical chair was made by Ifor, Draidens mage in order to ease the 
+hard day at work.  The chair is made out of a fine dark oak with cherry and
+ash inlays.
+~
+2|64 4 0 S
+3 5 9 5d8+10 1d4+10
+75 1200
+8 object~ 0
+
+#10626
+Tehctah Demon spawn~
+a huge demon~
+a huge demon stands here
+~
+You see a huge demon, Tehctah, standing ensnared in a pentagram.  He is a
+high demon from the underdepths of Hell.  This demon was captured to protect
+the lab and to study so the paladins could find a good way to destroy them.
+~
+2|32|64 512 -1000 S
+35 5 9 5d8+10 1d4+10
+75 1200
+8 vampire~ 0
+
+#10627
+bunny cute~
+a cute little bunny~
+a cute little bunny hops around here.
+~
+This cute little bunny is so harmless and so cute that all you want to do 
+is to hug him, and squeeze him.  He is very very sweet.
+~
+0 32768|65536 0 S
+3 5 9 5d8+10 1d4+10
+75 1200
+8 animal~ 0
+
+#10628
+deer cuddly bambi~
+a sweet cuddly deer~
+a sweet cuddly deer eat grass here.
+~
+This cute little deer is a beloved forest creature and to harm him would
+be a true crime.  Considering that he is unarmed and his little brown 
+eyes look tenderly at you, you have a hard time thinking of killing it.
+~
+0 0 0 S
+4 5 9 5d8+10 1d4+10
+75 1200
+8 animal~ 0
+
+#10629
+water elemental~
+a water elemental~
+a large water elemental peacefully sloshes around here.
+~
+A large elemental who lives in the waterfall plays joyfully in the water
+at the edge of the falls.  As he sees you he calls you over and asks if
+you would like to play with him.  You reach out and playfully touch his
+cool skin and your fingers pass through the watery surface.  The elemental
+giggles a little at your suprise.
+~
+2 0 500 S
+20 5 9 5d8+10 1d4+10
+75 1200
+8 elemental~ 0
+
+#10630
+clay golem~
+a clay golem~
+a clay golem stands here looking into the ether.
+~
+A large clay statue stands here looking into nowhere with his far away eyes. 
+His slightly heaving chest is the only sign that there may be life in clay
+body.  You can sense the strong life force leaves you with a sense of awe
+as you look at the golem
+~
+2 128|8192 1000 S
+35 5 9 5d8+10 1d4+10
+75 1200
+8 object~ 0
+
+#10631
+Severn weaponsmith man~
+The weaponsmith~
+A large man stand hammering on the hearth here.
+~
+This huge man was a general in Draidens army before he decided to retire.
+In his late 60's you do not see signs of weakness, just a group of wrinkles
+around the eyes that betray his age.  His meaty hands weld the hammer as well
+as he used to wield his sword.  A fine adventurer should think twice before
+stealing from this man.
+~
+2|4|64 128|8192 1000 S
+45 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10632
+Argon armorer~
+Argon the armorer~
+Argon the armorer stands before you.
+~
+Argon the armorer stands before you with muscles that glisten from the sweat
+that rolls down him.  As he swings his hammer while working on his clients
+armor his muscles ripple with power.  You see the force transmit from his 
+legs to the arms and finally, in a well define clang, to the hammer.
+~
+2|4|64 128|8192 1000 S
+46 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10633
+Varnar grocer~
+Varnar the grocer~
+The grocer greets you with a smile
+~
+This happy man was an officer that served under Severn in the great war 
+between the Dwarves and the orcs.  He was a fine officer who is now happy to 
+swap tails and stories with those who pass by.  He started selling food goods
+as a way to greet all the visitors who come into the castle.  It is also a
+good way to screen these same visitors.
+~
+2|64 128|8192 1000 S
+39 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10634
+Kamar proprietor~
+Kamar the proprietor~
+Kamar looks carefully at your items when you enter
+~
+This shrewd man, Kamar, was a recent addition to the castle.  He appeared
+about 5 years ago with a small business of selling and buying merchandise
+from the paladins.  He opened up shop inside the castle walls with the
+blessings of Draiden, but people are not sure why it was allowed.
+~
+2|4|64 4|8|16|32|512 0 S
+35 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10635
+Sheila kennelkeeper~
+Sheila the kennelkeeper~
+Sheila is caring for her dogs
+~
+Sheila is a beautiful and loving woman who values here dogs as much as her
+human companions.  She was the sister of one of Draidens colonels who begged
+to be allowed to fight after her brother died.  She was allowed to join the
+corps and became one of the only female paladins to walk the earth.
+~
+2|64 32|128|8192 1000 S
+37 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+#10636
+stableboy boy~
+a stableboy~
+A stableboy carefully tends his horses here.
+~
+This slight youth is serving his apprenticeship to the paladins of Naytil by
+taking care of their mounts.  He is a very concientious boy who want nothing
+more than to fight for good in the Kings army.  He is a very nice boy, but 
+because of his liberal upbringing he is having a difficult time maintaining
+his virtues.
+~
+2|4|64|128 8192 400 S
+27 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10637
+horse warstallion~
+a huge stallion~
+A huge warstallion stomps and snorts at you.
+~
+This huge horse will be armored and ridden by the knights of baladur in times
+of trouble.  It has been raised to be very high spirited whereas is a very
+dangerous horse to be around if is is angered.
+~
+2|64 8192 0 S
+18 5 9 5d8+10 1d4+10
+75 1200
+8 animal~ 1
+
+#10638
+mother hound bitch~
+the mother dog~
+a mother hound is here taking care of her litter.
+~
+This mother is very tenderly cleaning and protecting her litter.  She snarls
+at you when you approach to inform you that you are not welcome around her
+pups.  You understand how dangerous a female can be while protecting her
+offspring.
+~
+2|64 8192 0 S
+8 5 9 5d8+10 1d4+10
+75 1200
+8 animal~ 2
+
+#10639
+puppy~
+royal puppies~
+A cute puppy suckles on it mother here.
+~
+These cute little puppies are the next generation of wardogs for the castle.
+The dogs are raised to protect the occupants and to act as protectors when
+the owners go into battle.  Right now though they are just tender and loving.
+~
+2|64 0 0 S
+2 5 9 5d8+10 1d4+10
+75 1200
+8 animal~ 1
+
+#10640
+guard militia militiaman~
+the militiaman~
+A militiaman stands guard here.
+~
+A big strong man, part of the local population, but volunteering for the kings
+service, laughs as he watches the children playing.  He remembers his idle
+days of joy and fun and realizes that children need their playtime if they are
+to become honest citizens in the future.
+~
+2|4|64 8192 1000 S
+15 15 -2 15d15+150 1d4+10
+500 19000
+8 human~ 1
+
+#10641
+citizen baladurian~
+a Baladurian citizen~
+a citizen wanders past minding his own business.
+~
+The Baladurian is a hearty man who has made his life wonderful through hard
+work.  The Baladurians have no welfare so each citizen must be productive, if
+not they will starve.  This is a way of weeding out the bad apples and 
+insuring a good thriving society.
+~
+128 0 650 S
+9 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10642
+inmate prisoner~
+an inmate~
+a wretched inmate sits silently in his cell
+~
+This wretch has been here for a while and will be here for a while more. He
+was caught stealing from the local vendors and is now paying the stiffest of
+penalties for that crime.  His sentence has not been eased because he has not
+show that he is repentant for the crime.
+~
+2|64|128 1024 -400 S
+4 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 1
+
+#10643
+troll beast~
+a huge troll~
+a huge troll claws viciously at you.
+~
+This huge ugly troll has decide that you will be his dinner and that he
+is going to devour you.  He might even end up giving a little to his 
+horrid family.  The whole problem first is to catch you, which with his
+long claws he should have no problem in doing.
+~
+4|32 8|32|512|8192 -1000 S
+22 5 9 5d8+10 1d4+10
+75 1200
+8 troll~ 1
+
+#10644
+trollette troll~
+a female troll~
+The female troll here decides you will be lunch. 
+~
+The female troll is truly a sight to behold.  With her huge drooping breasts
+which have never seen a braand her hairy legs she looks like an ex-hippy 
+from the 60's.  The big difference is instead of eating you up mentally
+she wants to eat you up physically.
+~
+2|4|32 8|32|512|8192 -1000 S
+17 5 9 5d8+10 1d4+10
+75 1200
+8 troll~ 2
+
+#10645
+trolling troll~
+A little troll~
+A little troll here thinks you would be a good snack.
+~
+This small trolling is busy doing what a trolling does, rending rabbits and
+removing eyeballs from sweet deers.  These horrible little monsters should
+be killed to keep them from growing up to be their horrible parents.
+~
+2|4|32 8|32|512|8192 -1000 S
+9 5 9 5d8+10 1d4+10
+75 1200
+8 troll~ 2
+
+#10646
+keywords~
+descriptor~
+what you see when you enter room
+~
+what you see when you look at creature.
+~
+2|64 4|8|16|32|128|512|8192 1000 S
+43 5 9 5d8+10 1d4+10
+75 1200
+8 human~ 2
+
+
+#0
+
+#OBJECTS
+#10601
+sword shining broadsword~
+a shining broadsword~
+These large swords are very sharp and are specially made for the guards in 
+Baladur.  You will not find them elsewhere in the world unless taken from 
+the dead hands of one of their wielders.~
+~
+5 320 8193
+0~ 0~ 0~ 1~
+14 0 0
+A
+1 2
+A
+5 1
+A
+18 5
+A
+19 5
+
+#10602
+breast shining breastplate~
+a shining breastplate~
+The shining breastplate is not only armor, but carries the Cross and Sword 
+emblem of the Baladurian Paladins.  It is not only a protective device, but 
+a badge of honor.~
+~
+9 67 9
+1~ 0~ 0~ 0~
+24 0 0
+A
+10 1
+A
+13 40
+A
+18 2
+A
+19 2
+
+#10603
+shining helm~
+a shining helm~
+The silver helm is given to each paladin as he passes out of the ranks of 
+the squire and into knighthood.  It is a priveledge to wear such a fine  
+peice of armor.~
+~
+9 64|1 17
+4~ 0~ 0~ 0~
+4 0 0
+A
+4 3
+
+#10604
+shining gauntlets~
+a pair of shining gauntlets~
+These gloves are made of a special metal and of a special design to  
+protect the hands of the paladin from crushing blows they allow him 
+to use a sword with minimal effort.~
+~
+9 67 9
+4~ 0~ 0~ 0~
+8 0 0
+A
+2 2
+
+#10605
+belt pride~
+a belt of pride~
+After the knights first successful mission he is given this intricate belt  
+with its fine weaving to protect his midsection and show that he has 
+been deemed worthy of knighthood.~
+~
+9 256|1 2048|1
+2~ 0~ 0~ 0~
+4 0 0
+A
+20 5
+A
+22 5
+
+#10606
+purple cloak dark~
+a dark purple cloak~
+The dark purple cloak is made to enclose and protect the paladins from all 
+sides.  Paladins have long been stron warriors, but need more protection 
+from the evil mages who would throw spells at large distance.  Pedrin and 
+the bards guild invented this cloak to assorb magic.~
+~
+9 4|1024|2048|256 1|1024
+0~ 0~ 0~ 0~
+5 0 0
+E
+assorb~
+Unfortunately the cloak assorbs magic from both the caster and the user of 
+the cloak.  This makes the cloak dangerous to mages, but helpful to the
+fighters of any type.
+~
+A
+24 10
+A
+21 10
+A
+17 10
+A
+12 -50
+
+#10607
+cladding arm~
+an arm cladding~
+Thick metal plates protect the arms and neck area of the fighters who wear
+them.  This virtually makes the paladin into a tank when in combat.  It
+was created by the order of armorers to protect the paladin.~
+~
+9 4096|1024|2048 1|256
+10~ 0~ 0~ 0~
+34 0 0
+E
+cladding~
+Unfortunately the armor is heavy and the armorers are looking for some way to
+make it a little lighter.
+~
+A
+17 10
+
+#10608
+leggings shining chain~
+shining leggings~
+The rare shining leggings are magically enhanced to add to the paladins
+efficiency by allowing them to travel farther faster.  This allowed
+the king to have a very mobile and potent force.~
+~
+9 64|1024|2048 1|32
+0~ 0~ 0~ 0~
+9 0 0
+E
+rare~
+The rarity of this chain has forced the king to keep the size of his forces 
+to a minimum.  There is a benefit to this.
+~
+E
+benefit~
+The benefit is that the king does not have to have a huge supply line to
+feed his troops.  The training of his men and potency of their armor and
+weapons allow for a small, but potent force.
+~
+A
+14 50
+A
+17 5
+A
+2 1
+
+#10609
+baladurian pendant~
+a baladurian pendant~
+The baladurian pendant is a simple pendant that was made to offset the
+ill effects of the neckguard worn by the knights. The way this was a
+accomplished resulted in a mishap for the knight. his pendant is a
+standing symbol of Truth, Justice and the Baladurian way.~
+~
+9 1|2048|1024|256 1|4
+0~ 0~ 0~ 0~
+2 0 0
+E
+mishap~
+The mishap the poor knights suffered is a lessing of their magic resistance
+the amulet had to break the magical bond between them and the neckguard and
+in doing so allowed magic to have a greater effect on the knights.
+~
+A
+3 1
+A
+4 1
+A
+18 4
+A
+24 -10
+
+#10610
+neck guard neckguard~
+a shining neckguard~
+The shining neckguard protects the knight from an accidental breech in his
+defenses.  This allows the knight to keep his head, even in combat. This 
+has an an unfortunate side effect though.~
+~
+9 64|4096|1 1|4
+0~ 0~ 0~ 0~
+5 0 0
+E
+side effect~
+This intelligent neckguard is actually a living being who is so intent upon
+protecting its wearer that it will not let go once in place.  This makes 
+taking showers real difficult
+~
+A
+3 -1
+A
+4 -1
+A
+1 2
+A
+17 5
+
+#10611
+shield cross sword~
+a cross and sword shield~
+The shield of Baladur is emblazoned with a cross and overlaid with a sword. 
+This symbolizes the mission of Baladur to decimate evil whereever it may be
+and to promote the cause of right and godliness.  The foes of the knights who
+wear these shields have good cause to fear them.~
+~
+9 1|1024|2048|64 1|512
+0~ 0~ 0~ 0~
+18 0 0
+E
+foes~
+The foes of the Baladurian Knights are the servants of Darkeness.  The one
+whos name you do not say is the evil that comes under all guises.  Most of
+thier foes are Drow, orcs and goblins.  They also come under the guise of
+humans and even elfs.~
+E
+cause~
+The foes who see this shield know the man behind it is a brave warrior
+who is intelligent enough to have friends around to aide the cause of
+justice.  Otherwise, where there is one, there are more.
+~
+A
+17 10
+A
+14 -50
+A
+2 -2
+A
+13 50
+
+#10612
+robe white bright~
+a bright white robe~
+This bright robe was manufactured out of a white dragons hide.  The dragon
+was killed by Ifor the wizard long before Draiden established Baladur and
+the holy order of knights.  This robe bestows its wearer with mighty powers,
+but at a cost.~
+~
+9 1|64|1024|2048 1|8
+0~ 0~ 0~ 0~
+6 0 0
+E
+cost~
+The robe artificially enhances the wizards magic abilities, but it does this by
+drawing the strength from the wizard himself.
+~
+A
+1 -4
+A
+5 -2
+A
+13 -50
+A
+12 100
+A
+18 -1
+A
+19 -1
+A
+20 5
+A
+21 5
+A
+22 5
+A
+23 5
+A
+24 5
+
+#10613
+staff ifor~
+the staff of Ifor~
+This staff is of unknown origin.  It was given to Ifor by his father with the
+understanding that it was only to be used for good purposes.  His father gave
+him a warning if he failed to observe maintain his virtues.~
+~
+5 1|2|64|256|1024|2048|4096 1|8192
+0~ 0~ 0~ 7~
+5 0 0
+E
+warning~
+He told his son "Do not ever become evil because there is a dark beast who 
+will attempt to take your mind and your soul.  If you wish to remain with 
+the living you must stay good, not neutral, but good."
+~
+E
+father~
+Ifors father was a great wizard of the ages past.  He was a marvelous ruler,
+but when the hords of dragons came he wished his son away before his ancient
+city was wiped out.
+~
+A
+4 3
+A
+18 5
+A
+19 5
+
+#10614
+ball striped~
+Sabrina's red striped ball~
+The red stiped ball was given to Sabrina by her father to protect her.  After
+she got the ball she met an old man who said he would make the ball help her
+be brave.  He then cast a spell on the ball.  She is no longer fearful at
+playing on the top of the stairs.~
+~
+5 2|64|4096 1|8192
+0~ 0~ 0~ 0~
+1 0 0
+A
+4 -6
+A
+18 3
+A
+19 3
+
+#10615
+bed~
+Sabrina's pink canopied bed~
+Sabrina's pink canopied bed~
+~
+15 0 0
+11200~ 5~ 0~ 0~
+10000 0 0
+
+#10616
+pillow satin fluffy~
+a soft fluffy pillow~
+This soft fluffy satin pillow is a real jewel.  It is stuffed with an ultra
+soft down and has gold embroidering on it.  The princess rests her head on 
+it at night for a wonderful sleep.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+2 0 0
+
+#10617
+drawers dresser~
+dresser drawers~
+dresser drawers~
+~
+15 0 0
+11200~ 5~ 0~ 0~
+10000 0 0
+
+#10618
+pink panties~
+a pair of pink panties~
+Pink panties are what all little girls wear for comfort and protection.~
+~
+9 4096|2 1|2048
+0~ 0~ 0~ 0~
+2 0 0
+A
+23 25
+A
+17 10
+
+#10619
+training bra~
+a lace trimmed training bra~
+For a young girl coming of age this is a necessary item.~
+~
+9 4096 1|8
+0~ 0~ 0~ 0~
+2 0 0
+A
+17 10
+A
+6 2
+
+#10620
+chest toychest~
+a toy chest~
+a toy chest~
+~
+15 0 0
+11200~ 5~ 0~ 0~
+10000 0 0
+
+#10621
+chest toychest~
+a toy chest~
+a toy chest~
+~
+15 8 0
+11200~ 13~ 10623~ 0~
+10000 0 0
+
+#10622
+magazine~
+a magazine called "The Young Lady"~
+A necessary reading for all young girls who want to survive to become young
+ladies.  This magazine outlines some of the critical problems and solves for
+a young ladies who is coming of age.~
+~
+2 1|64 1|16384
+13~ change sex~ charm person~ know alignment~
+2 0 0
+
+#10623
+golden key~
+golden key~
+This key may fit something, but not Sebrina's chastity belt.~
+~
+18 0 1|16384
+10621~ 0~ 0~ 0~
+2 0 0
+
+#10624
+wand brush ivory~
+an ivory handled brush~
+A brush to that is powerful enough to get out all those split ends is an item
+that a young lady keeps locked up.  This brush is made for the hair.  It's 
+handle is made from a fine ivory and has and intricate pattern etched into it.~
+~
+3 32|1 1|16384
+14~ 10~ 1~ dispel magic~
+2 0 0
+E
+pattern~
+This intricate pattern is a sword and a cross done in a filigreed gold.~
+
+#10625
+jacks~
+a set of jacks~
+These jacks have come to diuse.  The little Sebrina is getting a little to
+old to play with them so she keeps them here in her chest.~
+~
+8 8192 1|16384
+0~ 0~ 0~ 0~
+2 0 0
+
+#10626
+pink pill~
+a pink pill~
+These little mothers helpers are to help the nanny overcome the curse of a
+very active child.  You can see that she has finished all but one of these
+little pills.~
+~
+26 0 1
+31~ destroy cursed~ remove curse~ blindness~
+1 0 0
+
+#10627
+black teddy~
+a black teddy~
+This nanny must have a skeleton or two in the closet.  Perhaps this skimpy
+leather outfit is a sign of upcoming fun.~
+~
+9 0 1|8
+0~ 0~ 0~ 0~
+2 0 04
+
+#10628
+whip bullwhip~
+a long black bullwhip~
+A long black whip awaits for the little princess when she next steps out of
+line.  Perhaps someone should warn her not to be unwise.~
+~
+5 16|16384 1|8192
+0~ 0~ 0~ 4~
+3 0 0
+
+#10629
+collar black leather~
+a black leather collar~
+The dog this comes off of is obviously a fighting dog.  The thick black 
+leather is meant to protect the dog from stray bite or cuts to the neck.
+You are not sure, but you believe dog collars are in vogue now.~
+~
+9 4096 1|4
+0~ 0~ 0~ 0~
+3 0 0
+A
+3 -5
+A
+4 -5
+A
+17 10
+A
+18 3
+A 
+19 3
+#10630
+yard stick yardstick wooden~
+a wooden yardstick~
+The marm uses this to make sure that you measure up to her standards.  This 
+is a wooden stick with increments measured on it.  If you step out of line 
+then WHACK, you are fixed again.~
+~
+5 0 1|8192
+0~ 0~ 0~ 7~
+2 0 0
+
+#10631
+chalk piece~
+a piece of chalk~
+This is a white piece of chalk.  It is used to teach the lessons of the day.
+If you do not learn the lessons the WHACK, you are fixed.~
+~
+5 0 1|8192
+0~ 0~ 0~ 0~
+1 0 0
+
+#10632
+refridgerator fridge icebox~
+an icebox~
+an icebox sits here~
+~
+15 8 0
+11200~ 5~ 0~ 0~
+10000 0 0
+
+#10633
+tray~
+a silver tray~
+a beautiful silver tray lies here.~
+~
+8 0 1
+0~ 0~ 0~ 0~
+4 0 0
+E
+silver tray~
+This expensive silver tray is a family relic of the Bansted clan.  It has
+served many meals and still is used to serve today.~
+
+#10634
+turkey~
+a cold turkey~
+This cold turkey looks like it might be tomorrows meal.~
+~
+19 0 1
+8~ 0~ 0~ 0~
+2 0 0
+
+#10635
+roast beef~
+a cold roast beef~
+This delicious roast beef has been prepared for the mid day meal.~
+~
+19 0 1
+8~ 0~ 0~ 0~
+2 0 0
+
+#10636
+flour sack~
+a sack of flour~
+The sack of flour stands here.~
+~
+19 0 1
+5~ 0~ 0~ 0~
+4 0 0
+
+#10637
+water pool~
+a pool of cool water~
+a pool of cool water silently calls to you.~
+~
+25 0 0
+0~ 0~ 0~ 0~
+10000 0 0
+
+#10638
+hat~
+a chefs hat~
+A white chefs hat lies here.~
+~
+9 0 1|16
+0~ 0~ 0~ 0~
+1 0 0
+E
+hat chefs~
+The chefs hat is a white hat that is only worn by the master chefs.  Any one
+else caught wearing it could be severly fined.~
+
+#10639
+duster featherduster~
+a feather duster~
+You see a feather duster laying here.~
+~
+13 0 1|16384
+8~ 0~ 0~ 0~
+2 0 0
+E
+featherduster duster~
+This is a tool that all good maids use.  They use it to tickle the fancy of
+anyone who likes a clean home.~
+A
+12 35
+
+#10640
+slippers~
+a pair of soft cotton slippers~
+a pair of soft cotton slippers lie here.~
+~
+9 1|64 1|64
+0~ 0~ 0~ 0~
+2 0 0
+E
+cotton slippers~
+This pair of slippers was made for comfort and silence so the maid can glide
+along without upsetting anyone at night.~
+A
+14 100
+
+#10641
+key iron~
+an iron key~
+a huge iron key lies forgotten here.~
+~
+18 0 1|16384
+10632~ 0~ 0~ 0~
+1 0 0
+E
+key iron~
+This chunk of iron was wrought into an iron key that could not be lost.~
+
+#10642
+key iron~
+an iron key~
+A huge iron key lies forgotten here.~
+~
+18 0 1|16384
+10604~ 0~ 0~ 0~
+1 0 0
+E
+key iron~
+This heavy key has the words "Naytil" scribed upon it.~
+
+#10643
+sword broadsword~
+a broadsword~
+a sharp broadsword lies here.~
+~
+5 4 1|8192
+0~ 0~ 0~ 1~
+8 0 0
+E
+sword broadsword~
+This sword is what the regulars use to protect their town.
+~
+
+#10644
+mace iron~
+an iron mace~
+a nice iron mace lies here.~
+~
+5 4 1|8192
+0~ 0~ 0~ 7~
+8 0 0
+E
+mace iron~
+This iron mace is used by the town regulars to protect their town.
+~
+
+#10645
+spear bronze~
+a bronze spear~
+a bronze spear lays glistening here.~
+~
+5 16384 1|8192
+0~ 0~ 0~ 11~
+8 0 0
+E
+spear~
+This bronze spear is used by the town regulars to protect their town
+~
+
+#10646
+staff nyrobia~
+the cursed staff of Nyrobia~
+The cursed staff of Nyrobia is kept here out of the hands of evil wizards.~
+~
+4 4|16|512|128|4096|64 1|16384
+35~ 25~ 25~ blindness~
+8 0 0
+A
+18 -5
+A
+19 -5
+A
+12 100
+A
+13 -100
+A
+3 4
+A
+4 4
+A
+17 75
+A
+1 -4
+A
+5 -5
+A
+14 -100
+
+#10647
+breast bronze breastplate~
+a bronze breastplate~
+This bronze breastplate protects the body of the regulars.~
+~
+9 0 1|8
+1~ 0~ 0~ 0~
+18 0 0
+
+#10648
+shield hex~
+a hex etched shield~
+These shields protect the regulars from distance spells.~
+~
+9 64 1|512
+4~ 0~ 0~ 0~
+7 0 0
+A
+20 8
+A
+21 8
+A
+22 8
+A
+23 8
+A
+24 8
+
+#10649
+shinguards bronze~
+a pair of bronze shinguards~
+These bronze shinguards are used by the local regulars.~
+~
+9 0 1|32
+4~ 0~ 0~ 0~
+3 0 0
+
+#10650
+armguards bronze~
+bronze armguards~
+These bronze armguards are used by the local regulars.~
+~
+9 0 1|4096
+2~ 0~ 0~ 0~
+3 0 0
+
+#10651
+bed masterbed~
+a large master bed~
+a large canopied bed stands here~
+~
+12 0 0
+0~ 0~ 0~ 0~
+10000 0 0
+E
+bed~
+You see a large masterbed here which Draiden and Salina share.  This fine
+bed is stuff with duck down and provides a cushy nights sleep for the king
+and his queen
+~
+
+#10652
+hammer~
+a large hammer~
+a large hammer lies here.~
+~
+5 0 1|8192
+0~ 0~ 0~ 8~
+5 300 10
+E
+hammer~
+This well worn hammer must have been a wonderful item at one time because
+is still looks like a very potent weapon.
+~
+A
+13 100
+A
+18 5
+A 
+19 10
+
+#10653
+potion blue~
+a blue potion~
+A blue potion has been left here.~
+~
+10 64 1
+15~ poison~ poison~ harm~
+2 1000 300
+E
+potion blue~
+It has a sick blue vomit color and a smell like death.
+~
+
+#10654
+potion red~
+a bright red potion~
+A bright red potion is here.~
+~
+10 64 1
+15~ harm~ poison~ harm~
+2 1500 500
+E
+potion red~
+It has a blood red cast to it that spells death
+~
+
+#10655
+potion green~
+a green potion~
+A green potion is here.~
+~
+10 64 1
+20~ blindness~ poison~ harm~
+2 1500 150
+E
+potion green~
+This sick green potion has an oily cast that spells death to the one it 
+touches.
+~
+
+#10656
+white towel~
+a blue embrodered white towel~
+a blue embroidered white towel lies here~
+~
+5 0 1|8192
+0~ 0~ 0~ 6~
+1 0 0
+E
+towel white~
+This neatly folded white towel is embroidered with a blue sigel of the
+paladins of Naytil.~
+E
+sigel~
+The sword and cross emblem is on that signifies holiness and the willingness
+to back up your believes with action if necessary.~
+A
+18 4
+A
+19 5
+
+#10657
+sheet white~
+a starched white sheet~
+A neatly folded white bed sheet lies here~
+~
+9 0 1|1024
+2~ 0~ 0~ 0~
+3 0 0
+E
+sheet white~
+This neatly folded sheet is for use on the beds in the castle, of course
+Sabrina also uses them when she plays dressup.~
+A
+1 2
+
+#10658
+key iron~
+an iron key~
+A huge iron key lies forgotten here.~
+~
+18 0 1|16384
+10685~ 0~ 0~ 0~
+1 0 0
+E
+key iron~
+This heavy key has the words "Cells" scribed upon it.~
+
+#10659
+teeth necklace~
+a human teeth necklace~
+a heap of human teeth are lying in a heap here~
+~
+9 4|16|512 1|4
+0~ 0~ 0~ 0~
+1 0 0
+E
+teeth necklace~
+This string of teeth is a remnant of some of the missing prisoners~
+A
+18 5
+A
+19 5
+
+#10660
+wand command willow stick~
+a wand of command~
+a straight willow stick lies here.~
+~
+3 1|64|2048 1|16384
+45~ 10~ 10~ charm person~
+1 0 0
+E
+willow stick~
+Thie willow tree holds lots of power, even more when magically enhanced.
+The brandch you hold before you is a finely crafted wand making use of both
+of these qualities.  This wand of command is the last resort of the 
+commander when he has a problem to deal with.~
+
+#0
+
+#ROOMS
+#10601
+Baladurs Throne Room~
+You are in the the beautiful home of Draiden Bansted.  You see murals of great
+battles taking place on the wall.  The battle scenes depict great tiger shaped
+demons fighting groups of fight groups of adventurers.  The scenes show bards
+wielding their harps and wizards throwing massive spells.  The land is heaving
+and the sky darkens.  In the center of most of these pictures is a grand
+knight in shining platemail.  The center of this room is dominated by a large
+figure with a huge humming sword at ready.  This is the king who established 
+this land.  The throne you are kneeling in front of is his throne.  At the
+base of this throne is a humble brass plaque.
+~
+10 4|8|1024 0
+D2
+You see the a large banquet hall to the south.
+~
+~
+0 -1 10602
+E
+plaque~
+The City of Baladur was dedicated to Pedrin and Melana on 1995 September 27
+~
+S
+#10602
+The Great Hall, north end~
+You are standing at the end of the Great hall.  Painted on the walls here
+are the murals depicting the rise of Draiden to the hallowed status of 
+King.  It shows his former enemies coming and giving tribute to him and
+of great banquets being held in his honor.  Beyond this point is the blessed
+throne of the Paladin King. To your west you see a large marble staircase and
+looking east is a huge dining room.
+~
+20 8 0
+D0
+You see the throne of his majesty, Draiden Bansted.
+~
+~
+0 -1 10601
+D1
+You see the magnificent banquet hall of Naytil.
+~
+~
+0 -1 10605
+D2
+You see the center of the Great Entrance Hall.
+~
+~
+0 -1 10603
+D3
+YA large sweeping marble staircase disappears into the second floor.
+~
+~
+0 -1 10611
+S
+#10603
+The Great Entrance Hall, Center~
+You are standing in the middle of the Great Entrance hall.  The walls are
+plastered with murals depicting a great Paladin Knight leading his troops
+and a gathering of people to a desolate area.  Then a little further down
+the hall it shows a large city being built in the wilderness.  The final
+panel shows a sign reading "Baladur" being put up on the outside of the
+city walls.
+~
+20 8 0
+D0
+You see the north end of the Great Entrance Hall.
+~
+~
+0 -1 10602
+D2
+You see the beginning of the Great Entrance Hall.
+~
+~
+0 -1 10604
+S
+
+#10604
+Beginning of the Great Entrance Hall~
+The great doors still stand ready to fend off the evils outside the castle
+of Naytil.  This castle is the last defence of the city of Baladur.  Naytil
+was the original castle around which the city of Baladur was built and
+founded.
+~
+20 8 0
+D0
+You see the center of the Great Entrance hall.
+~
+~
+0 -1 10603
+D2
+A large oak door hangs here.  You can see that this door is not an ornamental
+door, but one of purpose.  Originally it served to protect the original keep
+from intruders and is still locked in anticipation of these events today.
+~
+~
+7 10642 10662
+D3
+A plain door with a sign on it reading "Staff Only Please" leads to the west.
+~
+~
+1 -1 10652
+S
+
+#10605
+the Great Banquet Hall, North End~
+You are walking through a huge marbled hall.  The roof is 18 feet high and has
+large arching columns holding it up.  In the middle of the room is a huge 
+table waiting for a feast to be set upon it.  Looking around the room you do
+not see a speck of food, nor any dust.  You do smell food cooking to the east.
+The aroma of fresh roast beef wafts through the dining hall.
+~
+20 8 0
+D3
+You see the great entrance hall of the castle Naytil.
+~
+~
+0 -1 10602
+D2
+The banquet hall continues to the south.
+~
+~
+0 -1 10606
+S
+#10606
+The Great Banquet Hall, South End~
+You are walking through a huge marbled hall.  The roof is 18 feet high and has
+large arching columns holding it up.  In the middle of the room is a huge 
+table waiting for a feast to be set upon it.  Looking around the room you do
+not see a speck of food, nor any dust.  You do smell food cooking to the east.
+The aroma of fresh roast beef wafts through the dining hall.
+There is a swinging door leading east.
+~
+20 8 0
+D0
+The dining hall continues north.
+~
+~
+0 -1 10605
+D1
+You finally discover where the wonderful smells are coming from.
+~
+~
+1 -1 10607
+S
+
+#10607
+a huge kitchen.~
+This huge kitchen has large iron stoves and great stocks of wood in it. It
+is obviously not only meant to be the kitchen for the Castle, but for the
+entire city if necessary.  Large knifes and stones are used here to cut and
+prepare food.
+There is a stone door leading north.
+There is a metal door leading east.
+There is a cedar door leading south.
+There is a swinging door leading west.
+~
+20 8 0
+D3
+You see a large dining hall.
+~
+~
+1 -1 10606
+D0
+You see a door marked 'Water Stores" to the north.
+~
+~
+1 -1 10608
+D1
+You see a door marked 'Cold Storage' to the east.
+~
+~
+1 -1 10609
+D2
+You see a door marked 'Pantry' to the south.
+~
+~
+1 -1 10610
+S
+#10608
+A water cistern~
+You are walking through a huge marbled cistern.  The roof is 18 feet high and
+has a flow of water streaming down it on the south side.  The large arching
+columns are a fabulous feat of engineering.  The spectacular scintillating
+water droplets splashing into the pool are a sight that many songs have been
+written about.
+There is a stone door leading south.
+~
+20 8 0
+D2
+You see a huge kitchen.
+~
+~
+1 -1 10607
+S
+
+#10609
+a cold room~
+This room has sides of beef, chicken, fish and all sorts of perishables
+stored in it.  Large blocks of ice keep this place cold.  You are not sure 
+why they do not melt, but they do not.  You think you hear something or 
+someone breathing in here.
+There is a metal door leading west.
+~
+20 8 0
+D3
+You see a huge kitchen.
+~
+~
+1 -1 10607
+S
+
+#10610
+the Pantry of Naytil~
+This pantry is a huge room with interdiminsional closets that are stocked
+with enough food to supply the entire populace of Baladur with food for
+over a year.  This allows for a long drawn out seige.  Hopefully it will
+never come to this, but who knows with the dark one about.
+There is a cedar door leading north.
+~
+20 8 0
+D0
+You see a huge kitchen.
+~
+~
+1 -1 10607
+S
+
+#10611
+a grandois sweeping marble staircase~
+A large marble staircase extends far up to the second floor.  The large
+blocks of marble each must weigh 15 tons each.  To cut such large blocks
+and to shape them with such expertise was truly an engineering feat.
+~
+20 8 0
+D1
+The Great Hall is off to the east.
+~
+~
+0 -1 10602
+D4
+The staircase continues up from here.
+~
+~
+0 -1 10612
+S
+
+#10612
+a grandois sweeping marble staircase~
+This large marble staircase has been the center piece for many paintings. 
+The huge blocks and open design have left many painters with a wonderous
+feeling of contentment after viewing their masterpieces on it.
+~
+20 8 0
+D5
+The bottom of the staircase extends below you.
+~
+~
+0 -1 10611
+D4
+The top of the stairs lead into a hallway.
+~
+~
+0 -1 10613
+S
+
+#10613
+The upstairs hallway~
+This hallway is paneled in a white oak.  It is still shows a splendid amount 
+of artwork in it, but not quite as much as downstairs.  Many people have
+come to the upstairs rooms to sleep, but they are not meant for entertaining 
+as the downstairs is.
+~
+20 8 0
+D5
+A large marble staircase extends into the floor from this level.
+~
+~
+0 -1 10612
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10614
+D3
+A fine oak paneled hallway extends to the west.
+~
+~
+0 -1 10618
+S
+
+#10614
+An oak paneled hallway.~
+A fine oak hallway is paneled in fine oak.  The dark wood contrasted
+to the crushed brown carpenting leaves you with a warm, at home feeling.
+There is a nice door to the north.
+There is an armored door to the south.
+~
+20 8 0
+D0
+A fine polished cherrywood inlaid ash door is here.
+~
+~
+1 -1 10634
+D2
+An armored door blocks the way to the south.
+~
+~
+7 10641 10633
+D3
+You see an area where a large stairway meets the hallway.
+~
+~
+0 -1 10613
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10615
+S
+
+#10615
+An oak paneled hallway.~
+This nicely paneled hallway is very clean and shows that someone who cares
+for the castle takes special care in making sure this area remains clean and
+proper.  You stand and whiff and the smell of rose comes from the south.  
+There is a metal grating to the north.
+There is a rosewood door to the south.
+~
+20 8 0
+D0
+A heavy black metal grate blocks your way north.
+~
+~
+1 -1 10635
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10616
+D2
+A pristine rosewood door has a sign reading 'Quiet Please' upon it.
+~
+~
+1 -1 10637
+D3
+A fine oak paneled hallway extends to the west.
+~
+~
+0 -1 10614
+S
+
+#10616
+An oak paneled hallway.~
+You are oddly pulled in this hallway.  A bipolar force of the arcane and the
+divine pull you in opposite directions.  Heavy forces of power seduce you to
+the north while the peaceful bliss of the immortals pull you to the south.  
+There is a door to the north.
+There is a door to the south.
+~
+20 8 0
+D0
+A door with arcane symbols leads to the north.
+~
+~
+1 -1 10638
+D1
+You see the end of the hallway to the east.
+~
+~
+0 -1 10617
+D2
+A door with a holy symbol of Owinpell leads to the north.
+~
+~
+1 -1 10639
+D3
+A fine oak paneled hallway extends to the west.
+~
+~
+0 -1 10615
+
+E
+holy~
+This symbol is that of a cross crossed with a sword.  It is the symbol of the
+mighty god Owinpell.
+~
+E
+arcane~
+This arcane symbol symbolizes power.  The arcane power is the magical force 
+which drives the world.  This also serves as a protective device for the 
+rooms occupant.
+~
+E
+Owinpell~
+Owinpell is the king of the gods of Baladur.  This pantheon leads and 
+controls the daily lives of the city of Baladur.  Owinpell is a good and
+lawful god.  He is the god of Paladins and protects the good of the world.
+~
+S
+
+#10617
+The end of the oak paneled hallway.~
+In you hear the sound of shuffling and weapons clanging to the south.  You
+have a ominous feeling that you might be in for trouble if you move through
+the south door.  To the north you see the entrance to the chamber of the
+lord of this castle.
+There is a door north.
+There is a door south.
+
+~
+20 8 0
+D0
+You see a fine gold inlaid door to the north.  The craftsmenship is superb.
+~
+~
+1 -1 10640
+D2
+A beat up door leads the to south.
+~
+~
+1 -1 10641
+D3
+A fine oak paneled hallway extends to the west.
+~
+~
+0 -1 10616
+S
+
+#10618
+An oak paneled hallway.~
+You smell roast beef, duck and turkey in this hallway.  You must be catching
+a wiff of the fine food that was cooked downstairs earlier.  Your stomach
+growls and you realize that all these good smells make you hungry.
+You see a worn door to the north.
+You see a armored door to the south.
+~
+20 8 0
+D0
+This door, though in good condition is still worn.
+~
+~
+1 -1 10630
+D1
+You see an area where a large stairway meets the hallway.
+~
+~
+0 -1 10613
+D2
+An armored door blocks the way to the south.
+~
+~
+7 10641 10632
+D3
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10619
+S
+
+#10619
+An oak paneled hallway.~
+The hallways continues here.  You feel a breeze mildly blowing through your hair as you walk through the hallway. 
+The crushed brown carpet is just resiliant enough to feel good walking upon, 
+yet stiff enough to keep you from feeling the pain of a weary day.
+There is a gate leading north.
+An oak door leads to the south.
+~
+20 8 0
+D0
+A wrought iron gate leads to a beautiful stairwell.
+~
+~
+1 -1 10627
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10618
+D2
+A oak door leads to a room.  You hear sounds of chalk through the door.
+~
+~
+1 -1 10629
+D3
+A fine oak paneled hallway extends to the west.
+~
+~
+0 -1 10620
+S
+
+#10620
+An oak paneled hallway.~
+As you enter this hallway you notice a musty odor.  This is anomalous to the
+usually clean air you have sample in other parts of the castle.  You stop to
+consider the source of this smell when you notice a low moaning to the south.
+There is a door to the south.
+There is a door to the north.
+~
+20 8 0
+D0
+You see a dark oak door to the north.~
+~
+1 -1 10625
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10619
+D2
+A black laquered door with scratch marks on it is here.
+~
+~
+1 -1 10624
+D3
+You see the west end of the hallway.
+~
+~
+0 -1 10621
+S
+
+#10621
+The west end of an oak paneled hallway.~
+In this light oak paneled hallway you feel a fresh breeze.  This castle seems
+to have a system for circulating air through it.  On the wall you see several
+paintings.  They are paintings by the princess Sebrina.  They are pictures, 
+drawn with crayons, of her family.  You can see that she loves her family a
+lot and looks forward to the day when she can go on trips with her father.
+There is a door to the north.
+There is a door to the south.
+~
+20 8 0
+D0
+A pink painted door leads to the north.
+~
+~
+1 -1 10622
+D1
+A fine oak paneled hallway extends to the east.
+~
+~
+0 -1 10620
+D2
+A pink painted door with bears on it leads to the south.
+~
+~
+1 -1 10623
+S
+#10622
+Sebrina's bedroom.~
+You see a large canopied bed in this room.  The motif is pink with lots of
+fluffy pillows and many pictures on the walls.  The entire room has bears 
+and childrens stuff stuck to walls and on chairs.  The room has been made
+to be a very pleasant place for a female child.
+A pink door leads to the south.
+~
+20 8 0
+D2
+A pink painted door leads to the south.
+~
+~
+1 -1 10621
+S
+
+#10623
+Sebrinas Playroom.~
+Toys and chest, bears and dolls all line this room.  Balls and jumpropes and
+many toys embelish this room with a childs imagination.  You look around and 
+notice that even though there are many toys, Sebrina must be very neat
+because she has them all locked neatly in glass faced cabinets.
+You see a door to the north.
+~
+20 8 0
+D0
+You see a pink door with bears on it to the north.
+~
+~
+1 -1 10621
+S
+
+#10624
+The black leather lined room.~
+This is the nannies room.  Perhaps the castles occupants do not know about it
+or have not said anything about it.  The room is done in a soft black leather
+and bright silver studs.  The bed in the center of the room has black satin 
+bedding on it and shackles.  You wonder what the nanny does in here that
+requires the binding of people.
+There is a door to the north.
+~
+20 8 0
+D0
+A black leather lined door leads to the north.
+~
+~
+1 -1 10620
+S
+#10625
+the lavanderia.~
+The daily duties of the royal family are taken care of here.  The comforting 
+atmosphere and warm seats make the trip a satisfying and fullfilling one.
+There is a glass paneled door leading to a steamy room north of here.
+There is a dark oak door leading south here.
+~
+20 8 0
+D0
+a glass paneled door lead to the north.
+~
+~
+1 -1 10626
+D2
+a dark oak door leads to the south.~
+~
+1 -1 10620
+S
+
+#10626
+The shower room.~
+The steam in this room makes it hard to see and even harder to breath. You
+wish you could clear the steam up, but it seems perpetual.  The white tiled
+walles and silver fixtures give this warm place a nice feel to it.  You to 
+the feeling that you should not be dressed in here though.
+There is a glass paneled door leading to the lavanderia south of here.
+~
+20 8 0
+D2
+A windowed door leaves this room.
+~
+~
+1 -1 10625
+S
+#10627
+The bottom of a slim long stairwell~
+This stairwell is very intricatly painted with Unicorns and pegasi.  The 
+brilliant blue colors of the sky and the greens of the grasses of this
+mural extend from the bottom of the stairwell to the top of it.
+~
+20 8 0
+D2
+A silverwrought barred door leads south into a hallway.
+~
+~
+1 -1 10619
+D4
+A green carpeted stair leads upwards.
+~
+~
+0 -1 10628
+S
+#10628
+The top of a long slim staircase.~
+The mural ends here with a night/day mixture of stars and the sun.  The dark 
+sky here interlaced with the daytime sky gives you the feeling of peace and
+harmony mixed with the awesome power of the elements. You see a sign on the
+wall here
+You see a door leading north.
+~
+20 8 0
+D0
+A green door leads north.  The door feels like it is made of coarse fiber.
+~
+~
+1 -1 10646
+D5
+A green carpeted stairs lead to the landing of the second floor.
+~
+~
+0 -1 10627
+E
+sign~
+This tower room has been preserved for those of you who love to sit
+and watch nature at its best.
+~
+S
+
+#10629
+The classroom.~
+The classroom is where little Sebrina is sent to be educated.  She is taught
+the intricate job of being a princess, and learning the three M's.  The hopes
+that someday she will marry and have a King who is worthy of the throne of
+Baladur is what is the root cause of this intensive education.
+~
+20 8 0
+D0
+An oak door is north.
+~
+~
+1 -1 10619
+S
+
+#10630
+a small kitchen.~
+This small kitchen is obviously here for the royal family.  Since the lower 
+kitchen is obviously made to serve large groups of people, this one was made
+to serve only small family gatherings.  The smells waft about this room as
+the cook goes about his business.
+A swinging door leads east.
+A worn door leads south.
+~
+20 8 0
+D1
+A swinging door leads east.
+~
+~
+1 -1 10631
+D2
+A worn, but well kept door, leads south.
+~
+~
+1 -1 10618
+S
+
+#10631
+a small pantry.~
+this pantry is stocked with enough stuff for the immediate future.  It was
+created to keep the cook from wearing himself out from running up and down
+the stairs.  The most notable item in this room is the wonderous cold box
+that always seems to keep the food cold.
+a swinging door least west.
+~
+20 8 0
+D3
+A swinging door is made for quick entries and exits.
+~
+~
+1 -1 10630
+
+S
+
+#10632
+The weapons armory.~
+Most of the weapons are securely locked up, but a few lie around just in 
+case a stray intruder needs to be taken care of.  The occupants of this
+castle realize the importance of protection, and have taught their children
+well enough so they do not have to fear the weapons that protect them.
+~
+20 8 0
+D0
+An armored door leads north.
+~
+~
+7 10641 10618
+S
+
+#10633
+The armory.~
+Armory is locked in glass cases in this room.  Some were left out by a
+careless soldier.  Eventually they will be put back again.
+An armored door lies to the north.
+~
+20 8 0
+D0
+This heavily armored door is meant to keep intruders out.
+~
+~
+7 10641 10614
+S
+
+#10634
+The private dining hall.~
+The dining hall only has a few tables and no big tables.  It is obviously
+meant to be used only for private family meals.
+There is a nice door to the south.
+~
+20 8 0
+D2
+This ash door has been nicely polished and inset with cherrywood.
+~
+~
+1 -1 10614
+S
+
+#10635
+The bottom of the stairwell.~
+This white stairwell leads up to an 'even so white' stairwell.  You do not
+feel fresh air circulating, but the air does not feel stagnant.  You feel a 
+tingle on the back of your neck as you enter this stairwell.
+There is a stairs up here.
+There is a black grate to the south. 
+
+~
+20 8 0
+D2
+A heavy black grate blocks your way south.
+~
+~
+1 -1 10615
+D4
+Fine white stairs lead upwards.  There is a warning on the steps.
+~
+~
+0 -1 10636
+E
+warning~
+Do not go further if you value your soul.  There is a protective beast up
+the stairs to protect my workshop from pillagers.
+~
+S
+
+#10636
+The top of the stairwell.~
+The top of this white stairwell is perfectly clean.  There is not a minute
+bit of dust or dirt on it.  The stairwell has been cleaned and maintained 
+by an inhuman persistance. There is a LARGE sign hanging here.
+~
+20 8 0
+D0
+This ominous black door has a sigel attached to it.
+~
+~
+1 -1 10642
+D5
+The white stairs down look very inviting to you, considering the sign.
+~
+~
+0 -1 10635
+E
+sigel~
+The demon behind this door will kill you if you pass.
+~
+E
+large sign~
+DO NOT CROSS MY THRESHOLD, you have been warned.
+~
+S
+
+#10637
+The teachers quarters.~
+This musty area is the abode of an old and stodgy teacher.  She does not have
+any air circulation in her room.  She says it upsets the harmonic balance and
+interfers with her creative ideas.  This room shows those ideas as bare walls
+and well polished, waxed floors.
+A pristine rosewood door leads north.
+~
+20 8 0
+D0
+This pristine door resembles the rest of the room.  It is bare and boring.
+~
+~
+1 -1 10615
+S
+#10638
+The wizards sleeping quarters.~
+This bare, plain room has more mysteries to it than are apparent.  You can
+not believe that a mage does not have anything in his room at all.  
+Apparently Alderon has hid all of his stuff with a powerful magic spell.
+A door leads south
+~
+20 8|1024|8192 0
+D2
+A protective symbol is prominently displayed on this door.
+~
+~
+1 -1 10616
+
+E
+protective~
+This symbol protects anyone who is in this room.  Things will be at peace in
+this room.  The spell guarantees it.
+~
+S
+
+#10639
+The quarters of the Salderon.~
+The high cleric of Owinpell uses this area as his sleeping quarters.  The 
+cleanliness of this room reflects it occupants interest in the good part
+of man kind.
+A clean door leads north.
+~
+20 8|1024|512 0
+D0
+This door shows no signs of anything, fingerprints, wear, nothing.
+~
+~
+1 -1 10616
+
+E
+Owinpell~
+Owinpell is the king of the gods of Baladur.  This pantheon leads and 
+controls the daily lives of the city of Baladur.  Owinpell is a good and
+lawful god.  He is the god of Paladins and protects the good of the world.
+~
+S
+
+#10640
+The King and Queen's bedroom~
+You are stunned by the magnificent artistry present in this room.  Every 
+detail is a monument to Baladurian craftmentship. The beauty this room
+exudes overwhelms your senses.
+A door leads to the south.
+~
+20 8 0
+D2
+A fine gold inlaid door leads to the south.
+~
+~
+1 -1 10617
+E
+artistry~
+The artistry in Baladur all tends towards things that are good.  So do 
+the paintings in this room.
+~
+E
+painting paintings~
+The paintings of the King and Queen are very well done.  You have seen the
+King before and the queen looks like the person standing before you.
+~
+S
+
+#10641
+The exercise room.~
+This practice room was made to keep the king in good condition.  The practice
+dummies manage to keep the king from getting lax during his long days at the
+bargaining table.
+A door leads to the north.
+~
+20 8 0
+D0
+This beat up door shows the signs of a huge struggle that took place here.
+~
+~
+1 -1 10617
+S
+
+#10642
+The pentagram~
+You were fairly warned and now you have crossed the magical pentagram that
+protects this room.  A huge demon feels compelled to rip out your inners and
+feed them to his underlings.  He has been put here to observe as well as to 
+protect the room. 
+There is a black door leading south.
+~
+20 8 0
+D0
+You see a large workbench with plenty of to the north.
+~
+~
+0 -1 10643
+D1
+A large statue stands in the eastern part of this room.
+~
+~
+0 -1 10644
+D2
+The black sigel on this door is a warning to those before they entered it.
+~
+~
+1 -1 10636
+S
+
+#10643
+The messy workbench~
+This workbench holds some very dangerous stuff.  You look at the items here
+and decide that it would be best to leave well enough alone.  You see a book
+on the bench turned to a page describing some of the experiments.
+~
+20 8 0
+D1
+The smell of chemicals sting your nose in this area.  You feel a little
+queasy at the thought of having to go in this direction.
+~
+~
+0 -1 10645
+D2
+A huge pentagram made to contain a demon makes this area very undesirable to 
+enter.
+~
+~
+0 -1 10642
+E
+book page~
+I have been testing weapons and items today, Unfortunately they all seem to
+be sticking to me.  I have not been successful in creating the perfect vorpal
+weapon.  They all seem to have ill effects.  I am off to discard(and to have 
+removed) this latest failure.
+~
+S
+
+#10644
+The golem creation area~
+The bits and pieces of iron, clay and flesh that have been pushed into the
+corners have very little interests to you.  Your full attention is on the 
+golem that has been created.  You see a book opened to a page sitting on
+a table in here.
+~
+20 8 0
+D0
+The smell of chemicals sting your nose in this area.  You feel a little
+queasy at the thought of having to go in this direction.
+~
+~
+0 -1 10645
+D3
+A large pentagram that is made to contain a demon is directly east of you.
+~
+~
+0 -1 10642
+E
+book page~
+I have finally done it.  A living creature.  I have created a creature that
+can react to different circumstances.  With a few more modifications he may
+be a perfect replacement for the soldiers in the kings army.  This may mean 
+that our boys do now have to die anymore to protect their homes.
+~
+S
+
+#10645
+The potion creation laboratory~
+This messy workbench contains a few leftover vials of experiment that bubble
+and boil.  You consider yourself foolish for even considering experimenting 
+with these hazardous chemicals.  You see a notebook on the table explaining
+the experiments.
+~
+20 8 0
+D2
+A large statue stands silently to the south of you.
+~
+~
+0 -1 10644
+D3
+You see a messy workbench with plenty of dangerous tools on it.
+~
+~
+0 -1 10643
+E
+notebook ~
+I have not been successful today in making a specific teleport potion for
+the king.  It seems as though outside influences are fighting me on this 
+project.  Everytime I seem to get close to the answer all the potions seem
+to turn to poison.  I am getting very disappointed.
+~
+S
+
+#10646
+the meadow~
+This marevelous meadow is bathed with light from a dome which seems to supply
+a beautifully warm sunlight evenly to the entire room.  The wildlife roams
+free in this room and entices you to relax with them.
+~
+20 0 2
+D0
+A peaceful meadow lays to the north.
+~
+~
+0 -1 10647
+D1
+You hear the roaring of water moving over a huge cliff.
+~
+~
+0 -1 10648
+D2
+You see a green door that seeem to be made of plantlike material.
+~
+~
+1 -1 10628
+S
+
+#10647
+A light meadow~
+This light forest gives the animals something to play it.  Sabrina can be
+caught here often playing with the bunnies and deer.  Although you do not
+see the animals you see their tracks everywhere you look.
+~
+20 0 2
+D1
+A sweet meadow rolls away from you to the south.
+~
+~
+0 -1 10649
+D2
+A huge oldgrowth forest stretchs out to the east.
+~
+~
+0 -1 10646
+S
+
+#10648
+The Great Falls~
+The raging water holds a power that is unbelievable.  Roaring over a 100 foot
+drop to fall at your feet leaves you awestruck.  You look on incredulously as
+the mist from the falls gently drifts across your lips.  If there ever was a 
+paradise you must have now found it.
+~
+20 0 3
+D0
+An old growth forest stretchs to the north.
+~
+~
+0 -1 10649
+D3
+A beautiful meadow leads to the west from here.
+~
+~
+0 -1 10646
+S
+
+#10649
+Deep inside a heavy forest~
+The dark green conifers of this forest send a distinct message to your nose
+telling you that your home has been found.  The blissfully cool air 
+circulates around you as the trees whisper your name softly in your ears.
+How such a thick old growth has appear in this castle is beyond explanation.
+You do not even question it, you just enjoy it. You hear a shuffling sound,
+but try as you might you can not locate it.
+A wobbly ladder leads up a huge tree.
+~
+20 0 3
+D2
+The sound of water from the south is deafening..
+~
+~
+0 -1 10648
+D3
+A light forest stretches out to the west.
+~
+~
+0 -1 10647
+D4
+Wobbly boards are nailed into the tree making a very precarious ladder.
+~
+~
+0 -1 10650
+S
+
+#10650
+Up a tree~
+After climbing up the small wobbly planks nailed on this tree by a little
+hand you wonder how come an OSHA safety commitee has not condemned it.
+The view up here is spectacular allowing you to view the roaring waterfall
+and the gorgeous meadows that stretch out below you.  The wonder of nature
+and magic mixed leave you feeling peaceful and serene.
+Above you is a small trap door.
+Below you are wobbly boards nailed into the tree to form a ladder.
+~
+20 0 3
+D4
+A small trap door is set in the planking about your head.
+~
+~
+1 -1 10651
+D5
+Down below you the trees and meadows of the arboreum lay..
+~
+~
+0 -1 10649
+S
+
+#10651
+The treehouse~
+Sabrina's small tree house allows her to look around at a the world outside 
+the castle without being put into danger.  To the north you see a sweeping 
+mountain range that wraps around the east and west sides of the castle.  This
+provides weather and war protection for the castle.  To the south is a large
+wall closing in the box canyon that the castle was built in with a heavy iron
+bound gate guarding the entrance. You feel very safe here.
+You see a small door in the floor.
+~
+20 8|1024 0
+D5
+A small trap door is set in the floor here.
+~
+~
+1 -1 10650
+S
+
+#10652
+The servants hallway~
+This clean hallway is used only by the staff of the castle.  It was
+placed close to the main hallway for easy access to all of the castle.
+The floors of this hallway are scrubbed clean and the walls are immaculate.
+You find it hard to believe that anything can be so ultraclean.
+There is a door north.
+There is a door east.
+There is a door south.
+~
+20 8 0
+D0
+This plain door has a pink rose fastened to the outside of it.
+~
+~
+1 -1 10656
+D1
+You listen at this door and hear a bustling hallway on the otherside.
+~
+~
+1 -1 10604
+D2
+This plain door has a sign on it that says "Please Knock"
+~
+~
+1 -1 10655
+D3
+You see an immaculate hallway.
+~
+~
+0 -1 10653
+S
+
+#10653
+The center of the Servants hallway~
+The center of this hallway is unadorned.  It is as clean as the rest of the
+castle, but does not seem to have any signs or adornments on it.
+There is a plain door leading north.
+There is a plain door leading south.
+~
+20 8 0
+D0
+A plain door with flour powder on the knob leads north.
+~
+~
+1 -1 10658
+D1
+You see an immaculate hallway.
+~
+~
+0 -1 10652
+D2
+A plain door with a sign on it reading "Restroom" leads south.
+~
+~
+1 -1 10657
+D3
+A faint puff of steam and the smell of lye come from this direction.
+~
+~
+0 -1 10654
+S
+
+#10654
+The end of the Servants Hallway~
+The end of this very clean hallway is a little more humid than the rest of
+the hallway.  You see a little steam slipping under the west and south doors
+of the room.
+There is a door to the north.
+There is a door to the south.
+There is a door to the west.
+~
+20 8 0
+D0
+a plain door with a sign reading "linen Closet" leads north.
+~
+~
+1 -1 10660
+D1
+You see an imaculate hallway.
+~
+~
+0 -1 10653
+D2
+a plain door with a sign reading "Showers" leads south.
+~
+~
+1 -1 10659
+D3
+a plain door with a sign reading "laundry" leads west
+~
+~
+1 -1 10661
+S
+
+#10655
+The butlers room~
+The unwaivering butlers of Naytil are ready to serve.  The entire room is
+arranged so they can get out quickly to either defend the castle or serve
+the paladins that inhabit it.  This room is very plain without much to look
+at in it.
+There is a door leading north.
+~
+20 8 0
+D0
+A plain door with a sign reading "Serve as you would like to be served" is
+neatly fastened to the door here.
+~
+~
+1 -1 10652
+S
+
+#10656
+The maids chambers~
+This pink room is trimmed with white lace and is very frilly.  It serves as
+the living quarter for the castles staff of maids.  They keep it clean as
+they do the rest of the castle.  Looking around you do not see a speck of
+dirt, nor an item that is out of place. 
+a plain door leads south.
+~
+20 8 0
+D2
+This plain door has a sign on it reading "Cleanliness is happiness"
+~
+~
+1 -1 10652
+S
+
+#10657
+The servants bathroom~
+This plain, but clean room is where the servants do their daily duty. Even
+though is is the servants facilities it is still very clean and spotless.
+A plain door leads north.
+~
+20 8 0
+D0
+a plain worn door with the word "Exit" stands here.
+~
+~
+1 -1 10653
+S
+
+#10658
+The cooks quarters~
+This plain room is the quarters of the entire cooking staff of Naytil.
+It is a large room which has many beds in it.  Largly it is unadorned
+except for a few insignificant mommentoes which each cook keeps.
+~
+20 8 0
+D2
+This plain door has a logo on it reading "To cook well is to please the 
+customer".
+~
+~
+1 -1 10653
+S
+
+#10659
+The servants showers~
+The steam and fresh scent of lye permeate this room.  The servants use the
+steam and water showers to cleanse their bodies at the end of a hard day.  
+They like the residents of Naytil find that Cleanliness is next to godliness.
+There is a door leading north.
+~
+20 8 0
+D0
+a plain worn door with the word "Exit" stands here.
+~
+~
+1 -1 10654
+S
+
+#10660
+The castle linen closet~
+You must have caught the castle on cleaning day because this usually full
+closet is almost empty.  In here you can usually find bedding and tablecloths
+and napkins of all types that are used to keep Naytil a clean and pleasant
+place.
+A plain door leads south.
+~
+20 8 0
+D2
+a plain worn door with the word "Exit" stands here.
+~
+~
+1 -1 10654
+S
+
+#10661
+The laundry room~
+The humidity in this room is very high.  You see large machines connected
+to  huge rotating gears which are driven by large belts which disappear 
+into the walls here.  Looking into the machines you see the clothing of the
+castle swirling and rotating in them.  A sign above the machines read "please
+clean the lint traps when you are finished".
+A plain worn door leads east.
+~
+20 8 0
+D1
+a plain worn door with the word "Exit" stands here.
+~
+~
+1 -1 10654
+S
+
+#10662
+The courtyard gate~
+This large courtyard serves as the main trading area for the city of Baladur.
+The city grew up around the front of this courtyard because of the protection
+the paladins residenting inside offer.
+A huge iron bound gates blocks the way north.
+~
+20 0 0
+D0
+A large iron bound gate stands here waiting guarding the residents of the
+glorious castle Naytil.
+~
+~
+7 10642 10604
+D1
+Sounds from the courtyard greet your ears.
+~
+~
+0 -1 10667
+D2
+The large porticulus that guards the courtyard there.
+~
+~
+0 -1 10663
+D3
+Sounds from the courtyard greet your ears.
+~
+~
+0 -1 10664
+S
+
+#10663
+The Entrance Courtyard~
+The entrance to the courtyard of Naytil, is still guarded after all these 
+years.  The inside of courtyard serves as a main trading center for the
+city of Baladur.  Many traders and folk come to see the wonders of the 
+city and manage to find there way to the bazaar in the center.
+There is a portculis to the south
+~
+20 0 0
+D0
+The entrance proper to the castle looms ahead of you.
+~
+~
+0 -1 10662
+D1
+The distant hawkings of a vendor trading riches becons you east.
+~
+~
+0 -1 10666
+D2
+A heavy portculis is the castles first line of defense.
+~
+~
+7 10642 10680
+D3
+You detect a faint smell of food coming from the west.
+~
+~
+0 -1 10665
+S
+
+#10664
+In the courtyard~
+Standing against the wall of Naytil is not as spectacular as one might think.
+The castle is a relatively modest one without a major adornment.  The only 
+thing you note is the fine craftsmenship that went into building the keep
+itself.  This keep would fend off all forms of wallwreckers for a long time.
+~
+20 0 0
+D1
+The entrance proper of Naytil looms ahead of you.
+~
+~
+0 -1 10662
+D2
+The courtyard to the south bustles with activity.
+~
+~
+0 -1 10665
+D3
+The courtyard continues along the sunlit wall.
+~
+~
+0 -1 10669
+S
+
+#10665
+Inside the courtyard~
+Standing inside the outerwall of the keep give you a comfortable feeling. You
+understand that you will not be harmed and are safe from all outside 
+antagonists.  The wall next to you is thick and warm and very well made.  The
+craftsmen were dwarves that were the original inhabitants of this area.
+There is a door to the west.
+~
+20 0 0
+D0
+The castle looms ahead of you.
+~
+~
+0 -1 10664
+D1
+You see the entrance porticulus of Naytil rising to the east.
+~
+~
+0 -1 10663
+D3
+A brown door has the sign "Grocer" nailed to the outside of it.
+~
+~
+1 -1 10668
+S
+
+#10666
+Inside the courtyard~
+Standing inside the safty of the courtyard give you a nice warm feeling.  The
+feeling that you get is that of safety and security.  Even though there are 
+not a lot of people here, the reflection of the sound off the wall gives the
+impression of the sound of a lot of people.
+There is a door to the west.
+~
+20 0 0
+D0
+The walls of the keep loom ahead.
+~
+~
+0 -1 10667
+D1
+A door with the sign "We buy and sell" stands here.
+~
+~
+1 -1 10671
+D3
+The entrance portculis to Naytil is ahead of you.
+~
+~
+0 -1 10663
+S
+
+#10667
+Against the keep wall~
+The warmth of the keep wall seems to fend off the coolness of the breeze up
+here.  The courtyard seems to be at a perfectly balanced temperature because
+of the natural airconditioning and the natural heating.  The architect of 
+the keep kept in mind the comfort of the soldiers who had to be out in the
+courtyard hours on end.
+~
+20 0 0
+D1
+A well trodden ally heads to the east.
+~
+~
+0 -1 10670
+D2
+The outer wall of the keep stands to the south.
+~
+~
+0 -1 10666
+D3
+The entrance proper to Naytil looms ahead of you.
+~
+~
+0 -1 10662
+S
+
+#10668
+The Rich Bounty~
+The "Rich Bounty" is operated inside of the gate of Naytil.  It sells several
+of the local products and is willing to trade for some of the exotic products
+from far away places like Midgaard.  The proprietor was an old soldier in 
+the original army that settled this place and will tolerate not tomfoolery
+in his store.
+There is a door to the east.
+~
+20 8 0
+D1
+A brown door leads back to the street.
+~
+~
+1 -1 10665
+S
+
+#10669
+Western Alley~
+You are standing in a small allyway that rounds the castle.  The well worn
+walk is worn with the tread of many armored feet.  You hear the sound of
+battle going on somewhere to the west.
+~
+20 0 0
+D1
+You feel the sun warmed courtyard to the east.
+~
+~
+0 -1 10664
+D3
+You see the turn in the alley to the west of you.
+~
+~
+0 -1 10672
+S
+
+#10670
+Eastern Alley~
+This alley has the signs of horse all over it.  You see tracks or horses
+coming and going.  You also smell animals to the east of you and hear the 
+sounds of the stables and stables hands.
+~
+20 0 0
+D1
+The smell of dog and horse waft from the east to sting your nose.
+~
+~
+0 -1 10675
+D3
+The warm sounds of the bartering in the courtyard entice your ears.
+~
+~
+0 -1 10667
+S
+
+#10671
+The Adamantium Piece~
+The establishment of this store was done in order to give that Paladins a
+place to trade thier riches so that they could give a more managable tender
+to those who needed it.  It eventually evolved into a full fledge store that
+traded with those around.
+There is a door to the west.
+~
+20 8 0
+D3
+A door leads to the west.
+~
+~
+1 -1 10666
+S
+
+#10672
+A bend in the western alley.~
+This area show a lot of traffic. This seems to be a main staging area for
+soldiers.  From the looks of the people around you this is one alley that
+the common folk tend to avoid.  Hopefully you will escape in one piece from
+this area.
+There is a door leading west.
+There is a door leading south.
+~
+20 0 0
+D0
+You hear the sounds of combat coming from the north.
+~
+~
+0 -1 10678
+D1
+You see a safe exit from this area, and one you might consider taking
+~
+~
+0 -1 10669
+D2
+The sound of a hammer on an anvil ring merrily to the south.
+~
+~
+1 -1 10674
+D3
+The smell of a stoked fired drifts in on the wind.
+~
+~
+1 -1 10673
+S
+
+#10673
+The Double Irons~
+The "Double Irons" manufactures most of the weapons for the soldiers and
+paladins at Naytil and the locals in Baladur.  The bright coals glowing in
+the hearth and the steam from the swords that are plunged into the quenching
+bucket show that a vast amount of weapons come out of this place and that 
+the owner really enjoys his task.
+There is a door to the east.
+~
+20 8 0
+D1
+You see a door that leads back to the alley.
+~
+~
+1 -1 10672
+S
+
+#10674
+The Golden Shield~
+The armorer creates his works in this humble shop.  His hammers resound with
+a ringing chime as he raises and lower them on the armor her is working on.
+The majority of the armor that is worn, including those of the King himself.
+This shop is backed by the wall of the citadel itself showing how much trust
+the lord of the citadel puts into the armorer.
+There is a door to the north.
+~
+20 8 0
+D0
+The door leads north into the alley.
+~
+~
+1 -1 10672
+S
+
+#10675
+Eastern corner of Naytil~
+You are standing in the eastern corner of the castle of Naytil.  Looking at
+the smooth granite wall that extend 40 feet about your head you admire the
+craftsmenship of those who built it.  As you admire the wall you see a 
+cornerstone at your feet.
+~
+20 0 0
+D0
+You see horse stables running up the east side of the castle.
+~
+~
+0 -1 10677
+D2
+The smell of canine wiffs from the open kennels to the south.
+~
+~
+0 -1 10676
+D3
+The sounds of vendors and people echo in the alley to the west.
+~
+~
+0 -1 10670
+E
+cornerstone~
+This castle built by the dwarves of Kilnara in thanks to Draiden and the
+Naytrillian Knight.  We wish to thank then for coming to our aide when 
+times were dire during the Dwarf/Orc wars.
+~
+S
+
+#10676
+the kennels~
+The royal hounds are raised in this kennel.  They are intelligent enough to
+know that it is here they must return.  The kennel is more of an open 
+sleeping and eating establishment for the hounds.  There are no doors nor
+gates and the hounds have a free run or the compound.
+~
+20 8 0
+D0
+The eastern corner of the castle looms ahead of you.
+~
+~
+0 -1 10675
+S
+
+#10677
+The stables~
+The stables of Naytil were built along the wall in order to provider warmth
+and shelter for the bold mounts of the city.  Because the castle was built
+inside a boxed canyon the wind at this point is minimal so the designers 
+opted to build without large doors so the horses see a better airflow an
+cleaner living conditions.
+~
+20 8 0
+D2
+Looking around the horses you can barely make out the corner of the castle.
+~
+~
+0 -1 10675
+S
+
+#10678
+The practice grounds~
+The soldiers of the castle find this quiet out of the way place a perfect 
+area for training and practicing.  They are very content along the west wall
+because no outsiders can get hurt and due to the thick walls, they can be as 
+noisy as they want while practicing.
+There is a door to the north.
+~
+20 0 0
+D0
+A battered door with a sigh "Barracks, do not enter" blocks your way.
+~
+~
+3 -1 10679
+D2
+The faint sound of hammering is heard.
+~
+~
+0 -1 10672
+S
+
+#10679
+The barracks~
+The guards barracks are nestled up against the back wall of the canyon.  They
+were the original hold in the area and when the castle was built the guards
+took over.  They like this place because it is invulnerable to damage.  They
+can have their tests of strength and valor here at nights if they wish 
+without worrying about destroying anything or hurting anyone.
+There is a door leading south.
+~
+20 8 0
+D2
+A battered door with the word "exit" leads to the practice field.
+~
+~
+3 -1 10678
+D5
+The cells do not look like a place you want to be.
+~
+~
+0 -1 10681
+S
+
+#10680
+Owinpell Ave, in front of Naytil~
+You are standing in front of the Castle Naytil.  The castle was built in
+the crook of a canyon in order to afford protection from the rear.  They
+then walled off the mouth of the canyon with this huge wall in order to
+provide protection from the front
+~
+20 0 0
+D0
+The heavy portculis is the castles first line of defense.
+~
+~
+7 10642 10663
+D4
+You see the Temple of Midgaard through this glowing portal.
+~
+~
+0 0 3005
+
+S
+
+#10681
+holding cell corridor~
+This is the middle of the corridor of the holding cells for those arrested
+in the Castle Naytil and the for the ones arrested by the guards in Baladur.
+Although clean, the corridor is very bleak and barren.  Obviously no creature
+comforts have been given to the prisoners.
+~
+20 8 0
+D0
+This wall echos softly as you tap on it.
+~
+~
+3 -1 10689
+D1
+The east end of the corridor lies before you.
+~
+~
+0 -1 10682
+D3
+The west end of the corridor lies before you.
+~
+~
+0 -1 10683
+D4
+The nice clean air of the barracks tickles your nose.
+~
+~
+0 -1 10679
+S
+
+#10682
+The east end of the prison corridor~
+The two holding cells on this end of the corridor are locked up tight.  Even
+when they are empty they are kept locked just as a form of mental discipline
+for the jailers in order to make sure that they never have a lapse that will
+imperil that citizens of Baladur, nor the occupants of Naytil.
+There is a door to the north.
+There is a door to the east.
+There is a door to the south.
+~
+20 8 0
+D0
+This yellow painted iron bound door has a sign on it saying "Cell #1".
+~
+~
+4 10658 10685
+D1
+This blue painted iron bound door has a sign on it saying "Cell #2".
+~
+~
+6 10658 10684
+D2
+This orange painted iron bound door has a sign on it saying "Cell #3".
+~
+~
+1 10658 10686
+D3
+The smell of fresh air come from the west.
+~
+~
+0 -1 10681
+S
+
+#10683
+The west end of the prison corridor~
+The west end of this corridor has two holding cells attached to them.  The
+cells have been made strong and impassible so as to hold and "visitor" that
+happens to wander along the path of evil, only to be nabbed by the righteous.
+There is a door to the north.
+There is a door to the south.
+~
+20 8 0
+D1
+A fresh breeze points the way out.
+~
+~
+0 -1 10681
+D0
+This red painted iron bound door has a sign on it saying "Cell #4".
+~
+~
+7 10658 10687
+D2
+This green painted iron bound door has a sign on it saying "Cell #5".
+~
+~
+8 10658 10688
+S
+
+#10684
+Blue Cell~
+This blue coated cell is made to contain prisoners. It is made very strong
+and has several spells cast upon it to keep the criminals incarcerated.  This
+is done as a selling feature to people who wish to invest in the city of 
+Baladur.
+There is a door to to the west.
+~
+20 8|1 0
+D3
+An iron door leads to the prison corridor.
+~
+~
+6 10658 10682
+S
+
+#10685
+Yellow cell~
+This yellow coated cell is made to contain prisoners. As you stop and look 
+around in this cheery sell you hear a slight shuffling sound behind the
+north wall.  You tap on it gently and hear a hollow echo behind it.
+There is a door to the south.
+~
+20 8|1 0
+D2
+An iron door leads to the prison corridor.
+~
+~
+4 10658 10682
+S
+
+#10686
+Orange cell~
+This orange coated cell is made to contain prisoners. It is made very strong
+and has several spells cast upon it to keep the criminals incarcerated.  This
+is done as a selling feature to people who wish to invest in the city of 
+Baladur.
+There is a door to the north.
+~
+20 8|1 0
+D0
+An iron door leads to the prison corridor.
+~
+~
+1 10658 10682
+S
+
+#10687
+Red cell~
+This red coated cell is made to contain prisoners. It is made very strong
+and has several spells cast upon it to keep the criminals incarcerated.  This
+is done as a selling feature to people who wish to invest in the city of 
+Baladur.
+There is a door to the south.
+~
+20 8|1 0
+D2
+An iron door leads to the prison corridor.
+~
+~
+7 10658 10683
+S
+
+#10688
+Green cell~
+This green coated cell is made to contain prisoners. It is made very strong
+and has several spells cast upon it to keep the criminals incarcerated.  This
+is done as a selling feature to people who wish to invest in the city of 
+Baladur.
+There is a door to the north
+~
+20 8|1 0
+D0
+An iron door leads to the prison corridor.
+~
+~
+8 10658 10683
+S
+
+#10689
+The rank passage~
+This passage is dirty and smelly.  This makes it VERY different from the rest
+of the immaculate castle of Naytil.  You see moss hanging from the ceiling 
+and dirt on the floor.  The passage does not show signs of being abandoned
+because so far as you can see there is no undisturbed dust anywhere.
+There is a door to the south.
+~
+20 8|1 0
+D0
+The rank passage continues to the north.
+~
+~
+0 -1 10690
+D2
+A secret door leads to the prison corridor.
+~
+~
+3 -1 10681
+S
+
+#10690
+The rank passage~
+This dirty passage is getting worse the deeper you get.  The smells are
+horrible.  You try to hold your nose as if to fend off the Clintons fiscal
+policies.  Things are very unpleasant in here.
+~
+20 8|1 0
+D0
+It looks like the passage turns right up ahead.
+~
+~
+0 -1 10691
+D2
+The rank passage seems to end to the south.
+~
+~
+0 -1 10689
+S
+
+#10691
+The filthy corner~
+This corner has been used as a toilet stop for some ungodly creature.  The
+fecies it left behind are piled high.  The walls show handprints(a little
+larger than man) which have smeared the smelly stuff on it.  In general
+this passage is dirty and probably disease ridden.
+~
+20 8|1 0
+D1
+The corridor heads to an even darker corridor.
+~
+~
+0 -1 10692
+D2
+The corridor continues to the south.
+~
+~
+0 -1 10690
+S
+
+#10692
+an even ranker passage~
+footprints lead from the west to the east.  The footprints are tracks formed
+of fecies.  When you inspect them(YUCK) you see that they are clawed and 
+belong to a large bipedal creature.  It does look as though they are heading
+east.
+~
+20 8|1 0
+D1
+The filthy, dirty, rank east passage does not look very safe.
+~
+~
+0 -1 10693
+D3
+The smell eminating from this corner is horrid.
+~
+~
+0 -1 10691
+S
+
+#10693
+South turn in a rank passage~
+The smell is unbearable.  You feel stifled and seriously contemplate 
+screaming.  The filth and smell in this tunnel, coupled with the sick 
+grey green moss hanging from the walls make this a place you would not
+even want to visit.
+~
+20 8|1 0
+D2
+You listen intently and hear a shuffling sound to the south.
+~
+~
+0 -1 10694
+D3
+Even though the smell is bad it may be better than going south.
+~
+~
+0 -1 10692
+S
+
+#10694
+The horrid interchange~
+You are at an intersection and no way seems safe.  This dirty passage is as
+easily rank as the rest of it.  You hear snuffling and shuffling coming from
+everywhere around you.  The walls here echo every sound making it impossible
+to tell where the noise is coming from.  Of course, the walls also seem to
+intensify the smell.
+~
+20 8|1 0
+D0
+This smelly rank hallway is starting to look REAL inviting.
+~
+~
+0 -1 10693
+D1
+The musty smell from this hallway leaves a sick taste in your mouth.
+~
+~
+0 -1 10696
+D3
+Mired in muck and sludge this area shows a lot of those big tracks.
+~
+~
+0 -1 10695
+D4
+A crude stone ladder has been carved into the sides of the shaft heading up.
+~
+~
+0 -1 10697
+S
+
+#10695
+The trolls den~
+The filth and the smell has gotten real bad in this area.  All the worst 
+things you can believe in have been tied up and spread out over this room.
+Such filth makes is impossible and unsafe to search.  You have never been 
+in such a filthy place in your life.  Bones, guts, smashed bits of armor.
+It is amazing that the paladins never found this place in their time at
+Naytil.
+~
+20 8|1 0
+D1
+The intersection looks safer than this joint..
+~
+~
+0 -1 10694
+S
+
+#10696
+Hallway of mushrooms~
+This hallway is full of various fungi.  Unfortunatly none of it is good to
+eat. The poison of all these mushrooms is so potent that you can smell it
+in the air.  The stench of the rot of the fungi and the animals that have
+fallen for it makes this room as unbearable as the rest of the joint.
+~
+20 8|1 0
+D3
+The intersection now look VERY good.
+~
+~
+0 -1 10694
+S
+
+#10697
+In the shaft~
+The breeze in the shaft starts to flush the smell of rot and death out of 
+your nose.  You dread the thought of having to go back down to leave this
+place and pray that the breeze means and exit ahead.
+~
+20 8|1 0
+D4
+The shaft continues upward.
+~
+~
+0 -1 10698
+D5
+The shaft continues down to a disgusting intersection.
+~
+~
+0 -1 10694
+S
+
+#10698
+the mossy tunnel~
+This mossy tunnel has the huge tracks in it heading both ways, there are
+also a few deer and rabbit bones strewn about, but generally it is a 
+pleasant sight from what you saw below.  You hope never to have to go
+down to face that mess again.
+~
+20 8|1 0
+D1
+You see a light at the end of this tunnel.
+~
+~
+0 -1 10699
+D5
+You see a large airy shaft heading downwards.
+~
+~
+0 -1 10697
+S
+
+#10699
+mossy tunnel mouth~
+You are at the end of a tunnel looking to the south.  You are standing on a
+12 foot drop off that leads into a deep thick green forest.  You do not see
+an easy way down except for the southern drop.
+~
+20 8|1 0
+D2
+a dangerous looking drop will land you in a thick forest.
+~
+~
+0 -1 10649
+D3
+this nice safe passage leads back towards the depths.
+~
+~
+0 -1 10698
+S
+
+#0
+
+
+
+#RESETS
+*
+* -- Baladur --
+*
+M 0 10602 2 10601       a holy sergeant
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+E 1 10603 50 6          wear the shining helm
+E 1 10604 50 9          wear the shining gloves
+E 1 10605 50 13		wear belt of pride
+E 1 10606 50 12		wear a dark purple cloak
+E 1 10607 50 10		wear arm cladding
+E 1 10608 50 7		wear shining leggings
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10611 50 11		wear Cross and Sword shield
+*
+M 0 10610 1 10675       an officer
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+E 1 10603 50 6          wear the shining helm
+E 1 10604 50 9          wear the shining gloves
+E 1 10605 50 13		wear belt of pride
+E 1 10606 50 12		wear a dark purple cloak
+E 1 10607 50 10		wear arm cladding
+E 1 10608 50 7		wear shining leggings
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10611 50 11		wear Cross and Sword shield
+G 0 10660 99		give wand of command to officer
+*
+M 0 10602 1 10679       a holy sergeant in the barracks
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+E 1 10603 50 6          wear the shining helm
+E 1 10604 50 9          wear the shining gloves
+E 1 10605 50 13		wear belt of pride
+E 1 10606 50 12		wear a dark purple cloak
+E 1 10607 50 10		wear arm cladding
+E 1 10608 50 7		wear shining leggings
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10611 50 11		wear Cross and Sword shield
+*
+M 0 10601 1 10601	The Grand Visier
+E 0 10612 25 5		wear the bright white robe
+E 0 10613 50 16		wear the Staff of Ifor
+*
+M 0 10603 1 10679	a militiaman
+E 1 10611 50 11		wear Cross and Sword shield
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+G 0 10641 0		give key to armories to guard
+*
+M 0 10603 4 10603	a militiaman in hallway
+E 1 10611 50 11		wear Cross and Sword shield
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+G 0 10642 0		give key to armories to guard
+*
+M 0 10603 6 10678	a militiaman
+E 1 10611 50 11		wear Cross and Sword shield
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+G 0 10642 0		give key to armories to guard
+*
+M 0 10603 8 10670	a militiaman
+E 1 10611 50 11		wear Cross and Sword shield
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10602 50 5		wear the breastplate about body
+G 0 10642 0 		give key to front gate to guard
+*
+M 0 10615 1 10613	load Sabrina on the top of the stairs.
+E 0 10614 100 16	wield the red striped ball.
+E 0 10623 1 17		Hold golden key to the chest in playroom.
+*
+M 0 10616 1 10624	put Nanny in nanny's room(leather lined)
+G 0 10626 0		give pill to Nanny
+E 0 10627 100 5		wear black teddy on body
+E 0 10628 100 16	wear bullwhip 
+*
+M 0 10617 1 10629	Put schoolmarm in schoolroom
+E 0 10630 100 16	weild yardstick as weapon 1
+E 0 10631 100 18	weild chalk as weapon 2
+*
+M 0 10621 2 10621	put maid in west end of upstairs hall
+E 0 10639 100 17	give feather duster to maid
+*
+M 0 10621 2 10617	put maid in east end of upstairs hall
+E 0 10640 100 8		put slippers on maids feet
+*
+M 0 10604 2 10603	put janitor in Great Hallway
+*
+M 0 10618 4 10607	put cook in downstairs kitchen
+*
+M 0 10618 4 10607	put cook in downstairs kitchen
+E 0 10638 100 6		put hat on cook
+*
+M 0 10618 4 10607	put cook in downstairs kitchen
+*
+M 0 10618 4 10630	put cook in upstairs kitchen
+E 0 10638 100 6		put hat on cook
+*
+M 0 10619 2 10606	put butler in Dining Hall
+E 1 10601 50 16		wield the shiny broadsword
+E 1 10609 50 3		wear Baladurina pendant
+*
+M 0 10619 2 10630	put butler in small kitchen
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10601 50 16		wield the shiny broadsword
+G 0 10633 0		give silver tray to upstairs butler
+*
+M 0 10620 3 10630	put scullery maide in small kitchen
+M 0 10620 3 10607	put scullery maide in large kitchen
+M 0 10620 3 10607	put scullery maide in large kitchen
+*
+M 0 10622 4 10641	put practice dummy in exercise room
+E 0 10643 50 16		Put iron sword on dummy
+E 0 10647 50 5		Put bronze breastplate on dummy
+M 0 10622 4 10641	put practice dummy in exercise room
+E 0 10644 50 16		Put iron mace on dummy
+E 0 10650 50 10		Put bronze armguards on dummy
+M 0 10622 4 10641	put practice dummy in exercise room
+E 0 10649 50 7		Put bronze shinguards on dummy
+E 0 10645 50 16		Put bronze spear on dummy
+M 0 10622 4 10641	put practice dummy in exercise room
+E 0 10649 50 7		Put bronze shinguards on dummy
+E 0 10650 50 10		Put bronze armguards on dummy
+E 0 10647 50 5		Put bronze breastplate on dummy
+E 0 10645 50 16		Put bronze spear on dummy
+*
+M 0 10623 1 10640	Put queen Salina in bedroom
+*
+M 0 10624 1 10601	Put Cleric Salderon in Throne Room
+*
+M 0 10625 2 10638	Put living chair in Ifor's room
+*
+M 0 10626 1 10642	Put demon in pentagram
+*
+M 0 10627 7 10647	Put bunny in meadow
+*
+M 0 10628 5 10646	Put deer in the meadow
+*
+M 0 10629 1 10648	Put Elemental in waterfall
+*
+M 0 10630 1 10644	Put golemm in workshop
+*
+M 0 10631 1 10673	Put Severn in Weaponry
+E 0 10652 10 16		Put hammer on Severn
+G 1 10643 99 		Give iron sword
+G 1 10645 99		give bronze spear 
+*
+M 0 10632 1 10674	Put Argon in Armorshop
+E 0 10652 10 16		Put hammer on Argon
+G 1 10647 99		give bronze breastplate
+G 1 10649 99		give bronze shinguards
+G 1 10650 99		give bronze armguards
+*
+M 0 10633 1 10668	Put Varnar in Grocerystore
+G 1 602 99		give beef 
+G 1 603 99		give chicken
+G 1 605 99		give pork
+G 1 610 99		give lettuce
+G 1 611 99		give milk
+*
+M 0 10634 1 10671	Put Kamar in jewelrystore
+*
+M 0 10635 1 10676	Put Shiela in the Kennels
+*
+M 0 10636 2 10677	Put Stableboys in the stables
+*
+M 0 10607 2 10665	Put scum congressman in courtyard
+*
+M 0 10608 2 10666	Put scum assemblywoman in courtyard
+*
+M 0 10609 1 10664	Put smokey(cat) in courtyard
+*
+M 0 10605 5 10676	put royal hound in kennel
+E 0 10629 100 3		wear collar around neck
+*
+M 0 10637 3 10677	Put stallion in stables
+M 0 10638 2 10676	Put bitch in kennel
+M 0 10639 10 10676	Put puppy in kennel
+M 0 10639 10 10676	Put puppy in kennel
+M 0 10639 10 10676	Put puppy in kennel
+* 
+M 0 10640 1 10662	Put guard in front of castle doors
+E 0 10649 50 7		Put bronze shinguards on guard
+E 0 10650 50 10		Put bronze armguards on guard
+E 0 10647 50 5		Put bronze breastplate on guard
+E 0 10645 50 16		Put bronze spear on guard
+*
+M 0 10640 2 10662	Put guard in front of castle doors
+E 1 10602 50 5		wear the breastplate about body
+E 1 10601 50 16		wield the shiny broadsword
+G 0 10641 0 		give key to armory to guard
+*
+M 0 10640 2 10680	Put guard in front of castle portculus
+E 0 10645 50 16		Put bronze spear on guard
+E 1 10609 50 3		wear Baladurina pendant
+E 1 10610 50 4		wear shining neckguard
+* 
+M 0 10640 2 10680	Put guard in front of castle portculus
+E 1 10611 50 11		wear Cross and Sword shield
+E 1 10601 50 16		wield the shiny broadsword
+G 0 10642 0 		give key to front gate to guard
+*
+M 0 10641 7 10665	Put citizen in courtyard
+E 0 10644 50 16		Put iron mace on citizen
+*
+M 0 10641 7 10665	Put citizen in courtyard
+E 0 10644 50 16		Put iron mace on citizen
+*
+M 0 10641 7 10665	Put citizen in courtyard
+E 0 10644 50 16		Put iron mace on citizen
+*
+M 0 10606 1 10687	Put thug in cell
+*
+M 0 10642 1 10688	Put prisoner in cell
+*
+M 0 10642 1 10684	Put prisoner in cell
+*
+M 0 10642 1 10685	Put prisoner in cell
+*
+M 0 10642 1 10686	Put prisoner in cell
+*
+M 0 10644 1 10695	Put female troll in den
+*
+M 0 10645 2 10695	Put little troll in den
+M 0 10645 2 10695	Put little troll in den
+*
+M 0 10643 3 10695	Put big troll in den
+E 0 10649 50 7		Put bronze shinguards on guard
+E 0 10650 50 10		Put bronze armguards on guard
+E 0 10659 99 3		Put necklace on troll
+*
+* Put stuff in rooms
+*
+O 0 10615 1 10622	Put bed in Sabrinas Room
+P 0 10616 1 10615	Put pillow in the bed
+O 0 10617 1 10622	Put dresser in Sabrinas Room
+P 0 10618 1 10617	Put panties in dresser(noremove)
+P 0 10619 1 10617	Put training bra in dresser(noremove)
+O 0 10620 1 10623	Put chest in Playroom Room
+P 0 10622 1 10620	Put magazine in chest
+P 0 10625 1 10620	Put jacks in chest
+O 0 10621 1 10623	Put (locked)chest in Playroom Room
+P 0 10624 1 10621	Put brush(wand) in (locked)chest
+O 0 10632 1 10631	Put Icebox in Pantry
+P 0 10634 1 10632	Put turkey in icebox
+O 0 10634 1 10609	Put turkey in cold room
+O 0 10635 1 10607	Put beef in big kitchen
+O 0 10635 1 10630	Put beef in little kitchen
+O 0 10636 1 10610	Put flour in pantry
+O 0 10636 1 10631	Put flour in upstairs pantry
+O 0 10637 1 10608	Put pool of water in cistern
+O 0 10643 1 10632	Put iron sword in armory
+O 0 10644 1 10632	Put iron mace in armory
+O 0 10645 1 10632	Put bronze spear in armory
+O 0 10646 1 10632	Put cursed staff of Nyrobia in armory
+O 0 10647 1 10633	Put bronze breastplate in armor armory
+O 0 10648 1 10633	Put hex shield in armor armory
+O 0 10649 1 10633	Put bronze shinguards in armor armory
+O 0 10650 1 10633	Put bronze armguards in armor armory
+O 0 10651 1 10640	Put master bed in the master bedroom
+O 0 10652 2 8903	Put black powder in workshop(found in grove.are)
+O 0 10653 2 10645	Put blue potion in workshop
+O 0 10654 2 10645	Put red potion in workshop
+O 0 10655 2 10645	Put green potion in workshop
+O 0 10656 2 10660	Put white towel in linen closet
+O 0 10656 1 10659	Put white towel in shower room
+O 0 10657 2 10660	Put white sheet in linen closet
+O 0 10657 1 10661	Put white sheet in laundry
+O 0 10638 1 10658	Put chefs hat in chefs room
+O 0 10640 1 10656	Put slippers in maids room
+O 0 10633 1 10655	Put silver tray in Butlers room
+O 0 10658 1 10679	Put key in barracks
+*
+*DOOR RESETS*
+*
+D 0 10604 2 2		Close and lock door from Naytil to courtyard
+D 0 10604 3 1		Close door from Great Hall to Servants hallway
+D 0 10606 1 1		Close door from Dining room to Kitchen
+D 0 10607 0 1		Close door from Kitchen to Cistern
+D 0 10607 1 1		Close door from Kitchen to Freezer
+D 0 10607 2 1		Close door from Kitchen to Stores
+D 0 10607 3 1		Close door from Kitchen to Dining Hall
+D 0 10614 0 1		Close door from hallway to small dining hall
+D 0 10614 2 2		Close door from hallway to Armor Armory
+D 0 10615 0 1		Close door from hallway to stairwell
+D 0 10615 2 1		Close door from hallway to teachers room
+D 0 10616 0 1		Close door from hallway to wizards room
+D 0 10616 2 1		Close door from hallway to clerics room
+D 0 10617 0 1		Close door from hallway to Draidens Room
+D 0 10617 2 1		Close door from hallway to exercise room
+D 0 10618 0 1		Close door from Hallway to small Kitchen
+D 0 10618 2 2		Close door from Hallway to weapons armory
+D 0 10619 0 1		Close door from Hallway to stairwell
+D 0 10619 2 1		Close door from Hallway to Schoolroom
+D 0 10621 0 1		Close door from Hallway to Sebrinas Bedroom
+D 0 10621 2 1		Close door from Hallway to Playroom
+D 0 10622 2 1		Close door from Sebrinas Bedroom to hallway
+D 0 10623 0 1		Close door from Playroom to Hallway
+D 0 10620 0 1		Close door from hallway to lavanderia
+D 0 10620 2 1		Close door from hallway to leather room
+D 0 10624 0 1		Close door from leather room to hallway
+D 0 10625 0 1		Close door from lavanderia to hallway
+D 0 10625 2 1		Close door from lavanderia to shower
+D 0 10626 2 1		Close door from shower to lavanderia
+D 0 10627 2 1		Close door from stairwell to hallway
+D 0 10628 0 1		Close door from stairs to meadow
+D 0 10629 0 1		Close door from schoolroom to hallway
+D 0 10630 1 1		Close door from Small Kitchen to Pantry
+D 0 10630 2 1		Close door from Small kitchen to hallway
+D 0 10631 3 1		Close door from Pantry to small kitchen
+D 0 10632 0 2		Close door from Weapons Armory to Hallway
+D 0 10633 0 2		Close door from Armor Armory to Hallway
+D 0 10634 2 1		Close door from Small dining hall to hallway
+D 0 10635 2 1		Close door from stairwell to hallway
+D 0 10636 0 1		Close door from stairs to the pentagram
+D 0 10637 0 1		Close door from teachers room to hallway
+D 0 10638 2 1		Close door from wizards room to hallway
+D 0 10639 0 1		Close door from clerics room tohallway
+D 0 10640 2 1		Close door from Draidens room to hallway
+D 0 10641 0 1		Close door from exercise room to hallway
+D 0 10642 2 1		Close door from the pentagram to the stairs
+D 0 10646 2 1		Close door from the meadow to the stairs
+D 0 10650 4 1		Close door from up the tree to the tree house
+D 0 10651 5 1		Close door from the treehouse to up the tree
+D 0 10604 2 2		Close and lock door from Naytil to courtyard
+D 0 10604 3 1		Close door from Great Hall to Servants hallway
+D 0 10652 0 1		Close door from Servants hall to maids room
+D 0 10652 1 1		Close door from Servants hall to Great Hall
+D 0 10652 2 1		Close door from Servants hall to Butlers Room
+D 0 10653 0 1		Close door from Servants hall to Cooks room
+D 0 10653 2 1		Close door from Servants hall to bathroom
+D 0 10654 0 1		Close door from Servants hall to linen closet
+D 0 10654 2 1		Close door from Servants hall to shower
+D 0 10654 3 1		Close door from Servants hall to laundry room
+D 0 10655 0 1		Close door from butlers room to Servants Hallway
+D 0 10656 2 1		Close door from maids room to Servants Hallway
+D 0 10657 0 1		Close door from bathroom to Servants Hallway
+D 0 10658 2 1		Close door from the cooks room to Servants Hallway
+D 0 10659 0 1		Close door from the showers to Servants Hallway
+D 0 10660 2 1		Close door from the linene closet to Servants Hallway
+D 0 10661 1 1		Close door from the laundry to Servants Hallway
+D 0 10662 0 2		Close and lock courtyard to Naytil
+D 0 10663 2 2		Close and lock the portculis from Courtyard to street
+D 0 10665 3 1		Close the door from courtyard to the foodvendor
+D 0 10666 1 1		Close door from the courtyard to the Adamantium Piece
+D 0 10668 1 1		Close the door from the foodvendor to the courtyard
+D 0 10671 3 1		Close door from the Adamantium Piece to the courtyard
+D 0 10672 2 1		Close door from alley to weapon shop
+D 0 10672 3 1		Close door from the alley to the armor shop
+D 0 10673 1 1		Close door from weapon shop to the alley
+D 0 10674 0 1 		Close door from armor shop to alley
+D 0 10678 0 1		Close door from practice grounds to barracks
+D 0 10679 2 1		Close door from barracks to practice grounds
+D 0 10680 0 2		Close and lock the portculis from street to courtyard
+D 0 10681 0 1		Close secret door to troll tunnels
+D 0 10682 0 2		Close and lock hallway to cell
+D 0 10682 1 2		Close and lock hallway to cell
+D 0 10682 2 2		Close and lock hallway to cell
+D 0 10683 0 2		Close and lock hallway to cell
+D 0 10683 2 2		Close and lock hallway to cell
+D 0 10684 3 2		Close and lock cell to hallway
+D 0 10685 2 2		Close and lock cell to hallway
+D 0 10686 0 2		Close and lock cell to hallway
+D 0 10687 2 2		Close and lock cell to hallway
+D 0 10688 0 2		Close and lock cell to hallway
+D 0 10689 2 1		Close door from troll tunnels to prison hallway
+*
+S
+
+#SHOPS
+ 10633   1  8 13 15 19   120  80         0 23   ; Varnar the Grocer
+ 10631   5  0  0  0  0   120  75         0 23   ; Severn the Weaponsmith
+ 10632   9  0  0  0  0   110  65         0 23   ; Armon the Armourer
+ 10634   8  0  0  0  0   110  80         7 20   ; Kamar the Jeweller
+
+0
+
+#SPECIALS
+M 10601 spec_cast_mage		Ifor, the mage
+M 10623 spec_cast_cleric	The queen
+M 10624 spec_cast_adept		The wandering cleric
+M 10602 spec_guard		Stationary Sergeant
+M 10603 spec_guard		Wandering Militia
+M 10610 spec_guard		Wandering Militia Officer
+M 10611 spec_guard		Border Guard, Dwarf
+M 10612 spec_guard		Border Guard, Human Wanderer
+M 10613 spec_guard		Border Guard, Human
+M 10614 spec_guard		Stationary Wall Guard
+
+S
+
+#$
+

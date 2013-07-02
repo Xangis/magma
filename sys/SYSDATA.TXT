@@ -1,0 +1,10 @@
+AllTimeMax  18
+TimeOfMax   Thu Aug  5 20:28:05 1999~
+Act         32
+Hour        8
+Day         24
+Month       0
+Year        175
+Moonphase   1
+Moonday     31
+End

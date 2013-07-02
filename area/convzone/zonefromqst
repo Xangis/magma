@@ -1,0 +1,2 @@
+cat quest.header $1.qst quest.footer zone.footer > $1.are
+

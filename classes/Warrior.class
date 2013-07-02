@@ -1,0 +1,49 @@
+Nm          Warrior~
+WhoNm       &+BWarrior&n     ~
+Cla         1
+AtrPrm      1
+Wpn         200
+Sklladpt    95
+Thac0       180
+Thac47      0
+Hpmin       10
+Hpmax       17
+Mana        0
+Skll         1 'riposte'
+Skll         1 'dodge'
+Skll         1 'aerial combat'
+Skll         1 'switch opponents'
+Skll         1 'blindfighting'
+Skll         1 'bandage'
+Skll         1 'barehanded fighting'
+Skll         1 'unarmed damage'
+Skll         1 '1h piercing'
+Skll         1 '1h slashing'
+Skll         1 '1h bludgeoning'
+Skll         1 '1h misc'
+Skll         1 '2h piercing'
+Skll         1 '2h slashing'
+Skll         1 '2h bludgeoning'
+Skll         1 '2h misc'
+Skll         1 'doorbash'
+Skll         1 'berserk'
+Skll         1 'dual wield'
+Skll        21 'guard'
+Skll         1 'disarm'
+Skll         1 'offense'
+Skll         1 'kick'
+Skll         1 'parry'
+Skll         1 'rescue'
+Skll         1 'scrolls'
+Skll         1 'mount'
+Skll         1 'second attack'
+Skll         1 'staves'
+Skll        51 'third attack'
+Skll         1 'wands'
+Skll         1 'shield block'
+Skll        56 'fourth attack'
+Skll         1 'whirlwind'
+Skll         1 'swim'
+Skll         1 'carve'
+Skll         1 'bash'
+End

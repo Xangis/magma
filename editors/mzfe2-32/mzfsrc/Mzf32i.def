@@ -1,0 +1,21 @@
+;------------------------------------------------
+;   Main MZF32i
+;
+;   Copyright © 1994-5. All Rights Reserved.
+;
+;   SUBSYSTEM:    mzf32i.exe Module Defintion File
+;   FILE:         mzf32i.def
+;   AUTHOR:       Slash
+;
+;------------------------------------------------
+
+NAME pounds
+
+DESCRIPTION 'MAKE.ZONES.FAST 32i - Copyright © 1994-6. Some Rights Reserved.'
+EXETYPE     WINDOWS
+CODE        PRELOAD MOVEABLE DISCARDABLE
+DATA        PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE    65536
+STACKSIZE   130000
+;STACKSIZE   65536
+

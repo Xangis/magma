@@ -2214,7 +2214,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
     CHAR_DATA *ch;
     NOTE_DATA *pnote;
     char      *pwdnew;
-    char      *classname;
+    char classname[MAX_STRING_LENGTH];
     char      *p;
     char       buf [ MAX_STRING_LENGTH ];
     int        iClass;
@@ -2518,9 +2518,9 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer( d, buf, 0 );
 	d->connected = CON_GET_NEW_CLASS;
 	break;
-	
+
     case CON_GET_NEW_CLASS:
-	classname = "";
+	memset(classname, 0, MAX_STRING_LENGTH);;
 	for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
             if( !class_table[iClass] )
@@ -2538,7 +2538,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
               if( class_avail[ch->race][iClass] )
               {
 		ch->class = iClass;
-		classname = class_table[iClass]->name;
+		strcpy(classname, class_table[iClass]->name);
 		break;
               }
               else
@@ -2559,7 +2559,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	write_to_buffer( d, "\n\r", 0 );
 
-	if ( classname != "" )
+	if ( classname[0] != 0 )
 	    do_help( ch, classname );
 	else
 	    bug( "Nanny CON_GET_NEW_CLASS:  ch->class (%d) not valid",

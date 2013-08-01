@@ -3733,8 +3733,9 @@ void do_crashmud( CHAR_DATA *ch, char *argument ) {
     }
 }
 
+// This function is intended to put the MUD into an infinite loop. This is for testing
+// an "inifinite loop detection" script that kills the MUD if it's pegged at full CPU.
 void do_loopmud( CHAR_DATA *ch, char *argument ) {
-//    CHAR_DATA *empty = NULL;
     int i;
 
     last_fun( "do_loopmud" );

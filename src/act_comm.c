@@ -2700,16 +2700,14 @@ void door_trigger( char *arg, CHAR_DATA *ch )
             && ch->in_room->exit[door]->key < 0 )
         {
             char       buf     [ MAX_STRING_LENGTH   ];
-            char      *buf1, *buf2;
+            char      *buf1;
 
             /* get last argument from door keywords */
 //            buf1 = one_argument( ch->in_room->exit[door]->keyword, buf);
             i = 0;
             strcpy(buf, ch->in_room->exit[door]->keyword );
             buf1 = buf;
-            buf2 = buf1;
             while (buf1[0] != '\0' && i < 9 ) {
-                buf2 = buf1;
                 buf1 = one_argument( buf1, buf );
                 i++;
             }
@@ -2717,7 +2715,7 @@ void door_trigger( char *arg, CHAR_DATA *ch )
           wiznet( 0, WIZ_LSPAM, 0, lbuf );
             if( !str_cmp( buf, arg ) )
             {
-                char       buf2     [ MAX_STRING_LENGTH   ];
+                char buf2 [MAX_STRING_LENGTH];
                 EXIT_DATA *exit = ch->in_room->exit[door]->to_room->exit[rev_dir[door]];
                 buf1 = one_argument( ch->in_room->exit[door]->keyword, buf);
                 sprintf( buf2, "The %s hums briefly and opens.", buf );

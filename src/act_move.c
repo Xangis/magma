@@ -908,7 +908,7 @@ void do_open( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp(arg, "door") && arg1 && strlen( arg1 ) > 0 )
+    if ( !str_cmp(arg, "door") && strlen( arg1 ) > 0 )
 	door = find_door( ch, arg1 );
     else
 	door = find_door( ch, arg );
@@ -1020,7 +1020,7 @@ void do_close( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp(arg, "door") && arg1 && strlen( arg1 ) > 0 )
+    if ( !str_cmp(arg, "door") && strlen( arg1 ) > 0 )
 	door = find_door( ch, arg1 );
     else
 	door = find_door( ch, arg );
@@ -1239,7 +1239,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
     }
 
     one_argument( rest, arg1 );
-    if ( !str_cmp(arg, "door") && arg1 )
+    if ( !str_cmp(arg, "door") && strlen(arg1) > 0 )
 	door = find_door( ch, arg1 );
     else
 	door = find_door( ch, arg );

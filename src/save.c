@@ -1560,7 +1560,7 @@ int fread_char( CHAR_DATA *ch, FILE *fp )
 	      paf                 = new_affect();
 
 	      temp_fread_string( fp, buf1 );
-              if ( !buf1 ) {
+              if ( strlen(buf1) < 1 ) {
                   bug(" End of file encountered in fread_char.", 0);
                   fread_to_eol( fp );
                   send_to_char("An error was encountered loading your pfile.  This may result in a loss of equipment or affects.\n\r", ch);
@@ -1568,7 +1568,7 @@ int fread_char( CHAR_DATA *ch, FILE *fp )
               }
 	      paf->skill           = skill_affect_lookup( buf1 );
               temp_fread_string( fp, buf1 );
-              if ( !buf1 ) {
+              if ( strlen(buf1) < 1 ) {
                   bug(" End of file encountered in fread_char.", 0);
                   fread_to_eol( fp );
                   send_to_char("An error was encountered loading your pfile.  This may result in a loss of equipment or affects.\n\r", ch);
@@ -1576,7 +1576,7 @@ int fread_char( CHAR_DATA *ch, FILE *fp )
               }
 	      paf->spell           = spell_affect_lookup( buf1 );
 	      temp_fread_string( fp, buf1 );
-              if ( !buf1 ) {
+              if ( strlen(buf1) < 1 ) {
                   bug(" End of file encountered in fread_char.", 0);
                   fread_to_eol( fp );
                   send_to_char("An error was encountered loading your pfile.  This may result in a loss of equipment or affects.\n\r", ch);

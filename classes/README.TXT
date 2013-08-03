@@ -1,6 +1,6 @@
-Veygoth's Magma MUD Version 3.0
-Monday, September 25, 2000
+Magma MUD Version 3.04
 
+https://github.com/Xangis/magma
 
 === The classes directory ===
 

@@ -8,8 +8,8 @@ broken (2,006 compile errors), but you're welcome to try fixing it if you're
 brave/patient.
 *******************************************************************************
 
-This archive does not come with a compiled version of DikuEdit.  The latest
-version of DikuEdit can be found at http://www.xangis.com.
+This archive comes with a compiled version of DikuEdit. Look for de.exe in the
+parent directory.
 
 I offer no warranties.  If you can make this work, good for you.  If not, you
 might as well find something else to do.

@@ -1,7 +1,6 @@
-Veygoth's Magma MUD 3.00
-Friday, September 22, 2000
+Magma MUD 3.04
 
-veygoth@buckeye-express.com
+https://github.com/Xangis/magma
 
 To do list for future versions of Magma:
 

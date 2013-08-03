@@ -3,7 +3,7 @@ README file for dikuEdit 3.10
 *** NOTE **********************************************************************
 We have switched the compiler that we use with DikuEdit and have eliminated
 a few bugs, however this version has not been thoroughly tested.  Report any
-errors to xangis@xangis.com and save your work often.
+errors on https://github.com/Xangis/magma and save your work often.
 *******************************************************************************
 
 Files included in this distribution:
@@ -55,8 +55,5 @@ Child.prg               - Example child MobProg
     but that can help things along immensely.  Thus, the docs (DE.TXT)
     are probably required reading, in the end.
 
-    If you find any bugs or have any questions/suggestions, e-mail me at
-    xangis@xangis.com.  This version of DikuEdit was originally written
-    by Michael Glosenger (Tavril) and is now maintained by the Magma staff.
-
-    The latest version of DikuEdit can be found at http://www.basternae.org.
+    This version of DikuEdit was originally written by Michael Glosenger
+    (Tavril) and is now maintained by the Magma staff.

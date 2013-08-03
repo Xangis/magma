@@ -1,7 +1,6 @@
-Magma MUD Version 3.00
-Fall 2000
+Magma MUD Version 3.04
 
-Veygoth         veygoth@buckeye-express.com
+https://github.com/Xangis/magma
 
 ----
 This document is an attempt at documenting a few of the important functions in the Magma

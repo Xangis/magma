@@ -1,5 +1,6 @@
-Magma MUD version 3.03
-Saturday, December 22, 2007
+Magma MUD version 3.04
+
+https://github.com/Xangis/magma
 
 === The sys directory
 

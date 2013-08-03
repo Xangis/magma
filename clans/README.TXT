@@ -1,5 +1,6 @@
-Veygoth's Magma MUD version 3.00
-Friday, September 22, 2000
+Magma MUD version 3.04
+
+https://github.com/Xangis/magma
 
 === The clans directory
 

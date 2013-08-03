@@ -5804,8 +5804,8 @@ Last Modified: 1/21/99
 
 This guide, written by Ski, should take you through the steps you need to
 perform when writing a guildhall for Magma.  It is intended for use with
-the DE program, which can be obtained from the Basternae web page
-(http://basternae.org).
+the DE program, which can be obtained from Github at:
+https://github.com/Xangis/magma
 
 This guide assumes you know how to use the DE program.  If you don't, you
 shouldn't be making the guildhall.

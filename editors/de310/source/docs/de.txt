@@ -979,12 +979,13 @@ XIV. Last Words
     a beer or a nice cookie and a glass of milk.  You deserve it for all your hard
     work getting through this.
 
-    If you find any bugs or have any questions/suggestions, e-mail me at
-    xangis@xangis.com, or talk to me as Veygoth on Basternae
-    (basternae.idleminds.org 6666).  This version of DikuEdit was originally written
+    If you find any bugs or have any questions/suggestions, use the Github issue
+    system at https://github.com/Xangis/magma
+    
+    This version of DikuEdit was originally written
     by Michael Glosenger (Tavril) and is now maintained by the Basternae staff.
 
-    The latest version of DikuEdit can be found at http://www.xangis.com.
+    The latest version of DikuEdit can be found at https://github.com/Xangis/magma
 
     By the way, this editor requires a 386+, and probably about four megs of
     memory or so (more for big areas).  And, DOS or a DOS shell.

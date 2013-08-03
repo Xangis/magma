@@ -1,5 +1,6 @@
-Veygoth's Magma MUD (Pre-release) version 0.64
-Wednesday, July 14, 1999
+Magma MUD version 3.04
+
+https://github.com/Xangis/magma
 
 === The objprogs directory
 

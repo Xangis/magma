@@ -35,8 +35,8 @@ nonstandard system.  However, this should be pretty easy for anyone who knows
 anything about their operating system.
 
 Magma now loads zones created with Tavril's DikuEdit, which is available
-at http://basternae.org in the downloads section. It does not necessarily have
-code to handle all of the flags and values that can be set with the editor, but
+at https://github.com/Xangis/magma. It does not necessarily have code to
+handle all of the flags and values that can be set with the editor, but
 progress is being made in that direction.
 
 In this version, spells and skills have been split into separate tables.

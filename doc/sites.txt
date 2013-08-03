@@ -1,9 +1,7 @@
 Magma MUD 3.03
 Saturday, December 22, 2007
 
-Xangis	xangis@yahoo.com
-
-
+https://github.com/Xangis/magma
 
 === Magma-Based Sites
 
@@ -17,5 +15,13 @@ us all!
 
 These are the Magma muds we know of:
 
+Current Magma MUDs:
+-------------------
+
 We are not aware of any Magma-based MUDs that are currently running.  If you
 are running one, please let us know.
+
+Former Magma MUDs:
+------------------
+
+Basternae II: Phoenix Rising

@@ -1,7 +1,7 @@
 Magma MUD version 3.04
 Saturday, February 23, 2007
 
-Xangis	xangis@yahoo.com
+https://github.com/Xangis/magma
 
 Convzone contains a group of utilities used for assembling a zone built
 with DikuEdit from the individual files produced by the editor.

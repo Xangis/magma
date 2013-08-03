@@ -1,7 +1,6 @@
-Veygoth's Magma Mud 3.03
-Saturday, December 22, 2007
+Veygoth's Magma Mud 3.04
 
-Xangis (Veygoth)    xangis@yahoo.com
+https://github.com/Xangis/magma
 
 Much work has gone into the creation of Magma.  Over the years, many people
 have contributed to the work, whether they know it or not.  They deserve
@@ -11,7 +10,7 @@ Thanks to everyone for their help and input with the Magma codebase.  If your
 name was left out and you think it should be included, email me and I'll add
 you to the credits for the next release.
 
-Credits regarding Magma up to version 3.03:
+Credits regarding Magma up to version 3.04:
 -------------------------------------------
 
 All post-3.00 changes have been made by Xangis (Jason Champion a.k.a. Veygoth).
@@ -38,11 +37,11 @@ Credits regarding Basternae 2:
 -----------------------------
         Gods of Basternae 2: Veygoth, Thendar, Ski, Xueqin, Lohrr, Govno,
                 Timken, Saeven, Jolle, Sniktiorg
-        Head of Magma Code: Veygoth (veygoth@stax.net)
-        Zone Administration: Thendar (thendar@basternae.venom.org)
+        Head of Magma Code: Xangis (formerly known as Veygoth)
+        Zone Administration: Thendar
         Design and Development: Thendar, Veygoth, and Ski
         Additional Code Support: Lohrr, Govno, Xueqin, Sniktiorg, Saeven, Jolle, Timken
-        Help files and other documention: Ski (ski@idleminds.org)
+        Help files and other documention: Ski
         Ansi Development: Sniktiorg
         Socials: Trika
         Proofreading and data entry: Pesto

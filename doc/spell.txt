@@ -1,9 +1,6 @@
-Veygoth's Magma MUD (Pre-release) version 0.71
-Sunday, July 17, 1999
+Magma MUD version 3.04
 
-Veygoth		veygoth@stax.net
-
-
+https://github.com/Xangis/magma
 
 === Spells
 

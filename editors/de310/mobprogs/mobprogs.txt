@@ -813,4 +813,3 @@ noone is going to stand in your way (However, the result of this would be
 a bug message and a bail out from the ifcheck so things dont really break)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-*** Contact Veygoth (veygoth@stax.net) if you have any questions.

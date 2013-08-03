@@ -1,8 +1,6 @@
-Veygoth's Magma MUD (Pre-release) version 0.62
-Monday, July 12, 1999
+Magma MUD version 3.04
 
-Veygoth		veygoth@stax.net
-
+https://github.com/Xangis/magma
 
 You may use these color escapes in any string which is shown with the 'act' or
 'send_to_char' functions.  This includes anything that is in an area file.

@@ -1,11 +1,8 @@
-Veygoth's Magma MUD version 3.03
-Saturday, December 22, 2007
-[Essentially unmodified from: Veygoth's Magma MUD version 3.00
-Friday, September 22, 2000]
+Magma MUD version 3.04
 
-Xangis (Veygoth) - xangis@yahoo.com
+https://github.com/Xangis/magma
 
-See /area/magma_changes.txt for more info on updates since the last version.
+See /doc/magma_changes.txt for more info on updates since the last version.
 
 To run the MUD on windows, build the code (see VERSION.TXT in the directory above
 this one) and run the executable.  For Linux, build the code and run the

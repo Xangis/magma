@@ -1,7 +1,7 @@
 Magma MUD version 3.04
 Saturday, February 23, 2008
 
-Xangis	xangis@yahoo.com
+https://github.com/Xangis/magma
 
 Linux users:
 Run "make std" in the src directory to compile the MUD and then run the "magma"

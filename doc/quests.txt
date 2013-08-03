@@ -1,7 +1,6 @@
-Veygoth's Magma MUD (Pre-release) version 0.63
-Monday, July 12, 1999
+Magma MUD version 3.04
 
-veygoth		veygoth@stax.net
+https://github.com/Xangis/magma
 
 === QUESTS
 

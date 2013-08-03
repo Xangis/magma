@@ -19,6 +19,3 @@ type "make" in the root directory.
 
 There is no documentation for this stuff.  You'll have to fiddle with it
 until you understand it.
-
-If you have any questions, email xangis@yahoo.com.  I'll try to help you, but
-I don't have a whole lot of patience.

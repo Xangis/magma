@@ -1,7 +1,6 @@
-Veygoth's Magma MUD (Pre-release) version 0.73
-Sunday, July 18, 1999
+Magma MUD version 3.04
 
-Veygoth		veygoth@stax.net
+https://github.com/Xangis/magma
 
 === Notes and addendum to MobProgs for the Magma codebase
 

@@ -1,7 +1,6 @@
-Veygoth's Magma MUD version 2.00
-Tuesday, January 18, 2000
+Magma MUD version 3.04
 
-Veygoth             veygoth@stax.net
+https://github.com/Xangis/magma
 
 === The src directory
 

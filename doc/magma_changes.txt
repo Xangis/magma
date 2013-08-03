@@ -1,15 +1,12 @@
 Magma MUD version 3.04
-Saturday, February 23, 2007
 
-Xangis	xangis@yahoo.com
+https://github.com/Xangis/magma
 
 Magma is based on Zen's UltraEnvy 0.87j.
 The majority of changes have been done by Xangis (Jason Champion a.k.a. Veygoth).
 Significant contributions have been made by Lohrr and Lithos.
 Additional contributions have been made by Govno, Ski, Thendar, Sniktiorg,
   Timken, Saeven, and Jolle.
-
-Xangis can be reached via email at xangis@yahoo.com.
 
 Copyright Information:
 See license.* for information on licenses for Diku, Envy, and Merc.

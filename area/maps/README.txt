@@ -15,5 +15,3 @@ maps and user-defined keys.  It is included just so that one may see how the ANS
 surface maps were generated.
 
 It generates a magma-format area file that can be loaded into the MUD.
-
--- Veygoth (veygoth@stax.net) 

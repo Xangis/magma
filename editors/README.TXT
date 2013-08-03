@@ -1,7 +1,6 @@
 Magma MUD version 3.04
-Saturday, February 23, 2007
 
-Xangis (Veygoth) - xangis@yahoo.com
+https://github.com/Xangis/magma
 
 These editors can generate file formats that work with Magma 3.04.
 

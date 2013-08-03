@@ -1,15 +1,12 @@
 MagmaMud Release 3.04
 Monday, March 24th, 2008
 
-Xangis	xangis@yahoo.com
-
-
 In version 3.03 of Magma we added support for most, but not all, Envy 2.2
-areas.  So far we have only verified that 61 of the original 63 Envy zones
+areas.  So far we have only verified that 62 of the original 63 Envy zones
 are able to load.  We do convert Envy values/flags to Magma values, but areas
 have not been tested thoroughly, so don't be surprised if you see strange
-values on mobs, objects, or rooms.  Any strangeness should be reported to
-the above email address.  
+values on mobs, objects, or rooms.  Any strangeness should be reported via an
+issue on the project page on Github: https://github.com/Xangis/magma
 
 The following areas were changed in order to work with Magma 3.03:
 
@@ -22,7 +19,6 @@ shaolin.are: Vnums pointing to changed areas were updated.
 
 The following areas will not load in Magma 3.04:
 
-descent.are
 gods.are
 
 They are included in this package in case you wish to add support for them.

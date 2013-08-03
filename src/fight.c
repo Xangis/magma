@@ -3355,7 +3355,7 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
         // of just 1% at first and gauge the results.
         //
         // Since experience is one of the most delicate and precise factors of the MUD, it needs to be
-        // changed and tweaked in very small increments.  Please contact Veygoth (veygoth@stax.net)
+        // changed and tweaked in very small increments.  Please contact Veygoth
         // if you plan on making any changes
         //
         // -- Veygoth 5-24-00

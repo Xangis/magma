@@ -1,7 +1,6 @@
-Magma MUD version 3.03
-Saturday, December 22, 2007
+Magma MUD version 3.04
 
-Xangis	xangis@yahoo.com
+https://github.com/Xangis/magma
 
 === Note
 
@@ -16,7 +15,7 @@ be loadable by the MUD.
 
 This document was originally from the UltraEnvy 0.87j code release by Zen.
 Most of it has been left intact, and only the portions that have changed
-have been modified
+have been modified.
 
                                         - Xangis
 

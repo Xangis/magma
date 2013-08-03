@@ -3874,7 +3874,7 @@ void send_to_char( const char *txt, CHAR_DATA *ch )
 	if ( *point == '&' )
 	{
 	    point++;
-            // only colorize shit that needs to be colorized... otherwise
+            // only colorize what needs to be colorized... otherwise
             // don't worry about it
             if( *point != 'N' && *point != 'n' && *point != '+' && *point != '-' )
             {
@@ -4080,7 +4080,7 @@ void colourconv( char *buffer, const char *txt , CHAR_DATA *ch )
  	  if ( *point == '&' )
 	  {
 	    point++;
-            // only colorize shit that needs to be colorized... otherwise
+            // only colorize what needs to be colorized... otherwise
             // don't worry about it
             if( *point != 'N' && *point != 'n' && *point != '+' && *point != '-' )
             {

@@ -25,10 +25,12 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
-// Set this one to 1 if you have a big fucking problem that causes the
-// MUD to explode and you can't figure it out.  It'll log all kinds of
-// useless messages to help you track it down - Veygoth
+// Set this one to 1 if you have a big problem that causes the MUD to
+// explode and you can't figure it out.  It'll log all kinds of useless
+// messages to help you track it down - Veygoth
 //#define HARDCORE_DEBUG 1
+
+#include <stdint.h>
 
 /*
  * Accommodate old non-Ansi compilers.

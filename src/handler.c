@@ -29,6 +29,7 @@
 #include <sys/types.h>
 #endif
 #include <ctype.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -271,7 +272,7 @@ int get_curr_con( CHAR_DATA *ch )
 
     if( ch->deleted )
     {
-        bug( "get_curr_con: deleted ch (%d) ", (int)ch );
+        bug( "get_curr_con: deleted ch (%d) ", (intptr_t)ch );
         return 0;
     }
 

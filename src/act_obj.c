@@ -1297,7 +1297,7 @@ void do_drink( CHAR_DATA *ch, char *argument )
         if ( obj->value[3] != 0
             && !CHECK_IMM( ch, RIS_POISON ) )
         {
-            /* The shit was poisoned ! */
+            /* The stuff was poisoned ! */
             AFFECT_DATA af;
 
             send_to_char( "You choke and gag.\n\r", ch );
@@ -1416,7 +1416,7 @@ void do_eat( CHAR_DATA *ch, char *argument )
     if ( obj->value[3] != 0
         && !CHECK_IMM( ch, RIS_POISON ) )
     {
-        /* The shit was poisoned! */
+        /* The stuff was poisoned! */
         AFFECT_DATA af;
 
         act( "$n chokes and gags.", ch, 0, 0, TO_ROOM );

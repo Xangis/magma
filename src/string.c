@@ -239,7 +239,7 @@ void string_add( CHAR_DATA *ch, char *argument )
         send_to_char( "String too long, last line skipped.\n\r", ch );
 
         sprintf( buf1, "%s is trying to write a description that's too "
-                 "fucking long.  This used to crash the MUD!  That bastard!",
+                 "long. That fink! This used to crash the MUD.",
                  ch->name );
         log_string( buf1 );
 

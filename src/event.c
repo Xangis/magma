@@ -76,10 +76,10 @@ EVENT_DATA * create_event( int type, int time, void * arg1, void * arg2, int var
 	return event;
 }
 
-// This is called once per pulse - Veygoth
+// This is called once per pulse.
 //
-// The event system uses a shitload of void pointers
-// and is prone to accident.  Scrutinize carefully.
+// The event system uses a lot of void pointers and is prone to
+// accident.  Scrutinize carefully and always check for NULL.
 void event_update( )
 {
     ROOM_INDEX_DATA *room;

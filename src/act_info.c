@@ -2507,7 +2507,7 @@ void set_title( CHAR_DATA *ch, char *title )
     return;
 }
 
-// Don't fuck with title length - Veygoth
+// Changing title length could screw up formatting in lots of different places.
 void do_title( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA	*victim;
@@ -2517,7 +2517,7 @@ void do_title( CHAR_DATA *ch, char *argument )
 
     if ( IS_NPC( ch ) )
         return;
-    
+
     one_argument( argument, arg );
 
     if ( argument[0] == '\0' )

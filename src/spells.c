@@ -11064,7 +11064,7 @@ void spell_resurrect( int sn, int level, CHAR_DATA *ch, void *vo )
           else if ( !( victim->pcdata ) )
             send_to_char( "Victim's got no pcdata!\n\r", ch );
           else if ( corpse == NULL || corpse->in_room != ch->in_room )
-            send_to_char( "Corpse is fucked up!\n\r", ch );
+            send_to_char( "Corpse is broken!\n\r", ch );
           if ( !(victim = get_char_world( ch, name ) ) )
             send_to_char( "Victim still not found!.\n\r", ch );
         }
@@ -11174,8 +11174,7 @@ void spell_summon_elemental( int sn, int level, CHAR_DATA *ch, void *vo )
              IS_NPC( pch ) && IS_SET( pch->act, ACT_PET ) )
              numpets++;
     }
-    // just a WAG as far as number...check for some consistency with necro
-    // (wild assed guess? - veygoth)
+    // just a wild guess as far as number...check for some consistency with necro
     maxpets = ch->level / 20 + get_curr_cha(ch)  / 35;
     if (ch->level >= LEVEL_IMMORTAL) {
         sprintf(buf,"You can summon at most %d pets.\n\r", maxpets);

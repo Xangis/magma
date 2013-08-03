@@ -6313,132 +6313,132 @@ void do_memory( CHAR_DATA *ch, char *argument )
     if ( !authorized( rch, "memory" ) )
         return;
 
-    sprintf( buf, "Affects %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Affects %5d - %4zu bytes each (%zu total)\n\r",
 	 top_affect,
          sizeof( AFFECT_DATA ),
          (top_affect * sizeof( AFFECT_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Areas   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Areas   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_area,
          sizeof( AREA_DATA ),
          (top_area * sizeof( AREA_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "ExDes   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "ExDes   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_ed,
          sizeof( EXTRA_DESCR_DATA ),
          (top_ed * sizeof( EXTRA_DESCR_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Exits   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Exits   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_exit,
          sizeof( EXIT_DATA ),
          (top_exit * sizeof( EXIT_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Helps   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Helps   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_help,
          sizeof( HELP_DATA ),
          (top_help * sizeof( HELP_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Socials %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Socials %5d - %4zu bytes each (%zu total)\n\r",
 	 top_social,
          sizeof( SOC_INDEX_DATA ),
          (top_social * sizeof( SOC_INDEX_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Mobindx %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Mobindx %5d - %4zu bytes each (%zu total)\n\r",
 	 top_mob_index,
          sizeof( MOB_INDEX_DATA ),
          (top_mob_index * sizeof( MOB_INDEX_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Chars   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Chars   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_char,
          sizeof( CHAR_DATA ),
          (top_char * sizeof( CHAR_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "PCdata  %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "PCdata  %5d - %4zu bytes each (%zu total)\n\r",
 	 top_pcdata,
          sizeof( PC_DATA ),
          (top_pcdata * sizeof( PC_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Objindx %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Objindx %5d - %4zu bytes each (%zu total)\n\r",
 	 top_obj_index,
          sizeof( OBJ_INDEX_DATA ),
          (top_obj_index * sizeof( OBJ_INDEX_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Objs    %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Objs    %5d - %4zu bytes each (%zu total)\n\r",
 	 top_obj,
          sizeof( OBJ_DATA ),
          (top_obj * sizeof( OBJ_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Resets  %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Resets  %5d - %4zu bytes each (%zu total)\n\r",
 	 top_reset,
          sizeof( RESET_DATA ),
          (top_reset * sizeof( RESET_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Rooms   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Rooms   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_room,
          sizeof( ROOM_INDEX_DATA ),
          (top_room * sizeof( ROOM_INDEX_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Shops   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Shops   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_shop,
          sizeof( SHOP_DATA ),
          (top_shop * sizeof( SHOP_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "MScript %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "MScript %5d - %4zu bytes each (%zu total)\n\r",
 	 top_mvscript,
          sizeof( MOVE_SCRIPT ),
          (top_mvscript * sizeof( MOVE_SCRIPT )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Quests  %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Quests  %5d - %4zu bytes each (%zu total)\n\r",
 	 top_quest,
          sizeof( QUEST_INDEX_DATA ),
          (top_quest * sizeof( QUEST_INDEX_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "- Msgs  %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "- Msgs  %5d - %4zu bytes each (%zu total)\n\r",
 	 top_qmsg,
          sizeof( TALK_DATA ),
          (top_qmsg * sizeof( TALK_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "- Qdata %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "- Qdata %5d - %4zu bytes each (%zu total)\n\r",
 	 top_qdata,
          sizeof( QUEST_DATA ),
          (top_qdata * sizeof( QUEST_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "- Qitem %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "- Qitem %5d - %4zu bytes each (%zu total)\n\r",
 	 top_qitem,
          sizeof( QUEST_ITEM ),
          (top_qitem * sizeof( QUEST_ITEM )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Events  %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Events  %5d - %4zu bytes each (%zu total)\n\r",
 	 top_event,
          sizeof( EVENT_DATA ),
          (top_event * sizeof( EVENT_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Traps   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Traps   %5d - %4zu bytes each (%zu total)\n\r",
 	 top_trap,
          sizeof( TRAP_DATA ),
          (top_trap * sizeof( TRAP_DATA )) );
 	 send_to_char( buf, ch );
-    sprintf( buf, "Memdata %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Memdata %5d - %4zu bytes each (%zu total)\n\r",
          top_memdata,
          sizeof( MEM_DATA ),
          (top_memdata * sizeof( MEM_DATA )) );
          send_to_char( buf, ch );
-    sprintf( buf, "Siteban %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Siteban %5d - %4zu bytes each (%zu total)\n\r",
          top_ban,
          sizeof( BAN_DATA ),
          (top_ban * sizeof( BAN_DATA )) );
          send_to_char( buf, ch );
-    sprintf( buf, "Desc    %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Desc    %5d - %4zu bytes each (%zu total)\n\r",
          top_desc,
          sizeof( DESCRIPTOR_DATA ),
          (top_desc * sizeof( DESCRIPTOR_DATA )) );
          send_to_char( buf, ch );
-    sprintf( buf, "Vehicle %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Vehicle %5d - %4zu bytes each (%zu total)\n\r",
          top_vehicle,
          sizeof( VEHICLE_DATA ),
          (top_vehicle * sizeof( VEHICLE_DATA )) );
          send_to_char( buf, ch );
-    sprintf( buf, "Crime   %5d - %4d bytes each (%d total)\n\r",
+    sprintf( buf, "Crime   %5d - %4zu bytes each (%zu total)\n\r",
          top_crime,
          sizeof( CRIME_DATA ),
          (top_crime * sizeof( CRIME_DATA )) );

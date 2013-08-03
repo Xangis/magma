@@ -4034,7 +4034,7 @@ char *coin_string( int cost )
       int pla;
 
       buf1[0] = '\0';
-     
+
                 coins = cost;
                 pla = coins / 1000;
                 coins -= pla * 1000;
@@ -4064,7 +4064,7 @@ char *coin_string( int cost )
                   sprintf( buf, " %d&n&+y copper&n", cop );      
                   strcat( buf1, buf );
                 }
-      if( buf1[0] != NULL )
+      if( buf1[0] != 0 )
         return buf1;
       else
         return " nothing";

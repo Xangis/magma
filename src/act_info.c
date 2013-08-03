@@ -708,7 +708,7 @@ void do_look( CHAR_DATA *ch, char *argument )
             if( ch->in_room->vnum < SURFACE_MAP1_START_VNUM || strlen(ch->in_room->name) > 1 )
               sprintf ( buf, "%s&n\n\r", ch->in_room->name );
             else if( ch->in_room->extra_sector_info < MAX_EXTENDED_TERRAIN )
-              sprintf( buf,map_info[ch->in_room->extra_sector_info].room_title );
+              sprintf( buf, "%s", map_info[ch->in_room->extra_sector_info].room_title );
             else
               sprintf( buf, "No room title." );
             send_to_char( buf, ch );
@@ -748,12 +748,12 @@ void do_look( CHAR_DATA *ch, char *argument )
             if( ch->in_room->vnum < SURFACE_MAP1_START_VNUM || strlen(ch->in_room->description) > 1)
               sprintf ( buf, "%s&n", ch->in_room->description );
             else if( ch->in_room->extra_sector_info < MAX_EXTENDED_TERRAIN )
-              sprintf( buf, map_info[ch->in_room->extra_sector_info].room_description );
+              sprintf( buf, "%s", map_info[ch->in_room->extra_sector_info].room_description );
             else
               sprintf( buf, "No room description." );
 	    send_to_char( buf, ch );
 	}
-	
+
         if ( IS_ROOM( ch->in_room, ROOM_SILENT ) )
             send_to_char( "&nIt seems preternaturally quiet.\n\r", ch );
 

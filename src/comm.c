@@ -1131,7 +1131,7 @@ void new_descriptor( int control )
            BAN_DATA        *pban;
     char                    buf [ MAX_STRING_LENGTH ];
     int                     desc;
-    int                     size;
+    unsigned int            size;
     int                     addr;
 
     size = sizeof( sock );

@@ -6738,7 +6738,7 @@ void do_statdump( CHAR_DATA *ch, char *argument )
                 obj->value[3]
                 );
 
-        fprintf( fp, buf );
+        fprintf( fp, "%s", buf );
     }
 
     fclose( fp );

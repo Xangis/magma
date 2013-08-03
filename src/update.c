@@ -671,7 +671,7 @@ void mobile_update( void )
     static int pulse = 0;
 
     last_fun( "mobile_update");
-    pulse = (++pulse % NUM_MOB_PULSES );
+    pulse = ((pulse + 1) % NUM_MOB_PULSES );
 
     /* Examine all mobs. */
     for ( ch = char_list; ch; ch = ch->next )
@@ -1217,7 +1217,7 @@ void char_update( void )
     static int hunger = 0;
 
     last_fun( "char_update");
-    hunger = ((++hunger) % 16 );
+    hunger = ((hunger + 1) % 16 );
 
     ch_save	= NULL;
     ch_quit	= NULL;

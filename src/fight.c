@@ -3715,11 +3715,11 @@ void spl_dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt,
         }
 	else
 	{
-		sprintf( buf1, spells_table[dt].msg_damage );
-		sprintf( buf2, spells_table[dt].msg_damage_vict );
-		sprintf( buf3, spells_table[dt].msg_damage_room );
-		sprintf( buf4, spells_table[dt].msg_damage_self );
-		sprintf( buf5, spells_table[dt].msg_damage_self_rm );
+		sprintf( buf1, "%s", spells_table[dt].msg_damage );
+		sprintf( buf2, "%s", spells_table[dt].msg_damage_vict );
+		sprintf( buf3, "%s", spells_table[dt].msg_damage_room );
+		sprintf( buf4, "%s", spells_table[dt].msg_damage_self );
+		sprintf( buf5, "%s", spells_table[dt].msg_damage_self_rm );
 	}
 
     if ( victim != ch )

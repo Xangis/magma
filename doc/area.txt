@@ -118,7 +118,6 @@ it.  This means one of two things:
 * NOTE *
 OLC has not currently been setup to save areas in the new format.  If you
 save the world, areas may become corrupted and the whole MUD may become worthless.
-- Veygoth
 
 
 === How to convert the standard Envy2.2 areas

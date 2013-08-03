@@ -70,7 +70,7 @@ with Basternae, and is instead an independent codebase.  As such, changes in the
 future are likely to make it more adaptable to different types of MUDs and things
 are likely to be more configurable.  If I had to go back and renumber the versions,
 this would be the "true" magma 1.00.  Since changes from this point on will be
-made by only one person (Veygoth), they will be much better documented.
+made by only one maintainer, they will be much better documented.
 
 ------------------
 Magma 2.01 Changes
@@ -206,7 +206,7 @@ Newbie equipment temporarily disabled until it is created (refers to old
   zone equipment and crashes MUD)
 Item types are now prefixed by TYPE_ rather than ITEM_ because item
   affects were prefixed by ITEM_, thus making things quite confusing to
-  poor old Veygoth.
+  poor old Xangis.
 Little ANSI bug that would force players to have white as their foreground
   color has been smushed.
 

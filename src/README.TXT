@@ -25,9 +25,10 @@ README.SSM	- Is the README info on Fusion's SSM 2.2.1
 
 * NOTE *
 The only makefile that has been kept current is the makefile for STANDARD,
-which works on my Linux system.  I don't know anything about any other
+which works on my Linux system. I don't know anything about any other
 systems, so it is up to you to figure out the makefile for a nonstandard
-UNIX system.  Sorry if this causes you a problem. - Veygoth.
+UNIX system.  Sorry if this causes you a problem, but it should work
+with most systems that use gcc.
 * END OF NOTE *
 
 Makefile	- Is the top level Makefile to build multiple platforms.

@@ -25,7 +25,7 @@ The following information is from the 2000 release of version 3.0:
 
 The documentation for Magma is not incredibly up to date.  If you are unsure
 how something works, look at the code and try to figure it out.  If you still
-can't make sense of it, you can always email Veygoth.
+can't make sense of it, file an issue on Github.
 
 One thing you will want to note first off - Though the original UltraEnvy
 code supported multiple UNIX platforms, I don't personally support

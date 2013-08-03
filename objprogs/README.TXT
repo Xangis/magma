@@ -9,5 +9,5 @@ This file gies a brief description of the files in the mobprogs directory.
 *.prg		- An individual MobProgram file.
 
 Program		Author		Zone		Notes
-statue.prg      Veygoth         limbo.are       Pigeon-paranoid statue
-dtosser.prg	Ski		ski.are		Dwarftosser
+statue.prg  Xangis      limbo.are   Pigeon-paranoid statue
+dtosser.prg	Ski         ski.are     Dwarftosser

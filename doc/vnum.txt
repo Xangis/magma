@@ -8,7 +8,7 @@ Zen             vasc@camoes.rnl.ist.utl.pt
 This file was originally written by Neal Haggard for Merc 2.0 Beta and
 kept up to date since.
 
-These are the vnums for the old, unused zones -- Veygoth
+These are the vnums for the old Envy zones.
 
 === Vnum Assignments
 

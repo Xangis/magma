@@ -19,8 +19,7 @@ The looks you are getting from him is a "feed me, pet me, love me, but I
 don't need you" sort of thing. Guess it's just a cat thing...
 ~
 1|64 4|8|16|32 400 S
-30 40 -200
-10d8+10 3d6+20
+30 40 -200 10d8+10 3d6+20
 0 -9999999
 0 animal~ 1
 
@@ -35,8 +34,7 @@ for food or perhaps affection. Just when you're about to bend down and pet
 him, he bounds off with a playful look in his eyes.
 ~
 1|64 4|8|16|32 400 S
-30 40 -200
-10d8+10 3d6+20
+30 40 -200 10d8+10 3d6+20
 0 -9999999
 0 animal~ 1
 
@@ -76,8 +74,7 @@ with unless you want him to turn you over and give you a really good whipping.
 He is wearing blue overalls and a cap.
 ~
 129 40 1000 S
-80 0 0 
-0d0+0 0d0+0
+80 0 0 0d0+0 0d0+0
 0 0
 0 human~ 1
 
@@ -91,8 +88,7 @@ seemed to suit her tastes.  She is wearing a Sunday dress which looks
 quite stunning, even for her.
 ~
 129 40 1000 S
-80 0 0
-0d0+0 0d0+0
+80 0 0 0d0+0 0d0+0
 0 0
 0 human~ 2
 #1220

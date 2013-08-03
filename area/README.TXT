@@ -1,12 +1,13 @@
-MagmaMud Release 3.04
+Magma Mud Release 3.04
 Monday, March 24th, 2008
 
+https://github.com/Xangis/magma
+
 In version 3.03 of Magma we added support for most, but not all, Envy 2.2
-areas.  So far we have only verified that 62 of the original 63 Envy zones
-are able to load.  We do convert Envy values/flags to Magma values, but areas
-have not been tested thoroughly, so don't be surprised if you see strange
-values on mobs, objects, or rooms.  Any strangeness should be reported via an
-issue on the project page on Github: https://github.com/Xangis/magma
+areas.  We did convert Envy values/flags to Magma values, but areas have not
+been tested thoroughly, so don't be surprised if you see strange values on 
+mobs, objects, or rooms.  Any strangeness should be reported via an issue on
+the project page on Github: https://github.com/Xangis/magma
 
 The following areas were changed in order to work with Magma 3.03:
 
@@ -17,14 +18,11 @@ ofcol.are:   Vnums pointing to changed areas were updated.
 haon.are:    Vnums pointing to changed areas were updated.
 shaolin.are: Vnums pointing to changed areas were updated.
 
-The following areas will not load in Magma 3.04:
+In 2013, we fixed the problems that were causing descent.are and gods.are to load.
+If you're reading this statement, you have a version new enough to load them.
 
-gods.are
-
-They are included in this package in case you wish to add support for them.
-
-All other Envy areas included in this distribution should be unchanged from Envy version
-2.2.
+All other Envy areas included in this distribution should be unchanged in content 
+from Envy version 2.2 other than any data formatting changes that were required.
 
 === The area directory
 

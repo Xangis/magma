@@ -3487,14 +3487,14 @@ See also: STATS, STATISTICS, ATTRIBUTES
         Help files and other documentation: Ski
         Additional zone support: Thendar
 
- &+r Credits regarding Basternae2:&n
+ &+r Credits regarding Basternae 2:&n
         Gods of Basternae 2: Veygoth, Thendar, Ski, Xueqin, Lohrr, Govno,
                 Timken.
-        Head of Magma Code: Veygoth (veygoth@stax.net)
-        Zone Administration: Thendar (thendar@basternae.venom.org)
-      Design and Development: Thendar, Veygoth, and Ski
+        Head of Magma Code: Xangis (formerly Veygoth)
+        Zone Administration: Thendar
+        Design and Development: Thendar, Veygoth, and Ski
         Additional Code Support: Lohrr, Govno, Xueqin, Sniktiorg
-        Help files and other documention: Ski (ski@idleminds.org)
+        Help files and other documention: Ski
         Ansi Development: Sniktiorg
         Socials: Trika
         Proofreading and data entry: Pesto
@@ -3506,7 +3506,7 @@ See also: STATS, STATISTICS, ATTRIBUTES
 
 --------------------------------------------------------------------------
 
-&+rThe legal stuff we have to add:&n
+&+rCredits regarding original DIKU:&n
 
                      Original game idea, concept, and design:
 
@@ -7379,9 +7379,10 @@ Magma originates from UltraEnvy 0.87j, which originates from Envy
 (help envy), which originates from Merc (help merc) which originates
 from Diku (help diku).
 
-All changes to this version of Magma have been done by Veygoth.
+All changes to this version of Magma have been done by Xangis (known as
+Veygoth on Basternae 1 and 2).
 
-Veygoth can be reached at veygoth@stax.net
+Xangis can be reached at https://github.com/Xangis/magma
 ~
 
 0 MALISON~
@@ -11902,7 +11903,7 @@ character to enter the game despite a WIZLOCK.
                               &+rOverlords&n
                            &+L---&n&+w---&+W---&n&+w---&+L---&n
 
-                               &+BVeygoth&n
+                               &+BXangis&n
                                &+mThendar&n
                                  &+MSki&n
 

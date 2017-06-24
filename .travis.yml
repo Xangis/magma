@@ -1,0 +1,7 @@
+language: c
+compiler:
+    - clang
+    - gcc
+os:
+    - linux
+script: cd src && make std

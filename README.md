@@ -1,4 +1,4 @@
-# magma
+# Magma MUD
 
 Magma MUD - An old-school MUD codebase derived from DIKU, Merc, Envy, and
 UltraEnvy that runs on Windows and Linux.
@@ -12,13 +12,22 @@ Documentation is in the /doc directory. Start with README.TXT and go from there.
 Source code is in the /src directory. To build on a standard Linux system, run
 "make std". To build on Windows, open MagmaMUD.sln with Visual Studio and build.
 
-Magma has been tested with both gcc and clang on Linux.
+Magma has been tested with both gcc and clang on Linux. To build with clang,
+set your CC environment variable before running make, like so:
 
-This codebase was used as the base for Basternae II: Phoenix Rising MUD.
-There is a Basternae 3 MUD currently running, but it does not use this code,
-but rather a new codebase written using C# .NET.
+export CC=clang
 
-For Basternae 3, please visit http://basternae.org
+This codebase was used as the basis for Basternae II: Phoenix Rising MUD, which had
+a good vs. evil races PvP theme. Unlike its ancestors, Magma allows players to
+attack each other freely and has a system for tallying "frags", which are the
+net number of kills of the enemy side minus the number of times you've died in
+combat against the other side.
+
+There was also a Basternae 3 MUD project. It did not use this code, but rather a
+new codebase written using C# .NET. That codebase has been open-sourced as the
+ModernMUD codebase, available at https://github.com/xangis/ModernMUD and zones from
+magma can be converted to run with it using the ModernMUDConverter which is
+available at https://github.com/Xangis/ModernMUDConverter
 
 ## Development Status
 

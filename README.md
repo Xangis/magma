@@ -12,6 +12,8 @@ Documentation is in the /doc directory. Start with README.TXT and go from there.
 Source code is in the /src directory. To build on a standard Linux system, run
 "make std". To build on Windows, open MagmaMUD.sln with Visual Studio and build.
 
+Magma has been tested with both gcc and clang on Linux.
+
 This codebase was used as the base for Basternae II: Phoenix Rising MUD.
 There is a Basternae 3 MUD currently running, but it does not use this code,
 but rather a new codebase written using C# .NET.

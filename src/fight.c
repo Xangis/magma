@@ -7634,7 +7634,7 @@ void stop_mem( CHAR_DATA * ch )
 
 void do_stance( CHAR_DATA *ch, char *argument )
 {
-    int stance;
+    int stance = 0;
     char buf[MAX_STRING_LENGTH];
 
     last_fun( "do_stance");

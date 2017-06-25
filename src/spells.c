@@ -132,15 +132,15 @@ void spell_dazzle( int sn, int level, CHAR_DATA *ch, void *vo )
     if ( has_affect( victim, 0, sn, 0 ) )
        return;
 
-    af = create_affect( 0, sn, 0, 
-         level/10 + (ch->level > 50) ? ch->level - 48 : 2, 0, 0, AFF_DAZZLE );
+    af = create_affect( 0, sn, 0,
+         level/10 + ((ch->level > 50) ? ch->level - 48 : 2), 0, 0, AFF_DAZZLE );
     affect_to_char( victim, &af );
 
     send_to_char( "&+cAn arc of &n&+Csilver &n&+Wlight &n&+ccoruscates between your fingertips.\n\r", victim );
     act( "&+cLights begin to coruscate about $n&+c and $m eyes take a &+Cbright &+csilver glow.&n",
             victim, NULL, NULL, TO_ROOM );
 
-    
+
     return;
 }
 
@@ -11871,7 +11871,7 @@ void spell_misdirection( int sn, int level, CHAR_DATA *ch, void *vo )
 void spell_change_self( int sn, int level, CHAR_DATA *ch, void *vo )
 {
     AFFECT_DATA af;
-    int         modifier;
+    int modifier = 0;
     char *arg = (char *) vo;
 
     last_fun( "spell_change_self");

@@ -2112,7 +2112,7 @@ void do_ofind( CHAR_DATA *ch, char *argument )
     extern int             top_vnum_obj;
     int             vnum, bottom, top, type;
     bool            fBit, found, fType, fArea;
-    const BITVECT_DATA *bvect;
+    const BITVECT_DATA *bvect = NULL;
     int count, total = 0;
 
     argument = one_argument( argument, arg );

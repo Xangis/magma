@@ -2463,7 +2463,8 @@ ROOM_INDEX_DATA  *get_random_room( )
 ROOM_INDEX_DATA  *get_random_map_room( int map )
 {
     ROOM_INDEX_DATA *pRoomIndex;
-    int key, rval;
+    int key = 0;
+    int rval = 0;
     
     if ( map > 5 ) {
         bug ( "get_random_map_room: map index out of range", 0);

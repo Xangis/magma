@@ -1214,8 +1214,8 @@ void do_qui( CHAR_DATA *ch, char *argument )
 // be greatly appreciated. - Veygoth
 void do_rent( CHAR_DATA *ch, char *argument )
 {
-    ROOM_INDEX_DATA *room;
-    CHAR_DATA *wch;
+    ROOM_INDEX_DATA *room = NULL;
+    CHAR_DATA *wch = NULL;
 
     last_fun( "do_rent");
     if ( IS_NPC( ch ) )
@@ -1332,8 +1332,8 @@ void do_rent( CHAR_DATA *ch, char *argument )
 // be greatly appreciated. - Veygoth
 void do_quit( CHAR_DATA *ch, char *argument )
 {
-    ROOM_INDEX_DATA *room;
-    CHAR_DATA *wch;
+    ROOM_INDEX_DATA *room = NULL;
+    CHAR_DATA *wch = NULL;
     char buf[MAX_STRING_LENGTH];
 
     last_fun( "do_quit");

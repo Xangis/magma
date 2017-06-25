@@ -1458,7 +1458,8 @@ void finish_spell( CHAR_DATA *ch, int sn, void *vo, bool song )
     CHAR_DATA *victim;
     int        chance, dir;
     MEM_DATA  *mem;
-    bool       found, target_in_range;
+    bool found = FALSE;
+    bool target_in_range = FALSE;
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *vch;
 //    CHAR_DATA *vch2;

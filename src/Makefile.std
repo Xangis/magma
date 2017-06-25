@@ -1,7 +1,6 @@
 # Generic Makefile.  Read 'port.txt' in the documentation
 # directory for the Makefile that is right for you  - Kahn
 
-CC      = gcc
 PROF    =
 DEBUG   = -g -pg
 NOCRYPT =

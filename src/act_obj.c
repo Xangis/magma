@@ -742,7 +742,10 @@ void do_give( CHAR_DATA *ch, char *argument )
           act( buf, ch, NULL, victim, TO_VICT );
           act( "$n&n gives $N&n some &+ycopper&n.",  ch, NULL, victim, TO_NOTVICT );
           prog_bribe_trigger( victim, ch, amount );
-          if( !check_quest( ch, victim, NULL, amount ));
+          // If this is not for a quest, put the money in the target's pocket.
+          // If it is for a quest, don't. That way you can't kill the target to
+          // get your money back once the quest is complete.
+          if( !check_quest( ch, victim, NULL, amount ))
               victim->money.copper += amount;
           // Prevent money duping
           save_char_obj( ch );
@@ -3107,9 +3110,9 @@ void do_use( CHAR_DATA *ch, char *argument )
 
 void do_zap( CHAR_DATA *ch, char *argument )
 {
-    OBJ_DATA  *wand;
-    OBJ_DATA  *obj;
-    CHAR_DATA *victim;
+    OBJ_DATA  *wand = NULL;
+    OBJ_DATA  *obj = NULL;
+    CHAR_DATA *victim = NULL;
     char       arg [ MAX_INPUT_LENGTH ];
     int        sn;
     int        level;

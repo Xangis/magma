@@ -3043,7 +3043,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         break;
 
     case CON_MENU:
-        if( ( argument[0] == '0' ) )
+        if( argument[0] == '0' )
         {
           send_to_char( "Goodbye.\n\r", ch );
           sprintf( log_buf, "%s has left the game.", ch->name );
@@ -3054,19 +3054,19 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
           if( d )
             close_socket( d );
           return;
-        } 
-        else if( ( argument[0] == '1' ) )
+        }
+        else if( argument[0] == '1' )
         {
           reset_stats( ch );
           sprintf( buf, "Character %s entering the realm from the menu.", ch->name );
           log_string( buf );
         }
-        else if( ( argument[0] == '2' ) )
+        else if( argument[0] == '2' )
         {
           do_password( ch, "" );
           return;
         }
-        else if( ( argument[0] == '6' ) )
+        else if( argument[0] == '6' )
         {
           do_retire( ch, "" );
           return;

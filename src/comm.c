@@ -633,7 +633,7 @@ void sig_handler( int sig )
 {
         char buf[MAX_STRING_LENGTH];
 
-        sprintf( buf, "Last user command : %s.", last_command );
+        sprintf( buf, "Last user command: \"%s\"", last_command );
         log_string( buf );
         print_last_coms( );
         print_last_funs( );

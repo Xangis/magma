@@ -6911,12 +6911,12 @@ void bug( const char *str, int param )
 	}
     }
 
-    strcpy( buf, "[*****] BUG: " );
+    strcpy( buf, "[*****] ERROR: " );
     sprintf( buf + strlen( buf ), str, param );
     log_string( buf );
 
-    /* Don't show the "[*****] BUG:" part of the bug. */
-    wiznet( NULL, WIZ_DEBUG, L_DIR, &(buf[12]) );
+    /* Don't show the "[*****] ERROR:" part of the bug. */
+    wiznet( NULL, WIZ_DEBUG, L_DIR, &(buf[14]) );
 
     fclose( fpReserve );
 

@@ -547,7 +547,7 @@ void interpret( CHAR_DATA *ch, char *argument )
             }
             else
             {
-              send_to_char( "BUG: The target room for this teleporter does not exist.\n\r", ch );
+              send_to_char( "ERROR: The target room for this teleporter does not exist.\n\r", ch );
               bug( "Target room for object %d does not exist.", obj->pIndexData->vnum );
             }
             return;

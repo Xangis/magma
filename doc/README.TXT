@@ -19,6 +19,8 @@ solution file.
 The codebase has also been tested to compile using GCC under Ubuntu Linux 6.06.
 Other versions of Linux may or may not compile without errors.
 
+For information about how the MUD's log files work, see Logging.md.
+
 ------------------------------------------------------------------
 The following information is from the 2000 release of version 3.0:
 ------------------------------------------------------------------

@@ -3,3 +3,4 @@ gmon.out
 magma.new
 magma.old
 make.err
+log/*.log

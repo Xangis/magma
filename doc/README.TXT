@@ -6,7 +6,7 @@ See /doc/magma_changes.txt for more info on updates since the last version.
 
 To run the MUD on windows, build the code (see VERSION.TXT in the directory above
 this one) and run the executable.  For Linux, build the code and run the
-"startup" file in the /src directory.  You may need to chmod the startup file to
+"startup.sh" file in the /src directory.  You may need to chmod the startup file to
 make it executable.  The MUD will load on port 4001 by default.
 
 For the MUD administrator login, use the username "Superuser" with a password

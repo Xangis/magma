@@ -4852,7 +4852,6 @@ void set_cost( OBJ_INDEX_DATA *obj )
 
 void do_deposit( CHAR_DATA *ch, char *argument )
 {
-    char  arg [ MAX_INPUT_LENGTH ];
     int   coinage;
     bool  success = FALSE;
     COIN_DATA coin;
@@ -4869,7 +4868,7 @@ void do_deposit( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( arg[0] == '\0' ) {
+    if ( argument == NULL || argument[0] == '\0' ) {
         send_to_char( "Deposit what?\n\r", ch );
         return;
     }
@@ -4953,7 +4952,6 @@ void do_deposit( CHAR_DATA *ch, char *argument )
 
 void do_withdraw( CHAR_DATA *ch, char *argument )
 {
-    char      arg [ MAX_INPUT_LENGTH ];
     int   coinage;
     bool  success = FALSE;
     COIN_DATA coin;
@@ -4967,7 +4965,7 @@ void do_withdraw( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( arg[0] == '\0' ) {
+    if ( argument == NULL || argument[0] == '\0' ) {
         send_to_char( "Withdraw what?\n\r", ch );
         return;
     }

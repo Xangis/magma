@@ -15,9 +15,9 @@ ModernMUD codebase, available at https://github.com/xangis/ModernMUD and zones f
 magma can be converted to run with it using the ModernMUDConverter which is
 available at https://github.com/Xangis/ModernMUDConverter
 
-It is written in C and runs on Windows or Linux.  Check the files in /doc for
-the various licenses that apply (there are a bunch -- this has inherited from
-a long branch of the DIKU MUD family tree).
+It is written in C and runs on Windows or Linux.  Check the files in 
+/doc/Licenses for the various licenses that apply (there are a bunch -- this 
+has inherited from a long branch of the DIKU MUD family tree).
 
 Documentation is in the /doc directory. Start with README.TXT and go from there.
 As a quick start to building and running:

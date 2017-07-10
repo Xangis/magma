@@ -4,3 +4,14 @@ magma.new
 magma.old
 make.err
 log/*.log
+UpgradeLog.XML
+*.ilk
+*.suo
+ipch/
+_UpgradeReport_Files/
+*.user
+*.filters
+Debug/
+Release/
+*.sdf
+*.sln.old

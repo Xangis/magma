@@ -742,10 +742,12 @@ bool spec_cast_conjurer( CHAR_DATA *ch, int cmd )
     if ( ch->position != POS_FIGHTING )
     {
         if( ch->position == POS_STANDING )
+        {
             if( spellup( ch ))
                return TRUE;
             if( spellup_others( ch ))
                return TRUE;
+        }
 	return FALSE;
     }
 
@@ -799,7 +801,7 @@ bool spec_cast_necromancer( CHAR_DATA *ch, int cmd )
     last_fun( "spec_cast_necromancer");
     if ( cmd == PROC_DEATH )
         return FALSE;
-        
+
     if (IS_ROOM( ch->in_room, ROOM_NO_MAGIC) )
         return FALSE;
 
@@ -811,10 +813,12 @@ bool spec_cast_necromancer( CHAR_DATA *ch, int cmd )
     if ( ch->position != POS_FIGHTING )
     {
         if( ch->position == POS_STANDING )
+        {
             if( spellup( ch ))
                return TRUE;
             if( spellup_others( ch ))
                return TRUE;
+        }
 	return FALSE;
     }
 
@@ -3351,8 +3355,8 @@ CHAR_DATA *transform_mob( CHAR_DATA **pch, int vnum, char *msg ) {
     else
       act("$n&n suddenly changes into $N!&n", ch, NULL, new_ch, TO_ROOM);
 
-      if (was_fighting)
-        set_fighting(new_ch, was_fighting);
+    if (was_fighting)
+      set_fighting(new_ch, was_fighting);
     tail_chain();
     return new_ch;
 

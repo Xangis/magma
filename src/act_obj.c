@@ -1805,115 +1805,115 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     if ( CAN_WEAR( obj, ITEM_TAIL )
      && IS_SET(race_table[ch->race].parts, PART_TAIL ) )
     {
-    if ( !remove_obj( ch, WEAR_TAIL, fReplace ) )
+      if ( !remove_obj( ch, WEAR_TAIL, fReplace ) )
         return;
-        act( "You wear $p&n on your &+Ltail&n.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n wears $p&n on $s &+Ltail&n.", ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_TAIL );
-    return;
+      act( "You wear $p&n on your &+Ltail&n.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n wears $p&n on $s &+Ltail&n.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_TAIL );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_HORNS )
      && IS_SET(race_table[ch->race].parts, PART_HORNS ) )
     {
-    if ( !remove_obj( ch, WEAR_HORNS, fReplace ) )
+      if ( !remove_obj( ch, WEAR_HORNS, fReplace ) )
         return;
-        act( "You wear $p&n on your &+Whorns&n.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n wears $p&n on $s &+Whorns&n.", ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_HORNS );
-    return;
+      act( "You wear $p&n on your &+Whorns&n.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n wears $p&n on $s &+Whorns&n.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_HORNS );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_EYES ) )
     {
-    if ( !remove_obj( ch, WEAR_EYES, fReplace ) )
+      if ( !remove_obj( ch, WEAR_EYES, fReplace ) )
         return;
-        act( "You place $p&n over your eyes.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n places $p&n over $s eyes.", ch, obj, NULL, TO_ROOM );
-        equip_char( ch, obj, WEAR_EYES );
-        return;
+      act( "You place $p&n over your eyes.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n places $p&n over $s eyes.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_EYES );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_FINGER ) && ch->race != RACE_THRIKREEN )
     {
-    if ( get_eq_char( ch, WEAR_FINGER_L )
-    &&   get_eq_char( ch, WEAR_FINGER_R )
-    &&   !remove_obj( ch, WEAR_FINGER_L, fReplace )
-    &&   !remove_obj( ch, WEAR_FINGER_R, fReplace ) )
+      if ( get_eq_char( ch, WEAR_FINGER_L )
+      &&   get_eq_char( ch, WEAR_FINGER_R )
+      &&   !remove_obj( ch, WEAR_FINGER_L, fReplace )
+      &&   !remove_obj( ch, WEAR_FINGER_R, fReplace ) )
             return; 
 
-    if ( !get_eq_char( ch, WEAR_FINGER_L ) )
-    {
-            act( "You slip $p&n onto a finger of your left hand.",  ch, obj, NULL, TO_CHAR );
-            act( "$n&n slips $p&n onto a finger of $s left hand.",    ch, obj, NULL, TO_ROOM );
-            equip_char( ch, obj, WEAR_FINGER_L );
-            return;
-    }
+      if ( !get_eq_char( ch, WEAR_FINGER_L ) )
+      {
+        act( "You slip $p&n onto a finger of your left hand.",  ch, obj, NULL, TO_CHAR );
+        act( "$n&n slips $p&n onto a finger of $s left hand.",    ch, obj, NULL, TO_ROOM );
+        equip_char( ch, obj, WEAR_FINGER_L );
+        return;
+      }
 
-    if ( !get_eq_char( ch, WEAR_FINGER_R ) )
-    {
-            act( "You slide $p&n onto a finger of your right hand.", ch, obj, NULL, TO_CHAR );
-            act( "$n&n slides $p&n onto a finger of $s right hand.",   ch, obj, NULL, TO_ROOM );
+      if ( !get_eq_char( ch, WEAR_FINGER_R ) )
+      {
+        act( "You slide $p&n onto a finger of your right hand.", ch, obj, NULL, TO_CHAR );
+        act( "$n&n slides $p&n onto a finger of $s right hand.",   ch, obj, NULL, TO_ROOM );
         equip_char( ch, obj, WEAR_FINGER_R );
         return;
-    }
+      }
 
-    bug( "Wear_obj: no free finger.", 0 );
-        send_to_char( "Anymore rings and you would severly hinder finger movement.\n\r", ch );
-    return;
+      bug( "Wear_obj: no free finger.", 0 );
+      send_to_char( "Anymore rings and you would severly hinder finger movement.\n\r", ch );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_NECK ) )
     {
-    if ( get_eq_char( ch, WEAR_NECK_1 )
-    &&   get_eq_char( ch, WEAR_NECK_2 )
-    &&   !remove_obj( ch, WEAR_NECK_1, fReplace )
-    &&   !remove_obj( ch, WEAR_NECK_2, fReplace ) )
+      if ( get_eq_char( ch, WEAR_NECK_1 )
+      &&   get_eq_char( ch, WEAR_NECK_2 )
+      &&   !remove_obj( ch, WEAR_NECK_1, fReplace )
+      &&   !remove_obj( ch, WEAR_NECK_2, fReplace ) )
         return;
 
-    if ( !get_eq_char( ch, WEAR_NECK_1 ) )
-    {
-            act( "You place $p&n around your neck.", ch, obj, NULL, TO_CHAR );
+      if ( !get_eq_char( ch, WEAR_NECK_1 ) )
+     {
+        act( "You place $p&n around your neck.", ch, obj, NULL, TO_CHAR );
         act( "$n&n wears $p&n around $s neck.",   ch, obj, NULL, TO_ROOM );
         equip_char( ch, obj, WEAR_NECK_1 );
         return;
-    }
+      }
 
-    if ( !get_eq_char( ch, WEAR_NECK_2 ) )
-    {
+      if ( !get_eq_char( ch, WEAR_NECK_2 ) )
+      {
         act( "You wear $p&n around your neck.", ch, obj, NULL, TO_CHAR );
-            act( "$n&n places $p&n around $s neck.",   ch, obj, NULL, TO_ROOM );
+        act( "$n&n places $p&n around $s neck.",   ch, obj, NULL, TO_ROOM );
         equip_char( ch, obj, WEAR_NECK_2 );
         return;
-    }
+      }
 
-    bug( "Wear_obj: no free neck.", 0 );
-        send_to_char( "You can't fit anything else around your neck.\n\r", ch );
-    return;
+      bug( "Wear_obj: no free neck.", 0 );
+      send_to_char( "You can't fit anything else around your neck.\n\r", ch );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_BODY ) && ch->race != RACE_THRIKREEN )
     {
-    if ( !remove_obj( ch, WEAR_BODY, fReplace ) )
+      if ( !remove_obj( ch, WEAR_BODY, fReplace ) )
         return;
-        act( "You slide your body into $p&n.", ch, obj, NULL, TO_CHAR );
-    act( "$n&n wears $p&n on $s body.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_BODY );
-    return;
+      act( "You slide your body into $p&n.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n wears $p&n on $s body.",   ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_BODY );
+      return;
     }
     // Snikt - Added check for mino and head gear prevention due to horns
     if ( CAN_WEAR( obj, ITEM_WEAR_HEAD ) )
     {
       if ( ch->race != RACE_MINOTAUR )
       {
-    if ( !remove_obj( ch, WEAR_HEAD, fReplace ) )
-        return;
+        if ( !remove_obj( ch, WEAR_HEAD, fReplace ) )
+          return;
         act( "You don $p&n on your head.", ch, obj, NULL, TO_CHAR );
         act( "$n&n places $p&n on $s head.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_HEAD );
-    return;
+        equip_char( ch, obj, WEAR_HEAD );
+        return;
       }
-      else    
+      else
       {
         act( "Your &+Lhorns&n prevent you from wearing $p&n.", ch, obj, NULL, TO_CHAR );
         act( "$n&n foolishly attempts to place $p&n on over $s &+Lhorns&n.", ch, obj, NULL, TO_ROOM );
@@ -1924,12 +1924,12 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
     if ( CAN_WEAR( obj, ITEM_WEAR_LEGS ) 
      && ch->race != RACE_CENTAUR )
     {
-    if ( !remove_obj( ch, WEAR_LEGS, fReplace ) )
+      if ( !remove_obj( ch, WEAR_LEGS, fReplace ) )
         return;
-        act( "You pull $p&n onto your legs.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n slides $s legs into $p&n.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_LEGS );
-    return;
+      act( "You pull $p&n onto your legs.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n slides $s legs into $p&n.",   ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_LEGS );
+      return;
     }
 
     // Snikt - Added Minotaur to the Following ITEM_WEAR_FEET check
@@ -2040,62 +2040,62 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 
     if ( CAN_WEAR( obj, ITEM_WEAR_ONBACK ) )
     {
-    if ( !remove_obj( ch, WEAR_ONBACK, fReplace ) )
+      if ( !remove_obj( ch, WEAR_ONBACK, fReplace ) )
         return;
-    act( "You strap $p&n to your back.", ch, obj, NULL, TO_CHAR );
-    act( "$n&n straps $p&n to $s back.", ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_ONBACK );
-    return;
+      act( "You strap $p&n to your back.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n straps $p&n to $s back.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_ONBACK );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_QUIVER ) )
     {
-    if ( !remove_obj( ch, WEAR_QUIVER, fReplace ) )
+      if ( !remove_obj( ch, WEAR_QUIVER, fReplace ) )
         return;
-        act( "You adjust $p&n across your shoulders.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n straps $p&n across $s shoulders.", ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_QUIVER );
-    return;
+      act( "You adjust $p&n across your shoulders.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n straps $p&n across $s shoulders.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_QUIVER );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_ABOUT ) )
     {
-    if ( !remove_obj( ch, WEAR_ABOUT, fReplace ) )
+      if ( !remove_obj( ch, WEAR_ABOUT, fReplace ) )
         return;
-        act( "You drape $p&n about your body.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n wraps $p&n about $s body.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_ABOUT );
-    return;
+      act( "You drape $p&n about your body.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n wraps $p&n about $s body.",   ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_ABOUT );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_WAIST ) )
     {
-    if ( !remove_obj( ch, WEAR_WAIST, fReplace ) )
+      if ( !remove_obj( ch, WEAR_WAIST, fReplace ) )
         return;
-        act( "You secure $p&n about your waist.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n secures $p&n about $s waist.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_WAIST );
-    return;
+      act( "You secure $p&n about your waist.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n secures $p&n about $s waist.",   ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_WAIST );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_FACE ) )
     {
-    if ( !remove_obj( ch, WEAR_FACE, fReplace ) )
+      if ( !remove_obj( ch, WEAR_FACE, fReplace ) )
         return;
-        act( "You place $p&n over your face.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n covers $s his face with $p&n.",   ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_FACE );
-    return;
+      act( "You place $p&n over your face.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n covers $s his face with $p&n.",   ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_FACE );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_BADGE ) )
     {
-    if ( !remove_obj( ch, WEAR_BADGE, fReplace ) )
+      if ( !remove_obj( ch, WEAR_BADGE, fReplace ) )
         return;
-        act( "You pin $p&n over your right breast.", ch, obj, NULL, TO_CHAR );
-        act( "$n&n pins $p&n over $s right breast.", ch, obj, NULL, TO_ROOM );
-    equip_char( ch, obj, WEAR_BADGE );
-    return;
+      act( "You pin $p&n over your right breast.", ch, obj, NULL, TO_CHAR );
+      act( "$n&n pins $p&n over $s right breast.", ch, obj, NULL, TO_ROOM );
+      equip_char( ch, obj, WEAR_BADGE );
+      return;
     }
 
     if ( CAN_WEAR( obj, ITEM_WEAR_WRIST ) )
@@ -2379,13 +2379,13 @@ void do_wear( CHAR_DATA *ch, char *argument )
                RACE_WEAPON_WIELD ) )
             continue;
 
-            wear_obj( ch, obj, FALSE );
-            if( obj->trap && obj->trap->charges != 0 && IS_SET( obj->trap->trigger, TRIG_WEAR ))
-            {
-              setoff_trap( ch, obj );
-              if( ch->deleted || ch->position == POS_DEAD )
-                return;
-            }
+        wear_obj( ch, obj, FALSE );
+        if( obj->trap && obj->trap->charges != 0 && IS_SET( obj->trap->trigger, TRIG_WEAR ))
+        {
+          setoff_trap( ch, obj );
+          if( ch->deleted || ch->position == POS_DEAD )
+            return;
+        }
     }
     return;
     }
@@ -3738,13 +3738,13 @@ void do_buy( CHAR_DATA *ch, char *argument )
     if ( !( keeper = find_keeper( ch, arg2 ) ) )
         return;
 
-        if( keeper->pIndexData->pShop->sell_item[0] != 0 )
-          {
-            int count = 0;
-            for( pObj = get_obj_index(keeper->pIndexData->pShop->sell_item[++count]);
-                      count < MAX_SELL;
-                      pObj = get_obj_index(keeper->pIndexData->pShop->sell_item[++count] ))
-            {
+    if( keeper->pIndexData->pShop->sell_item[0] != 0 )
+    {
+      int count = 0;
+      for( pObj = get_obj_index(keeper->pIndexData->pShop->sell_item[++count]);
+        count < MAX_SELL;
+        pObj = get_obj_index(keeper->pIndexData->pShop->sell_item[++count] ))
+        {
                if( keeper->pIndexData->pShop->sell_item[count] == 0 )
                   break;
                if( !pObj )
@@ -3756,18 +3756,18 @@ void do_buy( CHAR_DATA *ch, char *argument )
                   fPerm = TRUE;
                   break;
                }
-            }
         }
-           
+    }
+
     if( !obj )
            obj = get_obj_carry( keeper, arg );
 
     if ( !obj || !can_see_obj( ch, obj ) )
     {
-            act( "$n&+W tells you 'I don't sell that -- try 'list'.'&n",
+        act( "$n&+W tells you 'I don't sell that -- try 'list'.'&n",
         keeper, NULL, ch, TO_VICT );
         ch->reply = keeper;
-            if( fPerm ) obj->deleted = TRUE;
+        if( fPerm ) obj->deleted = TRUE;
         return;
     }
 
@@ -3947,13 +3947,13 @@ void do_list( CHAR_DATA *ch, char *argument )
 
     if ( !( keeper = find_keeper( ch, arg2 ) ) )
         return;
-      
-        if( IS_IMMORTAL( ch ))
-        {
-            sprintf( buf1, "Shop sell profit: %d percent    Shop buy profit: %d percent\n\r", 
-                     keeper->pIndexData->pShop->profit_sell,
-                     keeper->pIndexData->pShop->profit_buy );
-        }
+
+    if( IS_IMMORTAL( ch ))
+    {
+        sprintf( buf1, "Shop sell profit: %d percent    Shop buy profit: %d percent\n\r", 
+                 keeper->pIndexData->pShop->profit_sell,
+                 keeper->pIndexData->pShop->profit_buy );
+    }
 
     found = FALSE;
     for ( obj = keeper->carrying; obj; obj = obj->next_content )

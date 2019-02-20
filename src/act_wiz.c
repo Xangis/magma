@@ -6183,7 +6183,7 @@ void do_finger( CHAR_DATA *ch, char *argument )
     	}
         else
             send_to_char ( "This character is not logged in.\n\r", ch );
-            victim = victDD->original ? victDD->original : victDD->character;
+        victim = victDD->original ? victDD->original : victDD->character;
     }
 
     /* Display general character info. */

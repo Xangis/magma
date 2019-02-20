@@ -2312,13 +2312,13 @@ void spell_dispel_magic ( int sn, int level, CHAR_DATA *ch, void *vo )
     else
     {   /* Offensive spell - enforced by kill_ch whether succeeds or fails */
         /* Immortals always cast it defensively */
-   
+
     for ( paf = victim->affected; paf; paf = paf->next )
     {
         if ( paf->deleted )
             continue;
-            if ( !paf->spell )
-                continue;
+        if ( !paf->spell )
+            continue;
         if ( !saves_spell( level, victim, DAM_OTHER ) )
         {
         send_to_char( spells_table[paf->spell].msg_off, victim );
@@ -2980,13 +2980,11 @@ void spell_lightanddark( int sn, int level, CHAR_DATA *ch, void *vo )
     if (ch->fly_level > 0)
       act("&+WThe sky above glows with intermittent flashes of light!&n", ch, NULL, NULL, TO_BELOW);
 
-    
-      dam = dice( (7 * level), 3);
-      if ( saves_spell( level, victim, DAM_HARM ) )
-          spell_damage( ch, victim, dam/2, sn, DAM_HARM );
-      else
-          spell_damage( ch, victim, dam, sn, DAM_HARM );
-    
+    dam = dice( (7 * level), 3);
+    if ( saves_spell( level, victim, DAM_HARM ) )
+      spell_damage( ch, victim, dam/2, sn, DAM_HARM );
+    else
+      spell_damage( ch, victim, dam, sn, DAM_HARM );
 
     return;
 }
@@ -4182,8 +4180,10 @@ void spell_group_heal( int sn, int level, CHAR_DATA *ch, void *vo )
            continue;
 
        if( victim->hit < get_max_hit( victim ) )
+       {
            victim->hit = UMIN( victim->hit + 300, get_max_hit( victim ) );
            update_pos( victim );
+       }
 
        if ( ch != victim )
            send_to_char( "You feel FULLY HEALED!\n\r", victim );
@@ -10238,9 +10238,9 @@ void spell_tide_seas( int sn, int level, CHAR_DATA *ch, void *vo )
         {
             if ( saves_spell( level, vch, DAM_ACID ) )
                 spell_damage( ch, vch, dam/2, sn, DAM_ACID );
-            else;
+            else
                 spell_damage( ch, vch, dam, sn, DAM_ACID );
-                continue;
+            continue;
         }
 
         if ( vch->in_room->area == ch->in_room->area && FALSE)
@@ -10298,7 +10298,7 @@ void spell_mirror_image( int sn, int level, CHAR_DATA *ch, void *vo )
        }
     }
 
-    for( count = 0; count < number; count++ );
+    for( count = 0; count < number; count++ )
     {
       image = create_mobile( get_mob_index( MOB_VNUM_MIRROR_IMAGE ));
       char_to_room( image, ch->in_room );
@@ -10332,7 +10332,7 @@ void spell_mirror_image( int sn, int level, CHAR_DATA *ch, void *vo )
       SET_BIT( image->act, ACT_PET );
       SET_AFF_BIT( image, AFF_CHARM );
     }
-      
+
     return;
 }
 
@@ -10764,13 +10764,13 @@ void spell_mass_dispel_magic ( int sn, int level, CHAR_DATA *ch, void *vo )
     {
         if( victim->deleted || is_same_group( victim, ch ) || victim == ch )
           continue;
-    
+
     for ( paf = victim->affected; paf; paf = paf->next )
     {
         if ( paf->deleted )
             continue;
-            if ( !paf->spell )
-                continue;
+        if ( !paf->spell )
+            continue;
         if ( !saves_spell( level, victim, DAM_OTHER ) )
         {
         send_to_char( spells_table[paf->spell].msg_off, victim );

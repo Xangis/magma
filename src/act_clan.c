@@ -730,8 +730,8 @@ void do_cdonate( CHAR_DATA *ch, char *argument )
     if( IS_NPC( ch ))
         return;
 
-	arg[0] = '\0';
-	if( !( clan = ch->pcdata->clan ))
+    arg[0] = '\0';
+    if( !( clan = ch->pcdata->clan ))
     {
         send_to_char( "You're not in a guild!\n\r", ch );
         return;
@@ -1687,8 +1687,8 @@ void do_makeclan( CHAR_DATA *ch, char *argument )
 	clan_first		= clan;
     else
 	clan_last->next		= clan;
-	clan->next		= NULL;
-	clan_last		= clan;
+    clan->next		= NULL;
+    clan_last		= clan;
 
     clan->filename		= str_dup( filename );
     clan->who_name		= str_dup( who_name );

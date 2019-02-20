@@ -895,8 +895,8 @@ void do_tell( CHAR_DATA *ch, char *argument )
     /* Can tell to other side of racewar iff the opponent is in the same
 	room or one of the people are Immortals. */
     if ( ( !IS_IMMORTAL( ch ) && !IS_IMMORTAL( victim ) )
-	 && ( race_table[victim->race].racewar_side !=
-	      race_table[victim->race].racewar_side ) 
+	 && ( race_table[ch->race].racewar_side !=
+	      race_table[victim->race].racewar_side )
 	 && ( victim->in_room != ch->in_room )		  )
     {
 	send_to_char( "They aren't here.\n\r", ch );

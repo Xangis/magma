@@ -758,7 +758,7 @@ void memorize( CHAR_DATA *ch, char *argument, bool pray, bool lesser )
                send_to_char( "You can only pray for spells while resting.\n\r", ch );
              else
                send_to_char( "You can memorize spells only when resting.\n\r", ch );
-               return;
+             return;
            }
 
            // Find the spell they want
@@ -921,16 +921,16 @@ void memorize( CHAR_DATA *ch, char *argument, bool pray, bool lesser )
                  sprintf( buf, "\n\rYou can pray for" );
                else
                  sprintf( buf, "\n\rYou can memorize" );
-                 for( count = 0; count < MAX_CIRCLE; count++ )
+               for( count = 0; count < MAX_CIRCLE; count++ )
+               {
+                 if( circfree[count] > 0 )
                  {
-                   if( circfree[count] > 0 )
-                   {
-                     sprintf( buf2, " %d-%d%s", circfree[count], (count + 1), text_number( count + 1 ) );
-                     strcat( buf, buf2 );
-                   }
+                   sprintf( buf2, " %d-%d%s", circfree[count], (count + 1), text_number( count + 1 ) );
+                   strcat( buf, buf2 );
                  }
-                 strcat( buf, " level spells.\n\r" );
-                 send_to_char( buf, ch );
+               }
+               strcat( buf, " level spells.\n\r" );
+               send_to_char( buf, ch );
              }
 
            // If they aren't memming and they should be, start 'em up.
@@ -1534,11 +1534,11 @@ void finish_spell( CHAR_DATA *ch, int sn, void *vo, bool song )
         send_to_char( "You must be standing to sing loudly enough to be heard!\n\r", ch );
       else
         send_to_char( "You must be standing in order to cast spells!\n\r", ch );
-        if ( spells_table[sn].target == TAR_OBJ_CHAR )
-            free( (OBJ_CHAR *) vo );
-        if ( spells_table[sn].target == TAR_IGNORE )
-            free_string( (char *) vo );
-        return;
+      if ( spells_table[sn].target == TAR_OBJ_CHAR )
+          free( (OBJ_CHAR *) vo );
+      if ( spells_table[sn].target == TAR_IGNORE )
+          free_string( (char *) vo );
+      return;
     }
 
     // We checked for all this stuff before, but the state of things may
@@ -2119,7 +2119,7 @@ void cast( CHAR_DATA *ch, char *argument )
         send_to_char( "You must be standing to sing loud enough to be heard!\n\r", ch );
       else
         send_to_char( "You must be standing to cast spells!\n\r", ch );
-        return;
+      return;
     }
 
     found = FALSE;
@@ -2798,8 +2798,8 @@ void affect_cumulate(CHAR_DATA *ch, int skl, int spl, int song, int duration, in
         if ( paf->deleted ) continue;
         if (paf->skill == skl && paf->spell == spl && paf->song == song) {
             if ( paf->duration < duration )
-                paf->duration =  duration;
-                paf->modifier += modifier;
+                paf->duration = duration;
+            paf->modifier += modifier;
             sprintf(lbuf, "Refreshing %s on %s for %d hours.", spells_table[spl].name, ch->name, duration);
             wiznet( 0, WIZ_LSPAM, 0, lbuf );
         }

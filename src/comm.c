@@ -46,21 +46,6 @@ char version_str [] = "Magma Mud Windows 32 Bit Version";
 /*
  * Provided by Mystro <http://www.cris.com/~Kendugas/mud.shtml>
  */
-#elif defined( AmigaTCP )
-char version_str [] = "Magma Mud AmiTCP Version";
-/*
- * You must rename or delete the sc:sys/types.h, so the 
- * amitcp:netinclude/sys/types.h will be used instead.
- * Also include these assigns in your user-startup (After the SC assigns)
- *    assign lib: Amitcp:netlib add 
- *    assign include: Amitcp:netinclude add
- * If you haven't allready :)
- * Compilled with SasC 6.56 and AmiTCP 4.2
- * http://www.geocities.com/SiliconValley/1411
- * dkaupp@netcom.com (May be defunct soon)
- * or davek@megnet.net
- * 4-16-96
- */
 #else
 char version_str [] = "Magma Mud *NIX";
 #endif
@@ -116,7 +101,7 @@ extern	int	malloc_verify	args( ( void ) );
 #define __attribute( x )
 #endif
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
 #include <signal.h>
 #endif
 
@@ -135,7 +120,7 @@ const	char	echo_on_str	[] = { '\0' };
 const	char 	go_ahead_str	[] = { '\0' };
 #endif
 
-#if	defined( unix ) || defined( AmigaTCP )
+#if	defined( unix )
 #include <fcntl.h>
 #include <netdb.h>
 #include <netinet/in.h>
@@ -354,7 +339,7 @@ bool	read_from_descriptor	args( ( DESCRIPTOR_DATA *d ) );
 bool	write_to_descriptor	args( ( int desc, char *txt, int length ) );
 #endif
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
 void	game_loop_unix		args( ( int control ) );
 int	init_socket		args( ( u_short port ) );
 void	new_descriptor		args( ( int control ) );
@@ -390,7 +375,7 @@ int main( int argc, char **argv )
     struct  timeval now_time;
     u_short port;
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
     int control;
 #endif
 
@@ -460,7 +445,7 @@ int main( int argc, char **argv )
     init_signals();
 #endif
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
     control = init_socket( port );
     boot_db( );
 
@@ -507,7 +492,7 @@ int main( int argc, char **argv )
 
 
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
 int init_socket( u_short port )
 {
     static struct sockaddr_in sa_zero;
@@ -871,14 +856,11 @@ void game_loop_mac_msdos( void )
 
 
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
 void game_loop_unix( int control )
 {
     static struct timeval null_time;
            struct timeval last_time;
-
-#if !defined( AmigaTCP ) && !defined( WIN32 )
-#endif
 
     gettimeofday( &last_time, NULL );
     current_time = (time_t) last_time.tv_sec;
@@ -1121,7 +1103,7 @@ void game_loop_unix( int control )
 
 
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
 void new_descriptor( int control )
 {
     static DESCRIPTOR_DATA  d_zero;
@@ -1149,7 +1131,7 @@ void new_descriptor( int control )
 #endif
 #endif
 
-#if !defined( AmigaTCP ) && !defined( WIN32 )
+#if !defined( WIN32 )
     if ( fcntl( desc, F_SETFL, FNDELAY ) == -1 )
     {
 	perror( "New_descriptor: fcntl: FNDELAY" );
@@ -1378,7 +1360,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
     }
 #endif
 
-#if defined( unix ) || defined( AmigaTCP ) || defined( WIN32 )
+#if defined( unix ) || defined( WIN32 )
     for ( ; ; )
     {
 	int nRead;
@@ -1401,7 +1383,7 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
 	    log_string( "EOF encountered on read." );
 	    return FALSE;
 	}
-#if !defined( AmigaTCP ) && !defined( WIN32 )
+#if !defined( WIN32 )
         else if ( errno == EWOULDBLOCK || errno == EAGAIN )
 	    break;
 #endif
@@ -2320,7 +2302,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_GET_OLD_PASSWORD:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
@@ -2392,7 +2374,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_GET_NEW_PASSWORD:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
@@ -2423,7 +2405,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_CONFIRM_NEW_PASSWORD:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
@@ -3289,7 +3271,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_PASSWD_GET_OLD:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
         if ( argument[0] == '\0' )
@@ -3314,7 +3296,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_PASSWD_GET_NEW:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
         if ( argument[0] == '\0' )
@@ -3353,7 +3335,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	break;
 
     case CON_PASSWD_CONFIRM_NEW:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
@@ -3378,7 +3360,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 
     case CON_RETIRE_GET_PASSWORD:
-#if defined( unix ) || defined( AmigaTCP )
+#if defined( unix )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 	write_to_buffer( d, echo_on_str, 0 );
@@ -3569,7 +3551,7 @@ bool check_parse_name( char *name )
     if ( strlen( name ) <  3 )
 	return FALSE;
 
-#if defined( macintosh ) || defined( unix ) || defined( AmigaTCP )
+#if defined( macintosh ) || defined( unix )
     if ( strlen( name ) > 12 )
 	return FALSE;
 #endif

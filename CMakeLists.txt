@@ -1,4 +1,5 @@
 cmake_minimum_required (VERSION 2.6)
+set(CMAKE_INSTALL_PREFIX /usr/local)
 project (magma)
 add_executable (magma src/act_clan.c  src/act_obj.c  src/const.c  src/fraglist.c  src/justice.c  src/necrospells.c  src/songs.c     src/ssm.c     src/traps.c
 src/act_comm.c  src/act_wiz.c  src/db.c     src/gamble.c    src/magic.c    src/prog_comm.c    src/spec_mob.c  src/string.c  src/update.c

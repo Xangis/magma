@@ -39,9 +39,18 @@ export CC=clang
 Run startup.sh or startup.bat in the src directory once the application has been 
 built.
 
+By default the MUD runs on port 4001. You can connect to that port via telnet in
+order to play the game.
+
+The default admin login is Superuser with a password of password. You'll want to
+change that.
+
 ## Development Status
 
 Magma is not currently under active development, but I do make changes to it from
 time to time to ensure that it can be built on a modern system.
+
+Earliest versions ran on Red Hat Linux in 2000, some version before 7.0. The newest
+Linux distribution this has been tested with is Ubuntu 18.04.
 
 I am willing to accept pull requests if you have improvements to contribute.

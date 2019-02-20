@@ -16,3 +16,7 @@ the character.
 The default administrator (immortal) character has a login name of
 "Superuser" and a password of "password".  You will, of course, want to
 change the password (and possibly the name).
+
+Note that passwords are stored in PLAIN TEXT, which is nice if you want
+to change someone's password using a text editor, but terrible for
+security.

@@ -1,4 +1,4 @@
-Magma MUD version 3.04
+Magma MUD version 3.05
 
 https://github.com/Xangis/magma
 
@@ -17,6 +17,14 @@ The copyright rules for this software are simple:
 	2.	Help magma must remain unchanged.
 Simple to do.  If you don't like it, refrain from using this software.
 Not much to ask for a free package.
+
+------------------
+Magma 3.05 Changes
+------------------
+
+- Fixed some indentation issues that produced warnings on modern C compilers.
+- Fixed some logic errors, such as the check whether a player can "tell" to another
+  player on a different racewar side and an error in the mirror image spell.
 
 ------------------
 Magma 3.04 Changes

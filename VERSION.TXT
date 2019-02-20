@@ -1,5 +1,5 @@
-Magma MUD version 3.04
-Saturday, February 23, 2008
+Magma MUD version 3.05
+Tuesday, February 19, 2019
 
 https://github.com/Xangis/magma
 
@@ -10,7 +10,7 @@ file that results.
 Windows
 Run MagmaMUD.exe in the /src directory.
 
-Visual Studio 2005:
+Visual Studio 2005 (and newer):
 Use the project file in the /src directory.  For earlier versions of Visual Studio
 you will need to manually add all .c and .h files to a new project.  When we tested
 this with Visual Studio 2008 it was able to convert and build the project without

@@ -1,5 +1,6 @@
 *.o
 gmon.out
+magma
 magma.new
 magma.old
 make.err
@@ -15,3 +16,4 @@ Debug/
 Release/
 *.sdf
 *.sln.old
+Makefile

@@ -369,7 +369,7 @@ void load_socials( void )
 
     if ( !( fp = fopen( strsave, "r" ) ) )
     {
-	bug( "Cannot open SOCIALS.TXT", 0 );
+	bugf( "Cannot open SOCIALS.TXT from %s.", strsave );
 	exit( 0 );
     }
 

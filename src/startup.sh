@@ -30,7 +30,7 @@ do
 
     # Run magma.
     # Thanks to Alan and Grodyn for their help on the redirecting stuff - Loki
-    ../src/magma $port >$logfile 2>&1
+    magma $port >$logfile 2>&1
 
     # Restart, giving old connections a chance to die.
     if [ -r SHUTDOWN.TXT ]; then

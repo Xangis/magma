@@ -24,20 +24,20 @@ As a quick start to building and running:
 
 ### Building
 
-Source code is in the /src directory. To build on a standard Linux system, run
-"make std". To build on Windows, open MagmaMUD.sln with Visual Studio and build.
-It's a Visual Studio 8 project, so just let it convert when asked if you have a
-newer version (and you probably do).
+This project has recently switched to CMake. If you have cmake installed, run:
 
-Magma has been tested with both gcc and clang on Linux. To build with clang,
-set your CC environment variable before running make, like so:
+cmake .
 
-export CC=clang
+make
+
+sudo make install
+
+We no longer use makefiles to build. See version 3.05 or earlier for makefiles.
 
 ### Running
 
 Run startup.sh or startup.bat in the src directory once the application has been 
-built.
+built. Or, on Linux, just run "magma" from the command line.
 
 By default the MUD runs on port 4001. You can connect to that port via telnet in
 order to play the game.

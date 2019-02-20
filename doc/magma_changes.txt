@@ -1,4 +1,4 @@
-Magma MUD version 3.05
+Magma MUD version 3.06
 
 https://github.com/Xangis/magma
 
@@ -17,6 +17,14 @@ The copyright rules for this software are simple:
 	2.	Help magma must remain unchanged.
 Simple to do.  If you don't like it, refrain from using this software.
 Not much to ask for a free package.
+
+------------------
+Magma 3.06 Changes
+------------------
+
+- Switched build system to CMake instead of ugly makefiles.
+- Removed AmigaTCP support, which has never been tested anyway.
+- Changed Linux paths to use /usr/local/share for data and /usr/local/bin for binary.
 
 ------------------
 Magma 3.05 Changes

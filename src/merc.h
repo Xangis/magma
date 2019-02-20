@@ -5046,10 +5046,6 @@ bool prog_move_script( CHAR_DATA *ch );
 char *	crypt		args( ( const char *key, const char *salt ) );
 #endif
 
-#if     defined( amiga )
-#define AmigaTCP
-#endif
-
 #if	defined( apollo )
 int	atoi		args( ( const char *string ) );
 void *	calloc		args( ( unsigned nelem, size_t size ) );
@@ -5141,27 +5137,15 @@ int     close           args( ( int fd ) );
  * Then we close it whenever we need to open a file (e.g. a save file).
  */
 #if defined( unix ) || defined( linux )
-#define PLAYER_DIR	"../player/"	/* Player files			*/
-#define BACKUP_DIR	"../backup/"	/* Backup player files		*/
-#define SYSTEM_DIR	"../sys/"	/* System directory		*/
-#define CLASS_DIR	"../classes/"	/* New class loading scheme	*/
+#define PLAYER_DIR	"/usr/local/share/magma/player/"	/* Player files			*/
+#define BACKUP_DIR	"/usr/local/share/magma/backup/"	/* Backup player files		*/
+#define SYSTEM_DIR	"/usr/local/share/magma/sys/"	/* System directory		*/
+#define CLASS_DIR	"/usr/local/share/magma/classes/"	/* New class loading scheme	*/
 #define NULL_FILE	"/dev/null"	/* To reserve one stream	*/
-#define AREA_DIR	"../area/"	/* Area files			*/
-#define CLAN_DIR	"../clans/"	/* Clan files              	*/
-#define MOB_DIR		"../mobprogs/"	/* MOBProg files		*/
-#define OBJ_DIR         "../objprogs/"  /* OBJProg files                */
-#endif
-
-#if defined( AmigaTCP )
-#define PLAYER_DIR	"envy:player/"	/* Player files			*/
-#define BACKUP_DIR	"envy:backup/"	/* Backup player files		*/
-#define SYSTEM_DIR	"envy:sys/"	/* System directory		*/
-#define CLASS_DIR	"envy:classes/"	/* New class loading scheme	*/
-#define NULL_FILE	"proto.are"	/* To reserve one stream	*/
-#define AREA_DIR	"envy:area/"	/* Area files			*/
-#define CLAN_DIR	"envy:clans/"	/* Clan files              	*/
-#define MOB_DIR		"envy:mobprogs/"/* MOBProg files		*/
-#define OBJ_DIR         "envy:objprogs/"/* OBJProg files                */
+#define AREA_DIR	"/usr/local/share/magma/area/"	/* Area files			*/
+#define CLAN_DIR	"/usr/local/share/magma/clans/"	/* Clan files              	*/
+#define MOB_DIR		"/usr/local/share/magma/mobprogs/"	/* MOBProg files		*/
+#define OBJ_DIR         "/usr/local/share/magma/objprogs/"  /* OBJProg files                */
 #endif
 
 #if defined( WIN32 )

@@ -105,10 +105,10 @@ void backup_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s", BACKUP_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", executable_directory, BACKUP_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s", BACKUP_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", executable_directory, BACKUP_DIR, capitalize( ch->name ) );
 #endif
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
@@ -144,10 +144,10 @@ void delete_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s", PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", executable_directory, PLAYER_DIR, capitalize( ch->name ) );
 #endif
     if ( remove( strsave ) )
     {
@@ -185,10 +185,10 @@ void save_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s", PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", executable_directory, PLAYER_DIR, capitalize( ch->name ) );
 #endif
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
@@ -959,7 +959,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     /* parsed player file directories by Yaz of 4th Realm */
     /* decompress if .gz file exists - Thx Alander */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s", PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( name ), ".gz" );
     if ( ( fp = fopen( strsave, "r" ) ) )
     {
@@ -972,11 +972,11 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 #endif
 
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s", PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( name ) );
 
 #else
-    sprintf( strsave, "%s%s%s%s", PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
 	    "\\", capitalize( name ) );
 #endif
     if ( ( fp = fopen( strsave, "r" ) ) )

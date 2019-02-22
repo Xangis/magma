@@ -1023,7 +1023,7 @@ void boot_db( void )
     {
 	FILE      *fpList;
 	char       strsave [ MAX_INPUT_LENGTH ];
-	sprintf( strsave, "%s%s", AREA_DIR, AREA_LIST );
+	sprintf( strsave, "%s%s%s", executable_directory, AREA_DIR, AREA_LIST );
 
 	if ( !( fpList = fopen( strsave, "r" ) ) )
 	{
@@ -1125,7 +1125,7 @@ void load_area_file( )
     {
 	char strsave [ MAX_INPUT_LENGTH ]; 
 
-	sprintf( strsave, "%s%s", AREA_DIR, strArea );
+	sprintf( strsave, "%s%s%s", executable_directory, AREA_DIR, strArea );
 
 	if ( !( fpArea = fopen( strsave, "r" ) ) )
 	{
@@ -7085,7 +7085,7 @@ MPROG_DATA* mprog_file_read( const char *f, MPROG_DATA *mprg,
 
   last_fun( "mprog_file_read");
 
-  sprintf( MOBProgfile, "%s%s", MOB_DIR, f );
+  sprintf( MOBProgfile, "%s%s%s", executable_directory, MOB_DIR, f );
 
   progfile = fopen( MOBProgfile, "r" );
   if ( !progfile )
@@ -7191,7 +7191,7 @@ MPROG_DATA* oprog_file_read( const char *f, MPROG_DATA *oprg,
   int         stat;
 
   last_fun( "oprog_file_read");
-  sprintf( OBJProgfile, "%s%s", OBJ_DIR, f );
+  sprintf( OBJProgfile, "%s%s%s", executable_directory, OBJ_DIR, f );
 
   progfile = fopen( OBJProgfile, "r" );
   if ( !progfile )

@@ -96,7 +96,7 @@ bool fread_class( char *filename )
     sprintf( buf, "Loading class: %s", filename );
     log_string( buf );
 
-    sprintf( buf, "%s%s", CLASS_DIR, filename );
+    sprintf( buf, "%s%s%s", executable_directory, CLASS_DIR, filename );
     if ( !( fp = fopen( buf, "r" ) ) )
     {
         perror( buf );
@@ -261,8 +261,8 @@ void load_classes( void )
     char  fname     [ MAX_STRING_LENGTH ];
     char  classlist [ MAX_STRING_LENGTH ];
     int   stat;
-    
-    sprintf( classlist, "%s%s", CLASS_DIR, CLASS_LIST );
+
+    sprintf( classlist, "%s%s%s", executable_directory, CLASS_DIR, CLASS_LIST );
     if ( !( fpList = fopen( classlist, "r" ) ) )
     {
         perror( classlist );

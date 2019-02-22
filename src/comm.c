@@ -397,7 +397,14 @@ int main( int argc, char **argv )
     // Print path of executable.
     log_string("Executable running as:");
     log_string(argv[0]);
-    sprintf(executable_directory, "%s/", dirname(argv[0]));
+    if ( !strcmp( argv[0], "magma" ) )
+    {
+        sprintf(executable_directory, "%s", "/usr/local/bin/");
+    }
+    else
+    {
+        sprintf(executable_directory, "%s/", dirname(argv[0]));
+    }
     log_string("Dir name:");
     log_string(executable_directory);
     sprintf(executable_path, "%s", argv[0]);
@@ -410,8 +417,6 @@ int main( int argc, char **argv )
     */
     log_string("Executable path:");
     log_string(executable_path);
-    log_string("__FILE__:");
-    log_string(__FILE__);
 
     // Macintosh console initialization.
 #if defined( macintosh )

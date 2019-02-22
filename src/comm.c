@@ -59,6 +59,7 @@ char version_str [] = "Magma Mud *NIX";
 #else
 #include <sys/time.h>
 #include <libgen.h>
+#include <unistd.h>
 #endif
 #endif
 
@@ -198,11 +199,11 @@ int     bind            args( ( int s, const struct sockaddr *name,
 			    int namelen ) );
 #endif
 //int	listen		args( ( int s, int backlog ) );
-int	read		args( ( int fd, char *buf, int nbyte ) );
+//int	read		args( ( int fd, char *buf, int nbyte ) );
 int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
 			    fd_set *exceptfds, struct timeval *timeout ) );
 int	socket		args( ( int domain, int type, int protocol ) );
-int	write		args( ( int fd, char *buf, int nbyte ) );
+//int	write		args( ( int fd, char *buf, int nbyte ) );
 #endif
 
 #if	defined( macintosh )
@@ -397,9 +398,20 @@ int main( int argc, char **argv )
     log_string("Executable running as:");
     log_string(argv[0]);
     sprintf(executable_directory, "%s/", dirname(argv[0]));
-    sprintf(executable_path, "%s", argv[0]);
     log_string("Dir name:");
     log_string(executable_directory);
+    sprintf(executable_path, "%s", argv[0]);
+    /*
+    #if( getcwd(executable_path, MAX_STRING_LENGTH) == NULL )
+    {
+        bug("Could not get current working directory, cannot run program.", 0);
+        exit(1);
+    }
+    */
+    log_string("Executable path:");
+    log_string(executable_path);
+    log_string("__FILE__:");
+    log_string(__FILE__);
 
     // Macintosh console initialization.
 #if defined( macintosh )

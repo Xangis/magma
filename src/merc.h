@@ -4176,6 +4176,8 @@ extern		bool			fLogAll;
 extern		FILE *			fpReserve;
 extern		KILL_DATA		kill_table	[ ];
 extern		char			log_buf		[ ];
+extern		char			executable_directory []; // The folder containing the executable.
+extern		char			executable_path []; // Path of the executable, including flename.
 extern		TIME_INFO_DATA		time_info;
 extern		WEATHER_DATA		weather_info;
 extern          time_t                  down_time;
@@ -5139,7 +5141,7 @@ int     close           args( ( int fd ) );
 #if defined( unix ) || defined( linux )
 #define PLAYER_DIR	"../share/magma/player/"	/* Player files			*/
 #define BACKUP_DIR	"../share/magma/backup/"	/* Backup player files		*/
-#define SYSTEM_DIR	"../share/magma/sys/"	/* System directory		*/
+#define SYSTEM_DIR	"../sys/"			/* System directory		*/
 #define CLASS_DIR	"../share/magma/classes/"	/* New class loading scheme	*/
 #define NULL_FILE	"/dev/null"	/* To reserve one stream	*/
 #define AREA_DIR	"../share/magma/area/"	/* Area files			*/

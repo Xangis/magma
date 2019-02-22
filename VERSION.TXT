@@ -1,5 +1,5 @@
 Magma MUD version 3.06
-Tuesday, February 20, 2019
+Tuesday, February 22, 2019
 
 https://github.com/Xangis/magma
 

@@ -25,6 +25,8 @@ Magma 3.06 Changes
 - Switched build system to CMake instead of ugly makefiles.
 - Removed AmigaTCP support, which has never been tested anyway.
 - Changed Linux paths to use /usr/local/share for data and /usr/local/bin for binary.
+  Data paths are also relative to executable so system-wide install or snapb-based
+  install can find data files.
 
 ------------------
 Magma 3.05 Changes

@@ -13,7 +13,7 @@ if [ "$1" != "" ]; then port=$1; fi
 # Set limits. (cannot be used in a 'sh' script - Loki)
 # nohup
 ulimit -s 1024
-if [ -r SHUTDOWN.TXT ]; then rm -f SHUTDOWN.TXT; fi
+if [ -r ../sys/SHUTDOWN.TXT ]; then rm -f ../sys/SHUTDOWN.TXT; fi
 
 while [ 1 ]
 do
@@ -33,8 +33,8 @@ do
     magma $port >$logfile 2>&1
 
     # Restart, giving old connections a chance to die.
-    if [ -r SHUTDOWN.TXT ]; then
-        rm -f SHUTDOWN.TXT
+    if [ -r ../sys/SHUTDOWN.TXT ]; then
+        rm -f ../sys/SHUTDOWN.TXT
     fi
 
     sleep 10

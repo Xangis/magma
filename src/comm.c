@@ -397,6 +397,9 @@ int main( int argc, char **argv )
     // Print path of executable.
     log_string("Executable running as:");
     log_string(argv[0]);
+    sprintf(executable_path, "%s", argv[0]);
+    log_string("Executable path:");
+    log_string(executable_path);
     if ( !strcmp( argv[0], "magma" ) )
     {
         sprintf(executable_directory, "%s", "/usr/local/bin/");
@@ -407,7 +410,6 @@ int main( int argc, char **argv )
     }
     log_string("Dir name:");
     log_string(executable_directory);
-    sprintf(executable_path, "%s", argv[0]);
     /*
     #if( getcwd(executable_path, MAX_STRING_LENGTH) == NULL )
     {
@@ -415,8 +417,6 @@ int main( int argc, char **argv )
         exit(1);
     }
     */
-    log_string("Executable path:");
-    log_string(executable_path);
 
     // Macintosh console initialization.
 #if defined( macintosh )
@@ -512,9 +512,11 @@ int init_socket( u_short port )
            struct sockaddr_in sa;
                   int         x        = 1; 
                   int         fd;
+    char strsave[MAX_STRING_LENGTH];
 
 #if !defined( WIN32 )
-    system( "touch SHUTDOWN.TXT" );
+    sprintf( strsave, "touch %s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    system( strsave );
     if ( ( fd = socket( AF_INET, SOCK_STREAM, 0 ) ) < 0 )
     {
 	perror( "Init_socket: socket" );
@@ -601,7 +603,8 @@ int init_socket( u_short port )
     }
 
 #if !defined( WIN32 )
-    system( "rm SHUTDOWN.TXT" );
+    sprintf( strsave, "rm %s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    system( strsave );
 #endif
     return fd;
 }

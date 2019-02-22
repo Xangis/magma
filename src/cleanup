@@ -6,6 +6,6 @@ cd ../log
 rm -f *.log
 cd ../sys
 rm -f BUGS.TXT
-cd ../src
+cd ../sys
 rm -f SHUTDOWN.TXT
 rm -f core

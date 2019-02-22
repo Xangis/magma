@@ -2210,10 +2210,12 @@ void time_update( void )
 
 	if ( !Reboot )
 	{
+            char strsave[MAX_STRING_LENGTH];
+            sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
 	    fclose( fpReserve );
-	    if ( !( fp = fopen( SHUTDOWN_FILE, "a" ) ) )
+	    if ( !( fp = fopen( strsave, "a" ) ) )
 	      {
-		perror( SHUTDOWN_FILE );
+		perror( strsave );
 		bug( "Could not open the Shutdown file!", 0 );
 	      }
 	    else
@@ -2225,7 +2227,7 @@ void time_update( void )
 	}
 	merc_down = TRUE;
     }
-    
+
     return;
 
 }

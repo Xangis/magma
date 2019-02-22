@@ -6885,6 +6885,7 @@ void bug( const char *str, int param )
     {
 	int iLine;
 	int iChar;
+        char strsave[MAX_STRING_LENGTH];
 
 	if ( fpArea == stdin )
 	{
@@ -6904,7 +6905,8 @@ void bug( const char *str, int param )
 	sprintf( buf, "[*****] FILE: %s LINE: %d", strArea, iLine );
 	log_string( buf );
 
-	if ( ( fp = fopen( "SHUTDOWN.TXT", "a" ) ) )
+        sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+	if ( ( fp = fopen( strsave, "a" ) ) )
 	{
 	    fprintf( fp, "[*****] %s\n", buf );
 	    fclose( fp );

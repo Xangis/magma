@@ -2356,9 +2356,10 @@ void do_shutdow( CHAR_DATA *ch, char *argument )
 
 void do_shutdown( CHAR_DATA *ch, char *argument )
 {
-           CHAR_DATA *rch;
-           char       buf [ MAX_STRING_LENGTH ];
-    extern bool       merc_down;
+    CHAR_DATA *rch;
+    char buf [ MAX_STRING_LENGTH ];
+    char strsave[MAX_STRING_LENGTH];
+    extern bool merc_down;
 
     rch = get_char( ch );
 
@@ -2366,7 +2367,8 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
         return;
 
     sprintf( buf, "Shutdown by %s.", ch->name );
-    append_file( ch, SHUTDOWN_FILE, buf );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    append_file( ch, strsave, buf );
     strcat( buf, "\n\r" );
     do_echo( ch, buf );
 

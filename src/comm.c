@@ -58,6 +58,7 @@ char version_str [] = "Magma Mud *NIX";
 #include <sys/timeb.h> /*for _ftime(), uses _timeb struct*/
 #else
 #include <sys/time.h>
+#include <libgen.h>
 #endif
 #endif
 
@@ -328,7 +329,8 @@ int                 numlock = 0;        /* Game is numlocked at <level> */
 char		    str_boot_time [ MAX_INPUT_LENGTH ];
 time_t		    current_time;	/* Time of this pulse		*/
 int		    num_descriptors;
-
+char                executable_directory [ MAX_STRING_LENGTH ];
+char                executable_path [ MAX_STRING_LENGTH ];
 
 /*
  * OS-dependent local functions.
@@ -394,6 +396,10 @@ int main( int argc, char **argv )
     // Print path of executable.
     log_string("Executable running as:");
     log_string(argv[0]);
+    sprintf(executable_directory, "%s/", dirname(argv[0]));
+    sprintf(executable_path, "%s", argv[0]);
+    log_string("Dir name:");
+    log_string(executable_directory);
 
     // Macintosh console initialization.
 #if defined( macintosh )

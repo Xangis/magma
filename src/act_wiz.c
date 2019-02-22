@@ -6562,7 +6562,7 @@ void do_mobstat_save( CHAR_DATA *ch, char *argument )
 
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, "races.txt" );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, "races.txt" );
 
     if ( !( fp = fopen( strsave, "w" ) ) )
     {

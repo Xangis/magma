@@ -171,7 +171,7 @@ void note_remove( CHAR_DATA *ch, NOTE_DATA *pnote )
      */
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, NOTE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NOTE_FILE );
 
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
@@ -439,7 +439,7 @@ void do_note( CHAR_DATA *ch, char *argument )
 
 	fclose( fpReserve );
 
-	sprintf( strsave, "%s%s", SYSTEM_DIR, NOTE_FILE );
+	sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NOTE_FILE );
 
 	if ( !( fp = fopen( strsave, "a" ) ) )
 	{
@@ -1115,7 +1115,7 @@ void do_crashbug( CHAR_DATA *ch, char *argument )
     strtime                    = ctime( &current_time );
     strtime[strlen( strtime )-1] = '\0';
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, CRASHBUG_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CRASHBUG_FILE );
 
     if ( argument[0] == '\0' )
     {
@@ -1141,7 +1141,7 @@ void do_bug( CHAR_DATA *ch, char *argument )
     strtime                    = ctime( &current_time );
     strtime[strlen( strtime )-1] = '\0';
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, BUG_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, BUG_FILE );
 
     if ( argument[0] == '\0' )
     {
@@ -1163,7 +1163,7 @@ void do_idea( CHAR_DATA *ch, char *argument )
     char strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "do_idea");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, IDEA_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, IDEA_FILE );
 
     if ( argument[0] == '\0' )
     {
@@ -1183,7 +1183,7 @@ void do_typo( CHAR_DATA *ch, char *argument )
     char strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "do_typo");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, TYPO_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, TYPO_FILE );
 
     if ( argument[0] == '\0' )
     {
@@ -2258,7 +2258,7 @@ void send_ansi_title( DESCRIPTOR_DATA *d )
 
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, ANSI_TITLE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, ANSI_TITLE_FILE );
 
     if ( ( titlefile = fopen( strsave, "r" ) ) )
     {
@@ -2285,7 +2285,7 @@ void send_ascii_title( DESCRIPTOR_DATA *d )
 
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, ANSI_TITLE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, ANSI_TITLE_FILE );
 
     if ( ( titlefile = fopen( strsave, "r" ) ) )
     {

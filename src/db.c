@@ -4141,7 +4141,7 @@ void load_notes( void )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_notes");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, NOTE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NOTE_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4241,7 +4241,7 @@ void load_sysdata( void )
 
 
     last_fun( "load_sysdata");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, SYSDATA_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SYSDATA_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4371,7 +4371,7 @@ void save_sysdata( void )
     last_fun( "save_sysdata");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, SYSDATA_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SYSDATA_FILE );
 
     if ( !( fp = fopen( strsave, "w" ) ) )
 	return;
@@ -4406,7 +4406,7 @@ void load_down_time( void )
     warning2  = 0;
     Reboot    = FALSE;
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, DOWN_TIME_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, DOWN_TIME_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4473,7 +4473,7 @@ void load_ban( void )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_ban");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, BAN_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, BAN_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4524,7 +4524,7 @@ void load_names( void )
         char strsave[MAX_INPUT_LENGTH];
 
         last_fun( "load_names");
-        sprintf( strsave, "%s%s", SYSTEM_DIR, NAME_LIST );
+        sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NAME_LIST );
 
         if( ! ( fp = fopen( strsave, "r" ) ) )
            return;
@@ -4558,7 +4558,7 @@ void save_names( void )
     char strsave[MAX_INPUT_LENGTH];
 
     last_fun( "save_names");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, NAME_LIST );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NAME_LIST );
 
     if( ! ( fp = fopen( strsave, "w" ) ) )
       return;
@@ -6976,7 +6976,7 @@ void log_clan( const char *str )
     last_fun( "log_clan");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, CLAN_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CLAN_FILE );
 
     if ( ( fp = fopen( strsave, "a" ) ) )
     {

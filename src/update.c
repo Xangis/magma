@@ -2436,7 +2436,7 @@ void ban_update( void )
     last_fun( "ban_update");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, BAN_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, BAN_FILE );
 
     if ( !( fp = fopen ( strsave, "w" ) ) )
     {

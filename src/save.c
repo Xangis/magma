@@ -503,11 +503,11 @@ void save_corpses( void )
 
      last_fun( "save_corpses");
 
-     sprintf( strsave, "%s%s", SYSTEM_DIR, CORPSE_FILE );
+     sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
      if ( !( fp = fopen( strsave, "w" ) ) )
      {
         bug( "Error opening corpse file for output!", 0 );
-        return;      	    
+        return;
      }
 
      // This may go haywire if a corpse is inside another object - Veygoth
@@ -797,7 +797,7 @@ void load_corpses( )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_corpses");
-    sprintf( strsave, "%s%s", SYSTEM_DIR, CORPSE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
     if ( !( fp = fopen( strsave, "r" ) ) )
     {
        bug( "Error opening corpse file!  No corpses loaded!", 0 );
@@ -806,7 +806,7 @@ void load_corpses( )
 
     log_string( "Loading corpses" );    
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, CORPSE_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
 
     if ( ( fp = fopen( strsave, "r" ) ) )
     {

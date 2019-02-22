@@ -365,7 +365,7 @@ void load_socials( void )
     int   stat;
     char  strsave [ MAX_INPUT_LENGTH ];
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, SOCIAL_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SOCIAL_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
     {

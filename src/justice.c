@@ -228,7 +228,7 @@ void load_crimes( void )
 log_string( "Buggy!  Not loading crimes!" );
 return;
 
-   sprintf( strsave, "%s%s", SYSTEM_DIR, CRIME_FILE );
+   sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CRIME_FILE );
 
    if ( ( fp = fopen( strsave, "r" ) ) )
    {
@@ -298,7 +298,7 @@ void save_crimes( void )
 
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s", SYSTEM_DIR, CRIME_FILE );
+    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CRIME_FILE );
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
       bug( "Error opening crime file for output!", 0 );

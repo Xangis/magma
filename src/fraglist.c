@@ -185,7 +185,7 @@ void load_fraglist( )
        }
      }
 
-     sprintf( strsave, "%s%s", SYSTEM_DIR, FRAG_FILE );
+     sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, FRAG_FILE );
      if( !( fp = fopen( strsave, "r" ) ) )
      {
         bug( "Error opening frag file!  Fraglist left blank.", 0 );
@@ -289,7 +289,7 @@ void save_fraglist( )
 
      last_fun( "save_fraglist");
 
-     sprintf( strsave, "%s%s", SYSTEM_DIR, FRAG_FILE );
+     sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, FRAG_FILE );
      if( !( fp = fopen( strsave, "w" ) ) )
      {
         bug( "Error opening frag file!  Fraglist not written.", 0 );

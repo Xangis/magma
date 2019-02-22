@@ -379,25 +379,23 @@ int main( int argc, char **argv )
     int control;
 #endif
 
-    /*
-     * Memory debugging if needed.
-     */
+    // Memory debugging if needed.
 #if defined( MALLOC_DEBUG )
     malloc_debug( 2 );
 #endif
 
     num_descriptors		= 0;
 
-    /*
-     * Init time.
-     */
+    // Init time.
     gettimeofday( &now_time, NULL );
     current_time = (time_t) now_time.tv_sec;
     strcpy( str_boot_time, ctime( &current_time ) );
 
-    /*
-     * Macintosh console initialization.
-     */
+    // Print path of executable.
+    log_string("Executable running as:");
+    log_string(argv[0]);
+
+    // Macintosh console initialization.
 #if defined( macintosh )
     console_options.nrows = 31;
     cshow( stdout );
@@ -405,18 +403,14 @@ int main( int argc, char **argv )
     cecho2file( "log file", 1, stderr );
 #endif
 
-    /*
-     * Reserve one channel for our use.
-     */
+    // Reserve one channel for our use.
     if ( !( fpReserve = fopen( NULL_FILE, "r" ) ) )
     {
 	perror( NULL_FILE );
 	exit( 1 );
     }
 
-    /*
-     * Get the port number.
-     */
+    // Get the port number.
     port = 4001;
     if ( argc > 1 )
     {
@@ -432,9 +426,7 @@ int main( int argc, char **argv )
 	}
     }
 
-    /*
-     * Run the game.
-     */
+    // Run the game.
 #if defined( macintosh )
     boot_db( );
     log_string( "Magma Mud is ready to rock." );
@@ -482,9 +474,7 @@ int main( int argc, char **argv )
 #endif
 #endif
 
-    /*
-     * That's all, folks.
-     */
+    // Emd pf game.
     log_string( "Normal termination of game." );
     exit( 0 );
     return 0;

@@ -401,6 +401,7 @@ const	struct	cmd_type	cmd_table	[ ] =
     { "sober",		do_sober,	POS_DEAD,    L_APP,  LOG_NORMAL, 1, 0, 0, 0 },
     { "snoop",		do_snoop,	POS_DEAD,    L_SEN,  LOG_NORMAL, 1, 0, 0, 0 },
     { "switch",		do_switch,	POS_DEAD,    L_JUN,  LOG_ALWAYS, 1, 0, 0, 0 },
+    { "version",	do_version,	POS_DEAD,    L_AVA,  LOG_NORMAL, 1, 0, 0, 0 },
     { "wizinvis",	do_invis,	POS_DEAD,    L_JUN,  LOG_NORMAL, 1, 0, 0, 0 },
     { "bamfin",		do_bamfin,	POS_DEAD,    L_APP,  LOG_NORMAL, 1, 0, 0, 0 },
     { "bamfout",	do_bamfout,	POS_DEAD,    L_APP,  LOG_NORMAL, 1, 0, 0, 0 },

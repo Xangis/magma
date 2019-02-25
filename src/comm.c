@@ -41,15 +41,6 @@
  * -- Furey  26 Jan 1993
  */
 
-#if   defined( WIN32 )
-char version_str [] = "Magma Mud Windows 32 Bit Version";
-/*
- * Provided by Mystro <http://www.cris.com/~Kendugas/mud.shtml>
- */
-#else
-char version_str [] = "Magma Mud *NIX";
-#endif
-
 #if defined( macintosh )
 #include <types.h>
 #else
@@ -378,6 +369,7 @@ int main( int argc, char **argv )
     struct  timeval now_time;
     u_short port;
     const char * data_dir_env = NULL;
+
 #if defined( unix ) || defined( WIN32 )
     int control;
     data_dir_env = getenv("MAGMA_HOME");
@@ -397,6 +389,15 @@ int main( int argc, char **argv )
     // Print path of executable.
     log_string("Executable running as:");
     log_string(argv[0]);
+
+    // If user entered "-v" or "--version", print the version and exit.
+    if( argc > 1 && (!str_cmp(argv[1], "--version") || !str_cmp(argv[1], "-v")))
+    {
+        log_string("Current version is:");
+        log_string(MAGMA_VERSION);
+        exit(0);
+    }
+
     sprintf(executable_path, "%s", argv[0]);
     log_string("Executable path:");
     log_string(executable_path);

@@ -19,7 +19,13 @@ It is written in C and runs on Windows or Linux.  Check the files in
 /doc/Licenses for the various licenses that apply (there are a bunch -- this 
 has inherited from a long branch of the DIKU MUD family tree).
 
+## Documentation
+
 Documentation is in the /doc directory. Start with README.TXT and go from there.
+
+The changelog is in /doc/magma_changes.txt. See that for changes made in each
+version.
+
 As a quick start to building and running:
 
 ### Building
@@ -44,6 +50,9 @@ order to play the game.
 
 The default admin login is Superuser with a password of password. You'll want to
 change that.
+
+On Linux, you can set the path of your data files by setting the MAGMA_HOME
+environment variable. Otherwise it will default to /usr/local/share/magma/
 
 ## Development Status
 

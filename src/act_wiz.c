@@ -5091,6 +5091,15 @@ void do_force( CHAR_DATA *ch, char *argument )
 }
 
 
+void do_version( CHAR_DATA *ch, char* argument )
+{
+    if ( !authorized( ch, "version" ) )
+        return;
+
+    send_to_char(MAGMA_VERSION, ch);
+    send_to_char("\n\r", ch);
+    return;
+}
 
 /*
  * New routines by Dionysos.
@@ -5099,9 +5108,6 @@ void do_invis( CHAR_DATA *ch, char *argument )
 {
     if ( IS_NPC( ch ) )
 	return;
-
-    if ( !authorized( ch, "wizinvis" ) )
-        return;
 
     if ( IS_SET( ch->act, PLR_WIZINVIS ) )
     {

@@ -30,6 +30,8 @@
 // messages to help you track it down - Veygoth
 //#define HARDCORE_DEBUG 1
 
+#define MAGMA_VERSION "3.07"
+
 #include <stdint.h>
 
 /*
@@ -4496,6 +4498,7 @@ DECLARE_DO_FUN(	do_up		);
 DECLARE_DO_FUN( do_use          ); // Veygoth
 DECLARE_DO_FUN(	do_users	);
 DECLARE_DO_FUN(	do_value	);
+DECLARE_DO_FUN( do_version      );
 DECLARE_DO_FUN(	do_visible	);
 DECLARE_DO_FUN(	do_wake		);
 DECLARE_DO_FUN(	do_wear		);

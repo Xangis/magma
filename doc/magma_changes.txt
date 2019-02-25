@@ -1,4 +1,4 @@
-Magma MUD version 3.06
+Magma MUD version 3.07
 
 https://github.com/Xangis/magma
 
@@ -17,6 +17,15 @@ The copyright rules for this software are simple:
 	2.	Help magma must remain unchanged.
 Simple to do.  If you don't like it, refrain from using this software.
 Not much to ask for a free package.
+
+------------------
+Magma 3.07 Changes
+------------------
+
+- Changed Linux version so that MAGMA_HOME can be used to set the location of
+  data directories. If not set the system will default to /usr/local/share.
+- Added "version" admin command to show current magma version.
+- Added -v or --version command line switch to print the version and exit.
 
 ------------------
 Magma 3.06 Changes

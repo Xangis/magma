@@ -406,11 +406,11 @@ int main( int argc, char **argv )
     }
     else if ( !strcmp( argv[0], "magma" ) )
     {
-        sprintf(data_directory, "%s", "/usr/local/bin/");
+        sprintf(data_directory, "%s", "/usr/local/share/magma/");
     }
     else
     {
-        sprintf(data_directory, "%s/", dirname(argv[0]));
+        sprintf(data_directory, "../%s/", dirname(argv[0]));
     }
     log_string("Dir name:");
     log_string(data_directory);

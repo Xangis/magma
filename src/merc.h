@@ -5139,15 +5139,15 @@ int     close           args( ( int fd ) );
  * Then we close it whenever we need to open a file (e.g. a save file).
  */
 #if defined( unix ) || defined( linux )
-#define PLAYER_DIR	"../share/magma/player/"	/* Player files			*/
-#define BACKUP_DIR	"../share/magma/backup/"	/* Backup player files		*/
-#define SYSTEM_DIR	"../share/magma/sys/"		/* System directory		*/
-#define CLASS_DIR	"../share/magma/classes/"	/* New class loading scheme	*/
+#define PLAYER_DIR	"./player/"	/* Player files			*/
+#define BACKUP_DIR	"./backup/"	/* Backup player files		*/
+#define SYSTEM_DIR	"./sys/"		/* System directory		*/
+#define CLASS_DIR	"./classes/"	/* New class loading scheme	*/
 #define NULL_FILE	"/dev/null"	/* To reserve one stream	*/
-#define AREA_DIR	"../share/magma/area/"	/* Area files			*/
-#define CLAN_DIR	"../share/magma/clans/"	/* Clan files              	*/
-#define MOB_DIR		"../share/magma/mobprogs/"	/* MOBProg files		*/
-#define OBJ_DIR         "../share/magma/objprogs/"  /* OBJProg files                */
+#define AREA_DIR	"./area/"	/* Area files			*/
+#define CLAN_DIR	"./clans/"	/* Clan files              	*/
+#define MOB_DIR		"./mobprogs/"	/* MOBProg files		*/
+#define OBJ_DIR         "./objprogs/"  /* OBJProg files                */
 #endif
 
 #if defined( WIN32 )

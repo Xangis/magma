@@ -2211,7 +2211,7 @@ void time_update( void )
 	if ( !Reboot )
 	{
             char strsave[MAX_STRING_LENGTH];
-            sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+            sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, SHUTDOWN_FILE );
 	    fclose( fpReserve );
 	    if ( !( fp = fopen( strsave, "a" ) ) )
 	      {
@@ -2438,7 +2438,7 @@ void ban_update( void )
     last_fun( "ban_update");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, BAN_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, BAN_FILE );
 
     if ( !( fp = fopen ( strsave, "w" ) ) )
     {

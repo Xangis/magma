@@ -4176,7 +4176,7 @@ extern		bool			fLogAll;
 extern		FILE *			fpReserve;
 extern		KILL_DATA		kill_table	[ ];
 extern		char			log_buf		[ ];
-extern		char			executable_directory []; // The folder containing the executable.
+extern		char			data_directory []; // The folder containing the executable.
 extern		char			executable_path []; // Path of the executable, including flename.
 extern		TIME_INFO_DATA		time_info;
 extern		WEATHER_DATA		weather_info;

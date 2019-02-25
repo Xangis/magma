@@ -2367,7 +2367,7 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
         return;
 
     sprintf( buf, "Shutdown by %s.", ch->name );
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, SHUTDOWN_FILE );
     append_file( ch, strsave, buf );
     strcat( buf, "\n\r" );
     do_echo( ch, buf );
@@ -6564,7 +6564,7 @@ void do_mobstat_save( CHAR_DATA *ch, char *argument )
 
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, "races.txt" );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, "races.txt" );
 
     if ( !( fp = fopen( strsave, "w" ) ) )
     {

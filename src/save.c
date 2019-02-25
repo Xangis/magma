@@ -105,10 +105,10 @@ void backup_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s", executable_directory, BACKUP_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", data_directory, BACKUP_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s%s", executable_directory, BACKUP_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", data_directory, BACKUP_DIR, capitalize( ch->name ) );
 #endif
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
@@ -144,10 +144,10 @@ void delete_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", data_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s%s", executable_directory, PLAYER_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", data_directory, PLAYER_DIR, capitalize( ch->name ) );
 #endif
     if ( remove( strsave ) )
     {
@@ -185,10 +185,10 @@ void save_char_obj( CHAR_DATA *ch )
 
     /* player files parsed directories by Yaz 4th Realm */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", data_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( ch->name ) );
 #else
-    sprintf( strsave, "%s%s%s", executable_directory, PLAYER_DIR, capitalize( ch->name ) );
+    sprintf( strsave, "%s%s%s", data_directory, PLAYER_DIR, capitalize( ch->name ) );
 #endif
     if ( !( fp = fopen( strsave, "w" ) ) )
     {
@@ -503,7 +503,7 @@ void save_corpses( void )
 
      last_fun( "save_corpses");
 
-     sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
+     sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, CORPSE_FILE );
      if ( !( fp = fopen( strsave, "w" ) ) )
      {
         bug( "Error opening corpse file for output!", 0 );
@@ -797,7 +797,7 @@ void load_corpses( )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_corpses");
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, CORPSE_FILE );
     if ( !( fp = fopen( strsave, "r" ) ) )
     {
        bug( "Error opening corpse file!  No corpses loaded!", 0 );
@@ -806,7 +806,7 @@ void load_corpses( )
 
     log_string( "Loading corpses" );    
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CORPSE_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, CORPSE_FILE );
 
     if ( ( fp = fopen( strsave, "r" ) ) )
     {
@@ -959,7 +959,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     /* parsed player file directories by Yaz of 4th Realm */
     /* decompress if .gz file exists - Thx Alander */
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s%s", data_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( name ), ".gz" );
     if ( ( fp = fopen( strsave, "r" ) ) )
     {
@@ -972,11 +972,11 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 #endif
 
 #if !defined( macintosh ) && !defined( WIN32 )
-    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", data_directory, PLAYER_DIR, initial( ch->name ),
 	    "/", capitalize( name ) );
 
 #else
-    sprintf( strsave, "%s%s%s%s%s", executable_directory, PLAYER_DIR, initial( ch->name ),
+    sprintf( strsave, "%s%s%s%s%s", data_directory, PLAYER_DIR, initial( ch->name ),
 	    "\\", capitalize( name ) );
 #endif
     if ( ( fp = fopen( strsave, "r" ) ) )

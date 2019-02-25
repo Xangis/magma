@@ -1023,7 +1023,7 @@ void boot_db( void )
     {
 	FILE      *fpList;
 	char       strsave [ MAX_INPUT_LENGTH ];
-	sprintf( strsave, "%s%s%s", executable_directory, AREA_DIR, AREA_LIST );
+	sprintf( strsave, "%s%s%s", data_directory, AREA_DIR, AREA_LIST );
 
 	if ( !( fpList = fopen( strsave, "r" ) ) )
 	{
@@ -1125,7 +1125,7 @@ void load_area_file( )
     {
 	char strsave [ MAX_INPUT_LENGTH ]; 
 
-	sprintf( strsave, "%s%s%s", executable_directory, AREA_DIR, strArea );
+	sprintf( strsave, "%s%s%s", data_directory, AREA_DIR, strArea );
 
 	if ( !( fpArea = fopen( strsave, "r" ) ) )
 	{
@@ -4141,7 +4141,7 @@ void load_notes( void )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_notes");
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NOTE_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, NOTE_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4241,7 +4241,7 @@ void load_sysdata( void )
 
 
     last_fun( "load_sysdata");
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SYSDATA_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, SYSDATA_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4371,7 +4371,7 @@ void save_sysdata( void )
     last_fun( "save_sysdata");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SYSDATA_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, SYSDATA_FILE );
 
     if ( !( fp = fopen( strsave, "w" ) ) )
 	return;
@@ -4406,7 +4406,7 @@ void load_down_time( void )
     warning2  = 0;
     Reboot    = FALSE;
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, DOWN_TIME_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, DOWN_TIME_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4473,7 +4473,7 @@ void load_ban( void )
     char       strsave [ MAX_INPUT_LENGTH ];
 
     last_fun( "load_ban");
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, BAN_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, BAN_FILE );
 
     if ( !( fp = fopen( strsave, "r" ) ) )
 	return;
@@ -4524,7 +4524,7 @@ void load_names( void )
         char strsave[MAX_INPUT_LENGTH];
 
         last_fun( "load_names");
-        sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NAME_LIST );
+        sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, NAME_LIST );
 
         if( ! ( fp = fopen( strsave, "r" ) ) )
            return;
@@ -4558,7 +4558,7 @@ void save_names( void )
     char strsave[MAX_INPUT_LENGTH];
 
     last_fun( "save_names");
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, NAME_LIST );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, NAME_LIST );
 
     if( ! ( fp = fopen( strsave, "w" ) ) )
       return;
@@ -6905,7 +6905,7 @@ void bug( const char *str, int param )
 	sprintf( buf, "[*****] FILE: %s LINE: %d", strArea, iLine );
 	log_string( buf );
 
-        sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+        sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, SHUTDOWN_FILE );
 	if ( ( fp = fopen( strsave, "a" ) ) )
 	{
 	    fprintf( fp, "[*****] %s\n", buf );
@@ -6978,7 +6978,7 @@ void log_clan( const char *str )
     last_fun( "log_clan");
     fclose( fpReserve );
 
-    sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, CLAN_FILE );
+    sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, CLAN_FILE );
 
     if ( ( fp = fopen( strsave, "a" ) ) )
     {
@@ -7087,7 +7087,7 @@ MPROG_DATA* mprog_file_read( const char *f, MPROG_DATA *mprg,
 
   last_fun( "mprog_file_read");
 
-  sprintf( MOBProgfile, "%s%s%s", executable_directory, MOB_DIR, f );
+  sprintf( MOBProgfile, "%s%s%s", data_directory, MOB_DIR, f );
 
   progfile = fopen( MOBProgfile, "r" );
   if ( !progfile )
@@ -7193,7 +7193,7 @@ MPROG_DATA* oprog_file_read( const char *f, MPROG_DATA *oprg,
   int         stat;
 
   last_fun( "oprog_file_read");
-  sprintf( OBJProgfile, "%s%s%s", executable_directory, OBJ_DIR, f );
+  sprintf( OBJProgfile, "%s%s%s", data_directory, OBJ_DIR, f );
 
   progfile = fopen( OBJProgfile, "r" );
   if ( !progfile )

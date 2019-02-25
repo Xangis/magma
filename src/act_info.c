@@ -1797,7 +1797,7 @@ void do_help( CHAR_DATA *ch, char *argument )
 //    	if ( argument[0] == '\0' )
 //	    return;
 
-    	sprintf( strsave, "%s%s%s", executable_directory, SYSTEM_DIR, IDEA_FILE );
+    	sprintf( strsave, "%s%s%s", data_directory, SYSTEM_DIR, IDEA_FILE );
 	sprintf( message, " could not find help on '%s'.",
 				 argument );
 

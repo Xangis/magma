@@ -1417,7 +1417,7 @@ bool load_clan_file( char *filename )
 
     last_fun( "load_clan_file");
 
-    sprintf( buf, "%s%s%s", executable_directory, CLAN_DIR, filename );
+    sprintf( buf, "%s%s%s", data_directory, CLAN_DIR, filename );
     log_string( filename );
 
     if ( !( fp = fopen( buf, "r" ) ) )
@@ -1515,7 +1515,7 @@ void load_clans( void )
 
     log_string( "Loading clans" );
 
-    sprintf( clanslist, "%s%s%s", executable_directory, CLAN_DIR, CLANS_LIST );
+    sprintf( clanslist, "%s%s%s", data_directory, CLAN_DIR, CLANS_LIST );
     if ( !( fpList = fopen( clanslist, "r" ) ) )
     {
         perror( clanslist );
@@ -1547,7 +1547,7 @@ void save_clan_list( void )
 
     last_fun( "save_clan_list");
 
-    sprintf( clanslist, "%s%s%s", executable_directory, CLAN_DIR, CLANS_LIST );
+    sprintf( clanslist, "%s%s%s", data_directory, CLAN_DIR, CLANS_LIST );
 
     fclose( fpReserve );
 
@@ -1583,7 +1583,7 @@ void save_clan( CLAN_DATA *clan )
     if ( !clan->filename )
 	return;
 
-    sprintf( buf, "%s%s%s", executable_directory, CLAN_DIR, clan->filename );
+    sprintf( buf, "%s%s%s", data_directory, CLAN_DIR, clan->filename );
 
     fclose( fpReserve );
 

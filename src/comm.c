@@ -330,7 +330,7 @@ int                 numlock = 0;        /* Game is numlocked at <level> */
 char		    str_boot_time [ MAX_INPUT_LENGTH ];
 time_t		    current_time;	/* Time of this pulse		*/
 int		    num_descriptors;
-char                executable_directory [ MAX_STRING_LENGTH ];
+char                data_directory [ MAX_STRING_LENGTH ];
 char                executable_path [ MAX_STRING_LENGTH ];
 
 /*
@@ -377,11 +377,11 @@ int main( int argc, char **argv )
 {
     struct  timeval now_time;
     u_short port;
-
+    const char * data_dir_env = NULL;
 #if defined( unix ) || defined( WIN32 )
     int control;
+    data_dir_env = getenv("MAGMA_HOME");
 #endif
-
     // Memory debugging if needed.
 #if defined( MALLOC_DEBUG )
     malloc_debug( 2 );
@@ -400,16 +400,20 @@ int main( int argc, char **argv )
     sprintf(executable_path, "%s", argv[0]);
     log_string("Executable path:");
     log_string(executable_path);
-    if ( !strcmp( argv[0], "magma" ) )
+    if ( data_dir_env != NULL )
     {
-        sprintf(executable_directory, "%s", "/usr/local/bin/");
+        sprintf(data_directory, "%s", data_dir_env);
+    }
+    else if ( !strcmp( argv[0], "magma" ) )
+    {
+        sprintf(data_directory, "%s", "/usr/local/bin/");
     }
     else
     {
-        sprintf(executable_directory, "%s/", dirname(argv[0]));
+        sprintf(data_directory, "%s/", dirname(argv[0]));
     }
     log_string("Dir name:");
-    log_string(executable_directory);
+    log_string(data_directory);
     /*
     #if( getcwd(executable_path, MAX_STRING_LENGTH) == NULL )
     {
@@ -515,7 +519,7 @@ int init_socket( u_short port )
     char strsave[MAX_STRING_LENGTH];
 
 #if !defined( WIN32 )
-    sprintf( strsave, "touch %s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    sprintf( strsave, "touch %s%s%s", data_directory, SYSTEM_DIR, SHUTDOWN_FILE );
     system( strsave );
     if ( ( fd = socket( AF_INET, SOCK_STREAM, 0 ) ) < 0 )
     {
@@ -603,7 +607,7 @@ int init_socket( u_short port )
     }
 
 #if !defined( WIN32 )
-    sprintf( strsave, "rm %s%s%s", executable_directory, SYSTEM_DIR, SHUTDOWN_FILE );
+    sprintf( strsave, "rm %s%s%s", data_directory, SYSTEM_DIR, SHUTDOWN_FILE );
     system( strsave );
 #endif
     return fd;

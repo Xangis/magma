@@ -587,7 +587,11 @@ int init_socket( u_short port )
 
     if ( bind( fd, (struct sockaddr *) &sa, sizeof( sa ) ) < 0 )
     {
+        char logbuf[MAX_STRING_LENGTH];
+        memset(logbuf, 0, MAX_STRING_LENGTH);
 	perror( "Init_socket: bind" );
+        sprintf(logbuf, "Using port %d.", port);
+        log_string(logbuf);
 #if !defined( WIN32 )
 	close( fd );
 #else

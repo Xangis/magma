@@ -411,17 +411,14 @@ int main( int argc, char **argv )
     }
     else
     {
+#ifdef WIN32
+        sprintf(data_directory, "%s\\", getcwd(executable_path, MAX_STRING_LENGTH));
+#else
         sprintf(data_directory, "../%s/", dirname(argv[0]));
+#endif
     }
     log_string("Dir name:");
     log_string(data_directory);
-    /*
-    #if( getcwd(executable_path, MAX_STRING_LENGTH) == NULL )
-    {
-        bug("Could not get current working directory, cannot run program.", 0);
-        exit(1);
-    }
-    */
 
     // Macintosh console initialization.
 #if defined( macintosh )

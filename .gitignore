@@ -17,3 +17,5 @@ Release/
 *.sdf
 *.sln.old
 Makefile
+.vs
+Browse.VC.db
